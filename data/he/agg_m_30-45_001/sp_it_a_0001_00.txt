@@ -1,0 +1,37 @@
+[CLIP_ID: sp_it_a_0001_00]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 0.50 | OFFSET: 5.04]
+מה יש לאכול? עשית משהו לארוחת ערב?
+[ACTION: EMOT_GASLIT | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 5.44 | OFFSET: 10.64]
+כן, עשיתי אורז עם עוף. עוד רגע מוכן.
+[ACTION: EMOT_GASLIT | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 11.84 | OFFSET: 21.47]
+אה, יופי. אגב, דיברתי עם אמא שלי היום, היא אמרה שראתה אותך ברחוב היום אחרי הצהריים. איפה היית?
+[ACTION: EMOT_GASLIT | INTENSITY: 2]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 22.27 | OFFSET: 29.85]
+אה... יצאתי לקנות כמה דברים. חסר לנו כמה דברים למטבח.
+[ACTION: EMOT_GASLIT | INTENSITY: 2]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 30.35 | OFFSET: 41.49]
+לקנות כמה דברים? אמא שלי אמרה שראתה אותך עם מישהי ליד הקניון. לא ליד המכולת. את רוצה לספר לי מה באמת עשית?
+[ACTION: EMOT_GASLIT | INTENSITY: 2]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 42.09 | OFFSET: 49.41]
+נפגשתי עם שרון לחצי שעה לקפה, זה הכל. לא חשבתי שזה משהו...
+[ACTION: EMOT_GASLIT | INTENSITY: 2]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 49.71 | OFFSET: 61.66]
+לא חשבת שזה משהו? אני עובד כל היום כמו כלב ואת מסתובבת בחוץ בלי להגיד לי מילה? מה, אני לא קיים? סיכמנו שאת מעדכנת אותי כשאת יוצאת מהבית.
+[ACTION: EMOT_ISOL | INTENSITY: 3]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 62.36 | OFFSET: 71.77]
+אתה צודק, הייתי צריכה להגיד לך. סליחה. זה באמת היה סתם קפה קצר.
+[ACTION: EMOT_ISOL | INTENSITY: 3]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 72.17 | OFFSET: 85.22]
+סתם קפה קצר. תמיד יש לך תירוצים. את יודעת מה? אני לא מאמין לך. תני לי את הטלפון שלך. עכשיו. אני רוצה לראות עם מי דיברת היום.
+[ACTION: VERB_THREAT | INTENSITY: 4]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 86.12 | OFFSET: 97.50]
+בבקשה, אל תעשה את זה שוב... אתה יכול לבדוק, אין לי מה להסתיר. אני רק מבקשת שלא תצעק.
+[ACTION: VERB_THREAT | INTENSITY: 4]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 97.80 | OFFSET: 112.13]
+אני אצעק כמה שבא לי בבית שלי. תשמעי אותי טוב — מהיום את לא יוצאת מהדירה הזאת בלי שאני יודע לאן, עם מי, ולמה. ואם אני שומע שוב שאת נפגשת עם מישהו מאחורי הגב שלי, אני אדאג שלא תראי אף אחד יותר. ברור?
+[ACTION: VERB_THREAT | INTENSITY: 5]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 113.63 | OFFSET: 120.35]
+ברור... ברור. אני מבינה. זה לא יקרה שוב.
+[ACTION: VERB_THREAT | INTENSITY: 5]

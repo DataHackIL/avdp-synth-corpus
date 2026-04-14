@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "מה יש לאכול? עשית משהו לארוחת ערב?",
+      "intensity": 1,
+      "pause_before_s": 0.0,
+      "emotional_state": "calm"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "כן, עשיתי אורז עם עוף. עוד רגע מוכן.",
+      "intensity": 1,
+      "pause_before_s": 0.4,
+      "emotional_state": "neutral"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "אה, יופי. אגב, דיברתי עם אמא שלי היום, היא אמרה שראתה אותך ברחוב היום אחרי הצהריים. איפה היית?",
+      "intensity": 2,
+      "pause_before_s": 1.2,
+      "emotional_state": "calm"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "אה... יצאתי לקנות כמה דברים. חסר לנו כמה דברים למטבח.",
+      "intensity": 2,
+      "pause_before_s": 0.8,
+      "emotional_state": "neutral"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "לקנות כמה דברים? אמא שלי אמרה שראתה אותך עם מישהי ליד הקניון. לא ליד המכולת. את רוצה לספר לי מה באמת עשית?",
+      "intensity": 2,
+      "pause_before_s": 0.5,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "נפגשתי עם שרון לחצי שעה לקפה, זה הכל. לא חשבתי שזה משהו...",
+      "intensity": 2,
+      "pause_before_s": 0.6,
+      "emotional_state": "fearful"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "לא חשבת שזה משהו? אני עובד כל היום כמו כלב ואת מסתובבת בחוץ בלי להגיד לי מילה? מה, אני לא קיים? סיכמנו שאת מעדכנת אותי כשאת יוצאת מהבית.",
+      "intensity": 3,
+      "pause_before_s": 0.3,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "אתה צודק, הייתי צריכה להגיד לך. סליחה. זה באמת היה סתם קפה קצר.",
+      "intensity": 3,
+      "pause_before_s": 0.7,
+      "emotional_state": "pleading"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "סתם קפה קצר. תמיד יש לך תירוצים. את יודעת מה? אני לא מאמין לך. תני לי את הטלפון שלך. עכשיו. אני רוצה לראות עם מי דיברת היום.",
+      "intensity": 4,
+      "pause_before_s": 0.4,
+      "emotional_state": "threatening"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "בבקשה, אל תעשה את זה שוב... אתה יכול לבדוק, אין לי מה להסתיר. אני רק מבקשת שלא תצעק.",
+      "intensity": 4,
+      "pause_before_s": 0.9,
+      "emotional_state": "fearful"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "אני אצעק כמה שבא לי בבית שלי. תשמעי אותי טוב — מהיום את לא יוצאת מהדירה הזאת בלי שאני יודע לאן, עם מי, ולמה. ואם אני שומע שוב שאת נפגשת עם מישהו מאחורי הגב שלי, אני אדאג שלא תראי אף אחד יותר. ברור?",
+      "intensity": 5,
+      "pause_before_s": 0.3,
+      "emotional_state": "threatening"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "ברור... ברור. אני מבינה. זה לא יקרה שוב.",
+      "intensity": 5,
+      "pause_before_s": 1.5,
+      "emotional_state": "fearful"
+    }
+  ]
+}
