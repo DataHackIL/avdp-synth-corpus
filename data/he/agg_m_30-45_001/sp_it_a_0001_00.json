@@ -1,0 +1,65 @@
+{
+  "acoustic_scene": {
+    "background_events": [],
+    "device": null,
+    "ir_source": null,
+    "room_type": null,
+    "snr_db_actual": null,
+    "speaker_distance_meters": null
+  },
+  "annotator_confidence": 1.0,
+  "channels": 1,
+  "clip_id": "sp_it_a_0001_00",
+  "dirty_file_path": "assets/speech/dirty/sp_it_a_0001_00_dirty.wav",
+  "duration_seconds": 120.848,
+  "elephant_meta": null,
+  "generation_date": "2026-04-14",
+  "generator_version": "0.1.0",
+  "iaa_reviewed": false,
+  "is_synthetic": true,
+  "language": "he",
+  "preprocessing_applied": {
+    "denoised": true,
+    "downmixed_to_mono": true,
+    "normalized_dbfs": -1.0,
+    "resampled_to_16k": true,
+    "silence_padded": true,
+    "spectral_filtered": true
+  },
+  "project": "she_proves",
+  "quality_flags": [],
+  "random_seed": 42,
+  "sample_rate": 16000,
+  "scene_config": "configs/scenes/test_scene_001.yaml",
+  "she_proves_meta": null,
+  "snr_db_estimated": null,
+  "speakers": [
+    {
+      "age_range": "30-45",
+      "gender": "male",
+      "role": "AGG",
+      "speaker_id": "AGG_M_30-45_001",
+      "tts_voice_id": "he-IL-AvriNeural"
+    },
+    {
+      "age_range": "25-40",
+      "gender": "female",
+      "role": "VIC",
+      "speaker_id": "VIC_F_25-40_002",
+      "tts_voice_id": "he-IL-HilaNeural"
+    }
+  ],
+  "tier": "A",
+  "transcript_path": "data/he/agg_m_30-45_001/sp_it_a_0001_00.txt",
+  "tts_engine": "azure_he_IL",
+  "violence_typology": "IT",
+  "weak_label": {
+    "has_violence": true,
+    "max_intensity": 5,
+    "violence_categories": [
+      "EMOT",
+      "VERB"
+    ],
+    "violence_typology": "IT"
+  }
+}
