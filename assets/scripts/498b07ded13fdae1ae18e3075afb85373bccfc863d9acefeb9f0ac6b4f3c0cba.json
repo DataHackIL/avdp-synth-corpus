@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "את רוצה שאני אחתוך את הבצל או שאני מתחיל עם הרוטב?",
+      "intensity": 1,
+      "pause_before_s": 0.0,
+      "emotional_state": "neutral"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "תתחיל עם הבצל, בבקשה. אני צריכה לסיים פה עם העוף. תיזהר עם הסכין החדה הזאת, היא ממש חותכת טוב.",
+      "intensity": 1,
+      "pause_before_s": 0.3,
+      "emotional_state": "calm"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "בסדר... וואלה, הבצל הזה כבר גורם לי לדמוע. איזה חזק.",
+      "intensity": 1,
+      "pause_before_s": 0.8,
+      "emotional_state": "neutral"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "תנסה לשטוף אותו במים קרים לפני, זה עוזר. אה, שמעת שדנה ורון סוף סוף קבעו תאריך לחתונה?",
+      "intensity": 1,
+      "pause_before_s": 0.5,
+      "emotional_state": "calm"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "רצינית? מתי? הם כבר כמה שנים ביחד, לא?",
+      "intensity": 1,
+      "pause_before_s": 0.2,
+      "emotional_state": "neutral"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "כן, באוקטובר. היא שלחה לי הודעה היום. ארבע שנים כבר, משוגעים. אני ממש שמחה בשבילם.",
+      "intensity": 1,
+      "pause_before_s": 0.3,
+      "emotional_state": "calm"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "יפה, מגיע להם. תגידי, את שמה כורכום ברוטב הזה? כי אני חושב שבפעם הקודמת שמנו יותר מדי.",
+      "intensity": 1,
+      "pause_before_s": 0.7,
+      "emotional_state": "neutral"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "לא, הפעם אני הולכת על פפריקה מעושנת בלבד. אתה צודק, בפעם שעברה זה היה קצת... מוגזם. אתה מריח? כבר מתחיל להיות ריח טוב מהתנור.",
+      "intensity": 1,
+      "pause_before_s": 0.4,
+      "emotional_state": "calm"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "כן, ממש מריח מעולה. אה, רגע — שכחתי לספר לך. חשבתי שאולי ביום שישי ניקח את הילדים לפארק, מה דעתך? התחזית אומרת שיהיה נעים.",
+      "intensity": 2,
+      "pause_before_s": 1.0,
+      "emotional_state": "neutral"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "אני הייתי חושבת דווקא על הים, אבל... בעצם כן, פארק זה יותר נוח עם כל הציוד של הקטנה. בואי נגיד פארק.",
+      "intensity": 2,
+      "pause_before_s": 0.5,
+      "emotional_state": "calm"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "אחלה. גמרתי עם הבצל, לאן אני שם אותו?",
+      "intensity": 1,
+      "pause_before_s": 0.6,
+      "emotional_state": "neutral"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "תשים במחבת עם קצת שמן זית, על אש בינונית. תודה, מותק. עוד רבע שעה הכל מוכן.",
+      "intensity": 1,
+      "pause_before_s": 0.3,
+      "emotional_state": "calm"
+    }
+  ]
+}

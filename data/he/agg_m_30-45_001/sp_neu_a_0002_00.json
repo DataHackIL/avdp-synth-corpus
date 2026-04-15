@@ -1,0 +1,62 @@
+{
+  "clip_id": "sp_neu_a_0002_00",
+  "project": "she_proves",
+  "language": "he",
+  "violence_typology": "NEU",
+  "tier": "A",
+  "duration_seconds": 133.132,
+  "sample_rate": 16000,
+  "channels": 1,
+  "snr_db_estimated": null,
+  "scene_config": "configs/scenes/she_proves/sp_neu_a_0002.yaml",
+  "random_seed": 1402,
+  "generation_date": "2026-04-15",
+  "generator_version": "0.1.0",
+  "is_synthetic": true,
+  "tts_engine": "azure_he_IL",
+  "acoustic_scene": {
+    "room_type": null,
+    "device": null,
+    "ir_source": null,
+    "speaker_distance_meters": null,
+    "snr_db_actual": null,
+    "background_events": []
+  },
+  "speakers": [
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "role": "AGG",
+      "gender": "male",
+      "age_range": "30-45",
+      "tts_voice_id": "he-IL-AvriNeural"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "role": "VIC",
+      "gender": "female",
+      "age_range": "25-40",
+      "tts_voice_id": "he-IL-HilaNeural"
+    }
+  ],
+  "weak_label": {
+    "has_violence": false,
+    "violence_categories": [],
+    "max_intensity": 2,
+    "violence_typology": "NEU"
+  },
+  "preprocessing_applied": {
+    "resampled_to_16k": true,
+    "downmixed_to_mono": true,
+    "spectral_filtered": true,
+    "denoised": true,
+    "normalized_dbfs": -1.0,
+    "silence_padded": true
+  },
+  "dirty_file_path": "assets/speech/dirty/sp_neu_a_0002_00_dirty.wav",
+  "transcript_path": "/Users/shaypalachy/clones/avdp-synth-corpus/data/he/agg_m_30-45_001/sp_neu_a_0002_00.txt",
+  "quality_flags": [],
+  "annotator_confidence": 1.0,
+  "iaa_reviewed": false,
+  "she_proves_meta": null,
+  "elephant_meta": null
+}

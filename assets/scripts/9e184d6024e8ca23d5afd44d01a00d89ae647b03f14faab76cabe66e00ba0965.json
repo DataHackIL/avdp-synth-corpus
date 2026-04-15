@@ -1,0 +1,102 @@
+{
+  "turns": [
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "אמא התקשרה היום, היא רוצה לבוא מחר אחר הצהריים. חשבתי להכין לה קפה ועוגה.",
+      "intensity": 1,
+      "pause_before_s": 0.0,
+      "emotional_state": "neutral"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "מחר? זה קצת בלי התראה מראש, לא? היה לנו שבוע ארוך, חשבתי שנהיה ביחד בשקט.",
+      "intensity": 1,
+      "pause_before_s": 0.8,
+      "emotional_state": "calm"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "אני יודעת, אבל לא ראיתי אותה כבר שבועיים. היא גם נשמעה קצת עצובה בטלפון.",
+      "intensity": 1,
+      "pause_before_s": 0.3,
+      "emotional_state": "neutral"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "תמיד היא נשמעת עצובה, שמת לב? כל פעם שהיא מתקשרת יש איזה דרמה. אני פשוט דואג לך, את חוזרת מהביקורים האלה מותשת.",
+      "intensity": 2,
+      "pause_before_s": 0.5,
+      "emotional_state": "calm"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "היא לא עושה דרמות... היא פשוט לבד הרבה מאז שאבא נפטר. זה טבעי שהיא צריכה אותי.",
+      "intensity": 2,
+      "pause_before_s": 0.4,
+      "emotional_state": "sad"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "צריכה אותך? היא תלויה בך, יש הבדל. את שמה לב איך כל פעם שאנחנו בתקופה טובה, היא מתקשרת ומושכת אותך לשם? זה לא מקרי.",
+      "intensity": 3,
+      "pause_before_s": 0.6,
+      "emotional_state": "calm"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "מה אתה אומר? שאמא שלי עושה את זה בכוונה? היא לא כזאת, אתה מכיר אותה.",
+      "intensity": 3,
+      "pause_before_s": 0.2,
+      "emotional_state": "fearful"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "אני מכיר אותה, ובדיוק בגלל זה אני אומר לך. תזכרי מה היא אמרה לך לפני החתונה, איך היא ניסתה לשכנע אותך לא להתחתן איתי. היא אף פעם לא באמת קיבלה אותנו.",
+      "intensity": 3,
+      "pause_before_s": 0.7,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "היא רק רצתה שאני אהיה בטוחה... היא אמא. אני לא יכולה פשוט לנתק ממנה קשר.",
+      "intensity": 3,
+      "pause_before_s": 0.3,
+      "emotional_state": "pleading"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "אף אחד לא אמר לנתק קשר. אבל שאלה פשוטה — מי יותר חשוב לך? המשפחה שלנו, או לרוץ כל פעם שאמא שלך מחליטה שהיא עצובה?",
+      "intensity": 4,
+      "pause_before_s": 1.0,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "למה אתה מכריח אותי לבחור? אני אוהבת אותך ואני אוהבת אותה, זה לא צריך להיות תחרות.",
+      "intensity": 4,
+      "pause_before_s": 0.2,
+      "emotional_state": "pleading"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "אני לא מכריח אותך, אני מבקש ממך לחשוב על מה טוב לנו. כל ביקור שלה כאן נגמר באותו דבר — היא ממלאה לך את הראש, ואחר כך את באה אליי עם טענות. אני כבר לא יכול ככה. תגידי לה שמחר לא מתאים.",
+      "intensity": 5,
+      "pause_before_s": 0.9,
+      "emotional_state": "threatening"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "אני... אני לא יודעת מה להגיד לה. היא כבר תכננה, היא תיפגע.",
+      "intensity": 4,
+      "pause_before_s": 1.2,
+      "emotional_state": "fearful"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "תגידי לה שאת לא מרגישה טוב, זה הכל. אם היא באמת אוהבת אותך, היא תבין. ואם לא — ובכן, זה בדיוק מה שאני אומר לך כל הזמן. בואי, תשבי, אני אכין לך תה.",
+      "intensity": 3,
+      "pause_before_s": 0.5,
+      "emotional_state": "calm"
+    }
+  ]
+}

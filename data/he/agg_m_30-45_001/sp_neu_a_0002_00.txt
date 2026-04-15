@@ -1,0 +1,43 @@
+[CLIP_ID: sp_neu_a_0002_00]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 0.50 | OFFSET: 9.00]
+תגיד, רציתי לדבר איתך על לוח הזמנים של השבוע הבא. יש כמה שינויים באיסופים מבית הספר.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 9.80 | OFFSET: 13.85]
+כן, בטח. מה השתנה?
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 14.15 | OFFSET: 23.08]
+ביום שלישי יש לי ישיבה בעבודה עד חמש, אז אני לא אספיק לאסוף את נועה מהגן בארבע. אתה יכול לקחת את זה?
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 24.08 | OFFSET: 36.22]
+שלישי? רגע, תני לי לבדוק. כן, ביום שלישי אני אמור לסיים בשלוש וחצי, אז זה בסדר גמור. אני אדאג לאסוף אותה.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 36.62 | OFFSET: 46.92]
+מעולה. ומה עם יום רביעי? כי גם ברביעי יש לי משהו, אבל זה רק עד שלוש וחצי אז אני חושבת שאני אסתדר.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 47.42 | OFFSET: 53.59]
+ברביעי דווקא יש לי פגישה מחוץ למשרד, אז אם את יכולה, עדיף שאת תאספי.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 53.89 | OFFSET: 67.16]
+בסדר, אני אסתדר. רגע, אבל חכה — ברביעי נועה יוצאת בשתיים כי יש להם קיצור יום, נכון? זה קצת בעייתי בשבילי.
+[ACTION: NONE_AMBIENT | INTENSITY: 2]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 67.76 | OFFSET: 76.86]
+אה, נכון, שכחתי מזה. אולי אמא שלי יכולה לאסוף אותה ביום הזה? היא ממילא גרה קרוב לגן.
+[ACTION: NONE_AMBIENT | INTENSITY: 2]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 77.26 | OFFSET: 86.23]
+זה רעיון טוב. תמסור לה שנשמח אם היא תוכל? רק תוודא שהיא יודעת שהיציאה בשתיים ולא בארבע.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 86.93 | OFFSET: 95.57]
+אני אתקשר אליה הערב. אגב, איך הולך לנועה בגן? המורה אמרה משהו על ההסתגלות שלה?
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 96.07 | OFFSET: 106.63]
+דווקא כן, דיברתי עם הגננת ביום חמישי. היא אמרה שנועה מאוד חברותית ומשתלבת יפה. אני ממש שמחה.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 107.83 | OFFSET: 116.62]
+כיף לשמוע, באמת. אז בואי נסכם: שלישי אני אוסף, רביעי אמא שלי, והשאר כרגיל?
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 116.92 | OFFSET: 126.71]
+בדיוק. והשאר כרגיל — אני ביום ראשון ורביעי, ואתה ביום חמישי. תודה שסידרנו את זה.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 127.21 | OFFSET: 132.63]
+בכיף. אני שם תזכורת בטלפון ככה לא אשכח.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]

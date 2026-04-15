@@ -1,0 +1,37 @@
+[CLIP_ID: sp_neg_a_0001_00]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 0.50 | OFFSET: 9.40]
+תגידי לי, למה הכיור עדיין מלא כלים? אני חוזר מעבודה אחרי עשר שעות ורואה בדיוק את מה שהשארתי בבוקר.
+[ACTION: NONE_ARGU | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 10.20 | OFFSET: 20.64]
+גם אני עבדתי היום, אתה יודע. לא ישבתי בבית על הספה. לא הספקתי, פשוט לא הספקתי.
+[ACTION: NONE_ARGU | INTENSITY: 2]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 20.94 | OFFSET: 28.86]
+אבל תמיד את לא מספיקה. כל יום זה אותו דבר. אני מרגיש שאני היחיד שרואה את הבלאגן הזה.
+[ACTION: NONE_ARGU | INTENSITY: 2]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 29.06 | OFFSET: 43.34]
+היחיד? אתה צוחק עליי? מי מכבס פה? מי מסדר את הילדים בבוקר? אתה בכלל יודע מה קורה בבית הזה לפני שאתה קם?
+[ACTION: NONE_ARGU | INTENSITY: 3]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 43.44 | OFFSET: 47.19]
+אני לא אמרתי שאת לא עושה כלום, אל תשימי לי מילים ב— 
+[ACTION: NONE_ARGU | INTENSITY: 3]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 47.19 | OFFSET: 56.09]
+—אז מה אתה כן אומר? כי כל פעם שאתה מתחיל עם הכיור זה כאילו אני עוזרת בית שלא עשתה את העבודה שלה!
+[ACTION: NONE_ARGU | INTENSITY: 3]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 56.49 | OFFSET: 67.44]
+אני לא מתייחס אלייך ככה ואת יודעת את זה. אני פשוט... אני עייף. אני רוצה לחזור לבית מסודר, זה הכל. זה כזה נורא?
+[ACTION: NONE_ARGU | INTENSITY: 3]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 68.44 | OFFSET: 78.35]
+גם אני עייפה, יוסי. גם אני רוצה לחזור לבית מסודר. אתה חושב שנעים לי לראות את הבלאגן?
+[ACTION: NONE_ARGU | INTENSITY: 2]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 79.55 | OFFSET: 91.55]
+...לא, את צודקת. אני יודע שאת לא עושה את זה בכוונה. סליחה שזה יצא כאילו אני מאשים אותך. זה פשוט... הכל נערם.
+[ACTION: NONE_ARGU | INTENSITY: 2]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 92.05 | OFFSET: 103.38]
+גם אני מצטערת שצעקתי. אני יודעת שאתה לא מתכוון לרע. פשוט כשאתה מתחיל עם הכיור אני מרגישה שלא רואים את כל מה שאני כן עושה.
+[ACTION: NONE_ARGU | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 104.08 | OFFSET: 117.32]
+אני רואה, באמת. אולי פשוט נחלק את זה אחרת? אני אשטוף כלים בערב כשאני חוזר, ואת תמשיכי עם הכביסה והילדים בבוקר. מה את אומרת?
+[ACTION: NONE_ARGU | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 117.82 | OFFSET: 127.95]
+זה נשמע הגיוני. בוא ננסה ככה השבוע ונראה אם זה עובד. ותודה שאתה מוכן לדבר על זה ולא סתם להיסגר.
+[ACTION: NONE_ARGU | INTENSITY: 1]

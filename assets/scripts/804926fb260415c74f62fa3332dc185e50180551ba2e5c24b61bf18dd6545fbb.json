@@ -1,0 +1,102 @@
+{
+  "turns": [
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "מה זה הארוחה הזאת? שאלתי אותך דבר אחד פשוט, לעשות ארוחת ערב נורמלית. זה יותר מדי בשבילך?",
+      "intensity": 2,
+      "pause_before_s": 0.0,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "עבדתי עד שש היום. עשיתי מה שהספקתי. אם זה לא מספיק טוב, אתה מוזמן לבשל בעצמך.",
+      "intensity": 2,
+      "pause_before_s": 0.8,
+      "emotional_state": "neutral"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "אה, עכשיו גם חוצפה? אני עובד שתים עשרה שעות ביום ואת לא מסוגלת לעשות דבר אחד כמו שצריך. דבר אחד. תמיד ככה איתך.",
+      "intensity": 3,
+      "pause_before_s": 0.3,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "למה אתה תמיד צריך להקטין את מה שאני עושה? גם אני עובדת, גם אני עייפה. אתה אף פעם לא מרוצה.",
+      "intensity": 3,
+      "pause_before_s": 0.5,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "כי את לא עושה כלום! תסתכלי על הבית הזה, תסתכלי על עצמך. בושה. אמא שלי צדקה לגביך, את לא שווה כלום.",
+      "intensity": 4,
+      "pause_before_s": 0.2,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "אל תדבר ככה אליי. אני מבקשת ממך, תפסיק. אל תכניס את אמא שלך לזה.",
+      "intensity": 3,
+      "pause_before_s": 0.4,
+      "emotional_state": "fearful"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "מה, עכשיו את תגידי לי מה לעשות? את תגידי לי? אני מזהיר אותך, תסתמי עכשיו. תסתמי את הפה.",
+      "intensity": 4,
+      "pause_before_s": 0.1,
+      "emotional_state": "threatening"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "אתה מפחיד אותי כשאתה ככה. בבקשה, בוא ניקח אוויר, בוא נירגע...",
+      "intensity": 4,
+      "pause_before_s": 0.6,
+      "emotional_state": "pleading"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "שתקתי! אמרתי לך תשתקי!",
+      "intensity": 5,
+      "pause_before_s": 0.1,
+      "emotional_state": "threatening"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "אאא! לא! עזוב אותי! כואב לי! כואב!",
+      "intensity": 5,
+      "pause_before_s": 0.2,
+      "emotional_state": "fearful"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "תלמדי לשתוק כשאני מדבר. שמעת אותי?",
+      "intensity": 5,
+      "pause_before_s": 0.3,
+      "emotional_state": "threatening"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "בבקשה... תפסיק... אני לא... אני לא יכולה לנשום...",
+      "intensity": 4,
+      "pause_before_s": 0.7,
+      "emotional_state": "pleading"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "תפסיקי לבכות. את עושה מזה עניין של מה בכך. לא עשיתי לך שום דבר. את תמיד מגזימה, תמיד.",
+      "intensity": 2,
+      "pause_before_s": 1.5,
+      "emotional_state": "calm"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "היד שלי... הכאת אותי... למה...",
+      "intensity": 2,
+      "pause_before_s": 1.2,
+      "emotional_state": "sad"
+    }
+  ]
+}

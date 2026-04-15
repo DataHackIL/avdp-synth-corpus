@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "אמרתי לך אלף פעם לא לדבר עם ההוא בטלפון. מה לא ברור לך?",
+      "intensity": 1,
+      "pause_before_s": 0.0,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "זה עמית מהעבודה, דיברנו על פרויקט. אתה מגזים כמו תמיד.",
+      "intensity": 1,
+      "pause_before_s": 0.3,
+      "emotional_state": "neutral"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "מגזים? את חושבת שאני אידיוט? ראיתי איך את מחייכת לתוך המסך. פרויקט, בטח.",
+      "intensity": 2,
+      "pause_before_s": 0.2,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "אני לא צריכה להצטדק על כל שיחה. תפסיק עם הקנאה החולנית הזאת.",
+      "intensity": 2,
+      "pause_before_s": 0.5,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "את לא תגידי לי מה חולני ומה לא. את שומעת אותי? את לא תגידי לי.",
+      "intensity": 2,
+      "pause_before_s": 0.1,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "למה אתה הולך למטבח? מה אתה... מה אתה לוקח משם?",
+      "intensity": 4,
+      "pause_before_s": 1.2,
+      "emotional_state": "fearful"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "את רואה את הסכין הזאת? את רואה? תשבי. אל תזוזי מהספה.",
+      "intensity": 5,
+      "pause_before_s": 0.4,
+      "emotional_state": "threatening"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "אלוהים, תוריד את הסכין! בבקשה, תוריד אותה, אתה מפחיד אותי!",
+      "intensity": 5,
+      "pause_before_s": 0.1,
+      "emotional_state": "pleading"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "מפחיד אותך? טוב. ככה תבינו מה קורה כשמשקרים לי. הסכין נשארת ביד שלי עד שתגידי לי את האמת.",
+      "intensity": 5,
+      "pause_before_s": 0.3,
+      "emotional_state": "threatening"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "אני רוצה לצאת מהדירה. תן לי לעבור לדלת, בבקשה. אני לא אגיד לאף אחד, רק תן לי ללכת.",
+      "intensity": 3,
+      "pause_before_s": 0.8,
+      "emotional_state": "pleading"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "את לא הולכת לשום מקום. תשבי. אם תזוזי צעד אחד לכיוון הדלת עם הסכין ביד שלי, את יודעת מה יקרה.",
+      "intensity": 5,
+      "pause_before_s": 0.2,
+      "emotional_state": "threatening"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "אוקיי, אוקיי, אני יושבת. אני לא זזה. רק תרגע, תוריד את הסכין מהיד, בבקשה.",
+      "intensity": 3,
+      "pause_before_s": 0.5,
+      "emotional_state": "fearful"
+    }
+  ]
+}

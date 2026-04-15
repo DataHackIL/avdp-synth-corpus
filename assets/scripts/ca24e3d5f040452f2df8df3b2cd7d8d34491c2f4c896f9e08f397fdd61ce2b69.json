@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "תגידי לי, למה הכיור עדיין מלא כלים? אני חוזר מעבודה אחרי עשר שעות ורואה בדיוק את מה שהשארתי בבוקר.",
+      "intensity": 1,
+      "pause_before_s": 0.0,
+      "emotional_state": "neutral"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "גם אני עבדתי היום, אתה יודע. לא ישבתי בבית על הספה. לא הספקתי, פשוט לא הספקתי.",
+      "intensity": 2,
+      "pause_before_s": 0.8,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "אבל תמיד את לא מספיקה. כל יום זה אותו דבר. אני מרגיש שאני היחיד שרואה את הבלאגן הזה.",
+      "intensity": 2,
+      "pause_before_s": 0.3,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "היחיד? אתה צוחק עליי? מי מכבס פה? מי מסדר את הילדים בבוקר? אתה בכלל יודע מה קורה בבית הזה לפני שאתה קם?",
+      "intensity": 3,
+      "pause_before_s": 0.2,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "אני לא אמרתי שאת לא עושה כלום, אל תשימי לי מילים ב— ",
+      "intensity": 3,
+      "pause_before_s": 0.1,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "—אז מה אתה כן אומר? כי כל פעם שאתה מתחיל עם הכיור זה כאילו אני עוזרת בית שלא עשתה את העבודה שלה!",
+      "intensity": 3,
+      "pause_before_s": 0.0,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "אני לא מתייחס אלייך ככה ואת יודעת את זה. אני פשוט... אני עייף. אני רוצה לחזור לבית מסודר, זה הכל. זה כזה נורא?",
+      "intensity": 3,
+      "pause_before_s": 0.4,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "גם אני עייפה, יוסי. גם אני רוצה לחזור לבית מסודר. אתה חושב שנעים לי לראות את הבלאגן?",
+      "intensity": 2,
+      "pause_before_s": 1.0,
+      "emotional_state": "sad"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "...לא, את צודקת. אני יודע שאת לא עושה את זה בכוונה. סליחה שזה יצא כאילו אני מאשים אותך. זה פשוט... הכל נערם.",
+      "intensity": 2,
+      "pause_before_s": 1.2,
+      "emotional_state": "calm"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "גם אני מצטערת שצעקתי. אני יודעת שאתה לא מתכוון לרע. פשוט כשאתה מתחיל עם הכיור אני מרגישה שלא רואים את כל מה שאני כן עושה.",
+      "intensity": 1,
+      "pause_before_s": 0.5,
+      "emotional_state": "calm"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "אני רואה, באמת. אולי פשוט נחלק את זה אחרת? אני אשטוף כלים בערב כשאני חוזר, ואת תמשיכי עם הכביסה והילדים בבוקר. מה את אומרת?",
+      "intensity": 1,
+      "pause_before_s": 0.7,
+      "emotional_state": "calm"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "זה נשמע הגיוני. בוא ננסה ככה השבוע ונראה אם זה עובד. ותודה שאתה מוכן לדבר על זה ולא סתם להיסגר.",
+      "intensity": 1,
+      "pause_before_s": 0.5,
+      "emotional_state": "calm"
+    }
+  ]
+}

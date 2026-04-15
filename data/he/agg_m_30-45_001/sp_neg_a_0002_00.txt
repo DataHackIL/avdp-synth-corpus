@@ -1,0 +1,43 @@
+[CLIP_ID: sp_neg_a_0002_00]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 0.50 | OFFSET: 7.22]
+שוב שכחת לשלם את החשבון? אני לא מבין איך אפשר להיות כל כך חסרת אחריות.
+[ACTION: NONE_ARGU | INTENSITY: 2]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 7.52 | OFFSET: 15.68]
+לא שכחתי, פשוט לא היה מספיק כסף בחשבון. אמרתי לך את זה כבר בתחילת השבוע.
+[ACTION: NONE_ARGU | INTENSITY: 2]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 15.88 | OFFSET: 23.99]
+תמיד יש לך תירוצים! תמיד! אני עובד כמו חמור ואת לא מסוגלת לנהל דבר אחד פשוט בבית הזה.
+[ACTION: NONE_ARGU | INTENSITY: 3]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 24.39 | OFFSET: 33.44]
+אני מנסה, אתה יודע שאני מנסה. אל תצעק עליי, בבקשה, השכנים ישמעו.
+[ACTION: NONE_ARGU | INTENSITY: 3]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 33.54 | OFFSET: 42.59]
+שישמעו! מה אכפת לי?! שכולם ידעו איזה בלאגן את עושה פה! את יודעת מה, אני כבר לא יכול ככה.
+[ACTION: NONE_ARGU | INTENSITY: 3]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 42.89 | OFFSET: 51.67]
+תרגע, אני מבקשת ממך. אנחנו יכולים לדבר על זה בשקט, לא חייבים ככה.
+[ACTION: NONE_ARGU | INTENSITY: 3]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 51.77 | OFFSET: 58.35]
+לדבר בשקט?! את רוצה שאני אהיה בשקט כשהכל מתפרק סביבי? את—
+[ACTION: NONE_ARGU | INTENSITY: 3]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 59.55 | OFFSET: 63.82]
+רגע... מישהו דופק בדלת.
+[ACTION: NONE_ARGU | INTENSITY: 2]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 64.82 | OFFSET: 66.64]
+...מי זה עכשיו?
+[ACTION: NONE_ARGU | INTENSITY: 2]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 68.14 | OFFSET: 73.04]
+שלום מרים, מה קורה? הכל בסדר?
+[ACTION: NONE_ARGU | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 73.54 | OFFSET: 85.54]
+אהלן מרים, ערב טוב. סליחה, היה לנו פה דיון קצת סוער על חשבונות, את יודעת איך זה. רצינו להזמין פיצה ולא הסכמנו על תוספות.
+[ACTION: NONE_ARGU | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 85.84 | OFFSET: 96.78]
+כן, הכל טוב, ממש. רצית משהו, מרים? בואי תיכנסי רגע, אני שמה עכשיו קומקום.
+[ACTION: NONE_ARGU | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 97.18 | OFFSET: 105.34]
+באמת, תיכנסי. יש לנו עוגה מהבוקר, אני אחתוך חתיכה. אל תתביישי.
+[ACTION: NONE_ARGU | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 105.84 | OFFSET: 113.74]
+בואי תשבי איתנו במטבח, מרים. נשתה קפה ביחד, כבר מזמן לא דיברנו.
+[ACTION: NONE_ARGU | INTENSITY: 1]

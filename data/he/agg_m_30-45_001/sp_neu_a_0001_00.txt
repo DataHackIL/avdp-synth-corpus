@@ -1,0 +1,37 @@
+[CLIP_ID: sp_neu_a_0001_00]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 0.50 | OFFSET: 4.70]
+את רוצה שאני אחתוך את הבצל או שאני מתחיל עם הרוטב?
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 5.00 | OFFSET: 15.92]
+תתחיל עם הבצל, בבקשה. אני צריכה לסיים פה עם העוף. תיזהר עם הסכין החדה הזאת, היא ממש חותכת טוב.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 16.72 | OFFSET: 23.87]
+בסדר... וואלה, הבצל הזה כבר גורם לי לדמוע. איזה חזק.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 24.37 | OFFSET: 33.64]
+תנסה לשטוף אותו במים קרים לפני, זה עוזר. אה, שמעת שדנה ורון סוף סוף קבעו תאריך לחתונה?
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 33.84 | OFFSET: 40.44]
+רצינית? מתי? הם כבר כמה שנים ביחד, לא?
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 40.74 | OFFSET: 51.97]
+כן, באוקטובר. היא שלחה לי הודעה היום. ארבע שנים כבר, משוגעים. אני ממש שמחה בשבילם.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 52.67 | OFFSET: 62.63]
+יפה, מגיע להם. תגידי, את שמה כורכום ברוטב הזה? כי אני חושב שבפעם הקודמת שמנו יותר מדי.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 63.03 | OFFSET: 78.39]
+לא, הפעם אני הולכת על פפריקה מעושנת בלבד. אתה צודק, בפעם שעברה זה היה קצת... מוגזם. אתה מריח? כבר מתחיל להיות ריח טוב מהתנור.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 79.39 | OFFSET: 92.83]
+כן, ממש מריח מעולה. אה, רגע — שכחתי לספר לך. חשבתי שאולי ביום שישי ניקח את הילדים לפארק, מה דעתך? התחזית אומרת שיהיה נעים.
+[ACTION: NONE_AMBIENT | INTENSITY: 2]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 93.33 | OFFSET: 104.78]
+אני הייתי חושבת דווקא על הים, אבל... בעצם כן, פארק זה יותר נוח עם כל הציוד של הקטנה. בואי נגיד פארק.
+[ACTION: NONE_AMBIENT | INTENSITY: 2]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 105.38 | OFFSET: 110.39]
+אחלה. גמרתי עם הבצל, לאן אני שם אותו?
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 110.69 | OFFSET: 120.46]
+תשים במחבת עם קצת שמן זית, על אש בינונית. תודה, מותק. עוד רבע שעה הכל מוכן.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]

@@ -1,0 +1,123 @@
+{
+  "turns": [
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "הי, חשבתי שכבר נרדמת. מתי חזרת?",
+      "intensity": 1,
+      "pause_before_s": 0.3,
+      "emotional_state": "calm"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "לפני כמה דקות. סליחה, לא רציתי להעיר אותך.",
+      "intensity": 1,
+      "pause_before_s": 0.5,
+      "emotional_state": "neutral"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "לפני כמה דקות? יופי. השעון מראה אחת עשרה וחצי. אמרת שתחזרי בתשע.",
+      "intensity": 2,
+      "pause_before_s": 0.8,
+      "emotional_state": "calm"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "כן, זה התארך קצת. הבנות רצו להישאר עוד קצת והרגשתי לא נעים לעזוב.",
+      "intensity": 2,
+      "pause_before_s": 0.4,
+      "emotional_state": "neutral"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "הרגשת לא נעים לעזוב. אבל להשאיר אותי פה לחכות, עם זה אין לך בעיה. ניסיתי להתקשר אלייך שלוש פעמים.",
+      "intensity": 2,
+      "pause_before_s": 0.6,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "ראיתי, לא שמעתי את הטלפון. היה רעש במסעדה. אני מצטערת, באמת.",
+      "intensity": 2,
+      "pause_before_s": 0.3,
+      "emotional_state": "pleading"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "לא שמעת. תמיד יש לך תירוץ. מי בדיוק היה שם? תגידי לי את האמת.",
+      "intensity": 3,
+      "pause_before_s": 1.0,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "מה פתאום, אמרתי לך — רונית, שירה ואורלי. זה הכל. אין מה להסתיר.",
+      "intensity": 3,
+      "pause_before_s": 0.4,
+      "emotional_state": "fearful"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "אין מה להסתיר? אז למה כיבית את השיתוף מיקום? חשבת שלא אשים לב? את מזלזלת בי.",
+      "intensity": 4,
+      "pause_before_s": 0.7,
+      "emotional_state": "threatening"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "לא כיביתי כלום, אולי הסוללה נגמרה. אני לא מזלזלת בך, בבקשה, בוא נדבר בשקט.",
+      "intensity": 3,
+      "pause_before_s": 0.3,
+      "emotional_state": "pleading"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "תני לי את הטלפון. עכשיו. אני רוצה לראות את כל ההודעות מהערב.",
+      "intensity": 4,
+      "pause_before_s": 0.5,
+      "emotional_state": "threatening"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "הנה, קח... אין שם שום דבר. תראה בעצמך.",
+      "intensity": 3,
+      "pause_before_s": 0.8,
+      "emotional_state": "fearful"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "מהפעם הבאה, את לא יוצאת בלי שאני מאשר. את שומעת אותי? אם את רוצה לצאת, את שואלת אותי קודם. ואם את לא עונה לטלפון, את לא יוצאת יותר בכלל. נגמרו ההפתעות.",
+      "intensity": 5,
+      "pause_before_s": 1.2,
+      "emotional_state": "threatening"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "טוב... טוב, אני מבינה. לא יקרה שוב.",
+      "intensity": 4,
+      "pause_before_s": 1.5,
+      "emotional_state": "fearful"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "כדאי שלא. ואת יודעת מה, החברות האלה שלך? הן לא השפעה טובה עלייך. אני רוצה שתפסיקי לראות את שירה, היא שמה לך דברים בראש.",
+      "intensity": 4,
+      "pause_before_s": 0.6,
+      "emotional_state": "angry"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "שירה היא חברה שלי מהצבא... אבל בסדר, אני אנסה... אני אראה.",
+      "intensity": 3,
+      "pause_before_s": 0.5,
+      "emotional_state": "sad"
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "אל תנסי, תעשי. אני עושה את זה בשבילנו. בשביל המשפחה. בואי נלך לישון, מחר נדבר.",
+      "intensity": 3,
+      "pause_before_s": 1.0,
+      "emotional_state": "calm"
+    }
+  ]
+}
