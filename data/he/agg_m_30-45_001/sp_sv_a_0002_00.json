@@ -1,66 +1,66 @@
 {
-  "clip_id": "sp_sv_a_0002_00",
-  "project": "she_proves",
-  "language": "he",
-  "violence_typology": "SV",
-  "tier": "A",
-  "duration_seconds": 99.44,
-  "sample_rate": 16000,
-  "channels": 1,
-  "snr_db_estimated": null,
-  "scene_config": "configs/scenes/she_proves/sp_sv_a_0002.yaml",
-  "random_seed": 1202,
-  "generation_date": "2026-04-15",
-  "generator_version": "0.1.0",
-  "is_synthetic": true,
-  "tts_engine": "azure_he_IL",
   "acoustic_scene": {
-    "room_type": null,
+    "background_events": [],
     "device": null,
     "ir_source": null,
-    "speaker_distance_meters": null,
+    "room_type": null,
     "snr_db_actual": null,
-    "background_events": []
+    "speaker_distance_meters": null
   },
+  "annotator_confidence": 1.0,
+  "channels": 1,
+  "clip_id": "sp_sv_a_0002_00",
+  "dirty_file_path": "assets/speech/dirty/sp_sv_a_0002_00_dirty.wav",
+  "duration_seconds": 99.44,
+  "elephant_meta": null,
+  "generation_date": "2026-04-15",
+  "generator_version": "0.1.0",
+  "iaa_reviewed": false,
+  "is_synthetic": true,
+  "language": "he",
+  "preprocessing_applied": {
+    "denoised": true,
+    "downmixed_to_mono": true,
+    "normalized_dbfs": -1.0,
+    "resampled_to_16k": true,
+    "silence_padded": true,
+    "spectral_filtered": true
+  },
+  "project": "she_proves",
+  "quality_flags": [],
+  "random_seed": 1202,
+  "sample_rate": 16000,
+  "scene_config": "configs/scenes/she_proves/sp_sv_a_0002.yaml",
+  "she_proves_meta": null,
+  "snr_db_estimated": null,
   "speakers": [
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "role": "AGG",
-      "gender": "male",
       "age_range": "30-45",
+      "gender": "male",
+      "role": "AGG",
+      "speaker_id": "AGG_M_30-45_001",
       "tts_voice_id": "he-IL-AvriNeural"
     },
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "role": "VIC",
-      "gender": "female",
       "age_range": "25-40",
+      "gender": "female",
+      "role": "VIC",
+      "speaker_id": "VIC_F_25-40_002",
       "tts_voice_id": "he-IL-HilaNeural"
     }
   ],
+  "tier": "A",
+  "transcript_path": "/Users/shaypalachy/clones/avdp-synth-corpus/data/he/agg_m_30-45_001/sp_sv_a_0002_00.txt",
+  "tts_engine": "azure_he_IL",
+  "violence_typology": "SV",
   "weak_label": {
     "has_violence": true,
+    "max_intensity": 5,
     "violence_categories": [
       "DIST",
       "PHYS",
       "VERB"
     ],
-    "max_intensity": 5,
     "violence_typology": "SV"
-  },
-  "preprocessing_applied": {
-    "resampled_to_16k": true,
-    "downmixed_to_mono": true,
-    "spectral_filtered": true,
-    "denoised": true,
-    "normalized_dbfs": -1.0,
-    "silence_padded": true
-  },
-  "dirty_file_path": "assets/speech/dirty/sp_sv_a_0002_00_dirty.wav",
-  "transcript_path": "/Users/shaypalachy/clones/avdp-synth-corpus/data/he/agg_m_30-45_001/sp_sv_a_0002_00.txt",
-  "quality_flags": [],
-  "annotator_confidence": 1.0,
-  "iaa_reviewed": false,
-  "she_proves_meta": null,
-  "elephant_meta": null
+  }
 }

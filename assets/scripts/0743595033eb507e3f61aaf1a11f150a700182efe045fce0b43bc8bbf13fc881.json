@@ -1,102 +1,102 @@
 {
   "turns": [
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "text": "תגיד, רציתי לדבר איתך על לוח הזמנים של השבוע הבא. יש כמה שינויים באיסופים מבית הספר.",
+      "emotional_state": "neutral",
       "intensity": 1,
       "pause_before_s": 0.0,
-      "emotional_state": "neutral"
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "\u05ea\u05d2\u05d9\u05d3, \u05e8\u05e6\u05d9\u05ea\u05d9 \u05dc\u05d3\u05d1\u05e8 \u05d0\u05d9\u05ea\u05da \u05e2\u05dc \u05dc\u05d5\u05d7 \u05d4\u05d6\u05de\u05e0\u05d9\u05dd \u05e9\u05dc \u05d4\u05e9\u05d1\u05d5\u05e2 \u05d4\u05d1\u05d0. \u05d9\u05e9 \u05db\u05de\u05d4 \u05e9\u05d9\u05e0\u05d5\u05d9\u05d9\u05dd \u05d1\u05d0\u05d9\u05e1\u05d5\u05e4\u05d9\u05dd \u05de\u05d1\u05d9\u05ea \u05d4\u05e1\u05e4\u05e8."
     },
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "text": "כן, בטח. מה השתנה?",
+      "emotional_state": "neutral",
       "intensity": 1,
       "pause_before_s": 0.8,
-      "emotional_state": "neutral"
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "\u05db\u05df, \u05d1\u05d8\u05d7. \u05de\u05d4 \u05d4\u05e9\u05ea\u05e0\u05d4?"
     },
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "text": "ביום שלישי יש לי ישיבה בעבודה עד חמש, אז אני לא אספיק לאסוף את נועה מהגן בארבע. אתה יכול לקחת את זה?",
+      "emotional_state": "neutral",
       "intensity": 1,
       "pause_before_s": 0.3,
-      "emotional_state": "neutral"
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "\u05d1\u05d9\u05d5\u05dd \u05e9\u05dc\u05d9\u05e9\u05d9 \u05d9\u05e9 \u05dc\u05d9 \u05d9\u05e9\u05d9\u05d1\u05d4 \u05d1\u05e2\u05d1\u05d5\u05d3\u05d4 \u05e2\u05d3 \u05d7\u05de\u05e9, \u05d0\u05d6 \u05d0\u05e0\u05d9 \u05dc\u05d0 \u05d0\u05e1\u05e4\u05d9\u05e7 \u05dc\u05d0\u05e1\u05d5\u05e3 \u05d0\u05ea \u05e0\u05d5\u05e2\u05d4 \u05de\u05d4\u05d2\u05df \u05d1\u05d0\u05e8\u05d1\u05e2. \u05d0\u05ea\u05d4 \u05d9\u05db\u05d5\u05dc \u05dc\u05e7\u05d7\u05ea \u05d0\u05ea \u05d6\u05d4?"
     },
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "text": "שלישי? רגע, תני לי לבדוק. כן, ביום שלישי אני אמור לסיים בשלוש וחצי, אז זה בסדר גמור. אני אדאג לאסוף אותה.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 1.0,
-      "emotional_state": "calm"
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "\u05e9\u05dc\u05d9\u05e9\u05d9? \u05e8\u05d2\u05e2, \u05ea\u05e0\u05d9 \u05dc\u05d9 \u05dc\u05d1\u05d3\u05d5\u05e7. \u05db\u05df, \u05d1\u05d9\u05d5\u05dd \u05e9\u05dc\u05d9\u05e9\u05d9 \u05d0\u05e0\u05d9 \u05d0\u05de\u05d5\u05e8 \u05dc\u05e1\u05d9\u05d9\u05dd \u05d1\u05e9\u05dc\u05d5\u05e9 \u05d5\u05d7\u05e6\u05d9, \u05d0\u05d6 \u05d6\u05d4 \u05d1\u05e1\u05d3\u05e8 \u05d2\u05de\u05d5\u05e8. \u05d0\u05e0\u05d9 \u05d0\u05d3\u05d0\u05d2 \u05dc\u05d0\u05e1\u05d5\u05e3 \u05d0\u05d5\u05ea\u05d4."
     },
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "text": "מעולה. ומה עם יום רביעי? כי גם ברביעי יש לי משהו, אבל זה רק עד שלוש וחצי אז אני חושבת שאני אסתדר.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.4,
-      "emotional_state": "calm"
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "\u05de\u05e2\u05d5\u05dc\u05d4. \u05d5\u05de\u05d4 \u05e2\u05dd \u05d9\u05d5\u05dd \u05e8\u05d1\u05d9\u05e2\u05d9? \u05db\u05d9 \u05d2\u05dd \u05d1\u05e8\u05d1\u05d9\u05e2\u05d9 \u05d9\u05e9 \u05dc\u05d9 \u05de\u05e9\u05d4\u05d5, \u05d0\u05d1\u05dc \u05d6\u05d4 \u05e8\u05e7 \u05e2\u05d3 \u05e9\u05dc\u05d5\u05e9 \u05d5\u05d7\u05e6\u05d9 \u05d0\u05d6 \u05d0\u05e0\u05d9 \u05d7\u05d5\u05e9\u05d1\u05ea \u05e9\u05d0\u05e0\u05d9 \u05d0\u05e1\u05ea\u05d3\u05e8."
     },
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "text": "ברביעי דווקא יש לי פגישה מחוץ למשרד, אז אם את יכולה, עדיף שאת תאספי.",
+      "emotional_state": "neutral",
       "intensity": 1,
       "pause_before_s": 0.5,
-      "emotional_state": "neutral"
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "\u05d1\u05e8\u05d1\u05d9\u05e2\u05d9 \u05d3\u05d5\u05d5\u05e7\u05d0 \u05d9\u05e9 \u05dc\u05d9 \u05e4\u05d2\u05d9\u05e9\u05d4 \u05de\u05d7\u05d5\u05e5 \u05dc\u05de\u05e9\u05e8\u05d3, \u05d0\u05d6 \u05d0\u05dd \u05d0\u05ea \u05d9\u05db\u05d5\u05dc\u05d4, \u05e2\u05d3\u05d9\u05e3 \u05e9\u05d0\u05ea \u05ea\u05d0\u05e1\u05e4\u05d9."
     },
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "text": "בסדר, אני אסתדר. רגע, אבל חכה — ברביעי נועה יוצאת בשתיים כי יש להם קיצור יום, נכון? זה קצת בעייתי בשבילי.",
+      "emotional_state": "neutral",
       "intensity": 2,
       "pause_before_s": 0.3,
-      "emotional_state": "neutral"
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "\u05d1\u05e1\u05d3\u05e8, \u05d0\u05e0\u05d9 \u05d0\u05e1\u05ea\u05d3\u05e8. \u05e8\u05d2\u05e2, \u05d0\u05d1\u05dc \u05d7\u05db\u05d4 \u2014 \u05d1\u05e8\u05d1\u05d9\u05e2\u05d9 \u05e0\u05d5\u05e2\u05d4 \u05d9\u05d5\u05e6\u05d0\u05ea \u05d1\u05e9\u05ea\u05d9\u05d9\u05dd \u05db\u05d9 \u05d9\u05e9 \u05dc\u05d4\u05dd \u05e7\u05d9\u05e6\u05d5\u05e8 \u05d9\u05d5\u05dd, \u05e0\u05db\u05d5\u05df? \u05d6\u05d4 \u05e7\u05e6\u05ea \u05d1\u05e2\u05d9\u05d9\u05ea\u05d9 \u05d1\u05e9\u05d1\u05d9\u05dc\u05d9."
     },
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "text": "אה, נכון, שכחתי מזה. אולי אמא שלי יכולה לאסוף אותה ביום הזה? היא ממילא גרה קרוב לגן.",
+      "emotional_state": "calm",
       "intensity": 2,
       "pause_before_s": 0.6,
-      "emotional_state": "calm"
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "\u05d0\u05d4, \u05e0\u05db\u05d5\u05df, \u05e9\u05db\u05d7\u05ea\u05d9 \u05de\u05d6\u05d4. \u05d0\u05d5\u05dc\u05d9 \u05d0\u05de\u05d0 \u05e9\u05dc\u05d9 \u05d9\u05db\u05d5\u05dc\u05d4 \u05dc\u05d0\u05e1\u05d5\u05e3 \u05d0\u05d5\u05ea\u05d4 \u05d1\u05d9\u05d5\u05dd \u05d4\u05d6\u05d4? \u05d4\u05d9\u05d0 \u05de\u05de\u05d9\u05dc\u05d0 \u05d2\u05e8\u05d4 \u05e7\u05e8\u05d5\u05d1 \u05dc\u05d2\u05df."
     },
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "text": "זה רעיון טוב. תמסור לה שנשמח אם היא תוכל? רק תוודא שהיא יודעת שהיציאה בשתיים ולא בארבע.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.4,
-      "emotional_state": "calm"
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "\u05d6\u05d4 \u05e8\u05e2\u05d9\u05d5\u05df \u05d8\u05d5\u05d1. \u05ea\u05de\u05e1\u05d5\u05e8 \u05dc\u05d4 \u05e9\u05e0\u05e9\u05de\u05d7 \u05d0\u05dd \u05d4\u05d9\u05d0 \u05ea\u05d5\u05db\u05dc? \u05e8\u05e7 \u05ea\u05d5\u05d5\u05d3\u05d0 \u05e9\u05d4\u05d9\u05d0 \u05d9\u05d5\u05d3\u05e2\u05ea \u05e9\u05d4\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05e9\u05ea\u05d9\u05d9\u05dd \u05d5\u05dc\u05d0 \u05d1\u05d0\u05e8\u05d1\u05e2."
     },
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "text": "אני אתקשר אליה הערב. אגב, איך הולך לנועה בגן? המורה אמרה משהו על ההסתגלות שלה?",
+      "emotional_state": "neutral",
       "intensity": 1,
       "pause_before_s": 0.7,
-      "emotional_state": "neutral"
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "\u05d0\u05e0\u05d9 \u05d0\u05ea\u05e7\u05e9\u05e8 \u05d0\u05dc\u05d9\u05d4 \u05d4\u05e2\u05e8\u05d1. \u05d0\u05d2\u05d1, \u05d0\u05d9\u05da \u05d4\u05d5\u05dc\u05da \u05dc\u05e0\u05d5\u05e2\u05d4 \u05d1\u05d2\u05df? \u05d4\u05de\u05d5\u05e8\u05d4 \u05d0\u05de\u05e8\u05d4 \u05de\u05e9\u05d4\u05d5 \u05e2\u05dc \u05d4\u05d4\u05e1\u05ea\u05d2\u05dc\u05d5\u05ea \u05e9\u05dc\u05d4?"
     },
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "text": "דווקא כן, דיברתי עם הגננת ביום חמישי. היא אמרה שנועה מאוד חברותית ומשתלבת יפה. אני ממש שמחה.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.5,
-      "emotional_state": "calm"
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "\u05d3\u05d5\u05d5\u05e7\u05d0 \u05db\u05df, \u05d3\u05d9\u05d1\u05e8\u05ea\u05d9 \u05e2\u05dd \u05d4\u05d2\u05e0\u05e0\u05ea \u05d1\u05d9\u05d5\u05dd \u05d7\u05de\u05d9\u05e9\u05d9. \u05d4\u05d9\u05d0 \u05d0\u05de\u05e8\u05d4 \u05e9\u05e0\u05d5\u05e2\u05d4 \u05de\u05d0\u05d5\u05d3 \u05d7\u05d1\u05e8\u05d5\u05ea\u05d9\u05ea \u05d5\u05de\u05e9\u05ea\u05dc\u05d1\u05ea \u05d9\u05e4\u05d4. \u05d0\u05e0\u05d9 \u05de\u05de\u05e9 \u05e9\u05de\u05d7\u05d4."
     },
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "text": "כיף לשמוע, באמת. אז בואי נסכם: שלישי אני אוסף, רביעי אמא שלי, והשאר כרגיל?",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 1.2,
-      "emotional_state": "calm"
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "\u05db\u05d9\u05e3 \u05dc\u05e9\u05de\u05d5\u05e2, \u05d1\u05d0\u05de\u05ea. \u05d0\u05d6 \u05d1\u05d5\u05d0\u05d9 \u05e0\u05e1\u05db\u05dd: \u05e9\u05dc\u05d9\u05e9\u05d9 \u05d0\u05e0\u05d9 \u05d0\u05d5\u05e1\u05e3, \u05e8\u05d1\u05d9\u05e2\u05d9 \u05d0\u05de\u05d0 \u05e9\u05dc\u05d9, \u05d5\u05d4\u05e9\u05d0\u05e8 \u05db\u05e8\u05d2\u05d9\u05dc?"
     },
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "text": "בדיוק. והשאר כרגיל — אני ביום ראשון ורביעי, ואתה ביום חמישי. תודה שסידרנו את זה.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.3,
-      "emotional_state": "calm"
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "\u05d1\u05d3\u05d9\u05d5\u05e7. \u05d5\u05d4\u05e9\u05d0\u05e8 \u05db\u05e8\u05d2\u05d9\u05dc \u2014 \u05d0\u05e0\u05d9 \u05d1\u05d9\u05d5\u05dd \u05e8\u05d0\u05e9\u05d5\u05df \u05d5\u05e8\u05d1\u05d9\u05e2\u05d9, \u05d5\u05d0\u05ea\u05d4 \u05d1\u05d9\u05d5\u05dd \u05d7\u05de\u05d9\u05e9\u05d9. \u05ea\u05d5\u05d3\u05d4 \u05e9\u05e1\u05d9\u05d3\u05e8\u05e0\u05d5 \u05d0\u05ea \u05d6\u05d4."
     },
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "text": "בכיף. אני שם תזכורת בטלפון ככה לא אשכח.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.5,
-      "emotional_state": "calm"
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "\u05d1\u05db\u05d9\u05e3. \u05d0\u05e0\u05d9 \u05e9\u05dd \u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05d1\u05d8\u05dc\u05e4\u05d5\u05df \u05db\u05db\u05d4 \u05dc\u05d0 \u05d0\u05e9\u05db\u05d7."
     }
   ]
 }

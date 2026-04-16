@@ -1,102 +1,102 @@
 {
   "turns": [
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "text": "שוב שכחת לשלם את החשבון? אני לא מבין איך אפשר להיות כל כך חסרת אחריות.",
+      "emotional_state": "angry",
       "intensity": 2,
       "pause_before_s": 0.0,
-      "emotional_state": "angry"
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "\u05e9\u05d5\u05d1 \u05e9\u05db\u05d7\u05ea \u05dc\u05e9\u05dc\u05dd \u05d0\u05ea \u05d4\u05d7\u05e9\u05d1\u05d5\u05df? \u05d0\u05e0\u05d9 \u05dc\u05d0 \u05de\u05d1\u05d9\u05df \u05d0\u05d9\u05da \u05d0\u05e4\u05e9\u05e8 \u05dc\u05d4\u05d9\u05d5\u05ea \u05db\u05dc \u05db\u05da \u05d7\u05e1\u05e8\u05ea \u05d0\u05d7\u05e8\u05d9\u05d5\u05ea."
     },
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "text": "לא שכחתי, פשוט לא היה מספיק כסף בחשבון. אמרתי לך את זה כבר בתחילת השבוע.",
+      "emotional_state": "fearful",
       "intensity": 2,
       "pause_before_s": 0.3,
-      "emotional_state": "fearful"
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "\u05dc\u05d0 \u05e9\u05db\u05d7\u05ea\u05d9, \u05e4\u05e9\u05d5\u05d8 \u05dc\u05d0 \u05d4\u05d9\u05d4 \u05de\u05e1\u05e4\u05d9\u05e7 \u05db\u05e1\u05e3 \u05d1\u05d7\u05e9\u05d1\u05d5\u05df. \u05d0\u05de\u05e8\u05ea\u05d9 \u05dc\u05da \u05d0\u05ea \u05d6\u05d4 \u05db\u05d1\u05e8 \u05d1\u05ea\u05d7\u05d9\u05dc\u05ea \u05d4\u05e9\u05d1\u05d5\u05e2."
     },
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "text": "תמיד יש לך תירוצים! תמיד! אני עובד כמו חמור ואת לא מסוגלת לנהל דבר אחד פשוט בבית הזה.",
+      "emotional_state": "angry",
       "intensity": 3,
       "pause_before_s": 0.2,
-      "emotional_state": "angry"
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "\u05ea\u05de\u05d9\u05d3 \u05d9\u05e9 \u05dc\u05da \u05ea\u05d9\u05e8\u05d5\u05e6\u05d9\u05dd! \u05ea\u05de\u05d9\u05d3! \u05d0\u05e0\u05d9 \u05e2\u05d5\u05d1\u05d3 \u05db\u05de\u05d5 \u05d7\u05de\u05d5\u05e8 \u05d5\u05d0\u05ea \u05dc\u05d0 \u05de\u05e1\u05d5\u05d2\u05dc\u05ea \u05dc\u05e0\u05d4\u05dc \u05d3\u05d1\u05e8 \u05d0\u05d7\u05d3 \u05e4\u05e9\u05d5\u05d8 \u05d1\u05d1\u05d9\u05ea \u05d4\u05d6\u05d4."
     },
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "text": "אני מנסה, אתה יודע שאני מנסה. אל תצעק עליי, בבקשה, השכנים ישמעו.",
+      "emotional_state": "pleading",
       "intensity": 3,
       "pause_before_s": 0.4,
-      "emotional_state": "pleading"
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "\u05d0\u05e0\u05d9 \u05de\u05e0\u05e1\u05d4, \u05d0\u05ea\u05d4 \u05d9\u05d5\u05d3\u05e2 \u05e9\u05d0\u05e0\u05d9 \u05de\u05e0\u05e1\u05d4. \u05d0\u05dc \u05ea\u05e6\u05e2\u05e7 \u05e2\u05dc\u05d9\u05d9, \u05d1\u05d1\u05e7\u05e9\u05d4, \u05d4\u05e9\u05db\u05e0\u05d9\u05dd \u05d9\u05e9\u05de\u05e2\u05d5."
     },
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "text": "שישמעו! מה אכפת לי?! שכולם ידעו איזה בלאגן את עושה פה! את יודעת מה, אני כבר לא יכול ככה.",
+      "emotional_state": "threatening",
       "intensity": 3,
       "pause_before_s": 0.1,
-      "emotional_state": "threatening"
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "\u05e9\u05d9\u05e9\u05de\u05e2\u05d5! \u05de\u05d4 \u05d0\u05db\u05e4\u05ea \u05dc\u05d9?! \u05e9\u05db\u05d5\u05dc\u05dd \u05d9\u05d3\u05e2\u05d5 \u05d0\u05d9\u05d6\u05d4 \u05d1\u05dc\u05d0\u05d2\u05df \u05d0\u05ea \u05e2\u05d5\u05e9\u05d4 \u05e4\u05d4! \u05d0\u05ea \u05d9\u05d5\u05d3\u05e2\u05ea \u05de\u05d4, \u05d0\u05e0\u05d9 \u05db\u05d1\u05e8 \u05dc\u05d0 \u05d9\u05db\u05d5\u05dc \u05db\u05db\u05d4."
     },
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "text": "תרגע, אני מבקשת ממך. אנחנו יכולים לדבר על זה בשקט, לא חייבים ככה.",
+      "emotional_state": "pleading",
       "intensity": 3,
       "pause_before_s": 0.3,
-      "emotional_state": "pleading"
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "\u05ea\u05e8\u05d2\u05e2, \u05d0\u05e0\u05d9 \u05de\u05d1\u05e7\u05e9\u05ea \u05de\u05de\u05da. \u05d0\u05e0\u05d7\u05e0\u05d5 \u05d9\u05db\u05d5\u05dc\u05d9\u05dd \u05dc\u05d3\u05d1\u05e8 \u05e2\u05dc \u05d6\u05d4 \u05d1\u05e9\u05e7\u05d8, \u05dc\u05d0 \u05d7\u05d9\u05d9\u05d1\u05d9\u05dd \u05db\u05db\u05d4."
     },
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "text": "לדבר בשקט?! את רוצה שאני אהיה בשקט כשהכל מתפרק סביבי? את—",
+      "emotional_state": "angry",
       "intensity": 3,
       "pause_before_s": 0.1,
-      "emotional_state": "angry"
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "\u05dc\u05d3\u05d1\u05e8 \u05d1\u05e9\u05e7\u05d8?! \u05d0\u05ea \u05e8\u05d5\u05e6\u05d4 \u05e9\u05d0\u05e0\u05d9 \u05d0\u05d4\u05d9\u05d4 \u05d1\u05e9\u05e7\u05d8 \u05db\u05e9\u05d4\u05db\u05dc \u05de\u05ea\u05e4\u05e8\u05e7 \u05e1\u05d1\u05d9\u05d1\u05d9? \u05d0\u05ea\u2014"
     },
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "text": "רגע... מישהו דופק בדלת.",
+      "emotional_state": "fearful",
       "intensity": 2,
       "pause_before_s": 1.2,
-      "emotional_state": "fearful"
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "\u05e8\u05d2\u05e2... \u05de\u05d9\u05e9\u05d4\u05d5 \u05d3\u05d5\u05e4\u05e7 \u05d1\u05d3\u05dc\u05ea."
     },
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "text": "...מי זה עכשיו?",
+      "emotional_state": "angry",
       "intensity": 2,
       "pause_before_s": 1.0,
-      "emotional_state": "angry"
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "...\u05de\u05d9 \u05d6\u05d4 \u05e2\u05db\u05e9\u05d9\u05d5?"
     },
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "text": "שלום מרים, מה קורה? הכל בסדר?",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 1.5,
-      "emotional_state": "calm"
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "\u05e9\u05dc\u05d5\u05dd \u05de\u05e8\u05d9\u05dd, \u05de\u05d4 \u05e7\u05d5\u05e8\u05d4? \u05d4\u05db\u05dc \u05d1\u05e1\u05d3\u05e8?"
     },
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "text": "אהלן מרים, ערב טוב. סליחה, היה לנו פה דיון קצת סוער על חשבונות, את יודעת איך זה. רצינו להזמין פיצה ולא הסכמנו על תוספות.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.5,
-      "emotional_state": "calm"
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "\u05d0\u05d4\u05dc\u05df \u05de\u05e8\u05d9\u05dd, \u05e2\u05e8\u05d1 \u05d8\u05d5\u05d1. \u05e1\u05dc\u05d9\u05d7\u05d4, \u05d4\u05d9\u05d4 \u05dc\u05e0\u05d5 \u05e4\u05d4 \u05d3\u05d9\u05d5\u05df \u05e7\u05e6\u05ea \u05e1\u05d5\u05e2\u05e8 \u05e2\u05dc \u05d7\u05e9\u05d1\u05d5\u05e0\u05d5\u05ea, \u05d0\u05ea \u05d9\u05d5\u05d3\u05e2\u05ea \u05d0\u05d9\u05da \u05d6\u05d4. \u05e8\u05e6\u05d9\u05e0\u05d5 \u05dc\u05d4\u05d6\u05de\u05d9\u05df \u05e4\u05d9\u05e6\u05d4 \u05d5\u05dc\u05d0 \u05d4\u05e1\u05db\u05de\u05e0\u05d5 \u05e2\u05dc \u05ea\u05d5\u05e1\u05e4\u05d5\u05ea."
     },
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "text": "כן, הכל טוב, ממש. רצית משהו, מרים? בואי תיכנסי רגע, אני שמה עכשיו קומקום.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.3,
-      "emotional_state": "calm"
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "\u05db\u05df, \u05d4\u05db\u05dc \u05d8\u05d5\u05d1, \u05de\u05de\u05e9. \u05e8\u05e6\u05d9\u05ea \u05de\u05e9\u05d4\u05d5, \u05de\u05e8\u05d9\u05dd? \u05d1\u05d5\u05d0\u05d9 \u05ea\u05d9\u05db\u05e0\u05e1\u05d9 \u05e8\u05d2\u05e2, \u05d0\u05e0\u05d9 \u05e9\u05de\u05d4 \u05e2\u05db\u05e9\u05d9\u05d5 \u05e7\u05d5\u05de\u05e7\u05d5\u05dd."
     },
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "text": "באמת, תיכנסי. יש לנו עוגה מהבוקר, אני אחתוך חתיכה. אל תתביישי.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.4,
-      "emotional_state": "calm"
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "\u05d1\u05d0\u05de\u05ea, \u05ea\u05d9\u05db\u05e0\u05e1\u05d9. \u05d9\u05e9 \u05dc\u05e0\u05d5 \u05e2\u05d5\u05d2\u05d4 \u05de\u05d4\u05d1\u05d5\u05e7\u05e8, \u05d0\u05e0\u05d9 \u05d0\u05d7\u05ea\u05d5\u05da \u05d7\u05ea\u05d9\u05db\u05d4. \u05d0\u05dc \u05ea\u05ea\u05d1\u05d9\u05d9\u05e9\u05d9."
     },
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "text": "בואי תשבי איתנו במטבח, מרים. נשתה קפה ביחד, כבר מזמן לא דיברנו.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.5,
-      "emotional_state": "calm"
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "\u05d1\u05d5\u05d0\u05d9 \u05ea\u05e9\u05d1\u05d9 \u05d0\u05d9\u05ea\u05e0\u05d5 \u05d1\u05de\u05d8\u05d1\u05d7, \u05de\u05e8\u05d9\u05dd. \u05e0\u05e9\u05ea\u05d4 \u05e7\u05e4\u05d4 \u05d1\u05d9\u05d7\u05d3, \u05db\u05d1\u05e8 \u05de\u05d6\u05de\u05df \u05dc\u05d0 \u05d3\u05d9\u05d1\u05e8\u05e0\u05d5."
     }
   ]
 }

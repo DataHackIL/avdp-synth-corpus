@@ -1,88 +1,88 @@
 {
   "turns": [
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "text": "תגידי לי, למה הכיור עדיין מלא כלים? אני חוזר מעבודה אחרי עשר שעות ורואה בדיוק את מה שהשארתי בבוקר.",
+      "emotional_state": "neutral",
       "intensity": 1,
       "pause_before_s": 0.0,
-      "emotional_state": "neutral"
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "\u05ea\u05d2\u05d9\u05d3\u05d9 \u05dc\u05d9, \u05dc\u05de\u05d4 \u05d4\u05db\u05d9\u05d5\u05e8 \u05e2\u05d3\u05d9\u05d9\u05df \u05de\u05dc\u05d0 \u05db\u05dc\u05d9\u05dd? \u05d0\u05e0\u05d9 \u05d7\u05d5\u05d6\u05e8 \u05de\u05e2\u05d1\u05d5\u05d3\u05d4 \u05d0\u05d7\u05e8\u05d9 \u05e2\u05e9\u05e8 \u05e9\u05e2\u05d5\u05ea \u05d5\u05e8\u05d5\u05d0\u05d4 \u05d1\u05d3\u05d9\u05d5\u05e7 \u05d0\u05ea \u05de\u05d4 \u05e9\u05d4\u05e9\u05d0\u05e8\u05ea\u05d9 \u05d1\u05d1\u05d5\u05e7\u05e8."
     },
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "text": "גם אני עבדתי היום, אתה יודע. לא ישבתי בבית על הספה. לא הספקתי, פשוט לא הספקתי.",
+      "emotional_state": "angry",
       "intensity": 2,
       "pause_before_s": 0.8,
-      "emotional_state": "angry"
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "\u05d2\u05dd \u05d0\u05e0\u05d9 \u05e2\u05d1\u05d3\u05ea\u05d9 \u05d4\u05d9\u05d5\u05dd, \u05d0\u05ea\u05d4 \u05d9\u05d5\u05d3\u05e2. \u05dc\u05d0 \u05d9\u05e9\u05d1\u05ea\u05d9 \u05d1\u05d1\u05d9\u05ea \u05e2\u05dc \u05d4\u05e1\u05e4\u05d4. \u05dc\u05d0 \u05d4\u05e1\u05e4\u05e7\u05ea\u05d9, \u05e4\u05e9\u05d5\u05d8 \u05dc\u05d0 \u05d4\u05e1\u05e4\u05e7\u05ea\u05d9."
     },
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "text": "אבל תמיד את לא מספיקה. כל יום זה אותו דבר. אני מרגיש שאני היחיד שרואה את הבלאגן הזה.",
+      "emotional_state": "angry",
       "intensity": 2,
       "pause_before_s": 0.3,
-      "emotional_state": "angry"
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "\u05d0\u05d1\u05dc \u05ea\u05de\u05d9\u05d3 \u05d0\u05ea \u05dc\u05d0 \u05de\u05e1\u05e4\u05d9\u05e7\u05d4. \u05db\u05dc \u05d9\u05d5\u05dd \u05d6\u05d4 \u05d0\u05d5\u05ea\u05d5 \u05d3\u05d1\u05e8. \u05d0\u05e0\u05d9 \u05de\u05e8\u05d2\u05d9\u05e9 \u05e9\u05d0\u05e0\u05d9 \u05d4\u05d9\u05d7\u05d9\u05d3 \u05e9\u05e8\u05d5\u05d0\u05d4 \u05d0\u05ea \u05d4\u05d1\u05dc\u05d0\u05d2\u05df \u05d4\u05d6\u05d4."
     },
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "text": "היחיד? אתה צוחק עליי? מי מכבס פה? מי מסדר את הילדים בבוקר? אתה בכלל יודע מה קורה בבית הזה לפני שאתה קם?",
+      "emotional_state": "angry",
       "intensity": 3,
       "pause_before_s": 0.2,
-      "emotional_state": "angry"
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "\u05d4\u05d9\u05d7\u05d9\u05d3? \u05d0\u05ea\u05d4 \u05e6\u05d5\u05d7\u05e7 \u05e2\u05dc\u05d9\u05d9? \u05de\u05d9 \u05de\u05db\u05d1\u05e1 \u05e4\u05d4? \u05de\u05d9 \u05de\u05e1\u05d3\u05e8 \u05d0\u05ea \u05d4\u05d9\u05dc\u05d3\u05d9\u05dd \u05d1\u05d1\u05d5\u05e7\u05e8? \u05d0\u05ea\u05d4 \u05d1\u05db\u05dc\u05dc \u05d9\u05d5\u05d3\u05e2 \u05de\u05d4 \u05e7\u05d5\u05e8\u05d4 \u05d1\u05d1\u05d9\u05ea \u05d4\u05d6\u05d4 \u05dc\u05e4\u05e0\u05d9 \u05e9\u05d0\u05ea\u05d4 \u05e7\u05dd?"
     },
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "text": "אני לא אמרתי שאת לא עושה כלום, אל תשימי לי מילים ב— ",
+      "emotional_state": "angry",
       "intensity": 3,
       "pause_before_s": 0.1,
-      "emotional_state": "angry"
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "\u05d0\u05e0\u05d9 \u05dc\u05d0 \u05d0\u05de\u05e8\u05ea\u05d9 \u05e9\u05d0\u05ea \u05dc\u05d0 \u05e2\u05d5\u05e9\u05d4 \u05db\u05dc\u05d5\u05dd, \u05d0\u05dc \u05ea\u05e9\u05d9\u05de\u05d9 \u05dc\u05d9 \u05de\u05d9\u05dc\u05d9\u05dd \u05d1\u2014 "
     },
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "text": "—אז מה אתה כן אומר? כי כל פעם שאתה מתחיל עם הכיור זה כאילו אני עוזרת בית שלא עשתה את העבודה שלה!",
+      "emotional_state": "angry",
       "intensity": 3,
       "pause_before_s": 0.0,
-      "emotional_state": "angry"
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "\u2014\u05d0\u05d6 \u05de\u05d4 \u05d0\u05ea\u05d4 \u05db\u05df \u05d0\u05d5\u05de\u05e8? \u05db\u05d9 \u05db\u05dc \u05e4\u05e2\u05dd \u05e9\u05d0\u05ea\u05d4 \u05de\u05ea\u05d7\u05d9\u05dc \u05e2\u05dd \u05d4\u05db\u05d9\u05d5\u05e8 \u05d6\u05d4 \u05db\u05d0\u05d9\u05dc\u05d5 \u05d0\u05e0\u05d9 \u05e2\u05d5\u05d6\u05e8\u05ea \u05d1\u05d9\u05ea \u05e9\u05dc\u05d0 \u05e2\u05e9\u05ea\u05d4 \u05d0\u05ea \u05d4\u05e2\u05d1\u05d5\u05d3\u05d4 \u05e9\u05dc\u05d4!"
     },
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "text": "אני לא מתייחס אלייך ככה ואת יודעת את זה. אני פשוט... אני עייף. אני רוצה לחזור לבית מסודר, זה הכל. זה כזה נורא?",
+      "emotional_state": "angry",
       "intensity": 3,
       "pause_before_s": 0.4,
-      "emotional_state": "angry"
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "\u05d0\u05e0\u05d9 \u05dc\u05d0 \u05de\u05ea\u05d9\u05d9\u05d7\u05e1 \u05d0\u05dc\u05d9\u05d9\u05da \u05db\u05db\u05d4 \u05d5\u05d0\u05ea \u05d9\u05d5\u05d3\u05e2\u05ea \u05d0\u05ea \u05d6\u05d4. \u05d0\u05e0\u05d9 \u05e4\u05e9\u05d5\u05d8... \u05d0\u05e0\u05d9 \u05e2\u05d9\u05d9\u05e3. \u05d0\u05e0\u05d9 \u05e8\u05d5\u05e6\u05d4 \u05dc\u05d7\u05d6\u05d5\u05e8 \u05dc\u05d1\u05d9\u05ea \u05de\u05e1\u05d5\u05d3\u05e8, \u05d6\u05d4 \u05d4\u05db\u05dc. \u05d6\u05d4 \u05db\u05d6\u05d4 \u05e0\u05d5\u05e8\u05d0?"
     },
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "text": "גם אני עייפה, יוסי. גם אני רוצה לחזור לבית מסודר. אתה חושב שנעים לי לראות את הבלאגן?",
+      "emotional_state": "sad",
       "intensity": 2,
       "pause_before_s": 1.0,
-      "emotional_state": "sad"
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "\u05d2\u05dd \u05d0\u05e0\u05d9 \u05e2\u05d9\u05d9\u05e4\u05d4, \u05d9\u05d5\u05e1\u05d9. \u05d2\u05dd \u05d0\u05e0\u05d9 \u05e8\u05d5\u05e6\u05d4 \u05dc\u05d7\u05d6\u05d5\u05e8 \u05dc\u05d1\u05d9\u05ea \u05de\u05e1\u05d5\u05d3\u05e8. \u05d0\u05ea\u05d4 \u05d7\u05d5\u05e9\u05d1 \u05e9\u05e0\u05e2\u05d9\u05dd \u05dc\u05d9 \u05dc\u05e8\u05d0\u05d5\u05ea \u05d0\u05ea \u05d4\u05d1\u05dc\u05d0\u05d2\u05df?"
     },
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "text": "...לא, את צודקת. אני יודע שאת לא עושה את זה בכוונה. סליחה שזה יצא כאילו אני מאשים אותך. זה פשוט... הכל נערם.",
+      "emotional_state": "calm",
       "intensity": 2,
       "pause_before_s": 1.2,
-      "emotional_state": "calm"
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "...\u05dc\u05d0, \u05d0\u05ea \u05e6\u05d5\u05d3\u05e7\u05ea. \u05d0\u05e0\u05d9 \u05d9\u05d5\u05d3\u05e2 \u05e9\u05d0\u05ea \u05dc\u05d0 \u05e2\u05d5\u05e9\u05d4 \u05d0\u05ea \u05d6\u05d4 \u05d1\u05db\u05d5\u05d5\u05e0\u05d4. \u05e1\u05dc\u05d9\u05d7\u05d4 \u05e9\u05d6\u05d4 \u05d9\u05e6\u05d0 \u05db\u05d0\u05d9\u05dc\u05d5 \u05d0\u05e0\u05d9 \u05de\u05d0\u05e9\u05d9\u05dd \u05d0\u05d5\u05ea\u05da. \u05d6\u05d4 \u05e4\u05e9\u05d5\u05d8... \u05d4\u05db\u05dc \u05e0\u05e2\u05e8\u05dd."
     },
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "text": "גם אני מצטערת שצעקתי. אני יודעת שאתה לא מתכוון לרע. פשוט כשאתה מתחיל עם הכיור אני מרגישה שלא רואים את כל מה שאני כן עושה.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.5,
-      "emotional_state": "calm"
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "\u05d2\u05dd \u05d0\u05e0\u05d9 \u05de\u05e6\u05d8\u05e2\u05e8\u05ea \u05e9\u05e6\u05e2\u05e7\u05ea\u05d9. \u05d0\u05e0\u05d9 \u05d9\u05d5\u05d3\u05e2\u05ea \u05e9\u05d0\u05ea\u05d4 \u05dc\u05d0 \u05de\u05ea\u05db\u05d5\u05d5\u05df \u05dc\u05e8\u05e2. \u05e4\u05e9\u05d5\u05d8 \u05db\u05e9\u05d0\u05ea\u05d4 \u05de\u05ea\u05d7\u05d9\u05dc \u05e2\u05dd \u05d4\u05db\u05d9\u05d5\u05e8 \u05d0\u05e0\u05d9 \u05de\u05e8\u05d2\u05d9\u05e9\u05d4 \u05e9\u05dc\u05d0 \u05e8\u05d5\u05d0\u05d9\u05dd \u05d0\u05ea \u05db\u05dc \u05de\u05d4 \u05e9\u05d0\u05e0\u05d9 \u05db\u05df \u05e2\u05d5\u05e9\u05d4."
     },
     {
-      "speaker_id": "AGG_M_30-45_001",
-      "text": "אני רואה, באמת. אולי פשוט נחלק את זה אחרת? אני אשטוף כלים בערב כשאני חוזר, ואת תמשיכי עם הכביסה והילדים בבוקר. מה את אומרת?",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.7,
-      "emotional_state": "calm"
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "\u05d0\u05e0\u05d9 \u05e8\u05d5\u05d0\u05d4, \u05d1\u05d0\u05de\u05ea. \u05d0\u05d5\u05dc\u05d9 \u05e4\u05e9\u05d5\u05d8 \u05e0\u05d7\u05dc\u05e7 \u05d0\u05ea \u05d6\u05d4 \u05d0\u05d7\u05e8\u05ea? \u05d0\u05e0\u05d9 \u05d0\u05e9\u05d8\u05d5\u05e3 \u05db\u05dc\u05d9\u05dd \u05d1\u05e2\u05e8\u05d1 \u05db\u05e9\u05d0\u05e0\u05d9 \u05d7\u05d5\u05d6\u05e8, \u05d5\u05d0\u05ea \u05ea\u05de\u05e9\u05d9\u05db\u05d9 \u05e2\u05dd \u05d4\u05db\u05d1\u05d9\u05e1\u05d4 \u05d5\u05d4\u05d9\u05dc\u05d3\u05d9\u05dd \u05d1\u05d1\u05d5\u05e7\u05e8. \u05de\u05d4 \u05d0\u05ea \u05d0\u05d5\u05de\u05e8\u05ea?"
     },
     {
-      "speaker_id": "VIC_F_25-40_002",
-      "text": "זה נשמע הגיוני. בוא ננסה ככה השבוע ונראה אם זה עובד. ותודה שאתה מוכן לדבר על זה ולא סתם להיסגר.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.5,
-      "emotional_state": "calm"
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "\u05d6\u05d4 \u05e0\u05e9\u05de\u05e2 \u05d4\u05d2\u05d9\u05d5\u05e0\u05d9. \u05d1\u05d5\u05d0 \u05e0\u05e0\u05e1\u05d4 \u05db\u05db\u05d4 \u05d4\u05e9\u05d1\u05d5\u05e2 \u05d5\u05e0\u05e8\u05d0\u05d4 \u05d0\u05dd \u05d6\u05d4 \u05e2\u05d5\u05d1\u05d3. \u05d5\u05ea\u05d5\u05d3\u05d4 \u05e9\u05d0\u05ea\u05d4 \u05de\u05d5\u05db\u05df \u05dc\u05d3\u05d1\u05e8 \u05e2\u05dc \u05d6\u05d4 \u05d5\u05dc\u05d0 \u05e1\u05ea\u05dd \u05dc\u05d4\u05d9\u05e1\u05d2\u05e8."
     }
   ]
 }
