@@ -1,0 +1,43 @@
+delivery_id: "001"
+slug: debug-run-1
+date: "2026-04-15"
+status: superseded  # replaced by 002-m2a-wettest and later deliveries
+
+pr:
+  repo: DataHackIL/avdp-synth-corpus
+  number: 1
+  url: https://github.com/DataHackIL/avdp-synth-corpus/pull/1
+
+synthbanshee:
+  commit: d760c0e
+  generator_version: "0.1.0"
+  pipeline_milestone: v1-baseline  # pre-V3 pipeline; no prosody config
+
+clips:
+  total: 1
+  total_duration_seconds: 156
+  project: she_proves
+  tier: A
+  typologies:
+    IT: 1
+  speakers:
+    - AGG_M_30-45_001
+    - VIC_F_25-40_002
+
+audio:
+  sample_rate_hz: 16000
+  channels: 1
+  bit_depth: 16
+  tts_engine: azure_he_IL
+  voices:
+    - he-IL-AvriNeural
+    - he-IL-HilaNeural
+
+known_limitations:
+  - VIC baseline F0 too high (~215 Hz; rises to child-voice range at I5)
+  - Near-zero RMS variation across intensity levels (Azure volume normalization)
+  - Hebrew gender-agreement errors in AGG→VIC address forms
+  - No per-turn prosody config (M2a not yet applied)
+  - No inter-turn overlap or interruption
+
+intended_use: pipeline smoke-test and label schema validation only

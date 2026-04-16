@@ -134,6 +134,14 @@ synthbanshee qa-report data/he/
 
 ---
 
+## Delivery history
+
+All data deliveries are logged in **[DELIVERIES.md](DELIVERIES.md)** — one row per merged PR,
+with clip counts, duration, prosody QA results, and known limitations.
+Per-delivery notes and structured metadata live under `deliveries/{slug}/`.
+
+---
+
 ## Related repositories
 
 | Repo | Purpose |

@@ -1,0 +1,65 @@
+delivery_id: "002"
+slug: m2a-wettest
+date: "2026-04-15"
+status: provisional  # wet-test batch; not yet approved for model training
+
+pr:
+  repo: DataHackIL/avdp-synth-corpus
+  number: 2
+  url: https://github.com/DataHackIL/avdp-synth-corpus/pull/2
+
+synthbanshee:
+  commit: adf4a22
+  generator_version: "0.1.0"
+  pipeline_milestone: M2a  # SSML prosody defaults (SynthBanshee PR #24)
+
+clips:
+  total: 8
+  total_duration_seconds: 1021
+  project: she_proves
+  tier: A
+  typologies:
+    SV: 2
+    IT: 2
+    NEG: 2
+    NEU: 2
+  speakers:
+    - AGG_M_30-45_001
+    - VIC_F_25-40_002
+
+audio:
+  sample_rate_hz: 16000
+  channels: 1
+  bit_depth: 16
+  tts_engine: azure_he_IL
+  voices:
+    - he-IL-AvriNeural
+    - he-IL-HilaNeural
+
+prosody_qa:
+  tool: synthbanshee measure-prosody
+  results:
+    vic_i1_f0_hz: 160.1      # threshold: ≤200 Hz  PASS
+    vic_i4_f0_hz: 185.0      # threshold: <250 Hz   PASS
+    vic_i5_f0_hz: 200.1      # threshold: <250 Hz   PASS
+    agg_rms_delta_db: +0.4   # threshold: ≥8 dB     FAIL — pending M3
+  subjective_qa:
+    neu_pitch: pass          # calm, flat delivery confirmed by human ear
+    neg_delivery: pass       # friction/argument audible, no false positives
+    agg_helium_artefact: pass  # pitch creep fixed (M2a); rate now carries urgency
+    vic_pitch_direction: pass  # flat/falling under stress confirmed
+
+fixes_vs_001:
+  - VIC pitch_delta_st inverted: rising (0→+7 st) → capped falling (-4→-1 st)
+  - AGG pitch_delta_st flattened: (0→+4 st) → capped at +1 st (I4/I5 only)
+  - Hebrew gender disambiguation applied (M1, SynthBanshee PR #23)
+  - Output routed to corpus repo via SYNTHBANSHEE_DATA_DIR env var
+
+known_limitations:
+  - AGG RMS escalation flat (+0.4 dB vs ≥8 dB target) — Azure output normalization;
+    fix pending M3 (per-turn RMS gain in SceneMixer)
+  - No inter-turn overlap or interruption
+  - No acoustic augmentation (Tier A; Tier B pending Phase 2)
+  - Robotic intonation and slow delivery (TTS limitation; not targeted until M4+)
+
+intended_use: prosody QA validation for M2a milestone; not approved for model training
