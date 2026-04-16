@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  actions: read
+  pull-requests: write
+
+jobs:
+  pr-agent-context:
+    uses: shaypal5/pr-agent-context/.github/workflows/pr-agent-context.yml@v4
+    with:
+      include_review_comments: true
+      include_outdated_review_threads: true
+    secrets:
+      github_token: ${{ secrets.GITHUB_TOKEN }}
