@@ -1,0 +1,43 @@
+[CLIP_ID: sp_sv_a_0001_00]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 0.50 | OFFSET: 9.64]
+מה זה הארוחה הזאת? שאלתי אותך דבר אחד פשוט, לעשות ארוחת ערב נורמלית. זה יותר מדי בשבילך?
+[ACTION: VERB_SHOUT | INTENSITY: 2]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 10.44 | OFFSET: 20.16]
+עבדתי עד שש היום. עשיתי מה שהספקתי. אם זה לא מספיק טוב, אתה מוזמן לבשל בעצמך.
+[ACTION: VERB_SHOUT | INTENSITY: 2]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 20.46 | OFFSET: 31.14]
+אה, עכשיו גם חוצפה? אני עובד שתים עשרה שעות ביום ואת לא מסוגלת לעשות דבר אחד כמו שצריך. דבר אחד. תמיד ככה איתך.
+[ACTION: VERB_THREAT | INTENSITY: 3]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 31.64 | OFFSET: 42.40]
+למה אתה תמיד צריך להקטין את מה שאני עושה? גם אני עובדת, גם אני עייפה. אתה אף פעם לא מרוצה.
+[ACTION: VERB_THREAT | INTENSITY: 3]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 42.60 | OFFSET: 51.93]
+כי את לא עושה כלום! תסתכלי על הבית הזה, תסתכלי על עצמך. בושה. אמא שלי צדקה לגביך, את לא שווה כלום.
+[ACTION: DIST_SCREAM | INTENSITY: 4]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 52.33 | OFFSET: 61.96]
+אל תדבר ככה אליי. אני מבקשת ממך, תפסיק. אל תכניס את אמא שלך לזה.
+[ACTION: VERB_THREAT | INTENSITY: 3]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 62.06 | OFFSET: 70.86]
+מה, עכשיו את תגידי לי מה לעשות? את תגידי לי? אני מזהיר אותך, תסתמי עכשיו. תסתמי את הפה.
+[ACTION: DIST_SCREAM | INTENSITY: 4]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 71.46 | OFFSET: 79.24]
+אתה מפחיד אותי כשאתה ככה. בבקשה, בוא ניקח אוויר, בוא נירגע...
+[ACTION: DIST_SCREAM | INTENSITY: 4]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 79.34 | OFFSET: 82.58]
+שתקתי! אמרתי לך תשתקי!
+[ACTION: PHYS_HARD | INTENSITY: 5]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 82.78 | OFFSET: 90.34]
+אאא! לא! עזוב אותי! כואב לי! כואב!
+[ACTION: PHYS_HARD | INTENSITY: 5]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 90.64 | OFFSET: 94.43]
+תלמדי לשתוק כשאני מדבר. שמעת אותי?
+[ACTION: PHYS_HARD | INTENSITY: 5]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 95.13 | OFFSET: 103.70]
+בבקשה... תפסיק... אני לא... אני לא יכולה לנשום...
+[ACTION: DIST_SCREAM | INTENSITY: 4]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 105.20 | OFFSET: 115.14]
+תפסיקי לבכות. את עושה מזה עניין של מה בכך. לא עשיתי לך שום דבר. את תמיד מגזימה, תמיד.
+[ACTION: VERB_SHOUT | INTENSITY: 2]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 116.34 | OFFSET: 121.98]
+היד שלי... הכאת אותי... למה...
+[ACTION: VERB_SHOUT | INTENSITY: 2]

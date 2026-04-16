@@ -1,0 +1,43 @@
+[CLIP_ID: sp_it_a_0002_00]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 0.50 | OFFSET: 8.28]
+אמא התקשרה היום, היא רוצה לבוא מחר אחר הצהריים. חשבתי להכין לה קפה ועוגה.
+[ACTION: EMOT_GASLIT | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 9.08 | OFFSET: 18.46]
+מחר? זה קצת בלי התראה מראש, לא? היה לנו שבוע ארוך, חשבתי שנהיה ביחד בשקט.
+[ACTION: EMOT_GASLIT | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 18.76 | OFFSET: 26.44]
+אני יודעת, אבל לא ראיתי אותה כבר שבועיים. היא גם נשמעה קצת עצובה בטלפון.
+[ACTION: EMOT_GASLIT | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 26.94 | OFFSET: 37.69]
+תמיד היא נשמעת עצובה, שמת לב? כל פעם שהיא מתקשרת יש איזה דרמה. אני פשוט דואג לך, את חוזרת מהביקורים האלה מותשת.
+[ACTION: EMOT_GASLIT | INTENSITY: 2]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 38.09 | OFFSET: 46.85]
+היא לא עושה דרמות... היא פשוט לבד הרבה מאז שאבא נפטר. זה טבעי שהיא צריכה אותי.
+[ACTION: EMOT_GASLIT | INTENSITY: 2]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 47.45 | OFFSET: 58.16]
+צריכה אותך? היא תלויה בך, יש הבדל. את שמה לב איך כל פעם שאנחנו בתקופה טובה, היא מתקשרת ומושכת אותך לשם? זה לא מקרי.
+[ACTION: EMOT_ISOL | INTENSITY: 3]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 58.36 | OFFSET: 67.00]
+מה אתה אומר? שאמא שלי עושה את זה בכוונה? היא לא כזאת, אתה מכיר אותה.
+[ACTION: EMOT_ISOL | INTENSITY: 3]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 67.70 | OFFSET: 79.00]
+אני מכיר אותה, ובדיוק בגלל זה אני אומר לך. תזכרי מה היא אמרה לך לפני החתונה, איך היא ניסתה לשכנע אותך לא להתחתן איתי. היא אף פעם לא באמת קיבלה אותנו.
+[ACTION: EMOT_ISOL | INTENSITY: 3]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 79.30 | OFFSET: 88.42]
+היא רק רצתה שאני אהיה בטוחה... היא אמא. אני לא יכולה פשוט לנתק ממנה קשר.
+[ACTION: EMOT_ISOL | INTENSITY: 3]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 89.42 | OFFSET: 99.00]
+אף אחד לא אמר לנתק קשר. אבל שאלה פשוטה — מי יותר חשוב לך? המשפחה שלנו, או לרוץ כל פעם שאמא שלך מחליטה שהיא עצובה?
+[ACTION: VERB_THREAT | INTENSITY: 4]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 99.20 | OFFSET: 107.96]
+למה אתה מכריח אותי לבחור? אני אוהבת אותך ואני אוהבת אותה, זה לא צריך להיות תחרות.
+[ACTION: VERB_THREAT | INTENSITY: 4]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 108.86 | OFFSET: 122.58]
+אני לא מכריח אותך, אני מבקש ממך לחשוב על מה טוב לנו. כל ביקור שלה כאן נגמר באותו דבר — היא ממלאה לך את הראש, ואחר כך את באה אליי עם טענות. אני כבר לא יכול ככה. תגידי לה שמחר לא מתאים.
+[ACTION: VERB_THREAT | INTENSITY: 5]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 123.78 | OFFSET: 131.80]
+אני... אני לא יודעת מה להגיד לה. היא כבר תכננה, היא תיפגע.
+[ACTION: VERB_THREAT | INTENSITY: 4]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 132.30 | OFFSET: 146.24]
+תגידי לה שאת לא מרגישה טוב, זה הכל. אם היא באמת אוהבת אותך, היא תבין. ואם לא — ובכן, זה בדיוק מה שאני אומר לך כל הזמן. בואי, תשבי, אני אכין לך תה.
+[ACTION: EMOT_ISOL | INTENSITY: 3]

@@ -1,0 +1,37 @@
+[CLIP_ID: sp_sv_a_0002_00]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 0.50 | OFFSET: 6.57]
+אמרתי לך אלף פעם לא לדבר עם ההוא בטלפון. מה לא ברור לך?
+[ACTION: VERB_SHOUT | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 6.87 | OFFSET: 13.23]
+זה עמית מהעבודה, דיברנו על פרויקט. אתה מגזים כמו תמיד.
+[ACTION: VERB_SHOUT | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 13.43 | OFFSET: 22.91]
+מגזים? את חושבת שאני אידיוט? ראיתי איך את מחייכת לתוך המסך. פרויקט, בטח.
+[ACTION: VERB_SHOUT | INTENSITY: 2]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 23.41 | OFFSET: 30.13]
+אני לא צריכה להצטדק על כל שיחה. תפסיק עם הקנאה החולנית הזאת.
+[ACTION: VERB_SHOUT | INTENSITY: 2]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 30.23 | OFFSET: 36.78]
+את לא תגידי לי מה חולני ומה לא. את שומעת אותי? את לא תגידי לי.
+[ACTION: VERB_SHOUT | INTENSITY: 2]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 37.98 | OFFSET: 45.26]
+למה אתה הולך למטבח? מה אתה... מה אתה לוקח משם?
+[ACTION: DIST_SCREAM | INTENSITY: 4]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 45.66 | OFFSET: 51.82]
+את רואה את הסכין הזאת? את רואה? תשבי. אל תזוזי מהספה.
+[ACTION: PHYS_HARD | INTENSITY: 5]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 51.92 | OFFSET: 58.48]
+אלוהים, תוריד את הסכין! בבקשה, תוריד אותה, אתה מפחיד אותי!
+[ACTION: PHYS_HARD | INTENSITY: 5]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 58.78 | OFFSET: 67.10]
+מפחיד אותך? טוב. ככה תבינו מה קורה כשמשקרים לי. הסכין נשארת ביד שלי עד שתגידי לי את האמת.
+[ACTION: PHYS_HARD | INTENSITY: 5]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 67.90 | OFFSET: 79.02]
+אני רוצה לצאת מהדירה. תן לי לעבור לדלת, בבקשה. אני לא אגיד לאף אחד, רק תן לי ללכת.
+[ACTION: VERB_THREAT | INTENSITY: 3]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 79.22 | OFFSET: 86.94]
+את לא הולכת לשום מקום. תשבי. אם תזוזי צעד אחד לכיוון הדלת עם הסכין ביד שלי, את יודעת מה יקרה.
+[ACTION: PHYS_HARD | INTENSITY: 5]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 87.44 | OFFSET: 98.94]
+אוקיי, אוקיי, אני יושבת. אני לא זזה. רק תרגע, תוריד את הסכין מהיד, בבקשה.
+[ACTION: VERB_THREAT | INTENSITY: 3]

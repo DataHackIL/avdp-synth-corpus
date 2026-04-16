@@ -4,6 +4,11 @@ Synthetic Hebrew audio dataset for the **Audio Violence Detection Pipeline (AVDP
 
 This is a **data-only repository**. It contains no application code. All pipeline logic, configuration, documentation, and tests live in SynthBanshee.
 
+> **If you are a Claude Code agent or AI assistant:** read [`CLAUDE.md`](CLAUDE.md) before
+> making any changes. Key rules: never rename/modify/delete files in `assets/`; never edit
+> `.wav` files by hand; always update `DELIVERIES.md` when adding clips; never drop
+> `has_violence` from metadata or manifests.
+
 ---
 
 ## What is this data for?
@@ -63,7 +68,7 @@ Labels follow a three-level hierarchy defined in `configs/taxonomy.yaml` in the 
 | Tier 1 category (event-level) | `tier1_category` | `PHYS`, `VERB`, `DIST`, `ACOU`, `EMOT`, `NONE` |
 | Tier 2 subtype (event-level) | `tier2_subtype` | `VERB_THREAT`, `DIST_SCREAM`, `PHYS_HARD` |
 
-There are **no binary Violence/Non-Violence labels** anywhere in this dataset. The spec explicitly prohibits them.
+`has_violence` is a **derived convenience field** computed from the hierarchical taxonomy (`violence_typology`, `violence_categories`, `max_intensity`). It is provided for fast filtering and baseline modelling. The taxonomy columns are the ground truth — `has_violence` must never be the only label used for training.
 
 Intensity is scored 1–5 per turn:
 
@@ -131,6 +136,21 @@ To run QA over an entire dataset directory:
 ```bash
 synthbanshee qa-report data/he/
 ```
+
+---
+
+## Delivery history
+
+All data deliveries are logged in **[DELIVERIES.md](DELIVERIES.md)** — one row per merged PR,
+with clip counts, duration, prosody QA results, and known limitations.
+Per-delivery notes and structured metadata live under `deliveries/{slug}/`.
+
+---
+
+## Agent and contributor guidelines
+
+See [`CLAUDE.md`](CLAUDE.md) for the full rules governing this repository — cache integrity,
+label policy, delivery log conventions, and what not to do.
 
 ---
 

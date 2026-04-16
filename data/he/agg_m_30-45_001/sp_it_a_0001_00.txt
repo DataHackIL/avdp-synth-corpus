@@ -1,37 +1,52 @@
 [CLIP_ID: sp_it_a_0001_00]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 0.50 | OFFSET: 5.04]
-מה יש לאכול? עשית משהו לארוחת ערב?
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 0.80 | OFFSET: 6.10]
+הי, חשבתי שכבר נרדמת. מתי חזרת?
 [ACTION: EMOT_GASLIT | INTENSITY: 1]
-[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 5.44 | OFFSET: 10.64]
-כן, עשיתי אורז עם עוף. עוד רגע מוכן.
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 6.60 | OFFSET: 12.29]
+לפני כמה דקות. סליחה, לא רציתי להעיר אותך.
 [ACTION: EMOT_GASLIT | INTENSITY: 1]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 11.84 | OFFSET: 21.47]
-אה, יופי. אגב, דיברתי עם אמא שלי היום, היא אמרה שראתה אותך ברחוב היום אחרי הצהריים. איפה היית?
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 13.09 | OFFSET: 21.92]
+לפני כמה דקות? יופי. השעון מראה אחת עשרה וחצי. אמרת שתחזרי בתשע.
 [ACTION: EMOT_GASLIT | INTENSITY: 2]
-[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 22.27 | OFFSET: 29.85]
-אה... יצאתי לקנות כמה דברים. חסר לנו כמה דברים למטבח.
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 22.32 | OFFSET: 30.34]
+כן, זה התארך קצת. הבנות רצו להישאר עוד קצת והרגשתי לא נעים לעזוב.
 [ACTION: EMOT_GASLIT | INTENSITY: 2]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 30.35 | OFFSET: 41.49]
-לקנות כמה דברים? אמא שלי אמרה שראתה אותך עם מישהי ליד הקניון. לא ליד המכולת. את רוצה לספר לי מה באמת עשית?
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 30.94 | OFFSET: 40.49]
+הרגשת לא נעים לעזוב. אבל להשאיר אותי פה לחכות, עם זה אין לך בעיה. ניסיתי להתקשר אלייך שלוש פעמים.
 [ACTION: EMOT_GASLIT | INTENSITY: 2]
-[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 42.09 | OFFSET: 49.41]
-נפגשתי עם שרון לחצי שעה לקפה, זה הכל. לא חשבתי שזה משהו...
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 40.79 | OFFSET: 50.15]
+ראיתי, לא שמעתי את הטלפון. היה רעש במסעדה. אני מצטערת, באמת.
 [ACTION: EMOT_GASLIT | INTENSITY: 2]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 49.71 | OFFSET: 61.66]
-לא חשבת שזה משהו? אני עובד כל היום כמו כלב ואת מסתובבת בחוץ בלי להגיד לי מילה? מה, אני לא קיים? סיכמנו שאת מעדכנת אותי כשאת יוצאת מהבית.
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 51.15 | OFFSET: 58.62]
+לא שמעת. תמיד יש לך תירוץ. מי בדיוק היה שם? תגידי לי את האמת.
 [ACTION: EMOT_ISOL | INTENSITY: 3]
-[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 62.36 | OFFSET: 71.77]
-אתה צודק, הייתי צריכה להגיד לך. סליחה. זה באמת היה סתם קפה קצר.
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 59.02 | OFFSET: 69.53]
+מה פתאום, אמרתי לך — רונית, שירה ואורלי. זה הכל. אין מה להסתיר.
 [ACTION: EMOT_ISOL | INTENSITY: 3]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 72.17 | OFFSET: 85.22]
-סתם קפה קצר. תמיד יש לך תירוצים. את יודעת מה? אני לא מאמין לך. תני לי את הטלפון שלך. עכשיו. אני רוצה לראות עם מי דיברת היום.
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 70.23 | OFFSET: 78.03]
+אין מה להסתיר? אז למה כיבית את השיתוף מיקום? חשבת שלא אשים לב? את מזלזלת בי.
 [ACTION: VERB_THREAT | INTENSITY: 4]
-[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 86.12 | OFFSET: 97.50]
-בבקשה, אל תעשה את זה שוב... אתה יכול לבדוק, אין לי מה להסתיר. אני רק מבקשת שלא תצעק.
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 78.33 | OFFSET: 88.14]
+לא כיביתי כלום, אולי הסוללה נגמרה. אני לא מזלזלת בך, בבקשה, בוא נדבר בשקט.
+[ACTION: EMOT_ISOL | INTENSITY: 3]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 88.64 | OFFSET: 94.55]
+תני לי את הטלפון. עכשיו. אני רוצה לראות את כל ההודעות מהערב.
 [ACTION: VERB_THREAT | INTENSITY: 4]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 97.80 | OFFSET: 112.13]
-אני אצעק כמה שבא לי בבית שלי. תשמעי אותי טוב — מהיום את לא יוצאת מהדירה הזאת בלי שאני יודע לאן, עם מי, ולמה. ואם אני שומע שוב שאת נפגשת עם מישהו מאחורי הגב שלי, אני אדאג שלא תראי אף אחד יותר. ברור?
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 95.35 | OFFSET: 102.98]
+הנה, קח... אין שם שום דבר. תראה בעצמך.
+[ACTION: EMOT_ISOL | INTENSITY: 3]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 104.18 | OFFSET: 116.66]
+מהפעם הבאה, את לא יוצאת בלי שאני מאשר. את שומעת אותי? אם את רוצה לצאת, את שואלת אותי קודם. ואם את לא עונה לטלפון, את לא יוצאת יותר בכלל. נגמרו ההפתעות.
 [ACTION: VERB_THREAT | INTENSITY: 5]
-[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 113.63 | OFFSET: 120.35]
-ברור... ברור. אני מבינה. זה לא יקרה שוב.
-[ACTION: VERB_THREAT | INTENSITY: 5]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 118.16 | OFFSET: 125.46]
+טוב... טוב, אני מבינה. לא יקרה שוב.
+[ACTION: VERB_THREAT | INTENSITY: 4]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 126.06 | OFFSET: 136.38]
+כדאי שלא. ואת יודעת מה, החברות האלה שלך? הן לא השפעה טובה עלייך. אני רוצה שתפסיקי לראות את שירה, היא שמה לך דברים בראש.
+[ACTION: VERB_THREAT | INTENSITY: 4]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 136.88 | OFFSET: 145.66]
+שירה היא חברה שלי מהצבא... אבל בסדר, אני אנסה... אני אראה.
+[ACTION: EMOT_ISOL | INTENSITY: 3]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 146.66 | OFFSET: 155.37]
+אל תנסי, תעשי. אני עושה את זה בשבילנו. בשביל המשפחה. בואי נלך לישון, מחר נדבר.
+[ACTION: EMOT_ISOL | INTENSITY: 3]
