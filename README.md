@@ -4,6 +4,11 @@ Synthetic Hebrew audio dataset for the **Audio Violence Detection Pipeline (AVDP
 
 This is a **data-only repository**. It contains no application code. All pipeline logic, configuration, documentation, and tests live in SynthBanshee.
 
+> **If you are a Claude Code agent or AI assistant:** read [`CLAUDE.md`](CLAUDE.md) before
+> making any changes. Key rules: never rename/modify/delete files in `assets/`; never edit
+> `.wav` files by hand; always update `DELIVERIES.md` when adding clips; never drop
+> `has_violence` from metadata or manifests.
+
 ---
 
 ## What is this data for?
@@ -139,6 +144,13 @@ synthbanshee qa-report data/he/
 All data deliveries are logged in **[DELIVERIES.md](DELIVERIES.md)** — one row per merged PR,
 with clip counts, duration, prosody QA results, and known limitations.
 Per-delivery notes and structured metadata live under `deliveries/{slug}/`.
+
+---
+
+## Agent and contributor guidelines
+
+See [`CLAUDE.md`](CLAUDE.md) for the full rules governing this repository — cache integrity,
+label policy, delivery log conventions, and what not to do.
 
 ---
 
