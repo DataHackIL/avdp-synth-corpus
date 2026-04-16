@@ -15,5 +15,3 @@ jobs:
     with:
       include_review_comments: true
       include_outdated_review_threads: true
-    secrets:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
