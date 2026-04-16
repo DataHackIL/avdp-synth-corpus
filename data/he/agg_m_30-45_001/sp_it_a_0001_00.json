@@ -50,7 +50,7 @@
     }
   ],
   "tier": "A",
-  "transcript_path": "/Users/shaypalachy/clones/avdp-synth-corpus/data/he/agg_m_30-45_001/sp_it_a_0001_00.txt",
+  "transcript_path": "data/he/agg_m_30-45_001/sp_it_a_0001_00.txt",
   "tts_engine": "azure_he_IL",
   "violence_typology": "IT",
   "weak_label": {

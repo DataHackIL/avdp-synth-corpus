@@ -10,7 +10,7 @@
   "annotator_confidence": 1.0,
   "channels": 1,
   "clip_id": "sp_it_a_0002_00",
-  "dirty_file_path": "assets/speech/dirty/sp_it_a_0002_00_dirty.wav",
+  "dirty_file_path": null,
   "duration_seconds": 146.744,
   "elephant_meta": null,
   "generation_date": "2026-04-15",
@@ -50,7 +50,7 @@
     }
   ],
   "tier": "A",
-  "transcript_path": "/Users/shaypalachy/clones/avdp-synth-corpus/data/he/agg_m_30-45_001/sp_it_a_0002_00.txt",
+  "transcript_path": "data/he/agg_m_30-45_001/sp_it_a_0002_00.txt",
   "tts_engine": "azure_he_IL",
   "violence_typology": "IT",
   "weak_label": {

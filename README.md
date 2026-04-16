@@ -63,7 +63,7 @@ Labels follow a three-level hierarchy defined in `configs/taxonomy.yaml` in the 
 | Tier 1 category (event-level) | `tier1_category` | `PHYS`, `VERB`, `DIST`, `ACOU`, `EMOT`, `NONE` |
 | Tier 2 subtype (event-level) | `tier2_subtype` | `VERB_THREAT`, `DIST_SCREAM`, `PHYS_HARD` |
 
-There are **no binary Violence/Non-Violence labels** anywhere in this dataset. The spec explicitly prohibits them.
+`has_violence` is a **derived convenience field** computed from the hierarchical taxonomy (`violence_typology`, `violence_categories`, `max_intensity`). It is provided for fast filtering and baseline modelling. The taxonomy columns are the ground truth — `has_violence` must never be the only label used for training.
 
 Intensity is scored 1–5 per turn:
 
