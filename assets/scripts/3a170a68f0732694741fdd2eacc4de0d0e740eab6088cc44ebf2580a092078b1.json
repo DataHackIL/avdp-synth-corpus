@@ -1,0 +1,129 @@
+{
+  "turns": [
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "שלום, אני רונית, העובדת הסוציאלית שמטפלת בתיק שלך. הזמנתי אותך היום כדי לעדכן אותך לגבי הבקשה לקצבת נכות שהגשת לביטוח לאומי. לצערי, הבקשה לא אושרה בשלב הזה בגלל שחסרים מסמכים רפואיים נדרשים.",
+      "intensity": 1,
+      "pause_before_s": 0.0,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "רגע, מה? איזה מסמכים חסרים? אני הגשתי את הכל, הבאתי את כל מה שביקשו ממני. בדקתם בכלל את התיק?",
+      "intensity": 2,
+      "pause_before_s": 0.5,
+      "emotional_state": "angry",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "אני מבינה את התסכול שלך, ואני רוצה לעזור. לפי מה שמופיע במערכת, חסר אישור מרופא מומחה שמפרט את המגבלות התפקודיות, וגם חסר טופס ויתור סודיות חתום. אם תביא את המסמכים האלה, נוכל להגיש ערעור.",
+      "intensity": 1,
+      "pause_before_s": 0.3,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "את יודעת כמה זמן אני מחכה? חצי שנה! חצי שנה אני רץ בין רופאים ומשרדים, מבזבז כסף שאין לי. ואז אומרים לי שחסר עוד נייר? אני בקושי מתפרנס, אין לי כוח יותר לשחק את המשחק הזה.",
+      "intensity": 3,
+      "pause_before_s": 0.2,
+      "emotional_state": "angry",
+      "phrase_hints": [
+        {
+          "phrase_id": "t3_p0",
+          "hint": "stress",
+          "char_start_original": 24,
+          "char_end_original": 33
+        },
+        {
+          "phrase_id": "t3_p1",
+          "hint": "break_after",
+          "char_start_original": 128,
+          "char_end_original": 164
+        }
+      ]
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "אני שומעת אותך, ואני מבינה שהמצב קשה מאוד. המערכת לפעמים מסובכת, ואני פה כדי ללוות אותך בתהליך. אני יכולה לעזור לך למלא את הטפסים ולתאם תור לרופא המומחה.",
+      "intensity": 2,
+      "pause_before_s": 0.8,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "את לא שומעת אותי, את שומעת מה שנוח לך! זה לא טעות, זה בכוונה. הם לא רוצים לשלם, אז הם ממציאים סיבות. כל פעם חסר עוד משהו, כל פעם עוד טופס. את חלק מהמערכת הזאת שמשקרת לאנשים ודורסת חלשים.",
+      "intensity": 4,
+      "pause_before_s": 0.3,
+      "emotional_state": "angry",
+      "phrase_hints": [
+        {
+          "phrase_id": "t5_p0",
+          "hint": "stress",
+          "char_start_original": 65,
+          "char_end_original": 93
+        },
+        {
+          "phrase_id": "t5_p1",
+          "hint": "slow",
+          "char_start_original": 147,
+          "char_end_original": 189
+        }
+      ]
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "אני מבינה שאתה מרגיש שפגעו בך, ואני לא מזלזלת ברגשות שלך. אבל אני חייבת לבקש שנדבר בצורה מכבדת. אני לא האויב שלך, אני רוצה לעזור לך לקבל את הזכאות שמגיעה לך.",
+      "intensity": 3,
+      "pause_before_s": 1.0,
+      "emotional_state": "calm",
+      "phrase_hints": [
+        {
+          "phrase_id": "t6_p0",
+          "hint": "break_before",
+          "char_start_original": 61,
+          "char_end_original": 96
+        }
+      ]
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "לעזור לי? את צוחקת עליי? אם לא מאשרים לי את הקצבה היום, אני לא יוצא מפה. שייגמר הבלגן הזה. תביאי מי שצריך, מנהל, מנכ\"ל, מי שזה לא יהיה, כי אני לא זז מהכיסא הזה עד שמישהו ייתן לי תשובה אמיתית. ואם צריך, אני אעשה פה בלאגן שכולם ישמעו.",
+      "intensity": 5,
+      "pause_before_s": 0.2,
+      "emotional_state": "threatening",
+      "phrase_hints": [
+        {
+          "phrase_id": "t7_p0",
+          "hint": "menace",
+          "char_start_original": 56,
+          "char_end_original": 78
+        },
+        {
+          "phrase_id": "t7_p1",
+          "hint": "stress",
+          "char_start_original": 165,
+          "char_end_original": 209
+        }
+      ]
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "אני רואה שאתה במצוקה גדולה, ואני לוקחת את זה ברצינות. אני הולכת לקרוא עכשיו למנהלת המחלקה כדי שתשמע אותך ישירות. אני מבקשת ממך לשבת רגע ולנשום, ואנחנו ניתן לזה מענה.",
+      "intensity": 4,
+      "pause_before_s": 1.2,
+      "emotional_state": "fearful",
+      "phrase_hints": [
+        {
+          "phrase_id": "t8_p0",
+          "hint": "break_before",
+          "char_start_original": 57,
+          "char_end_original": 110
+        }
+      ]
+    }
+  ]
+}

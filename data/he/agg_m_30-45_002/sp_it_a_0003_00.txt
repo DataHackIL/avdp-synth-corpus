@@ -1,0 +1,52 @@
+[CLIP_ID: sp_it_a_0003_00]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 0.82 | OFFSET: 4.46]
+את באת. טוב, תכנסי. סוגר את הדלת.
+[ACTION: EMOT_GASLIT | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 4.90 | OFFSET: 11.74]
+היי, סליחה שאיחרתי קצת. היה עומס בכביש.
+[ACTION: EMOT_GASLIT | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 12.13 | OFFSET: 17.78]
+קצת? את יודעת מה השעה עכשיו? שלחתי לך הודעה לפני שעתיים.
+[ACTION: EMOT_GASLIT | INTENSITY: 2]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 18.32 | OFFSET: 23.28]
+לא שמתי לב להודעה, הייתי בנהיגה. באמת סליחה.
+[ACTION: EMOT_GASLIT | INTENSITY: 2]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 23.59 | OFFSET: 31.43]
+לא שמת לב. כמו תמיד. את אף פעם לא שמה לב כשאני כותב לך, אבל לחברות שלך את עונה תוך שנייה, נכון?
+[ACTION: EMOT_GASLIT | INTENSITY: 2]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 31.86 | OFFSET: 38.06]
+זה לא ככה. פשוט הייתי על הכביש, לא יכולתי להסתכל בטלפון.
+[ACTION: EMOT_GASLIT | INTENSITY: 2]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 38.13 | OFFSET: 42.77]
+אז תגידי לי, איפה בדיוק היית עד עשר בלילה? מה לוקח כל כך הרבה זמן?
+[ACTION: EMOT_ISOL | INTENSITY: 3]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 43.06 | OFFSET: 49.22]
+הייתי עם רונית, ישבנו בקפה אחרי העבודה. אמרתי לך בבוקר שאולי אאחר.
+[ACTION: EMOT_ISOL | INTENSITY: 3]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 49.32 | OFFSET: 57.68]
+רונית. שוב רונית. כל פעם שאת נעלמת זה בגלל רונית. תראי לי את ההודעות שלך איתה מהיום. עכשיו.
+[ACTION: VERB_THREAT | INTENSITY: 4]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 57.81 | OFFSET: 64.65]
+למה אתה צריך לראות הודעות? אני אומרת לך את האמת. אני לא משקרת.
+[ACTION: EMOT_ISOL | INTENSITY: 3]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 64.80 | OFFSET: 70.92]
+כי אני לא מאמין לך. כי כל פעם שאת פותחת את הפה יוצאים שקרים. תני לי את הטלפון.
+[ACTION: VERB_THREAT | INTENSITY: 4]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 71.01 | OFFSET: 76.58]
+בבקשה, תירגע. אני לא רוצה שנריב. קח, תסתכל, אין לי מה להסתיר.
+[ACTION: VERB_THREAT | INTENSITY: 4]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 76.20 | OFFSET: 89.08]
+את לא הולכת יותר לשום מקום בלי שאני יודע מראש. את שומעת? אני קובע מתי את יוצאת ומתי את חוזרת. אם את לא מסוגלת לכבד את זה, את לא צריכה לצאת בכלל.
+[ACTION: VERB_THREAT | INTENSITY: 5]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 89.22 | OFFSET: 94.54]
+בסדר... בסדר, אני מבינה. אני אעדכן אותך תמיד. רק בבקשה אל תצעק.
+[ACTION: VERB_THREAT | INTENSITY: 4]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 94.09 | OFFSET: 103.86]
+אני לא צועק. אני מדבר איתך ברור כי כנראה בצורה רגילה את לא מבינה. ומחר את מבטלת את המפגש עם רונית, ברור?
+[ACTION: VERB_THREAT | INTENSITY: 4]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 103.41 | OFFSET: 107.21]
+טוב, אני אבטל. אני... אני הולכת לישון.
+[ACTION: EMOT_ISOL | INTENSITY: 3]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 106.88 | OFFSET: 113.36]
+יופי. ותשאירי את הטלפון פה על השולחן. אני רוצה לבדוק עוד כמה דברים.
+[ACTION: EMOT_ISOL | INTENSITY: 3]

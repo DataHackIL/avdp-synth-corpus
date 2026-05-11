@@ -1,0 +1,164 @@
+{
+  "turns": [
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "בן, תודה שהגעת היום. אני רוצה לעדכן אותך שקיבלנו את תוצאות הערכת המסוכנות שביקשנו מהפסיכולוג. אני מתעדת את השיחה שלנו כחלק מהתיק.",
+      "intensity": 2,
+      "pause_before_s": 0.0,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "טוב, מה יצא? אני בטוח שהכל תקין. הילדים שלי מטופלים, הם אוכלים, הולכים לבית ספר, הכל בסדר.",
+      "intensity": 2,
+      "pause_before_s": 0.5,
+      "emotional_state": "neutral",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "בן, ההערכה העלתה כמה ממצאים שמצריכים התייחסות רצינית. יש סימנים שמצביעים על סביבה לא יציבה בבית, ואנחנו צריכים לשקול את האפשרויות שעומדות בפנינו, כולל פיקוח מוגבר ואולי גם הוצאה זמנית.",
+      "intensity": 3,
+      "pause_before_s": 0.8,
+      "emotional_state": "calm",
+      "phrase_hints": [
+        {
+          "phrase_id": "t2_p0",
+          "hint": "break_before",
+          "char_start_original": 115,
+          "char_end_original": 140
+        }
+      ]
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "מה?! הוצאה זמנית? את מדברת על הילדים שלי! אין שום דבר לא יציב אצלי בבית. את יודעת כמה אני עובד בשביל הילדים האלה?",
+      "intensity": 3,
+      "pause_before_s": 0.2,
+      "emotional_state": "angry",
+      "phrase_hints": [
+        {
+          "phrase_id": "t3_p0",
+          "hint": "stress",
+          "char_start_original": 0,
+          "char_end_original": 24
+        },
+        {
+          "phrase_id": "t3_p1",
+          "hint": "stress",
+          "char_start_original": 25,
+          "char_end_original": 53
+        }
+      ]
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "אני שומעת אותך, בן. אני רואה שאתה אבא שאכפת לו מאוד. אף אחד לא מפקפק באהבה שלך לילדים. אבל התפקיד שלי הוא להבטיח שהסביבה בטוחה, וההערכה מראה שיש נקודות שצריך לטפל בהן.",
+      "intensity": 3,
+      "pause_before_s": 1.0,
+      "emotional_state": "calm",
+      "phrase_hints": [
+        {
+          "phrase_id": "t4_p0",
+          "hint": "break_before",
+          "char_start_original": 93,
+          "char_end_original": 157
+        }
+      ]
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "נקודות שצריך לטפל בהן? את יודעת מה, כל המערכת הזאת מרוקנת. שלחתם פסיכולוג שדיבר עם הילדים עשר דקות וכבר הוא מומחה על החיים שלי? את בכלל יודעת מה קורה אצלנו? את לא מכירה אותנו!",
+      "intensity": 4,
+      "pause_before_s": 0.3,
+      "emotional_state": "angry",
+      "phrase_hints": [
+        {
+          "phrase_id": "t5_p0",
+          "hint": "stress",
+          "char_start_original": 41,
+          "char_end_original": 67
+        },
+        {
+          "phrase_id": "t5_p1",
+          "hint": "stress",
+          "char_start_original": 154,
+          "char_end_original": 177
+        }
+      ]
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "בן, אני מבינה שזה מרגיש לא הוגן. אני רוצה שנעבור על הממצאים ביחד, בצורה מסודרת. אני רושמת עכשיו בתיק שהבעת את ההתנגדות שלך, ויש לך כל זכות לערער. בוא ננסה לדבר על זה ברוגע.",
+      "intensity": 4,
+      "pause_before_s": 1.2,
+      "emotional_state": "calm",
+      "phrase_hints": [
+        {
+          "phrase_id": "t6_p0",
+          "hint": "break_before",
+          "char_start_original": 77,
+          "char_end_original": 127
+        }
+      ]
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "ברוגע?! את רוצה שאהיה ברוגע כשאת רוצה לקחת לי את הילדים? הילדים האלה זה הכל שלי. בלעדיהם אין לי כלום. את לא מבינה, את פשוט לא מבינה מה את עושה לי.",
+      "intensity": 5,
+      "pause_before_s": 0.1,
+      "emotional_state": "fearful",
+      "phrase_hints": [
+        {
+          "phrase_id": "t7_p0",
+          "hint": "stress",
+          "char_start_original": 0,
+          "char_end_original": 60
+        },
+        {
+          "phrase_id": "t7_p1",
+          "hint": "slow",
+          "char_start_original": 61,
+          "char_end_original": 89
+        }
+      ]
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "ואני אגיד לך משהו — אם מישהו יבוא לקחת את הילדים שלי מהבית, הוא ייצא משם על אלונקה. אני לא מאיים, אני אומר לך עובדה. תרשמי את זה בתיק שלך.",
+      "intensity": 5,
+      "pause_before_s": 0.4,
+      "emotional_state": "threatening",
+      "phrase_hints": [
+        {
+          "phrase_id": "t8_p0",
+          "hint": "menace",
+          "char_start_original": 37,
+          "char_end_original": 87
+        },
+        {
+          "phrase_id": "t8_p1",
+          "hint": "slow",
+          "char_start_original": 88,
+          "char_end_original": 120
+        }
+      ]
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "בן, אני שומעת את הכאב שלך, ואני מתעדת את מה שנאמר כאן. אני חייבת להגיד לך שאיומים לא יעזרו לך בתהליך הזה, להפך — הם רק יקשו. אני מציעה שניקח הפסקה קצרה ונמשיך כשתרגיש מוכן.",
+      "intensity": 4,
+      "pause_before_s": 1.5,
+      "emotional_state": "calm",
+      "phrase_hints": [
+        {
+          "phrase_id": "t9_p0",
+          "hint": "break_before",
+          "char_start_original": 57,
+          "char_end_original": 131
+        }
+      ]
+    }
+  ]
+}

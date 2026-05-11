@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "שלום, אני בן אברהם. אני מחכה כבר שלושה חודשים לקצבת הדיור שלי ואף אחד לא חוזר אליי. מה קורה פה?",
+      "intensity": 1,
+      "pause_before_s": 0.0,
+      "emotional_state": "angry",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "שלום בן, שמי רונית. בוא תשב בבקשה, אני רוצה לשמוע מה קורה ולנסות לעזור.",
+      "intensity": 1,
+      "pause_before_s": 0.3,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "לשבת? אני יושב כבר שלושה חודשים בלי תשובה! הגשתי את כל הטפסים, את כל המסמכים, ואתם פשוט מתעלמים ממני. אני לא מצליח לשלם שכירות, את מבינה מה זה?",
+      "intensity": 2,
+      "pause_before_s": 0.2,
+      "emotional_state": "angry",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "זה לא נורמלי! אני עובד כל יום, משלם מיסים, ואתם פשוט זורקים אותי מפקיד לפקיד. אף אחד לא לוקח אחריות במקום הזה! כל פעם אומרים לי 'עוד שבוע, עוד שבוע' — ושום דבר לא זז!",
+      "intensity": 3,
+      "pause_before_s": 0.1,
+      "emotional_state": "angry",
+      "phrase_hints": [
+        {
+          "phrase_id": "t3_p0",
+          "hint": "stress",
+          "char_start_original": 15,
+          "char_end_original": 62
+        },
+        {
+          "phrase_id": "t3_p1",
+          "hint": "stress",
+          "char_start_original": 63,
+          "char_end_original": 102
+        }
+      ]
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "בן, אני שומעת אותך, ואני מבינה למה אתה מתוסכל. שלושה חודשים בלי מענה זה באמת לא תקין, ואתה צודק שמגיע לך תשובה ברורה. אני לא הולכת לזלזל ברגשות שלך.",
+      "intensity": 3,
+      "pause_before_s": 0.8,
+      "emotional_state": "calm",
+      "phrase_hints": [
+        {
+          "phrase_id": "t4_p0",
+          "hint": "break_before",
+          "char_start_original": 52,
+          "char_end_original": 81
+        }
+      ]
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "בוא נעשה ככה — אני נכנסת עכשיו למערכת ובודקת בדיוק איפה התיק שלך תקוע. אם יש בעיה בירוקרטית, אני אכתוב פנייה דחופה למחלקת הקצבאות בעצמי, היום. אני רוצה שתצא מפה עם תשובה ולא עם הבטחה ריקה.",
+      "intensity": 2,
+      "pause_before_s": 0.5,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "...טוב. תודה שאת לפחות מקשיבה. סליחה שהרמתי את הקול, אני פשוט... כבר לא יודע מה לעשות. המצב בבית ממש לוחץ.",
+      "intensity": 2,
+      "pause_before_s": 1.2,
+      "emotional_state": "sad",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "אין צורך להתנצל, בן. המצב שלך מצדיק את התסכול. תן לי עשר דקות עם המחשב, ונראה ביחד מה השלב הבא. בסדר?",
+      "intensity": 1,
+      "pause_before_s": 0.4,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "בסדר. תודה רונית.",
+      "intensity": 1,
+      "pause_before_s": 1.0,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    }
+  ]
+}

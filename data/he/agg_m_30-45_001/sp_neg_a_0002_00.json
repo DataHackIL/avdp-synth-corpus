@@ -10,10 +10,93 @@
   "annotator_confidence": 1.0,
   "channels": 1,
   "clip_id": "sp_neg_a_0002_00",
-  "dirty_file_path": null,
-  "duration_seconds": 114.24,
+  "dirty_file_path": "assets/speech/dirty/sp_neg_a_0002_00_dirty.wav",
+  "duration_seconds": 107.8110625,
   "elephant_meta": null,
-  "generation_date": "2026-04-15",
+  "generation_date": "2026-05-12",
+  "generation_metadata": {
+    "breathiness_applied": false,
+    "effective_prosody_caps": [
+      {
+        "dim": "rate",
+        "intensity": 2,
+        "post_cap": 0.95,
+        "pre_cap": 0.912,
+        "turn_index": 1
+      },
+      {
+        "dim": "rate",
+        "intensity": 3,
+        "post_cap": 0.95,
+        "pre_cap": 0.8823,
+        "turn_index": 3
+      },
+      {
+        "dim": "rate",
+        "intensity": 3,
+        "post_cap": 0.95,
+        "pre_cap": 0.8566,
+        "turn_index": 5
+      },
+      {
+        "dim": "rate",
+        "intensity": 2,
+        "post_cap": 0.95,
+        "pre_cap": 0.8643,
+        "turn_index": 7
+      },
+      {
+        "dim": "rate",
+        "intensity": 1,
+        "post_cap": 0.95,
+        "pre_cap": 0.864,
+        "turn_index": 9
+      },
+      {
+        "dim": "rate",
+        "intensity": 1,
+        "post_cap": 0.95,
+        "pre_cap": 0.8756,
+        "turn_index": 11
+      },
+      {
+        "dim": "rate",
+        "intensity": 1,
+        "post_cap": 0.95,
+        "pre_cap": 0.8917,
+        "turn_index": 13
+      }
+    ],
+    "loudness_target_peak_dbfs": -2.0,
+    "mix_mode_used": "sequential",
+    "normalization_strategy": "per_turn_rms_v2_target_peak",
+    "pipeline_version": "0.1.0",
+    "prosody_controller_version": null,
+    "speaker_state_serialized": {
+      "AGG_M_30-45_001": {
+        "breathiness_level": 0.0,
+        "pitch_offset_st": 0.2751,
+        "rate_offset": 1.0436,
+        "volume_offset_db": 1.1461
+      },
+      "VIC_F_25-40_002": {
+        "breathiness_level": 0.0,
+        "pitch_offset_st": 0.0597,
+        "rate_offset": 0.9881,
+        "volume_offset_db": -0.2984
+      }
+    },
+    "text_normalization_version": null,
+    "timing_controller_version": null,
+    "tts_backend": {
+      "AGG_M_30-45_001": "azure",
+      "VIC_F_25-40_002": "azure"
+    },
+    "voice_family": {
+      "AGG_M_30-45_001": "he-IL-AvriNeural",
+      "VIC_F_25-40_002": "he-IL-HilaNeural"
+    }
+  },
   "generator_version": "0.1.0",
   "iaa_reviewed": false,
   "is_synthetic": true,
@@ -21,13 +104,15 @@
   "preprocessing_applied": {
     "denoised": true,
     "downmixed_to_mono": true,
-    "normalized_dbfs": -1.0,
+    "normalized_dbfs": -2.0000002404171053,
     "resampled_to_16k": true,
     "silence_padded": true,
     "spectral_filtered": true
   },
   "project": "she_proves",
-  "quality_flags": [],
+  "quality_flags": [
+    "emotion_downgrade"
+  ],
   "random_seed": 1302,
   "sample_rate": 16000,
   "scene_config": "configs/scenes/she_proves/sp_neg_a_0002.yaml",
@@ -39,14 +124,16 @@
       "gender": "male",
       "role": "AGG",
       "speaker_id": "AGG_M_30-45_001",
-      "tts_voice_id": "he-IL-AvriNeural"
+      "tts_voice_id": "he-IL-AvriNeural",
+      "voice_family": "he-IL-AvriNeural"
     },
     {
       "age_range": "25-40",
       "gender": "female",
       "role": "VIC",
       "speaker_id": "VIC_F_25-40_002",
-      "tts_voice_id": "he-IL-HilaNeural"
+      "tts_voice_id": "he-IL-HilaNeural",
+      "voice_family": "he-IL-HilaNeural"
     }
   ],
   "tier": "A",

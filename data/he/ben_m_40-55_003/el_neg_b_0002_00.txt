@@ -1,0 +1,52 @@
+[CLIP_ID: el_neg_b_0002_00]
+[SPEAKER: BEN_M_40-55_003 | ROLE: AGG | ONSET: 0.89 | OFFSET: 9.70]
+תשמעי, אני כבר שלושה חודשים מחכה לתשובה על הערעור. אף אחד לא חוזר אליי, אף אחד לא מסביר לי כלום.
+[ACTION: NONE_ARGU | INTENSITY: 2]
+[SPEAKER: SW_F_30-45_001 | ROLE: VIC | ONSET: 10.09 | OFFSET: 20.02]
+אני מבינה את התסכול שלך, בן. אני רואה בתיק שהערעור הוגש ושהוא עדיין בבדיקה. לפעמים התהליך לוקח זמן.
+[ACTION: NONE_ARGU | INTENSITY: 2]
+[SPEAKER: BEN_M_40-55_003 | ROLE: AGG | ONSET: 20.09 | OFFSET: 30.69]
+"לוקח זמן"? את מבינה שאני בלי כסף? שאני לא יכול לשלם שכר דירה? הילדים שלי רעבים ואת אומרת לי "לוקח זמן"?
+[ACTION: NONE_ARGU | INTENSITY: 3]
+[SPEAKER: SW_F_30-45_001 | ROLE: VIC | ONSET: 30.37 | OFFSET: 42.42]
+אני שומעת אותך, ואני מבינה שהמצב קשה מאוד. אני רוצה לעזור, אבל אין לי סמכות לזרז את הוועדה. תן לי לבדוק מה אני כן יכולה לעשות.
+[ACTION: NONE_ARGU | INTENSITY: 2]
+[SPEAKER: BEN_M_40-55_003 | ROLE: AGG | ONSET: 42.54 | OFFSET: 58.31]
+מה את יכולה לעשות? כלום! תמיד אותו דבר — טפסים, המתנה, ועוד המתנה. אני לא יוצא מפה בלי תשובה היום, את שומעת אותי? לא יוצא מפה.
+[ACTION: NONE_ARGU | INTENSITY: 3]
+[SPEAKER: SW_F_30-45_001 | ROLE: VIC | ONSET: 58.61 | OFFSET: 71.69]
+בן, אני רואה שאתה מאוד מתוסכל ואני לא רוצה שהמצב יסלים. אני הולכת לקרוא למנהלת שלי, היא בעלת סמכות רחבה יותר ואולי תוכל לתת לך מענה.
+[ACTION: NONE_ARGU | INTENSITY: 3]
+[SPEAKER: BEN_M_40-55_003 | ROLE: AGG | ONSET: 70.48 | OFFSET: 74.43]
+תקראי למי שאת רוצה. מישהו פה חייב לתת לי תשובה.
+[ACTION: NONE_ARGU | INTENSITY: 3]
+[SPEAKER: SW_F_30-45_001 | ROLE: VIC | ONSET: 74.17 | OFFSET: 80.94]
+רינה, את יכולה לבוא לרגע? יש פה מקרה דחוף שדורש את ההתייחסות שלך.
+[ACTION: NONE_ARGU | INTENSITY: 2]
+[SPEAKER: SW_F_30-45_001 | ROLE: VIC | ONSET: 81.22 | OFFSET: 90.51]
+בן, המנהלת שלי בדרך. היא תהיה כאן עוד רגע. בינתיים, בבקשה, תשב.
+[ACTION: NONE_ARGU | INTENSITY: 2]
+[SPEAKER: BEN_M_40-55_003 | ROLE: AGG | ONSET: 90.83 | OFFSET: 94.11]
+שתבוא. אני מחכה.
+[ACTION: NONE_ARGU | INTENSITY: 2]
+[SPEAKER: SW_F_30-45_001 | ROLE: VIC | ONSET: 94.58 | OFFSET: 108.19]
+שלום, אני רינה אברהם, מנהלת המחלקה. בן, שמעתי שאתה ממתין כבר זמן רב לתשובה על הערעור. אני מצטערת על העיכוב ואני לוקחת את זה ברצינות.
+[ACTION: NONE_ARGU | INTENSITY: 2]
+[SPEAKER: BEN_M_40-55_003 | ROLE: AGG | ONSET: 108.43 | OFFSET: 118.58]
+כן, גברת. שלושה חודשים. אין לי מאיפה לחיות. אני לא מבקש טובות, אני מבקש את מה שמגיע לי.
+[ACTION: NONE_ARGU | INTENSITY: 2]
+[SPEAKER: SW_F_30-45_001 | ROLE: VIC | ONSET: 118.91 | OFFSET: 137.84]
+אני מבינה, ואתה צודק שזה לא תקין להמתין כל כך הרבה זמן. אני מתחייבת לעשות שני דברים עכשיו: ראשית, אני בודקת את הסטטוס של הערעור לפני שאתה יוצא מהמשרד. שנית, אם אין החלטה — אני מעבירה את התיק שלך לדיון מזורז תוך שבוע.
+[ACTION: NONE_ARGU | INTENSITY: 1]
+[SPEAKER: BEN_M_40-55_003 | ROLE: AGG | ONSET: 138.20 | OFFSET: 141.63]
+תוך שבוע? באמת?
+[ACTION: NONE_ARGU | INTENSITY: 1]
+[SPEAKER: SW_F_30-45_001 | ROLE: VIC | ONSET: 142.05 | OFFSET: 156.78]
+כן, תוך שבוע. אני רושמת לך את זה בכתב, עם תאריך ושם של איש קשר ישיר. אם עד יום ראשון הבא לא תקבל תשובה — תתקשר ישירות אליי. הנה הכרטיס שלי.
+[ACTION: NONE_ARGU | INTENSITY: 1]
+[SPEAKER: BEN_M_40-55_003 | ROLE: AGG | ONSET: 156.95 | OFFSET: 164.20]
+טוב, אני סומך עליך. סליחה שהתרגזתי, אבל באמת אין לי כוח יותר.
+[ACTION: NONE_ARGU | INTENSITY: 1]
+[SPEAKER: SW_F_30-45_001 | ROLE: VIC | ONSET: 164.50 | OFFSET: 174.12]
+אין צורך להתנצל, המצב שלך קשה ואנחנו פה כדי לעזור. נהיה בקשר, בן. יום טוב.
+[ACTION: NONE_ARGU | INTENSITY: 1]

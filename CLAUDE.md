@@ -51,15 +51,25 @@ Do not merge data without updating the delivery log.
 ### `has_violence` is a derived convenience field — keep it
 
 `has_violence` appears in `weak_label.has_violence` (clip `.json`) and as a column in
-`manifest.csv`. It is **derived** from the hierarchical taxonomy, not assigned independently:
+`manifest.csv`. It is **derived from the strong-label events**, not from typology or intensity.
+The authoritative rule lives in `synthbanshee/labels/generator.py` and is pinned in
+[spec §5.1](https://github.com/DataHackIL/SynthBanshee/blob/main/docs/spec.md#51-per-clip-metadata-json):
 
+```python
+has_violence = any(e.tier1_category != "NONE" for e in events)
 ```
-has_violence = (violence_typology in {"SV", "IT", "NEG"}) and (max_intensity >= 3)
-```
+
+Corollaries: empty `events` → `False`; `NEG` clips are correctly `False` (by §4.1 NEG is
+acoustically intense but non-violent, so every event lands `tier1_category: "NONE"`);
+`violence_typology` and `has_violence` may legitimately disagree (e.g. `SV` typology with
+`has_violence: False` if no event carried a violent tier1).
+
+**Do not re-derive `has_violence` from typology + intensity** — that rule (which an earlier
+revision of this file documented) disagrees with the code on every NEG row.
 
 **Do not remove it.** AI teams use it for binary baseline models and stratified train/val/test
-splits. Removing it forces every downstream user to re-derive it from `violence_typology` and
-`max_intensity` — which introduces inconsistency risk.
+splits. Removing it forces every downstream user to re-derive it — and the only correct rule
+is the events-based one above.
 
 ### The taxonomy is the ground truth
 
@@ -84,9 +94,14 @@ always appear alongside `violence_typology`, `tier1_category`, `tier2_subtype`, 
 | Sample rate | 16 kHz |
 | Channels | Mono |
 | Bit depth | 16-bit PCM WAV |
-| Peak level | −1.0 dBFS (peak-normalized) |
+| Peak normalization target | `−2.0 dBFS` default (configurable, range `[−12.0, −1.5]`) |
+| Safety limiter ceiling | `≤ −1.0 dBFS` (no-op in normal flow) |
+| `preprocessing_applied.normalized_dbfs` | measured peak (lands near target ± preprocessor slop) |
+| `generation_metadata.loudness_target_peak_dbfs` | configured target |
 | Silence padding | ≥ 0.5 s before and after target speech |
 | Language | Hebrew (he-IL) |
+
+See [spec §3](https://github.com/DataHackIL/SynthBanshee/blob/main/docs/spec.md#3-audio-format-requirements) and the §5.1 field notes for the measured-vs-target split.
 
 ---
 

@@ -1,0 +1,37 @@
+[CLIP_ID: sp_neu_a_0003_00]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 0.80 | OFFSET: 5.09]
+את רוצה שאני אחתוך את הבצל או שאני אתחיל עם הרוטב?
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 3.92 | OFFSET: 13.83]
+תתחיל עם הבצל, בבקשה. אני צריכה לסיים פה עם העוף קודם. תוציא את הקרש החיתוך הגדול מהמגירה.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 14.12 | OFFSET: 22.02]
+הזה? וואלה, הסכין הזו קצת קהה. מתי שחזנו אותה בפעם האחרונה?
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 22.52 | OFFSET: 31.45]
+אני לא זוכרת, איזה חודשיים? תיקח את השנייה, זאת עם הידית השחורה. היא יותר חדה.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 31.69 | OFFSET: 40.77]
+אה כן, הרבה יותר טוב. אגב, ראית מה אמא שלי שלחה בוואטסאפ? היא רוצה לבוא בשבת.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 41.36 | OFFSET: 52.13]
+כן, ראיתי. זה בסדר מבחינתי, רק שאני רציתי שנלך לשוק בבוקר. אפשר לשלב, לא?
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 52.49 | OFFSET: 62.43]
+בטח, נלך בבוקר מוקדם ונחזור לפני שהיא מגיעה. היא ממילא לא קמה לפני עשר. תני לי את השמן, את יכולה?
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 62.22 | OFFSET: 70.42]
+הנה. תיזהר, הכיריים כבר חמות. אני שמתי את המחבת שם לפני דקה.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 70.85 | OFFSET: 76.61]
+וואו, איזה ריח טוב כבר מהעוף. שמת בזיליקום?
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 77.18 | OFFSET: 85.62]
+בזיליקום ואורגנו. וקצת לימון. ניסיתי משהו חדש שראיתי בסרטון ביוטיוב.
+[ACTION: NONE_AMBIENT | INTENSITY: 2]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 85.83 | OFFSET: 96.75]
+יאללה, נשמע מעולה. את יודעת מה, בואי נאכל בסלון היום? עם נרות וכל הסיפור. מגיע לנו ערב שקט.
+[ACTION: NONE_AMBIENT | INTENSITY: 2]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 97.20 | OFFSET: 104.57]
+רעיון יפה. תוציא את הצלחות הלבנות מלמעלה, אני מסיימת פה עוד חמש דקות.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]

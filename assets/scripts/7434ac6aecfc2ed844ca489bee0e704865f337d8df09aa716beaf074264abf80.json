@@ -1,0 +1,140 @@
+{
+  "turns": [
+    {
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "את באת. טוב, תכנסי. סוגר את הדלת.",
+      "intensity": 1,
+      "pause_before_s": 0.3,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "היי, סליחה שאיחרתי קצת. היה עומס בכביש.",
+      "intensity": 1,
+      "pause_before_s": 0.5,
+      "emotional_state": "neutral",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "קצת? את יודעת מה השעה עכשיו? שלחתי לך הודעה לפני שעתיים.",
+      "intensity": 2,
+      "pause_before_s": 0.8,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "לא שמתי לב להודעה, הייתי בנהיגה. באמת סליחה.",
+      "intensity": 2,
+      "pause_before_s": 0.4,
+      "emotional_state": "neutral",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "לא שמת לב. כמו תמיד. את אף פעם לא שמה לב כשאני כותב לך, אבל לחברות שלך את עונה תוך שנייה, נכון?",
+      "intensity": 2,
+      "pause_before_s": 0.6,
+      "emotional_state": "angry",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "זה לא ככה. פשוט הייתי על הכביש, לא יכולתי להסתכל בטלפון.",
+      "intensity": 2,
+      "pause_before_s": 0.3,
+      "emotional_state": "neutral",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "אז תגידי לי, איפה בדיוק היית עד עשר בלילה? מה לוקח כל כך הרבה זמן?",
+      "intensity": 3,
+      "pause_before_s": 1.0,
+      "emotional_state": "angry",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "הייתי עם רונית, ישבנו בקפה אחרי העבודה. אמרתי לך בבוקר שאולי אאחר.",
+      "intensity": 3,
+      "pause_before_s": 0.5,
+      "emotional_state": "fearful",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "רונית. שוב רונית. כל פעם שאת נעלמת זה בגלל רונית. תראי לי את ההודעות שלך איתה מהיום. עכשיו.",
+      "intensity": 4,
+      "pause_before_s": 0.4,
+      "emotional_state": "threatening",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "למה אתה צריך לראות הודעות? אני אומרת לך את האמת. אני לא משקרת.",
+      "intensity": 3,
+      "pause_before_s": 0.3,
+      "emotional_state": "fearful",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "כי אני לא מאמין לך. כי כל פעם שאת פותחת את הפה יוצאים שקרים. תני לי את הטלפון.",
+      "intensity": 4,
+      "pause_before_s": 0.2,
+      "emotional_state": "threatening",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "בבקשה, תירגע. אני לא רוצה שנריב. קח, תסתכל, אין לי מה להסתיר.",
+      "intensity": 4,
+      "pause_before_s": 0.5,
+      "emotional_state": "pleading",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "את לא הולכת יותר לשום מקום בלי שאני יודע מראש. את שומעת? אני קובע מתי את יוצאת ומתי את חוזרת. אם את לא מסוגלת לכבד את זה, את לא צריכה לצאת בכלל.",
+      "intensity": 5,
+      "pause_before_s": 0.3,
+      "emotional_state": "threatening",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "בסדר... בסדר, אני מבינה. אני אעדכן אותך תמיד. רק בבקשה אל תצעק.",
+      "intensity": 4,
+      "pause_before_s": 0.8,
+      "emotional_state": "pleading",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "אני לא צועק. אני מדבר איתך ברור כי כנראה בצורה רגילה את לא מבינה. ומחר את מבטלת את המפגש עם רונית, ברור?",
+      "intensity": 4,
+      "pause_before_s": 0.4,
+      "emotional_state": "angry",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "טוב, אני אבטל. אני... אני הולכת לישון.",
+      "intensity": 3,
+      "pause_before_s": 1.2,
+      "emotional_state": "sad",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "יופי. ותשאירי את הטלפון פה על השולחן. אני רוצה לבדוק עוד כמה דברים.",
+      "intensity": 3,
+      "pause_before_s": 1.5,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "turns": [
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "בן, שלום! כיף לראות אותך. בוא תיכנס, שב בבקשה.",
+      "intensity": 1,
+      "pause_before_s": 0.0,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "היי, תודה. נעים לחזור. אני מרגיש שהדברים זזים לכיוון טוב מאז הפגישה האחרונה שלנו.",
+      "intensity": 1,
+      "pause_before_s": 0.5,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "ממש שמחה לשמוע. אני רואה בתיק שבפעם הקודמת דיברנו על העבודה החדשה ועל ההסתגלות של הילדים. איך הכל מתקדם מאז?",
+      "intensity": 1,
+      "pause_before_s": 0.3,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "העבודה מסתדרת יפה, אני כבר שלושה חודשים במקום ומרגיש יציב. גם הילדים נרגעו בבית הספר, המורה של יואב אמרה שהוא הרבה יותר רגוע בכיתה.",
+      "intensity": 1,
+      "pause_before_s": 0.4,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "מעולה, זה מאוד משמח. אני רושמת את זה בתיק. בואנו נקבע פגישה נוספת בעוד חודשיים, רק כדי להמשיך לעקוב ולוודא שהכל ממשיך בכיוון הזה. מתאים לך יום שלישי בבוקר?",
+      "intensity": 2,
+      "pause_before_s": 0.8,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "בטח, יום שלישי מצוין. תודה רבה על הכל, באמת מרגיש שהליווי שלך עוזר לי. נתראה בעוד חודשיים.",
+      "intensity": 1,
+      "pause_before_s": 0.3,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "בשמחה, בן. אני גאה בהתקדמות שלך. תשמור על עצמך, ואם צריך משהו לפני הפגישה, אל תהסס להתקשר.",
+      "intensity": 1,
+      "pause_before_s": 0.5,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    }
+  ]
+}

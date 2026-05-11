@@ -1,0 +1,178 @@
+{
+  "turns": [
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "שלום בן, בוא תשב בבקשה. ראיתי שהגשת ערעור על ההחלטה בעניין קצבת הדיור שלך, אני רוצה שנעבור על זה ביחד.",
+      "intensity": 1,
+      "pause_before_s": 0.0,
+      "emotional_state": "neutral",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "כן, הגשתי ערעור כבר לפני חודשיים. אף אחד לא חוזר אליי, אף אחד לא מטפל בזה. אני מרגיש שאני מדבר לקירות.",
+      "intensity": 2,
+      "pause_before_s": 0.5,
+      "emotional_state": "angry",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "אני מבינה שזה מתסכל, ואני רוצה לעזור. בוא נסתכל על התיק שלך, הנה התיקייה עם כל המסמכים. יש כאן כמה דברים שצריך להשלים כדי שהערעור יתקדם.",
+      "intensity": 1,
+      "pause_before_s": 0.3,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "מה להשלים? הגשתי הכל. כל מסמך, כל אישור, הכל. מה עוד אתם רוצים ממני?",
+      "intensity": 2,
+      "pause_before_s": 0.2,
+      "emotional_state": "angry",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "בן, לפי מה שרשום כאן, הוועדה החליטה שאתה לא עומד בקריטריונים לקצבת דיור מוגדלת. ההחלטה הזו סופית בשלב הזה, אבל אני יכולה לעזור לך להגיש פנייה חדשה.",
+      "intensity": 2,
+      "pause_before_s": 0.5,
+      "emotional_state": "neutral",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "סופית?! את אומרת לי שההחלטה סופית?! אני חי ברחוב כמעט, ואת אומרת לי סופית?! אתם הורסים לי את החיים!",
+      "intensity": 4,
+      "pause_before_s": 0.2,
+      "emotional_state": "angry",
+      "phrase_hints": [
+        {
+          "phrase_id": "t5_p0",
+          "hint": "stress",
+          "char_start_original": 0,
+          "char_end_original": 7
+        },
+        {
+          "phrase_id": "t5_p1",
+          "hint": "stress",
+          "char_start_original": 75,
+          "char_end_original": 101
+        }
+      ]
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "בן, אני שומעת אותך, ואני מבינה כמה זה קשה. בוא ננסה למצוא פתרון ביחד, אני כאן בשבילך.",
+      "intensity": 2,
+      "pause_before_s": 0.8,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "פתרון?! אין לכם פתרונות! רק ניירת ושטויות! את רואה את התיקייה הכבדה הזאת? את רואה כמה דפים יש פה? כל הדפים האלה ושום דבר לא זז!",
+      "intensity": 4,
+      "pause_before_s": 0.3,
+      "emotional_state": "angry",
+      "phrase_hints": [
+        {
+          "phrase_id": "t7_p0",
+          "hint": "slow",
+          "char_start_original": 43,
+          "char_end_original": 73
+        },
+        {
+          "phrase_id": "t7_p1",
+          "hint": "stress",
+          "char_start_original": 107,
+          "char_end_original": 134
+        }
+      ]
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "אני לוקח את התיקייה הזאת, ואני אזרוק אותה עליך אם את לא מסדרת לי את הקצבה עכשיו! את שומעת אותי?!",
+      "intensity": 5,
+      "pause_before_s": 0.5,
+      "emotional_state": "threatening",
+      "phrase_hints": [
+        {
+          "phrase_id": "t8_p0",
+          "hint": "menace",
+          "char_start_original": 0,
+          "char_end_original": 55
+        },
+        {
+          "phrase_id": "t8_p1",
+          "hint": "break_after",
+          "char_start_original": 56,
+          "char_end_original": 99
+        }
+      ]
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "בן, אני מבקשת ממך להוריד את התיקייה מהידיים. אני רוצה לעזור לך, אבל לא ככה. תוריד את התיקייה בבקשה.",
+      "intensity": 3,
+      "pause_before_s": 1.0,
+      "emotional_state": "fearful",
+      "phrase_hints": [
+        {
+          "phrase_id": "t9_p0",
+          "hint": "break_before",
+          "char_start_original": 0,
+          "char_end_original": 46
+        },
+        {
+          "phrase_id": "t9_p1",
+          "hint": "slow",
+          "char_start_original": 73,
+          "char_end_original": 104
+        }
+      ]
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "יוסי, אני צריכה עזרה בחדר שלוש, עכשיו בבקשה! בן, אני זזה לצד, אבל אני לא נגדך. שים את התיקייה על השולחן ונדבר.",
+      "intensity": 3,
+      "pause_before_s": 0.3,
+      "emotional_state": "fearful",
+      "phrase_hints": [
+        {
+          "phrase_id": "t10_p0",
+          "hint": "stress",
+          "char_start_original": 0,
+          "char_end_original": 49
+        },
+        {
+          "phrase_id": "t10_p1",
+          "hint": "slow",
+          "char_start_original": 81,
+          "char_end_original": 118
+        }
+      ]
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "אני... אני לא רוצה לפגוע באף אחד. אני פשוט לא יכול יותר. אני שם את התיקייה. אבל תעשו משהו, אני מתחנן.",
+      "intensity": 3,
+      "pause_before_s": 1.5,
+      "emotional_state": "sad",
+      "phrase_hints": [
+        {
+          "phrase_id": "t11_p0",
+          "hint": "break_before",
+          "char_start_original": 38,
+          "char_end_original": 59
+        },
+        {
+          "phrase_id": "t11_p1",
+          "hint": "slow",
+          "char_start_original": 60,
+          "char_end_original": 81
+        }
+      ]
+    }
+  ]
+}

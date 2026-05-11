@@ -1,0 +1,210 @@
+{
+  "turns": [
+    {
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "אז מה, אין ארוחת ערב? ישבתי כל היום בעבודה ואת לא יכולה להכין משהו נורמלי?",
+      "intensity": 2,
+      "pause_before_s": 0.0,
+      "emotional_state": "angry",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "אני גם עבדתי היום. לא הספקתי, יש שאריות במקרר, אפשר לחמם.",
+      "intensity": 2,
+      "pause_before_s": 0.8,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "שאריות. תמיד שאריות. אני לא מבין מה את עושה כל היום, באמת. הבית בבלגן, אין אוכל, כלום לא מסודר.",
+      "intensity": 3,
+      "pause_before_s": 0.5,
+      "emotional_state": "angry",
+      "phrase_hints": [
+        {
+          "phrase_id": "t2_p0",
+          "hint": "stress",
+          "char_start_original": 42,
+          "char_end_original": 70
+        }
+      ]
+    },
+    {
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "זה לא הוגן. אני מטפלת בילדים, מנקה, עובדת. אתה לא רואה כלום מזה?",
+      "intensity": 3,
+      "pause_before_s": 0.3,
+      "emotional_state": "fearful",
+      "phrase_hints": [
+        {
+          "phrase_id": "t3_p0",
+          "hint": "stress",
+          "char_start_original": 0,
+          "char_end_original": 13
+        }
+      ]
+    },
+    {
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "אל תעלי לי את הטון. אני מזהיר אותך. כל פעם את מתחילה עם הסיפורים האלה, כאילו את הקורבן הגדול.",
+      "intensity": 4,
+      "pause_before_s": 0.2,
+      "emotional_state": "threatening",
+      "phrase_hints": [
+        {
+          "phrase_id": "t4_p0",
+          "hint": "menace",
+          "char_start_original": 22,
+          "char_end_original": 39
+        },
+        {
+          "phrase_id": "t4_p1",
+          "hint": "slow",
+          "char_start_original": 74,
+          "char_end_original": 97
+        }
+      ]
+    },
+    {
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "אני לא מתחילה כלום, אני רק אומרת שאני עייפה. למה אתה צריך לצעוק על כל דבר?",
+      "intensity": 4,
+      "pause_before_s": 0.4,
+      "emotional_state": "fearful",
+      "phrase_hints": [
+        {
+          "phrase_id": "t5_p0",
+          "hint": "stress",
+          "char_start_original": 49,
+          "char_end_original": 81
+        }
+      ]
+    },
+    {
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "עייפה? עייפה?! אני עייף מלשמוע את התירוצים שלך. את חושבת שאני פרייאר? שאני אבוא הביתה ואסתדר לבד?",
+      "intensity": 4,
+      "pause_before_s": 0.1,
+      "emotional_state": "angry",
+      "phrase_hints": [
+        {
+          "phrase_id": "t6_p0",
+          "hint": "stress",
+          "char_start_original": 0,
+          "char_end_original": 14
+        },
+        {
+          "phrase_id": "t6_p1",
+          "hint": "slow",
+          "char_start_original": 51,
+          "char_end_original": 72
+        }
+      ]
+    },
+    {
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "תפסיק, אתה מפחיד אותי. בבקשה, בוא נדבר בשקט.",
+      "intensity": 5,
+      "pause_before_s": 0.3,
+      "emotional_state": "pleading",
+      "phrase_hints": [
+        {
+          "phrase_id": "t7_p0",
+          "hint": "break_before",
+          "char_start_original": 7,
+          "char_end_original": 25
+        }
+      ]
+    },
+    {
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "תשתקי! סתמי את הפה כבר!",
+      "intensity": 5,
+      "pause_before_s": 0.1,
+      "emotional_state": "threatening",
+      "phrase_hints": [
+        {
+          "phrase_id": "t8_p0",
+          "hint": "stress",
+          "char_start_original": 0,
+          "char_end_original": 6
+        },
+        {
+          "phrase_id": "t8_p1",
+          "hint": "break_after",
+          "char_start_original": 7,
+          "char_end_original": 25
+        }
+      ]
+    },
+    {
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "אאאה! לא! עזוב אותי!",
+      "intensity": 5,
+      "pause_before_s": 0.2,
+      "emotional_state": "fearful",
+      "phrase_hints": [
+        {
+          "phrase_id": "t9_p0",
+          "hint": "stress",
+          "char_start_original": 0,
+          "char_end_original": 5
+        },
+        {
+          "phrase_id": "t9_p1",
+          "hint": "break_before",
+          "char_start_original": 9,
+          "char_end_original": 22
+        }
+      ]
+    },
+    {
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "תלמדי לסגור את הפה. שמעת אותי?",
+      "intensity": 4,
+      "pause_before_s": 1.0,
+      "emotional_state": "threatening",
+      "phrase_hints": [
+        {
+          "phrase_id": "t10_p0",
+          "hint": "menace",
+          "char_start_original": 0,
+          "char_end_original": 21
+        }
+      ]
+    },
+    {
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "כואב לי... למה אתה עושה את זה... למה...",
+      "intensity": 4,
+      "pause_before_s": 0.6,
+      "emotional_state": "sad",
+      "phrase_hints": [
+        {
+          "phrase_id": "t11_p0",
+          "hint": "break_after",
+          "char_start_original": 0,
+          "char_end_original": 11
+        }
+      ]
+    },
+    {
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "אל תעשי מזה עניין. את הבאת את זה על עצמך. אם היית מכינה ארוחה כמו בן אדם, שום דבר לא היה קורה.",
+      "intensity": 2,
+      "pause_before_s": 1.5,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "אני לא יכולה ככה... אני לא יכולה...",
+      "intensity": 2,
+      "pause_before_s": 1.2,
+      "emotional_state": "sad",
+      "phrase_hints": []
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "turns": [
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "שלום, אני בן אלון. הגשתי ערעור על דחיית הבקשה שלי לגמלת הבטחת הכנסה, ואמרו לי לבוא היום לקבל תשובה.",
+      "intensity": 1,
+      "pause_before_s": 0.0,
+      "emotional_state": "neutral",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "שלום, בן. שבי בבקשה. תן לי רגע לפתוח את התיק שלך במחשב. כן, אני רואה שהגשת ערעור לפני כשלושה שבועות.",
+      "intensity": 1,
+      "pause_before_s": 0.5,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "נכון, שלושה שבועות שאני מחכה. אין לי כסף בכלל, חיכיתי גם שעה וחצי בחוץ באולם ההמתנה. אז מה יצא מזה?",
+      "intensity": 2,
+      "pause_before_s": 0.3,
+      "emotional_state": "sad",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "אני מבינה שזה מתסכל, ואני מצטערת על ההמתנה. אני רואה כאן במסמכים שהוועדה בחנה את הערעור שלך, אבל לצערי הבקשה נדחתה שוב. הסיבה היא שלפי הנתונים במערכת, יש הכנסה רשומה על שמך שעוברת את הסף.",
+      "intensity": 2,
+      "pause_before_s": 0.8,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "מה?! נדחה שוב?! איזו הכנסה? אין לי שום הכנסה! אני מובטל כבר שמונה חודשים! הבאתי את כל הניירות, את כל האישורים, ואתם שוב דוחים אותי?!",
+      "intensity": 3,
+      "pause_before_s": 0.2,
+      "emotional_state": "angry",
+      "phrase_hints": [
+        {
+          "phrase_id": "t4_p0",
+          "hint": "stress",
+          "char_start_original": 0,
+          "char_end_original": 15
+        },
+        {
+          "phrase_id": "t4_p1",
+          "hint": "stress",
+          "char_start_original": 78,
+          "char_end_original": 107
+        }
+      ]
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "בן, אני שומעת אותך ואני רואה שאתה במצב קשה. בוא ננסה לבדוק את זה ביחד. ייתכן שיש טעות במערכת, ואם כן, אפשר להגיש השגה נוספת עם מסמכים מעודכנים.",
+      "intensity": 3,
+      "pause_before_s": 0.5,
+      "emotional_state": "calm",
+      "phrase_hints": [
+        {
+          "phrase_id": "t5_p0",
+          "hint": "slow",
+          "char_start_original": 0,
+          "char_end_original": 40
+        }
+      ]
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "השגה נוספת?! עוד שלושה שבועות של המתנה?! אני לא יכול לחכות! הילדים שלי לא אוכלים! אתם יושבים פה מאחורי השולחן, לא אכפת לכם מבני אדם! כל פעם שאני בא לפה אתם שולחים אותי הביתה בידיים ריקות!",
+      "intensity": 4,
+      "pause_before_s": 0.2,
+      "emotional_state": "angry",
+      "phrase_hints": [
+        {
+          "phrase_id": "t6_p0",
+          "hint": "stress",
+          "char_start_original": 62,
+          "char_end_original": 83
+        },
+        {
+          "phrase_id": "t6_p1",
+          "hint": "slow",
+          "char_start_original": 84,
+          "char_end_original": 131
+        }
+      ]
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "בן, אני מבינה את הכעס שלך, ואני באמת רוצה לעזור. בוא נוריד קצת את הטון, ככה נוכל למצוא פתרון ביחד. אני לצידך.",
+      "intensity": 4,
+      "pause_before_s": 0.7,
+      "emotional_state": "calm",
+      "phrase_hints": [
+        {
+          "phrase_id": "t7_p0",
+          "hint": "slow",
+          "char_start_original": 0,
+          "char_end_original": 27
+        }
+      ]
+    },
+    {
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "לצידי?! את לצידי?! את חלק מהמערכת הזאת שמרמסת אותי! אם לא תסדרי לי את הגמלה היום, אני אהפוך לך את כל המשרד הזה. אני אשבור את המחשב הזה על הראש שלך, שומעת?!",
+      "intensity": 5,
+      "pause_before_s": 0.3,
+      "emotional_state": "threatening",
+      "phrase_hints": [
+        {
+          "phrase_id": "t8_p0",
+          "hint": "menace",
+          "char_start_original": 82,
+          "char_end_original": 117
+        },
+        {
+          "phrase_id": "t8_p1",
+          "hint": "break_before",
+          "char_start_original": 118,
+          "char_end_original": 167
+        }
+      ]
+    },
+    {
+      "speaker_id": "SW_F_30-45_001",
+      "text": "בן, אני צריכה שתעצור. מה שאמרת עכשיו זו איומים, ואני לא יכולה להמשיך את השיחה ככה. אני קוראת לאחראי ביטחון. אני מבקשת ממך לשבת ולא להתקרב.",
+      "intensity": 5,
+      "pause_before_s": 1.0,
+      "emotional_state": "fearful",
+      "phrase_hints": [
+        {
+          "phrase_id": "t9_p0",
+          "hint": "break_after",
+          "char_start_original": 0,
+          "char_end_original": 24
+        },
+        {
+          "phrase_id": "t9_p1",
+          "hint": "slow",
+          "char_start_original": 94,
+          "char_end_original": 152
+        }
+      ]
+    }
+  ]
+}

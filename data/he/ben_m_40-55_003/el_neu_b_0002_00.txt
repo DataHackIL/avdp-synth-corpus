@@ -1,0 +1,22 @@
+[CLIP_ID: el_neu_b_0002_00]
+[SPEAKER: SW_F_30-45_001 | ROLE: VIC | ONSET: 0.86 | OFFSET: 8.37]
+בן, שלום! כיף לראות אותך. בוא תיכנס, שב בבקשה.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: BEN_M_40-55_003 | ROLE: AGG | ONSET: 8.68 | OFFSET: 18.21]
+היי, תודה. נעים לחזור. אני מרגיש שהדברים זזים לכיוון טוב מאז הפגישה האחרונה שלנו.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: SW_F_30-45_001 | ROLE: VIC | ONSET: 18.59 | OFFSET: 29.27]
+ממש שמחה לשמוע. אני רואה בתיק שבפעם הקודמת דיברנו על העבודה החדשה ועל ההסתגלות של הילדים. איך הכל מתקדם מאז?
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: BEN_M_40-55_003 | ROLE: AGG | ONSET: 29.52 | OFFSET: 41.76]
+העבודה מסתדרת יפה, אני כבר שלושה חודשים במקום ומרגיש יציב. גם הילדים נרגעו בבית הספר, המורה של יואב אמרה שהוא הרבה יותר רגוע בכיתה.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: SW_F_30-45_001 | ROLE: VIC | ONSET: 42.22 | OFFSET: 56.82]
+מעולה, זה מאוד משמח. אני רושמת את זה בתיק. בואנו נקבע פגישה נוספת בעוד חודשיים, רק כדי להמשיך לעקוב ולוודא שהכל ממשיך בכיוון הזה. מתאים לך יום שלישי בבוקר?
+[ACTION: NONE_AMBIENT | INTENSITY: 2]
+[SPEAKER: BEN_M_40-55_003 | ROLE: AGG | ONSET: 57.16 | OFFSET: 68.10]
+בטח, יום שלישי מצוין. תודה רבה על הכל, באמת מרגיש שהליווי שלך עוזר לי. נתראה בעוד חודשיים.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]
+[SPEAKER: SW_F_30-45_001 | ROLE: VIC | ONSET: 68.47 | OFFSET: 79.15]
+בשמחה, בן. אני גאה בהתקדמות שלך. תשמור על עצמך, ואם צריך משהו לפני הפגישה, אל תהסס להתקשר.
+[ACTION: NONE_AMBIENT | INTENSITY: 1]

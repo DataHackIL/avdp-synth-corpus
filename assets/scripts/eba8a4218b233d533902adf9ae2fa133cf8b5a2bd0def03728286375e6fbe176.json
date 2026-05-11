@@ -1,0 +1,100 @@
+{
+  "turns": [
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "תגידי לי, למה הכיור עדיין מלא כלים מאתמול בערב? אני חוזר מהעבודה ורואה את אותו דבר כל יום.",
+      "intensity": 1,
+      "pause_before_s": 0.0,
+      "emotional_state": "neutral",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "אתה חוזר מהעבודה? גם אני חוזרת מהעבודה, אורי. אני לא יושבת פה כל היום ומחכה לשטוף לך כלים.",
+      "intensity": 1,
+      "pause_before_s": 0.3,
+      "emotional_state": "neutral",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "אני לא אמרתי שאת יושבת, אבל חילקנו את זה — אמרנו שמי שמבשל לא שוטף, ואני בישלתי אתמול. אז מה קרה?",
+      "intensity": 2,
+      "pause_before_s": 0.2,
+      "emotional_state": "angry",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "מה קרה? קרה שהייתי עם הילדים עד עשר בלילה, הכנתי להם תיקים, בדקתי שיעורי בית, והיו לי עוד מיילים מהעבודה. לא הספקתי, זהו.",
+      "intensity": 2,
+      "pause_before_s": 0.1,
+      "emotional_state": "angry",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "ואני מה, לא עושה כלום עם הילדים? אני קורא להם סיפור כל לילה, אני מוריד אותם לגן בבוקר — אבל אף פעם זה לא מספיק, נכון?",
+      "intensity": 2,
+      "pause_before_s": 0.2,
+      "emotional_state": "angry",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "אני לא אמרתי שאתה לא עושה כלום! אתה תמיד לוקח את מה שאני אומרת ומנפח את זה. אני אמרתי שאתמול בלילה לא הספקתי, נקודה.",
+      "intensity": 2,
+      "pause_before_s": 0.1,
+      "emotional_state": "angry",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "כי זה לא רק אתמול! זה כבר השבוע השלישי שאני מרגיש שאני עושה את החלק שלי ועוד חצי מהחלק שלך, ואם אני פותח את הפה אני —",
+      "intensity": 2,
+      "pause_before_s": 0.1,
+      "emotional_state": "angry",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "חצי מהחלק שלי? אורי, תשמע את עצמך רגע. אתה רוצה שנעשה חשבון? תעשה חשבון. תספור כמה פעמים בשבוע אתה מכבס, מקפל, קונה בסופר —",
+      "intensity": 2,
+      "pause_before_s": 0.0,
+      "emotional_state": "angry",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "טוב... טוב. רגע. אנחנו עושים את זה שוב, ה? אותו ויכוח, אותן מילים. אני לא רוצה לריב איתך על כלים, נועה. באמת שלא.",
+      "intensity": 1,
+      "pause_before_s": 1.2,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "...גם אני לא. אני פשוט עייפה. ואני מרגישה שכשאתה בא עם טון כזה, כאילו אני מתרשלת, זה מכעיס אותי כי אני נותנת את הנשמה בבית הזה.",
+      "intensity": 1,
+      "pause_before_s": 0.8,
+      "emotional_state": "sad",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "text": "את צודקת לגבי הטון. אני מתנצל. אני גם עייף, ובמקום לדבר נורמלי אני פשוט מתפוצץ ברגע שאני רואה את הכיור. בוא ננסה אחרת — אם את לא מספיקה, תגידי לי ואני אשטוף. בלי דרמה.",
+      "intensity": 1,
+      "pause_before_s": 0.5,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "text": "וגם אני צריכה להגיד ולא סתם לקוות שתראה לבד. בסדר. בוא נשטוף ביחד עכשיו ונגמור עם זה, מה אומר?",
+      "intensity": 1,
+      "pause_before_s": 0.4,
+      "emotional_state": "calm",
+      "phrase_hints": []
+    }
+  ]
+}
