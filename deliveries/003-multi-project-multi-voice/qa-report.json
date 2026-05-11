@@ -1,64 +1,37 @@
 {
-  "data_dir": "/Users/shaypalachy/clones/avdp-synth-corpus/data/he",
-  "passed": true,
-  "failure_rate": 0.0,
-  "stats": {
-    "total_clips": 20,
-    "failed_clips": 0,
-    "total_duration_seconds": 2500.7868750000002,
-    "speaker_count": 6,
-    "quality_flagged_clips": 15,
-    "clips_missing_strong_labels": 0,
-    "clips_by_typology": {
-      "IT": 5,
-      "NEG": 5,
-      "NEU": 5,
-      "SV": 5
-    },
-    "clips_by_split": {
-      "unassigned": 20
-    },
-    "clips_by_tier": {
-      "A": 12,
-      "B": 8
-    },
-    "intensity_distribution": {
-      "5": 10,
-      "3": 4,
-      "2": 6
-    },
-    "clips_with_prosody_cap_activations": 17,
-    "prosody_cap_activations_total": 170
-  },
-  "failed_clip_ids": [],
-  "quality_flagged": {
-    "sp_it_a_0001_00": [
-      "emotion_downgrade"
-    ],
-    "sp_it_a_0002_00": [
-      "emotion_downgrade"
-    ],
-    "sp_neg_a_0001_00": [
-      "emotion_downgrade"
-    ],
-    "sp_neg_a_0002_00": [
-      "emotion_downgrade"
-    ],
-    "sp_neg_a_0003_00": [
-      "emotion_downgrade"
-    ],
-    "sp_sv_a_0001_00": [
-      "emotion_downgrade"
-    ],
-    "sp_sv_a_0002_00": [
-      "emotion_downgrade"
-    ],
+  "acoustic_warnings": {
     "sp_it_a_0003_00": [
-      "emotion_downgrade"
+      "vic_f0_high"
     ],
     "sp_sv_a_0003_00": [
-      "emotion_downgrade"
-    ],
+      "vic_f0_high"
+    ]
+  },
+  "asr_warnings": {},
+  "data_dir": "/Users/shaypalachy/clones/avdp-synth-corpus/data/he",
+  "failed_clip_ids": [],
+  "failure_rate": 0.0,
+  "passed": true,
+  "prosody_cap_activations": {
+    "el_it_b_0001_00": 5,
+    "el_it_b_0002_00": 11,
+    "el_neg_b_0002_00": 1,
+    "el_sv_b_0001_00": 6,
+    "el_sv_b_0002_00": 9,
+    "sp_it_a_0001_00": 19,
+    "sp_it_a_0002_00": 15,
+    "sp_it_a_0003_00": 17,
+    "sp_neg_a_0001_00": 6,
+    "sp_neg_a_0002_00": 7,
+    "sp_neg_a_0003_00": 6,
+    "sp_neu_a_0001_00": 6,
+    "sp_neu_a_0002_00": 7,
+    "sp_neu_a_0003_00": 6,
+    "sp_sv_a_0001_00": 19,
+    "sp_sv_a_0002_00": 14,
+    "sp_sv_a_0003_00": 16
+  },
+  "quality_flagged": {
     "el_it_b_0001_00": [
       "emotion_downgrade"
     ],
@@ -76,139 +49,40 @@
     ],
     "el_sv_b_0002_00": [
       "emotion_downgrade"
-    ]
-  },
-  "acoustic_warnings": {
+    ],
+    "sp_it_a_0001_00": [
+      "emotion_downgrade"
+    ],
+    "sp_it_a_0002_00": [
+      "emotion_downgrade"
+    ],
     "sp_it_a_0003_00": [
-      "vic_f0_high"
+      "emotion_downgrade"
+    ],
+    "sp_neg_a_0001_00": [
+      "emotion_downgrade"
+    ],
+    "sp_neg_a_0002_00": [
+      "emotion_downgrade"
+    ],
+    "sp_neg_a_0003_00": [
+      "emotion_downgrade"
+    ],
+    "sp_sv_a_0001_00": [
+      "emotion_downgrade"
+    ],
+    "sp_sv_a_0002_00": [
+      "emotion_downgrade"
     ],
     "sp_sv_a_0003_00": [
-      "vic_f0_high"
+      "emotion_downgrade"
     ]
   },
-  "structural_warnings": {},
-  "prosody_cap_activations": {
-    "sp_it_a_0001_00": 19,
-    "sp_it_a_0002_00": 15,
-    "sp_neg_a_0001_00": 6,
-    "sp_neg_a_0002_00": 7,
-    "sp_neg_a_0003_00": 6,
-    "sp_neu_a_0001_00": 6,
-    "sp_neu_a_0002_00": 7,
-    "sp_neu_a_0003_00": 6,
-    "sp_sv_a_0001_00": 19,
-    "sp_sv_a_0002_00": 14,
-    "sp_it_a_0003_00": 17,
-    "sp_sv_a_0003_00": 16,
-    "el_it_b_0001_00": 5,
-    "el_it_b_0002_00": 11,
-    "el_neg_b_0002_00": 1,
-    "el_sv_b_0001_00": 6,
-    "el_sv_b_0002_00": 9
-  },
-  "asr_warnings": {},
   "run_summary": {
-    "role_intensity_stats": [
-      {
-        "role": "AGG",
-        "intensity": 1,
-        "n_turns": 40,
-        "f0_median_hz": 106.252996181733,
-        "f0_std_hz_mean": 19.026395120928775,
-        "rms_db_mean": -26.264933668686478,
-        "lufs_db_mean": -25.23924673619007
-      },
-      {
-        "role": "AGG",
-        "intensity": 2,
-        "n_turns": 31,
-        "f0_median_hz": 108.1102658399776,
-        "f0_std_hz_mean": 22.851487932674182,
-        "rms_db_mean": -28.62001685439644,
-        "lufs_db_mean": -27.690152509897995
-      },
-      {
-        "role": "AGG",
-        "intensity": 3,
-        "n_turns": 22,
-        "f0_median_hz": 113.55498244923697,
-        "f0_std_hz_mean": 25.441891968713627,
-        "rms_db_mean": -26.75737709404332,
-        "lufs_db_mean": -25.801129710828317
-      },
-      {
-        "role": "AGG",
-        "intensity": 4,
-        "n_turns": 17,
-        "f0_median_hz": 121.35169484693589,
-        "f0_std_hz_mean": 35.61756253167847,
-        "rms_db_mean": -27.750911063452683,
-        "lufs_db_mean": -26.443119582974802
-      },
-      {
-        "role": "AGG",
-        "intensity": 5,
-        "n_turns": 14,
-        "f0_median_hz": 117.21605517913326,
-        "f0_std_hz_mean": 28.456606185647296,
-        "rms_db_mean": -24.40714167053957,
-        "lufs_db_mean": -23.10049106389533
-      },
-      {
-        "role": "VIC",
-        "intensity": 1,
-        "n_turns": 47,
-        "f0_median_hz": 207.65234878997256,
-        "f0_std_hz_mean": 38.985871279099506,
-        "rms_db_mean": -25.44350727920958,
-        "lufs_db_mean": -24.356830372692553
-      },
-      {
-        "role": "VIC",
-        "intensity": 2,
-        "n_turns": 33,
-        "f0_median_hz": 208.25380769954342,
-        "f0_std_hz_mean": 43.64342839303118,
-        "rms_db_mean": -29.22597481860275,
-        "lufs_db_mean": -28.325761478113975
-      },
-      {
-        "role": "VIC",
-        "intensity": 3,
-        "n_turns": 26,
-        "f0_median_hz": 223.20090456450697,
-        "f0_std_hz_mean": 49.68458303287865,
-        "rms_db_mean": -33.30509871970152,
-        "lufs_db_mean": -32.210243183604646
-      },
-      {
-        "role": "VIC",
-        "intensity": 4,
-        "n_turns": 14,
-        "f0_median_hz": 229.74119028909763,
-        "f0_std_hz_mean": 64.27051044991096,
-        "rms_db_mean": -35.56674703043024,
-        "lufs_db_mean": -34.47744642450853
-      },
-      {
-        "role": "VIC",
-        "intensity": 5,
-        "n_turns": 5,
-        "f0_median_hz": 218.73289323986043,
-        "f0_std_hz_mean": 79.75888422107323,
-        "rms_db_mean": -36.89408535853518,
-        "lufs_db_mean": -35.63919225446456
-      }
-    ],
-    "voices_by_gender": {
-      "male": 2,
-      "female": 2
-    },
     "backend_count": 1,
     "clips_by_tts_engine": {
       "azure_he_IL": 20
     },
-    "overlap_ratio": 1.0,
     "clips_with_i4_plus": 10,
     "emotion_downgrade_ratio": 0.0,
     "outlier_clip_ids": [
@@ -224,10 +98,136 @@
       "sp_sv_a_0002_00",
       "sp_sv_a_0003_00"
     ],
+    "overlap_ratio": 1.0,
+    "role_intensity_stats": [
+      {
+        "f0_median_hz": 106.252996181733,
+        "f0_std_hz_mean": 19.026395120928775,
+        "intensity": 1,
+        "lufs_db_mean": -25.23924673619007,
+        "n_turns": 40,
+        "rms_db_mean": -26.264933668686478,
+        "role": "AGG"
+      },
+      {
+        "f0_median_hz": 108.1102658399776,
+        "f0_std_hz_mean": 22.851487932674182,
+        "intensity": 2,
+        "lufs_db_mean": -27.690152509897995,
+        "n_turns": 31,
+        "rms_db_mean": -28.62001685439644,
+        "role": "AGG"
+      },
+      {
+        "f0_median_hz": 113.55498244923697,
+        "f0_std_hz_mean": 25.441891968713627,
+        "intensity": 3,
+        "lufs_db_mean": -25.801129710828317,
+        "n_turns": 22,
+        "rms_db_mean": -26.75737709404332,
+        "role": "AGG"
+      },
+      {
+        "f0_median_hz": 121.35169484693589,
+        "f0_std_hz_mean": 35.61756253167847,
+        "intensity": 4,
+        "lufs_db_mean": -26.443119582974802,
+        "n_turns": 17,
+        "rms_db_mean": -27.750911063452683,
+        "role": "AGG"
+      },
+      {
+        "f0_median_hz": 117.21605517913326,
+        "f0_std_hz_mean": 28.456606185647296,
+        "intensity": 5,
+        "lufs_db_mean": -23.10049106389533,
+        "n_turns": 14,
+        "rms_db_mean": -24.40714167053957,
+        "role": "AGG"
+      },
+      {
+        "f0_median_hz": 207.65234878997256,
+        "f0_std_hz_mean": 38.985871279099506,
+        "intensity": 1,
+        "lufs_db_mean": -24.356830372692553,
+        "n_turns": 47,
+        "rms_db_mean": -25.44350727920958,
+        "role": "VIC"
+      },
+      {
+        "f0_median_hz": 208.25380769954342,
+        "f0_std_hz_mean": 43.64342839303118,
+        "intensity": 2,
+        "lufs_db_mean": -28.325761478113975,
+        "n_turns": 33,
+        "rms_db_mean": -29.22597481860275,
+        "role": "VIC"
+      },
+      {
+        "f0_median_hz": 223.20090456450697,
+        "f0_std_hz_mean": 49.68458303287865,
+        "intensity": 3,
+        "lufs_db_mean": -32.210243183604646,
+        "n_turns": 26,
+        "rms_db_mean": -33.30509871970152,
+        "role": "VIC"
+      },
+      {
+        "f0_median_hz": 229.74119028909763,
+        "f0_std_hz_mean": 64.27051044991096,
+        "intensity": 4,
+        "lufs_db_mean": -34.47744642450853,
+        "n_turns": 14,
+        "rms_db_mean": -35.56674703043024,
+        "role": "VIC"
+      },
+      {
+        "f0_median_hz": 218.73289323986043,
+        "f0_std_hz_mean": 79.75888422107323,
+        "intensity": 5,
+        "lufs_db_mean": -35.63919225446456,
+        "n_turns": 5,
+        "rms_db_mean": -36.89408535853518,
+        "role": "VIC"
+      }
+    ],
     "run_warnings": [
       "low_voice_diversity_male",
       "low_voice_diversity_female",
       "single_backend"
-    ]
-  }
+    ],
+    "voices_by_gender": {
+      "female": 2,
+      "male": 2
+    }
+  },
+  "stats": {
+    "clips_by_split": {
+      "unassigned": 20
+    },
+    "clips_by_tier": {
+      "A": 12,
+      "B": 8
+    },
+    "clips_by_typology": {
+      "IT": 5,
+      "NEG": 5,
+      "NEU": 5,
+      "SV": 5
+    },
+    "clips_missing_strong_labels": 0,
+    "clips_with_prosody_cap_activations": 17,
+    "failed_clips": 0,
+    "intensity_distribution": {
+      "2": 6,
+      "3": 4,
+      "5": 10
+    },
+    "prosody_cap_activations_total": 170,
+    "quality_flagged_clips": 15,
+    "speaker_count": 6,
+    "total_clips": 20,
+    "total_duration_seconds": 2500.7868750000002
+  },
+  "structural_warnings": {}
 }

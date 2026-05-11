@@ -1,92 +1,92 @@
 {
   "turns": [
     {
-      "speaker_id": "SW_F_30-45_001",
-      "text": "בוקר טוב, אתה בן? שמי מיכל, אני העובדת הסוציאלית שתלווה אותך בתהליך. בוא תיכנס ותשב בבקשה.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.0,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05d1\u05d5\u05e7\u05e8 \u05d8\u05d5\u05d1, \u05d0\u05ea\u05d4 \u05d1\u05df? \u05e9\u05de\u05d9 \u05de\u05d9\u05db\u05dc, \u05d0\u05e0\u05d9 \u05d4\u05e2\u05d5\u05d1\u05d3\u05ea \u05d4\u05e1\u05d5\u05e6\u05d9\u05d0\u05dc\u05d9\u05ea \u05e9\u05ea\u05dc\u05d5\u05d5\u05d4 \u05d0\u05d5\u05ea\u05da \u05d1\u05ea\u05d4\u05dc\u05d9\u05da. \u05d1\u05d5\u05d0 \u05ea\u05d9\u05db\u05e0\u05e1 \u05d5\u05ea\u05e9\u05d1 \u05d1\u05d1\u05e7\u05e9\u05d4."
     },
     {
-      "speaker_id": "BEN_M_40-55_003",
-      "text": "בוקר טוב, מיכל. כן, אני בן אברהם. תודה רבה, נעים מאוד.",
+      "emotional_state": "neutral",
       "intensity": 1,
       "pause_before_s": 0.5,
-      "emotional_state": "neutral",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05d1\u05d5\u05e7\u05e8 \u05d8\u05d5\u05d1, \u05de\u05d9\u05db\u05dc. \u05db\u05df, \u05d0\u05e0\u05d9 \u05d1\u05df \u05d0\u05d1\u05e8\u05d4\u05dd. \u05ea\u05d5\u05d3\u05d4 \u05e8\u05d1\u05d4, \u05e0\u05e2\u05d9\u05dd \u05de\u05d0\u05d5\u05d3."
     },
     {
-      "speaker_id": "SW_F_30-45_001",
-      "text": "נעים מאוד, בן. אז כמו שדיברנו בטלפון, הפגישה היום היא פגישת היכרות ראשונית לצורך פתיחת תיק ובקשה לגמלה. אני אצטרך לשאול אותך כמה שאלות בסיסיות, בסדר?",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.3,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05e0\u05e2\u05d9\u05dd \u05de\u05d0\u05d5\u05d3, \u05d1\u05df. \u05d0\u05d6 \u05db\u05de\u05d5 \u05e9\u05d3\u05d9\u05d1\u05e8\u05e0\u05d5 \u05d1\u05d8\u05dc\u05e4\u05d5\u05df, \u05d4\u05e4\u05d2\u05d9\u05e9\u05d4 \u05d4\u05d9\u05d5\u05dd \u05d4\u05d9\u05d0 \u05e4\u05d2\u05d9\u05e9\u05ea \u05d4\u05d9\u05db\u05e8\u05d5\u05ea \u05e8\u05d0\u05e9\u05d5\u05e0\u05d9\u05ea \u05dc\u05e6\u05d5\u05e8\u05da \u05e4\u05ea\u05d9\u05d7\u05ea \u05ea\u05d9\u05e7 \u05d5\u05d1\u05e7\u05e9\u05d4 \u05dc\u05d2\u05de\u05dc\u05d4. \u05d0\u05e0\u05d9 \u05d0\u05e6\u05d8\u05e8\u05da \u05dc\u05e9\u05d0\u05d5\u05dc \u05d0\u05d5\u05ea\u05da \u05db\u05de\u05d4 \u05e9\u05d0\u05dc\u05d5\u05ea \u05d1\u05e1\u05d9\u05e1\u05d9\u05d5\u05ea, \u05d1\u05e1\u05d3\u05e8?"
     },
     {
-      "speaker_id": "BEN_M_40-55_003",
-      "text": "בטח, אין בעיה. אני הבאתי גם את תעודת הזהות ואת כל המסמכים שביקשת.",
+      "emotional_state": "neutral",
       "intensity": 1,
       "pause_before_s": 0.4,
-      "emotional_state": "neutral",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05d1\u05d8\u05d7, \u05d0\u05d9\u05df \u05d1\u05e2\u05d9\u05d4. \u05d0\u05e0\u05d9 \u05d4\u05d1\u05d0\u05ea\u05d9 \u05d2\u05dd \u05d0\u05ea \u05ea\u05e2\u05d5\u05d3\u05ea \u05d4\u05d6\u05d4\u05d5\u05ea \u05d5\u05d0\u05ea \u05db\u05dc \u05d4\u05de\u05e1\u05de\u05db\u05d9\u05dd \u05e9\u05d1\u05d9\u05e7\u05e9\u05ea."
     },
     {
-      "speaker_id": "SW_F_30-45_001",
-      "text": "מעולה, זה מאוד עוזר. אז קודם כל, שם מלא כפי שמופיע בתעודת זהות?",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.3,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05de\u05e2\u05d5\u05dc\u05d4, \u05d6\u05d4 \u05de\u05d0\u05d5\u05d3 \u05e2\u05d5\u05d6\u05e8. \u05d0\u05d6 \u05e7\u05d5\u05d3\u05dd \u05db\u05dc, \u05e9\u05dd \u05de\u05dc\u05d0 \u05db\u05e4\u05d9 \u05e9\u05de\u05d5\u05e4\u05d9\u05e2 \u05d1\u05ea\u05e2\u05d5\u05d3\u05ea \u05d6\u05d4\u05d5\u05ea?"
     },
     {
-      "speaker_id": "BEN_M_40-55_003",
-      "text": "בנימין אברהם, מספר תעודת זהות שלושה אפס שבע ארבע חמש שש אחד שתיים. תאריך לידה עשרים ושלושה בשלושה שבעים ושתיים.",
+      "emotional_state": "neutral",
       "intensity": 1,
       "pause_before_s": 0.5,
-      "emotional_state": "neutral",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05d1\u05e0\u05d9\u05de\u05d9\u05df \u05d0\u05d1\u05e8\u05d4\u05dd, \u05de\u05e1\u05e4\u05e8 \u05ea\u05e2\u05d5\u05d3\u05ea \u05d6\u05d4\u05d5\u05ea \u05e9\u05dc\u05d5\u05e9\u05d4 \u05d0\u05e4\u05e1 \u05e9\u05d1\u05e2 \u05d0\u05e8\u05d1\u05e2 \u05d7\u05de\u05e9 \u05e9\u05e9 \u05d0\u05d7\u05d3 \u05e9\u05ea\u05d9\u05d9\u05dd. \u05ea\u05d0\u05e8\u05d9\u05da \u05dc\u05d9\u05d3\u05d4 \u05e2\u05e9\u05e8\u05d9\u05dd \u05d5\u05e9\u05dc\u05d5\u05e9\u05d4 \u05d1\u05e9\u05dc\u05d5\u05e9\u05d4 \u05e9\u05d1\u05e2\u05d9\u05dd \u05d5\u05e9\u05ea\u05d9\u05d9\u05dd."
     },
     {
-      "speaker_id": "SW_F_30-45_001",
-      "text": "תודה, בן. אני רושמת. לגבי ההמשך, אני אצטרך ממך למלא טופס בקשה רשמי, ולצרף אישורים רפואיים ותלושי שכר של שלושת החודשים האחרונים. את כל זה אפשר להגיש גם בפגישה הבאה.",
+      "emotional_state": "calm",
       "intensity": 2,
       "pause_before_s": 0.8,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05ea\u05d5\u05d3\u05d4, \u05d1\u05df. \u05d0\u05e0\u05d9 \u05e8\u05d5\u05e9\u05de\u05ea. \u05dc\u05d2\u05d1\u05d9 \u05d4\u05d4\u05de\u05e9\u05da, \u05d0\u05e0\u05d9 \u05d0\u05e6\u05d8\u05e8\u05da \u05de\u05de\u05da \u05dc\u05de\u05dc\u05d0 \u05d8\u05d5\u05e4\u05e1 \u05d1\u05e7\u05e9\u05d4 \u05e8\u05e9\u05de\u05d9, \u05d5\u05dc\u05e6\u05e8\u05e3 \u05d0\u05d9\u05e9\u05d5\u05e8\u05d9\u05dd \u05e8\u05e4\u05d5\u05d0\u05d9\u05d9\u05dd \u05d5\u05ea\u05dc\u05d5\u05e9\u05d9 \u05e9\u05db\u05e8 \u05e9\u05dc \u05e9\u05dc\u05d5\u05e9\u05ea \u05d4\u05d7\u05d5\u05d3\u05e9\u05d9\u05dd \u05d4\u05d0\u05d7\u05e8\u05d5\u05e0\u05d9\u05dd. \u05d0\u05ea \u05db\u05dc \u05d6\u05d4 \u05d0\u05e4\u05e9\u05e8 \u05dc\u05d4\u05d2\u05d9\u05e9 \u05d2\u05dd \u05d1\u05e4\u05d2\u05d9\u05e9\u05d4 \u05d4\u05d1\u05d0\u05d4."
     },
     {
-      "speaker_id": "BEN_M_40-55_003",
-      "text": "הבנתי. ומתי בערך תהיה הפגישה הבאה? ואיך אני אדע מה המצב של הבקשה?",
+      "emotional_state": "neutral",
       "intensity": 1,
       "pause_before_s": 0.6,
-      "emotional_state": "neutral",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05d4\u05d1\u05e0\u05ea\u05d9. \u05d5\u05de\u05ea\u05d9 \u05d1\u05e2\u05e8\u05da \u05ea\u05d4\u05d9\u05d4 \u05d4\u05e4\u05d2\u05d9\u05e9\u05d4 \u05d4\u05d1\u05d0\u05d4? \u05d5\u05d0\u05d9\u05da \u05d0\u05e0\u05d9 \u05d0\u05d3\u05e2 \u05de\u05d4 \u05d4\u05de\u05e6\u05d1 \u05e9\u05dc \u05d4\u05d1\u05e7\u05e9\u05d4?"
     },
     {
-      "speaker_id": "SW_F_30-45_001",
-      "text": "אנחנו נקבע מועד בעוד כשבועיים, ואני אשלח לך תזכורת עם כל הפרטים. אחרי שנגיש את הכל, זמן הטיפול הוא בדרך כלל בין חודש לחודשיים. אם יש שאלות בינתיים, אפשר תמיד להתקשר למשרד.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.4,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05d0\u05e0\u05d7\u05e0\u05d5 \u05e0\u05e7\u05d1\u05e2 \u05de\u05d5\u05e2\u05d3 \u05d1\u05e2\u05d5\u05d3 \u05db\u05e9\u05d1\u05d5\u05e2\u05d9\u05d9\u05dd, \u05d5\u05d0\u05e0\u05d9 \u05d0\u05e9\u05dc\u05d7 \u05dc\u05da \u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05e2\u05dd \u05db\u05dc \u05d4\u05e4\u05e8\u05d8\u05d9\u05dd. \u05d0\u05d7\u05e8\u05d9 \u05e9\u05e0\u05d2\u05d9\u05e9 \u05d0\u05ea \u05d4\u05db\u05dc, \u05d6\u05de\u05df \u05d4\u05d8\u05d9\u05e4\u05d5\u05dc \u05d4\u05d5\u05d0 \u05d1\u05d3\u05e8\u05da \u05db\u05dc\u05dc \u05d1\u05d9\u05df \u05d7\u05d5\u05d3\u05e9 \u05dc\u05d7\u05d5\u05d3\u05e9\u05d9\u05d9\u05dd. \u05d0\u05dd \u05d9\u05e9 \u05e9\u05d0\u05dc\u05d5\u05ea \u05d1\u05d9\u05e0\u05ea\u05d9\u05d9\u05dd, \u05d0\u05e4\u05e9\u05e8 \u05ea\u05de\u05d9\u05d3 \u05dc\u05d4\u05ea\u05e7\u05e9\u05e8 \u05dc\u05de\u05e9\u05e8\u05d3."
     },
     {
-      "speaker_id": "BEN_M_40-55_003",
-      "text": "מצוין, תודה רבה על ההסבר ועל הסבלנות. אני אכין את כל המסמכים עד הפגישה הבאה.",
+      "emotional_state": "neutral",
       "intensity": 1,
       "pause_before_s": 0.5,
-      "emotional_state": "neutral",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05de\u05e6\u05d5\u05d9\u05df, \u05ea\u05d5\u05d3\u05d4 \u05e8\u05d1\u05d4 \u05e2\u05dc \u05d4\u05d4\u05e1\u05d1\u05e8 \u05d5\u05e2\u05dc \u05d4\u05e1\u05d1\u05dc\u05e0\u05d5\u05ea. \u05d0\u05e0\u05d9 \u05d0\u05db\u05d9\u05df \u05d0\u05ea \u05db\u05dc \u05d4\u05de\u05e1\u05de\u05db\u05d9\u05dd \u05e2\u05d3 \u05d4\u05e4\u05d2\u05d9\u05e9\u05d4 \u05d4\u05d1\u05d0\u05d4."
     },
     {
-      "speaker_id": "SW_F_30-45_001",
-      "text": "בכיף, בן. שיהיה לך יום טוב, ונתראה בקרוב.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.3,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05d1\u05db\u05d9\u05e3, \u05d1\u05df. \u05e9\u05d9\u05d4\u05d9\u05d4 \u05dc\u05da \u05d9\u05d5\u05dd \u05d8\u05d5\u05d1, \u05d5\u05e0\u05ea\u05e8\u05d0\u05d4 \u05d1\u05e7\u05e8\u05d5\u05d1."
     }
   ]
 }

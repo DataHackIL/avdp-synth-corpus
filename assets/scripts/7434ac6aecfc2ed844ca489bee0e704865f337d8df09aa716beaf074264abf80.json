@@ -1,140 +1,140 @@
 {
   "turns": [
     {
-      "speaker_id": "AGG_M_30-45_002",
-      "text": "את באת. טוב, תכנסי. סוגר את הדלת.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.3,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "\u05d0\u05ea \u05d1\u05d0\u05ea. \u05d8\u05d5\u05d1, \u05ea\u05db\u05e0\u05e1\u05d9. \u05e1\u05d5\u05d2\u05e8 \u05d0\u05ea \u05d4\u05d3\u05dc\u05ea."
     },
     {
-      "speaker_id": "VIC_F_25-40_003",
-      "text": "היי, סליחה שאיחרתי קצת. היה עומס בכביש.",
+      "emotional_state": "neutral",
       "intensity": 1,
       "pause_before_s": 0.5,
-      "emotional_state": "neutral",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "\u05d4\u05d9\u05d9, \u05e1\u05dc\u05d9\u05d7\u05d4 \u05e9\u05d0\u05d9\u05d7\u05e8\u05ea\u05d9 \u05e7\u05e6\u05ea. \u05d4\u05d9\u05d4 \u05e2\u05d5\u05de\u05e1 \u05d1\u05db\u05d1\u05d9\u05e9."
     },
     {
-      "speaker_id": "AGG_M_30-45_002",
-      "text": "קצת? את יודעת מה השעה עכשיו? שלחתי לך הודעה לפני שעתיים.",
+      "emotional_state": "calm",
       "intensity": 2,
       "pause_before_s": 0.8,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "\u05e7\u05e6\u05ea? \u05d0\u05ea \u05d9\u05d5\u05d3\u05e2\u05ea \u05de\u05d4 \u05d4\u05e9\u05e2\u05d4 \u05e2\u05db\u05e9\u05d9\u05d5? \u05e9\u05dc\u05d7\u05ea\u05d9 \u05dc\u05da \u05d4\u05d5\u05d3\u05e2\u05d4 \u05dc\u05e4\u05e0\u05d9 \u05e9\u05e2\u05ea\u05d9\u05d9\u05dd."
     },
     {
-      "speaker_id": "VIC_F_25-40_003",
-      "text": "לא שמתי לב להודעה, הייתי בנהיגה. באמת סליחה.",
+      "emotional_state": "neutral",
       "intensity": 2,
       "pause_before_s": 0.4,
-      "emotional_state": "neutral",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "\u05dc\u05d0 \u05e9\u05de\u05ea\u05d9 \u05dc\u05d1 \u05dc\u05d4\u05d5\u05d3\u05e2\u05d4, \u05d4\u05d9\u05d9\u05ea\u05d9 \u05d1\u05e0\u05d4\u05d9\u05d2\u05d4. \u05d1\u05d0\u05de\u05ea \u05e1\u05dc\u05d9\u05d7\u05d4."
     },
     {
-      "speaker_id": "AGG_M_30-45_002",
-      "text": "לא שמת לב. כמו תמיד. את אף פעם לא שמה לב כשאני כותב לך, אבל לחברות שלך את עונה תוך שנייה, נכון?",
+      "emotional_state": "angry",
       "intensity": 2,
       "pause_before_s": 0.6,
-      "emotional_state": "angry",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "\u05dc\u05d0 \u05e9\u05de\u05ea \u05dc\u05d1. \u05db\u05de\u05d5 \u05ea\u05de\u05d9\u05d3. \u05d0\u05ea \u05d0\u05e3 \u05e4\u05e2\u05dd \u05dc\u05d0 \u05e9\u05de\u05d4 \u05dc\u05d1 \u05db\u05e9\u05d0\u05e0\u05d9 \u05db\u05d5\u05ea\u05d1 \u05dc\u05da, \u05d0\u05d1\u05dc \u05dc\u05d7\u05d1\u05e8\u05d5\u05ea \u05e9\u05dc\u05da \u05d0\u05ea \u05e2\u05d5\u05e0\u05d4 \u05ea\u05d5\u05da \u05e9\u05e0\u05d9\u05d9\u05d4, \u05e0\u05db\u05d5\u05df?"
     },
     {
-      "speaker_id": "VIC_F_25-40_003",
-      "text": "זה לא ככה. פשוט הייתי על הכביש, לא יכולתי להסתכל בטלפון.",
+      "emotional_state": "neutral",
       "intensity": 2,
       "pause_before_s": 0.3,
-      "emotional_state": "neutral",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "\u05d6\u05d4 \u05dc\u05d0 \u05db\u05db\u05d4. \u05e4\u05e9\u05d5\u05d8 \u05d4\u05d9\u05d9\u05ea\u05d9 \u05e2\u05dc \u05d4\u05db\u05d1\u05d9\u05e9, \u05dc\u05d0 \u05d9\u05db\u05d5\u05dc\u05ea\u05d9 \u05dc\u05d4\u05e1\u05ea\u05db\u05dc \u05d1\u05d8\u05dc\u05e4\u05d5\u05df."
     },
     {
-      "speaker_id": "AGG_M_30-45_002",
-      "text": "אז תגידי לי, איפה בדיוק היית עד עשר בלילה? מה לוקח כל כך הרבה זמן?",
+      "emotional_state": "angry",
       "intensity": 3,
       "pause_before_s": 1.0,
-      "emotional_state": "angry",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "\u05d0\u05d6 \u05ea\u05d2\u05d9\u05d3\u05d9 \u05dc\u05d9, \u05d0\u05d9\u05e4\u05d4 \u05d1\u05d3\u05d9\u05d5\u05e7 \u05d4\u05d9\u05d9\u05ea \u05e2\u05d3 \u05e2\u05e9\u05e8 \u05d1\u05dc\u05d9\u05dc\u05d4? \u05de\u05d4 \u05dc\u05d5\u05e7\u05d7 \u05db\u05dc \u05db\u05da \u05d4\u05e8\u05d1\u05d4 \u05d6\u05de\u05df?"
     },
     {
-      "speaker_id": "VIC_F_25-40_003",
-      "text": "הייתי עם רונית, ישבנו בקפה אחרי העבודה. אמרתי לך בבוקר שאולי אאחר.",
+      "emotional_state": "fearful",
       "intensity": 3,
       "pause_before_s": 0.5,
-      "emotional_state": "fearful",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "\u05d4\u05d9\u05d9\u05ea\u05d9 \u05e2\u05dd \u05e8\u05d5\u05e0\u05d9\u05ea, \u05d9\u05e9\u05d1\u05e0\u05d5 \u05d1\u05e7\u05e4\u05d4 \u05d0\u05d7\u05e8\u05d9 \u05d4\u05e2\u05d1\u05d5\u05d3\u05d4. \u05d0\u05de\u05e8\u05ea\u05d9 \u05dc\u05da \u05d1\u05d1\u05d5\u05e7\u05e8 \u05e9\u05d0\u05d5\u05dc\u05d9 \u05d0\u05d0\u05d7\u05e8."
     },
     {
-      "speaker_id": "AGG_M_30-45_002",
-      "text": "רונית. שוב רונית. כל פעם שאת נעלמת זה בגלל רונית. תראי לי את ההודעות שלך איתה מהיום. עכשיו.",
+      "emotional_state": "threatening",
       "intensity": 4,
       "pause_before_s": 0.4,
-      "emotional_state": "threatening",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "\u05e8\u05d5\u05e0\u05d9\u05ea. \u05e9\u05d5\u05d1 \u05e8\u05d5\u05e0\u05d9\u05ea. \u05db\u05dc \u05e4\u05e2\u05dd \u05e9\u05d0\u05ea \u05e0\u05e2\u05dc\u05de\u05ea \u05d6\u05d4 \u05d1\u05d2\u05dc\u05dc \u05e8\u05d5\u05e0\u05d9\u05ea. \u05ea\u05e8\u05d0\u05d9 \u05dc\u05d9 \u05d0\u05ea \u05d4\u05d4\u05d5\u05d3\u05e2\u05d5\u05ea \u05e9\u05dc\u05da \u05d0\u05d9\u05ea\u05d4 \u05de\u05d4\u05d9\u05d5\u05dd. \u05e2\u05db\u05e9\u05d9\u05d5."
     },
     {
-      "speaker_id": "VIC_F_25-40_003",
-      "text": "למה אתה צריך לראות הודעות? אני אומרת לך את האמת. אני לא משקרת.",
+      "emotional_state": "fearful",
       "intensity": 3,
       "pause_before_s": 0.3,
-      "emotional_state": "fearful",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "\u05dc\u05de\u05d4 \u05d0\u05ea\u05d4 \u05e6\u05e8\u05d9\u05da \u05dc\u05e8\u05d0\u05d5\u05ea \u05d4\u05d5\u05d3\u05e2\u05d5\u05ea? \u05d0\u05e0\u05d9 \u05d0\u05d5\u05de\u05e8\u05ea \u05dc\u05da \u05d0\u05ea \u05d4\u05d0\u05de\u05ea. \u05d0\u05e0\u05d9 \u05dc\u05d0 \u05de\u05e9\u05e7\u05e8\u05ea."
     },
     {
-      "speaker_id": "AGG_M_30-45_002",
-      "text": "כי אני לא מאמין לך. כי כל פעם שאת פותחת את הפה יוצאים שקרים. תני לי את הטלפון.",
+      "emotional_state": "threatening",
       "intensity": 4,
       "pause_before_s": 0.2,
-      "emotional_state": "threatening",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "\u05db\u05d9 \u05d0\u05e0\u05d9 \u05dc\u05d0 \u05de\u05d0\u05de\u05d9\u05df \u05dc\u05da. \u05db\u05d9 \u05db\u05dc \u05e4\u05e2\u05dd \u05e9\u05d0\u05ea \u05e4\u05d5\u05ea\u05d7\u05ea \u05d0\u05ea \u05d4\u05e4\u05d4 \u05d9\u05d5\u05e6\u05d0\u05d9\u05dd \u05e9\u05e7\u05e8\u05d9\u05dd. \u05ea\u05e0\u05d9 \u05dc\u05d9 \u05d0\u05ea \u05d4\u05d8\u05dc\u05e4\u05d5\u05df."
     },
     {
-      "speaker_id": "VIC_F_25-40_003",
-      "text": "בבקשה, תירגע. אני לא רוצה שנריב. קח, תסתכל, אין לי מה להסתיר.",
+      "emotional_state": "pleading",
       "intensity": 4,
       "pause_before_s": 0.5,
-      "emotional_state": "pleading",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "\u05d1\u05d1\u05e7\u05e9\u05d4, \u05ea\u05d9\u05e8\u05d2\u05e2. \u05d0\u05e0\u05d9 \u05dc\u05d0 \u05e8\u05d5\u05e6\u05d4 \u05e9\u05e0\u05e8\u05d9\u05d1. \u05e7\u05d7, \u05ea\u05e1\u05ea\u05db\u05dc, \u05d0\u05d9\u05df \u05dc\u05d9 \u05de\u05d4 \u05dc\u05d4\u05e1\u05ea\u05d9\u05e8."
     },
     {
-      "speaker_id": "AGG_M_30-45_002",
-      "text": "את לא הולכת יותר לשום מקום בלי שאני יודע מראש. את שומעת? אני קובע מתי את יוצאת ומתי את חוזרת. אם את לא מסוגלת לכבד את זה, את לא צריכה לצאת בכלל.",
+      "emotional_state": "threatening",
       "intensity": 5,
       "pause_before_s": 0.3,
-      "emotional_state": "threatening",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "\u05d0\u05ea \u05dc\u05d0 \u05d4\u05d5\u05dc\u05db\u05ea \u05d9\u05d5\u05ea\u05e8 \u05dc\u05e9\u05d5\u05dd \u05de\u05e7\u05d5\u05dd \u05d1\u05dc\u05d9 \u05e9\u05d0\u05e0\u05d9 \u05d9\u05d5\u05d3\u05e2 \u05de\u05e8\u05d0\u05e9. \u05d0\u05ea \u05e9\u05d5\u05de\u05e2\u05ea? \u05d0\u05e0\u05d9 \u05e7\u05d5\u05d1\u05e2 \u05de\u05ea\u05d9 \u05d0\u05ea \u05d9\u05d5\u05e6\u05d0\u05ea \u05d5\u05de\u05ea\u05d9 \u05d0\u05ea \u05d7\u05d5\u05d6\u05e8\u05ea. \u05d0\u05dd \u05d0\u05ea \u05dc\u05d0 \u05de\u05e1\u05d5\u05d2\u05dc\u05ea \u05dc\u05db\u05d1\u05d3 \u05d0\u05ea \u05d6\u05d4, \u05d0\u05ea \u05dc\u05d0 \u05e6\u05e8\u05d9\u05db\u05d4 \u05dc\u05e6\u05d0\u05ea \u05d1\u05db\u05dc\u05dc."
     },
     {
-      "speaker_id": "VIC_F_25-40_003",
-      "text": "בסדר... בסדר, אני מבינה. אני אעדכן אותך תמיד. רק בבקשה אל תצעק.",
+      "emotional_state": "pleading",
       "intensity": 4,
       "pause_before_s": 0.8,
-      "emotional_state": "pleading",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "\u05d1\u05e1\u05d3\u05e8... \u05d1\u05e1\u05d3\u05e8, \u05d0\u05e0\u05d9 \u05de\u05d1\u05d9\u05e0\u05d4. \u05d0\u05e0\u05d9 \u05d0\u05e2\u05d3\u05db\u05df \u05d0\u05d5\u05ea\u05da \u05ea\u05de\u05d9\u05d3. \u05e8\u05e7 \u05d1\u05d1\u05e7\u05e9\u05d4 \u05d0\u05dc \u05ea\u05e6\u05e2\u05e7."
     },
     {
-      "speaker_id": "AGG_M_30-45_002",
-      "text": "אני לא צועק. אני מדבר איתך ברור כי כנראה בצורה רגילה את לא מבינה. ומחר את מבטלת את המפגש עם רונית, ברור?",
+      "emotional_state": "angry",
       "intensity": 4,
       "pause_before_s": 0.4,
-      "emotional_state": "angry",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "\u05d0\u05e0\u05d9 \u05dc\u05d0 \u05e6\u05d5\u05e2\u05e7. \u05d0\u05e0\u05d9 \u05de\u05d3\u05d1\u05e8 \u05d0\u05d9\u05ea\u05da \u05d1\u05e8\u05d5\u05e8 \u05db\u05d9 \u05db\u05e0\u05e8\u05d0\u05d4 \u05d1\u05e6\u05d5\u05e8\u05d4 \u05e8\u05d2\u05d9\u05dc\u05d4 \u05d0\u05ea \u05dc\u05d0 \u05de\u05d1\u05d9\u05e0\u05d4. \u05d5\u05de\u05d7\u05e8 \u05d0\u05ea \u05de\u05d1\u05d8\u05dc\u05ea \u05d0\u05ea \u05d4\u05de\u05e4\u05d2\u05e9 \u05e2\u05dd \u05e8\u05d5\u05e0\u05d9\u05ea, \u05d1\u05e8\u05d5\u05e8?"
     },
     {
-      "speaker_id": "VIC_F_25-40_003",
-      "text": "טוב, אני אבטל. אני... אני הולכת לישון.",
+      "emotional_state": "sad",
       "intensity": 3,
       "pause_before_s": 1.2,
-      "emotional_state": "sad",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "VIC_F_25-40_003",
+      "text": "\u05d8\u05d5\u05d1, \u05d0\u05e0\u05d9 \u05d0\u05d1\u05d8\u05dc. \u05d0\u05e0\u05d9... \u05d0\u05e0\u05d9 \u05d4\u05d5\u05dc\u05db\u05ea \u05dc\u05d9\u05e9\u05d5\u05df."
     },
     {
-      "speaker_id": "AGG_M_30-45_002",
-      "text": "יופי. ותשאירי את הטלפון פה על השולחן. אני רוצה לבדוק עוד כמה דברים.",
+      "emotional_state": "calm",
       "intensity": 3,
       "pause_before_s": 1.5,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "AGG_M_30-45_002",
+      "text": "\u05d9\u05d5\u05e4\u05d9. \u05d5\u05ea\u05e9\u05d0\u05d9\u05e8\u05d9 \u05d0\u05ea \u05d4\u05d8\u05dc\u05e4\u05d5\u05df \u05e4\u05d4 \u05e2\u05dc \u05d4\u05e9\u05d5\u05dc\u05d7\u05df. \u05d0\u05e0\u05d9 \u05e8\u05d5\u05e6\u05d4 \u05dc\u05d1\u05d3\u05d5\u05e7 \u05e2\u05d5\u05d3 \u05db\u05de\u05d4 \u05d3\u05d1\u05e8\u05d9\u05dd."
     }
   ]
 }

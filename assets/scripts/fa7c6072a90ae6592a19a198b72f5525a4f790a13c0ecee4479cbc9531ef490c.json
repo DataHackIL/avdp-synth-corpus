@@ -1,96 +1,96 @@
 {
   "turns": [
     {
-      "speaker_id": "BEN_M_40-55_003",
-      "text": "שלום, אני בן אברהם. אני מחכה כבר שלושה חודשים לקצבת הדיור שלי ואף אחד לא חוזר אליי. מה קורה פה?",
+      "emotional_state": "angry",
       "intensity": 1,
       "pause_before_s": 0.0,
-      "emotional_state": "angry",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05e9\u05dc\u05d5\u05dd, \u05d0\u05e0\u05d9 \u05d1\u05df \u05d0\u05d1\u05e8\u05d4\u05dd. \u05d0\u05e0\u05d9 \u05de\u05d7\u05db\u05d4 \u05db\u05d1\u05e8 \u05e9\u05dc\u05d5\u05e9\u05d4 \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd \u05dc\u05e7\u05e6\u05d1\u05ea \u05d4\u05d3\u05d9\u05d5\u05e8 \u05e9\u05dc\u05d9 \u05d5\u05d0\u05e3 \u05d0\u05d7\u05d3 \u05dc\u05d0 \u05d7\u05d5\u05d6\u05e8 \u05d0\u05dc\u05d9\u05d9. \u05de\u05d4 \u05e7\u05d5\u05e8\u05d4 \u05e4\u05d4?"
     },
     {
-      "speaker_id": "SW_F_30-45_001",
-      "text": "שלום בן, שמי רונית. בוא תשב בבקשה, אני רוצה לשמוע מה קורה ולנסות לעזור.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.3,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05e9\u05dc\u05d5\u05dd \u05d1\u05df, \u05e9\u05de\u05d9 \u05e8\u05d5\u05e0\u05d9\u05ea. \u05d1\u05d5\u05d0 \u05ea\u05e9\u05d1 \u05d1\u05d1\u05e7\u05e9\u05d4, \u05d0\u05e0\u05d9 \u05e8\u05d5\u05e6\u05d4 \u05dc\u05e9\u05de\u05d5\u05e2 \u05de\u05d4 \u05e7\u05d5\u05e8\u05d4 \u05d5\u05dc\u05e0\u05e1\u05d5\u05ea \u05dc\u05e2\u05d6\u05d5\u05e8."
     },
     {
-      "speaker_id": "BEN_M_40-55_003",
-      "text": "לשבת? אני יושב כבר שלושה חודשים בלי תשובה! הגשתי את כל הטפסים, את כל המסמכים, ואתם פשוט מתעלמים ממני. אני לא מצליח לשלם שכירות, את מבינה מה זה?",
+      "emotional_state": "angry",
       "intensity": 2,
       "pause_before_s": 0.2,
-      "emotional_state": "angry",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05dc\u05e9\u05d1\u05ea? \u05d0\u05e0\u05d9 \u05d9\u05d5\u05e9\u05d1 \u05db\u05d1\u05e8 \u05e9\u05dc\u05d5\u05e9\u05d4 \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd \u05d1\u05dc\u05d9 \u05ea\u05e9\u05d5\u05d1\u05d4! \u05d4\u05d2\u05e9\u05ea\u05d9 \u05d0\u05ea \u05db\u05dc \u05d4\u05d8\u05e4\u05e1\u05d9\u05dd, \u05d0\u05ea \u05db\u05dc \u05d4\u05de\u05e1\u05de\u05db\u05d9\u05dd, \u05d5\u05d0\u05ea\u05dd \u05e4\u05e9\u05d5\u05d8 \u05de\u05ea\u05e2\u05dc\u05de\u05d9\u05dd \u05de\u05de\u05e0\u05d9. \u05d0\u05e0\u05d9 \u05dc\u05d0 \u05de\u05e6\u05dc\u05d9\u05d7 \u05dc\u05e9\u05dc\u05dd \u05e9\u05db\u05d9\u05e8\u05d5\u05ea, \u05d0\u05ea \u05de\u05d1\u05d9\u05e0\u05d4 \u05de\u05d4 \u05d6\u05d4?"
     },
     {
-      "speaker_id": "BEN_M_40-55_003",
-      "text": "זה לא נורמלי! אני עובד כל יום, משלם מיסים, ואתם פשוט זורקים אותי מפקיד לפקיד. אף אחד לא לוקח אחריות במקום הזה! כל פעם אומרים לי 'עוד שבוע, עוד שבוע' — ושום דבר לא זז!",
+      "emotional_state": "angry",
       "intensity": 3,
       "pause_before_s": 0.1,
-      "emotional_state": "angry",
       "phrase_hints": [
         {
-          "phrase_id": "t3_p0",
-          "hint": "stress",
+          "char_end_original": 62,
           "char_start_original": 15,
-          "char_end_original": 62
+          "hint": "stress",
+          "phrase_id": "t3_p0"
         },
         {
-          "phrase_id": "t3_p1",
-          "hint": "stress",
+          "char_end_original": 102,
           "char_start_original": 63,
-          "char_end_original": 102
+          "hint": "stress",
+          "phrase_id": "t3_p1"
         }
-      ]
+      ],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05d6\u05d4 \u05dc\u05d0 \u05e0\u05d5\u05e8\u05de\u05dc\u05d9! \u05d0\u05e0\u05d9 \u05e2\u05d5\u05d1\u05d3 \u05db\u05dc \u05d9\u05d5\u05dd, \u05de\u05e9\u05dc\u05dd \u05de\u05d9\u05e1\u05d9\u05dd, \u05d5\u05d0\u05ea\u05dd \u05e4\u05e9\u05d5\u05d8 \u05d6\u05d5\u05e8\u05e7\u05d9\u05dd \u05d0\u05d5\u05ea\u05d9 \u05de\u05e4\u05e7\u05d9\u05d3 \u05dc\u05e4\u05e7\u05d9\u05d3. \u05d0\u05e3 \u05d0\u05d7\u05d3 \u05dc\u05d0 \u05dc\u05d5\u05e7\u05d7 \u05d0\u05d7\u05e8\u05d9\u05d5\u05ea \u05d1\u05de\u05e7\u05d5\u05dd \u05d4\u05d6\u05d4! \u05db\u05dc \u05e4\u05e2\u05dd \u05d0\u05d5\u05de\u05e8\u05d9\u05dd \u05dc\u05d9 '\u05e2\u05d5\u05d3 \u05e9\u05d1\u05d5\u05e2, \u05e2\u05d5\u05d3 \u05e9\u05d1\u05d5\u05e2' \u2014 \u05d5\u05e9\u05d5\u05dd \u05d3\u05d1\u05e8 \u05dc\u05d0 \u05d6\u05d6!"
     },
     {
-      "speaker_id": "SW_F_30-45_001",
-      "text": "בן, אני שומעת אותך, ואני מבינה למה אתה מתוסכל. שלושה חודשים בלי מענה זה באמת לא תקין, ואתה צודק שמגיע לך תשובה ברורה. אני לא הולכת לזלזל ברגשות שלך.",
+      "emotional_state": "calm",
       "intensity": 3,
       "pause_before_s": 0.8,
-      "emotional_state": "calm",
       "phrase_hints": [
         {
-          "phrase_id": "t4_p0",
-          "hint": "break_before",
+          "char_end_original": 81,
           "char_start_original": 52,
-          "char_end_original": 81
+          "hint": "break_before",
+          "phrase_id": "t4_p0"
         }
-      ]
+      ],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05d1\u05df, \u05d0\u05e0\u05d9 \u05e9\u05d5\u05de\u05e2\u05ea \u05d0\u05d5\u05ea\u05da, \u05d5\u05d0\u05e0\u05d9 \u05de\u05d1\u05d9\u05e0\u05d4 \u05dc\u05de\u05d4 \u05d0\u05ea\u05d4 \u05de\u05ea\u05d5\u05e1\u05db\u05dc. \u05e9\u05dc\u05d5\u05e9\u05d4 \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd \u05d1\u05dc\u05d9 \u05de\u05e2\u05e0\u05d4 \u05d6\u05d4 \u05d1\u05d0\u05de\u05ea \u05dc\u05d0 \u05ea\u05e7\u05d9\u05df, \u05d5\u05d0\u05ea\u05d4 \u05e6\u05d5\u05d3\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05dc\u05da \u05ea\u05e9\u05d5\u05d1\u05d4 \u05d1\u05e8\u05d5\u05e8\u05d4. \u05d0\u05e0\u05d9 \u05dc\u05d0 \u05d4\u05d5\u05dc\u05db\u05ea \u05dc\u05d6\u05dc\u05d6\u05dc \u05d1\u05e8\u05d2\u05e9\u05d5\u05ea \u05e9\u05dc\u05da."
     },
     {
-      "speaker_id": "SW_F_30-45_001",
-      "text": "בוא נעשה ככה — אני נכנסת עכשיו למערכת ובודקת בדיוק איפה התיק שלך תקוע. אם יש בעיה בירוקרטית, אני אכתוב פנייה דחופה למחלקת הקצבאות בעצמי, היום. אני רוצה שתצא מפה עם תשובה ולא עם הבטחה ריקה.",
+      "emotional_state": "calm",
       "intensity": 2,
       "pause_before_s": 0.5,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05d1\u05d5\u05d0 \u05e0\u05e2\u05e9\u05d4 \u05db\u05db\u05d4 \u2014 \u05d0\u05e0\u05d9 \u05e0\u05db\u05e0\u05e1\u05ea \u05e2\u05db\u05e9\u05d9\u05d5 \u05dc\u05de\u05e2\u05e8\u05db\u05ea \u05d5\u05d1\u05d5\u05d3\u05e7\u05ea \u05d1\u05d3\u05d9\u05d5\u05e7 \u05d0\u05d9\u05e4\u05d4 \u05d4\u05ea\u05d9\u05e7 \u05e9\u05dc\u05da \u05ea\u05e7\u05d5\u05e2. \u05d0\u05dd \u05d9\u05e9 \u05d1\u05e2\u05d9\u05d4 \u05d1\u05d9\u05e8\u05d5\u05e7\u05e8\u05d8\u05d9\u05ea, \u05d0\u05e0\u05d9 \u05d0\u05db\u05ea\u05d5\u05d1 \u05e4\u05e0\u05d9\u05d9\u05d4 \u05d3\u05d7\u05d5\u05e4\u05d4 \u05dc\u05de\u05d7\u05dc\u05e7\u05ea \u05d4\u05e7\u05e6\u05d1\u05d0\u05d5\u05ea \u05d1\u05e2\u05e6\u05de\u05d9, \u05d4\u05d9\u05d5\u05dd. \u05d0\u05e0\u05d9 \u05e8\u05d5\u05e6\u05d4 \u05e9\u05ea\u05e6\u05d0 \u05de\u05e4\u05d4 \u05e2\u05dd \u05ea\u05e9\u05d5\u05d1\u05d4 \u05d5\u05dc\u05d0 \u05e2\u05dd \u05d4\u05d1\u05d8\u05d7\u05d4 \u05e8\u05d9\u05e7\u05d4."
     },
     {
-      "speaker_id": "BEN_M_40-55_003",
-      "text": "...טוב. תודה שאת לפחות מקשיבה. סליחה שהרמתי את הקול, אני פשוט... כבר לא יודע מה לעשות. המצב בבית ממש לוחץ.",
+      "emotional_state": "sad",
       "intensity": 2,
       "pause_before_s": 1.2,
-      "emotional_state": "sad",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "...\u05d8\u05d5\u05d1. \u05ea\u05d5\u05d3\u05d4 \u05e9\u05d0\u05ea \u05dc\u05e4\u05d7\u05d5\u05ea \u05de\u05e7\u05e9\u05d9\u05d1\u05d4. \u05e1\u05dc\u05d9\u05d7\u05d4 \u05e9\u05d4\u05e8\u05de\u05ea\u05d9 \u05d0\u05ea \u05d4\u05e7\u05d5\u05dc, \u05d0\u05e0\u05d9 \u05e4\u05e9\u05d5\u05d8... \u05db\u05d1\u05e8 \u05dc\u05d0 \u05d9\u05d5\u05d3\u05e2 \u05de\u05d4 \u05dc\u05e2\u05e9\u05d5\u05ea. \u05d4\u05de\u05e6\u05d1 \u05d1\u05d1\u05d9\u05ea \u05de\u05de\u05e9 \u05dc\u05d5\u05d7\u05e5."
     },
     {
-      "speaker_id": "SW_F_30-45_001",
-      "text": "אין צורך להתנצל, בן. המצב שלך מצדיק את התסכול. תן לי עשר דקות עם המחשב, ונראה ביחד מה השלב הבא. בסדר?",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.4,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05d0\u05d9\u05df \u05e6\u05d5\u05e8\u05da \u05dc\u05d4\u05ea\u05e0\u05e6\u05dc, \u05d1\u05df. \u05d4\u05de\u05e6\u05d1 \u05e9\u05dc\u05da \u05de\u05e6\u05d3\u05d9\u05e7 \u05d0\u05ea \u05d4\u05ea\u05e1\u05db\u05d5\u05dc. \u05ea\u05df \u05dc\u05d9 \u05e2\u05e9\u05e8 \u05d3\u05e7\u05d5\u05ea \u05e2\u05dd \u05d4\u05de\u05d7\u05e9\u05d1, \u05d5\u05e0\u05e8\u05d0\u05d4 \u05d1\u05d9\u05d7\u05d3 \u05de\u05d4 \u05d4\u05e9\u05dc\u05d1 \u05d4\u05d1\u05d0. \u05d1\u05e1\u05d3\u05e8?"
     },
     {
-      "speaker_id": "BEN_M_40-55_003",
-      "text": "בסדר. תודה רונית.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 1.0,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05d1\u05e1\u05d3\u05e8. \u05ea\u05d5\u05d3\u05d4 \u05e8\u05d5\u05e0\u05d9\u05ea."
     }
   ]
 }

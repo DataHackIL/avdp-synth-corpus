@@ -1,180 +1,180 @@
 {
   "turns": [
     {
-      "speaker_id": "BEN_M_40-55_003",
-      "text": "תשמעי, אני כבר שלושה חודשים מחכה לתשובה על הערעור. אף אחד לא חוזר אליי, אף אחד לא מסביר לי כלום.",
+      "emotional_state": "angry",
       "intensity": 2,
       "pause_before_s": 0.0,
-      "emotional_state": "angry",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05ea\u05e9\u05de\u05e2\u05d9, \u05d0\u05e0\u05d9 \u05db\u05d1\u05e8 \u05e9\u05dc\u05d5\u05e9\u05d4 \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd \u05de\u05d7\u05db\u05d4 \u05dc\u05ea\u05e9\u05d5\u05d1\u05d4 \u05e2\u05dc \u05d4\u05e2\u05e8\u05e2\u05d5\u05e8. \u05d0\u05e3 \u05d0\u05d7\u05d3 \u05dc\u05d0 \u05d7\u05d5\u05d6\u05e8 \u05d0\u05dc\u05d9\u05d9, \u05d0\u05e3 \u05d0\u05d7\u05d3 \u05dc\u05d0 \u05de\u05e1\u05d1\u05d9\u05e8 \u05dc\u05d9 \u05db\u05dc\u05d5\u05dd."
     },
     {
-      "speaker_id": "SW_F_30-45_001",
-      "text": "אני מבינה את התסכול שלך, בן. אני רואה בתיק שהערעור הוגש ושהוא עדיין בבדיקה. לפעמים התהליך לוקח זמן.",
+      "emotional_state": "calm",
       "intensity": 2,
       "pause_before_s": 0.3,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05d0\u05e0\u05d9 \u05de\u05d1\u05d9\u05e0\u05d4 \u05d0\u05ea \u05d4\u05ea\u05e1\u05db\u05d5\u05dc \u05e9\u05dc\u05da, \u05d1\u05df. \u05d0\u05e0\u05d9 \u05e8\u05d5\u05d0\u05d4 \u05d1\u05ea\u05d9\u05e7 \u05e9\u05d4\u05e2\u05e8\u05e2\u05d5\u05e8 \u05d4\u05d5\u05d2\u05e9 \u05d5\u05e9\u05d4\u05d5\u05d0 \u05e2\u05d3\u05d9\u05d9\u05df \u05d1\u05d1\u05d3\u05d9\u05e7\u05d4. \u05dc\u05e4\u05e2\u05de\u05d9\u05dd \u05d4\u05ea\u05d4\u05dc\u05d9\u05da \u05dc\u05d5\u05e7\u05d7 \u05d6\u05de\u05df."
     },
     {
-      "speaker_id": "BEN_M_40-55_003",
-      "text": "\"לוקח זמן\"? את מבינה שאני בלי כסף? שאני לא יכול לשלם שכר דירה? הילדים שלי רעבים ואת אומרת לי \"לוקח זמן\"?",
+      "emotional_state": "angry",
       "intensity": 3,
       "pause_before_s": 0.2,
-      "emotional_state": "angry",
       "phrase_hints": [
         {
-          "phrase_id": "t2_p0",
-          "hint": "stress",
+          "char_end_original": 62,
           "char_start_original": 38,
-          "char_end_original": 62
+          "hint": "stress",
+          "phrase_id": "t2_p0"
         },
         {
-          "phrase_id": "t2_p1",
-          "hint": "slow",
+          "char_end_original": 98,
           "char_start_original": 63,
-          "char_end_original": 98
+          "hint": "slow",
+          "phrase_id": "t2_p1"
         }
-      ]
+      ],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\"\u05dc\u05d5\u05e7\u05d7 \u05d6\u05de\u05df\"? \u05d0\u05ea \u05de\u05d1\u05d9\u05e0\u05d4 \u05e9\u05d0\u05e0\u05d9 \u05d1\u05dc\u05d9 \u05db\u05e1\u05e3? \u05e9\u05d0\u05e0\u05d9 \u05dc\u05d0 \u05d9\u05db\u05d5\u05dc \u05dc\u05e9\u05dc\u05dd \u05e9\u05db\u05e8 \u05d3\u05d9\u05e8\u05d4? \u05d4\u05d9\u05dc\u05d3\u05d9\u05dd \u05e9\u05dc\u05d9 \u05e8\u05e2\u05d1\u05d9\u05dd \u05d5\u05d0\u05ea \u05d0\u05d5\u05de\u05e8\u05ea \u05dc\u05d9 \"\u05dc\u05d5\u05e7\u05d7 \u05d6\u05de\u05df\"?"
     },
     {
-      "speaker_id": "SW_F_30-45_001",
-      "text": "אני שומעת אותך, ואני מבינה שהמצב קשה מאוד. אני רוצה לעזור, אבל אין לי סמכות לזרז את הוועדה. תן לי לבדוק מה אני כן יכולה לעשות.",
+      "emotional_state": "calm",
       "intensity": 2,
       "pause_before_s": 0.5,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05d0\u05e0\u05d9 \u05e9\u05d5\u05de\u05e2\u05ea \u05d0\u05d5\u05ea\u05da, \u05d5\u05d0\u05e0\u05d9 \u05de\u05d1\u05d9\u05e0\u05d4 \u05e9\u05d4\u05de\u05e6\u05d1 \u05e7\u05e9\u05d4 \u05de\u05d0\u05d5\u05d3. \u05d0\u05e0\u05d9 \u05e8\u05d5\u05e6\u05d4 \u05dc\u05e2\u05d6\u05d5\u05e8, \u05d0\u05d1\u05dc \u05d0\u05d9\u05df \u05dc\u05d9 \u05e1\u05de\u05db\u05d5\u05ea \u05dc\u05d6\u05e8\u05d6 \u05d0\u05ea \u05d4\u05d5\u05d5\u05e2\u05d3\u05d4. \u05ea\u05df \u05dc\u05d9 \u05dc\u05d1\u05d3\u05d5\u05e7 \u05de\u05d4 \u05d0\u05e0\u05d9 \u05db\u05df \u05d9\u05db\u05d5\u05dc\u05d4 \u05dc\u05e2\u05e9\u05d5\u05ea."
     },
     {
-      "speaker_id": "BEN_M_40-55_003",
-      "text": "מה את יכולה לעשות? כלום! תמיד אותו דבר — טפסים, המתנה, ועוד המתנה. אני לא יוצא מפה בלי תשובה היום, את שומעת אותי? לא יוצא מפה.",
+      "emotional_state": "threatening",
       "intensity": 3,
       "pause_before_s": 0.1,
-      "emotional_state": "threatening",
       "phrase_hints": [
         {
-          "phrase_id": "t4_p0",
-          "hint": "menace",
+          "char_end_original": 128,
           "char_start_original": 78,
-          "char_end_original": 128
+          "hint": "menace",
+          "phrase_id": "t4_p0"
         },
         {
-          "phrase_id": "t4_p1",
-          "hint": "break_after",
+          "char_end_original": 142,
           "char_start_original": 129,
-          "char_end_original": 142
+          "hint": "break_after",
+          "phrase_id": "t4_p1"
         }
-      ]
+      ],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05de\u05d4 \u05d0\u05ea \u05d9\u05db\u05d5\u05dc\u05d4 \u05dc\u05e2\u05e9\u05d5\u05ea? \u05db\u05dc\u05d5\u05dd! \u05ea\u05de\u05d9\u05d3 \u05d0\u05d5\u05ea\u05d5 \u05d3\u05d1\u05e8 \u2014 \u05d8\u05e4\u05e1\u05d9\u05dd, \u05d4\u05de\u05ea\u05e0\u05d4, \u05d5\u05e2\u05d5\u05d3 \u05d4\u05de\u05ea\u05e0\u05d4. \u05d0\u05e0\u05d9 \u05dc\u05d0 \u05d9\u05d5\u05e6\u05d0 \u05de\u05e4\u05d4 \u05d1\u05dc\u05d9 \u05ea\u05e9\u05d5\u05d1\u05d4 \u05d4\u05d9\u05d5\u05dd, \u05d0\u05ea \u05e9\u05d5\u05de\u05e2\u05ea \u05d0\u05d5\u05ea\u05d9? \u05dc\u05d0 \u05d9\u05d5\u05e6\u05d0 \u05de\u05e4\u05d4."
     },
     {
-      "speaker_id": "SW_F_30-45_001",
-      "text": "בן, אני רואה שאתה מאוד מתוסכל ואני לא רוצה שהמצב יסלים. אני הולכת לקרוא למנהלת שלי, היא בעלת סמכות רחבה יותר ואולי תוכל לתת לך מענה.",
+      "emotional_state": "fearful",
       "intensity": 3,
       "pause_before_s": 0.8,
-      "emotional_state": "fearful",
       "phrase_hints": [
         {
-          "phrase_id": "t5_p0",
-          "hint": "break_before",
+          "char_end_original": 72,
           "char_start_original": 46,
-          "char_end_original": 72
+          "hint": "break_before",
+          "phrase_id": "t5_p0"
         }
-      ]
+      ],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05d1\u05df, \u05d0\u05e0\u05d9 \u05e8\u05d5\u05d0\u05d4 \u05e9\u05d0\u05ea\u05d4 \u05de\u05d0\u05d5\u05d3 \u05de\u05ea\u05d5\u05e1\u05db\u05dc \u05d5\u05d0\u05e0\u05d9 \u05dc\u05d0 \u05e8\u05d5\u05e6\u05d4 \u05e9\u05d4\u05de\u05e6\u05d1 \u05d9\u05e1\u05dc\u05d9\u05dd. \u05d0\u05e0\u05d9 \u05d4\u05d5\u05dc\u05db\u05ea \u05dc\u05e7\u05e8\u05d5\u05d0 \u05dc\u05de\u05e0\u05d4\u05dc\u05ea \u05e9\u05dc\u05d9, \u05d4\u05d9\u05d0 \u05d1\u05e2\u05dc\u05ea \u05e1\u05de\u05db\u05d5\u05ea \u05e8\u05d7\u05d1\u05d4 \u05d9\u05d5\u05ea\u05e8 \u05d5\u05d0\u05d5\u05dc\u05d9 \u05ea\u05d5\u05db\u05dc \u05dc\u05ea\u05ea \u05dc\u05da \u05de\u05e2\u05e0\u05d4."
     },
     {
-      "speaker_id": "BEN_M_40-55_003",
-      "text": "תקראי למי שאת רוצה. מישהו פה חייב לתת לי תשובה.",
+      "emotional_state": "angry",
       "intensity": 3,
       "pause_before_s": 0.2,
-      "emotional_state": "angry",
       "phrase_hints": [
         {
-          "phrase_id": "t6_p0",
-          "hint": "stress",
+          "char_end_original": 51,
           "char_start_original": 22,
-          "char_end_original": 51
+          "hint": "stress",
+          "phrase_id": "t6_p0"
         }
-      ]
+      ],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05ea\u05e7\u05e8\u05d0\u05d9 \u05dc\u05de\u05d9 \u05e9\u05d0\u05ea \u05e8\u05d5\u05e6\u05d4. \u05de\u05d9\u05e9\u05d4\u05d5 \u05e4\u05d4 \u05d7\u05d9\u05d9\u05d1 \u05dc\u05ea\u05ea \u05dc\u05d9 \u05ea\u05e9\u05d5\u05d1\u05d4."
     },
     {
-      "speaker_id": "SW_F_30-45_001",
-      "text": "רינה, את יכולה לבוא לרגע? יש פה מקרה דחוף שדורש את ההתייחסות שלך.",
+      "emotional_state": "calm",
       "intensity": 2,
       "pause_before_s": 1.5,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05e8\u05d9\u05e0\u05d4, \u05d0\u05ea \u05d9\u05db\u05d5\u05dc\u05d4 \u05dc\u05d1\u05d5\u05d0 \u05dc\u05e8\u05d2\u05e2? \u05d9\u05e9 \u05e4\u05d4 \u05de\u05e7\u05e8\u05d4 \u05d3\u05d7\u05d5\u05e3 \u05e9\u05d3\u05d5\u05e8\u05e9 \u05d0\u05ea \u05d4\u05d4\u05ea\u05d9\u05d9\u05d7\u05e1\u05d5\u05ea \u05e9\u05dc\u05da."
     },
     {
-      "speaker_id": "SW_F_30-45_001",
-      "text": "בן, המנהלת שלי בדרך. היא תהיה כאן עוד רגע. בינתיים, בבקשה, תשב.",
+      "emotional_state": "calm",
       "intensity": 2,
       "pause_before_s": 0.5,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05d1\u05df, \u05d4\u05de\u05e0\u05d4\u05dc\u05ea \u05e9\u05dc\u05d9 \u05d1\u05d3\u05e8\u05da. \u05d4\u05d9\u05d0 \u05ea\u05d4\u05d9\u05d4 \u05db\u05d0\u05df \u05e2\u05d5\u05d3 \u05e8\u05d2\u05e2. \u05d1\u05d9\u05e0\u05ea\u05d9\u05d9\u05dd, \u05d1\u05d1\u05e7\u05e9\u05d4, \u05ea\u05e9\u05d1."
     },
     {
-      "speaker_id": "BEN_M_40-55_003",
-      "text": "שתבוא. אני מחכה.",
+      "emotional_state": "angry",
       "intensity": 2,
       "pause_before_s": 0.4,
-      "emotional_state": "angry",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05e9\u05ea\u05d1\u05d5\u05d0. \u05d0\u05e0\u05d9 \u05de\u05d7\u05db\u05d4."
     },
     {
-      "speaker_id": "SW_F_30-45_001",
-      "text": "שלום, אני רינה אברהם, מנהלת המחלקה. בן, שמעתי שאתה ממתין כבר זמן רב לתשובה על הערעור. אני מצטערת על העיכוב ואני לוקחת את זה ברצינות.",
+      "emotional_state": "calm",
       "intensity": 2,
       "pause_before_s": 1.2,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05e9\u05dc\u05d5\u05dd, \u05d0\u05e0\u05d9 \u05e8\u05d9\u05e0\u05d4 \u05d0\u05d1\u05e8\u05d4\u05dd, \u05de\u05e0\u05d4\u05dc\u05ea \u05d4\u05de\u05d7\u05dc\u05e7\u05d4. \u05d1\u05df, \u05e9\u05de\u05e2\u05ea\u05d9 \u05e9\u05d0\u05ea\u05d4 \u05de\u05de\u05ea\u05d9\u05df \u05db\u05d1\u05e8 \u05d6\u05de\u05df \u05e8\u05d1 \u05dc\u05ea\u05e9\u05d5\u05d1\u05d4 \u05e2\u05dc \u05d4\u05e2\u05e8\u05e2\u05d5\u05e8. \u05d0\u05e0\u05d9 \u05de\u05e6\u05d8\u05e2\u05e8\u05ea \u05e2\u05dc \u05d4\u05e2\u05d9\u05db\u05d5\u05d1 \u05d5\u05d0\u05e0\u05d9 \u05dc\u05d5\u05e7\u05d7\u05ea \u05d0\u05ea \u05d6\u05d4 \u05d1\u05e8\u05e6\u05d9\u05e0\u05d5\u05ea."
     },
     {
-      "speaker_id": "BEN_M_40-55_003",
-      "text": "כן, גברת. שלושה חודשים. אין לי מאיפה לחיות. אני לא מבקש טובות, אני מבקש את מה שמגיע לי.",
+      "emotional_state": "pleading",
       "intensity": 2,
       "pause_before_s": 0.3,
-      "emotional_state": "pleading",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05db\u05df, \u05d2\u05d1\u05e8\u05ea. \u05e9\u05dc\u05d5\u05e9\u05d4 \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd. \u05d0\u05d9\u05df \u05dc\u05d9 \u05de\u05d0\u05d9\u05e4\u05d4 \u05dc\u05d7\u05d9\u05d5\u05ea. \u05d0\u05e0\u05d9 \u05dc\u05d0 \u05de\u05d1\u05e7\u05e9 \u05d8\u05d5\u05d1\u05d5\u05ea, \u05d0\u05e0\u05d9 \u05de\u05d1\u05e7\u05e9 \u05d0\u05ea \u05de\u05d4 \u05e9\u05de\u05d2\u05d9\u05e2 \u05dc\u05d9."
     },
     {
-      "speaker_id": "SW_F_30-45_001",
-      "text": "אני מבינה, ואתה צודק שזה לא תקין להמתין כל כך הרבה זמן. אני מתחייבת לעשות שני דברים עכשיו: ראשית, אני בודקת את הסטטוס של הערעור לפני שאתה יוצא מהמשרד. שנית, אם אין החלטה — אני מעבירה את התיק שלך לדיון מזורז תוך שבוע.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.5,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05d0\u05e0\u05d9 \u05de\u05d1\u05d9\u05e0\u05d4, \u05d5\u05d0\u05ea\u05d4 \u05e6\u05d5\u05d3\u05e7 \u05e9\u05d6\u05d4 \u05dc\u05d0 \u05ea\u05e7\u05d9\u05df \u05dc\u05d4\u05de\u05ea\u05d9\u05df \u05db\u05dc \u05db\u05da \u05d4\u05e8\u05d1\u05d4 \u05d6\u05de\u05df. \u05d0\u05e0\u05d9 \u05de\u05ea\u05d7\u05d9\u05d9\u05d1\u05ea \u05dc\u05e2\u05e9\u05d5\u05ea \u05e9\u05e0\u05d9 \u05d3\u05d1\u05e8\u05d9\u05dd \u05e2\u05db\u05e9\u05d9\u05d5: \u05e8\u05d0\u05e9\u05d9\u05ea, \u05d0\u05e0\u05d9 \u05d1\u05d5\u05d3\u05e7\u05ea \u05d0\u05ea \u05d4\u05e1\u05d8\u05d8\u05d5\u05e1 \u05e9\u05dc \u05d4\u05e2\u05e8\u05e2\u05d5\u05e8 \u05dc\u05e4\u05e0\u05d9 \u05e9\u05d0\u05ea\u05d4 \u05d9\u05d5\u05e6\u05d0 \u05de\u05d4\u05de\u05e9\u05e8\u05d3. \u05e9\u05e0\u05d9\u05ea, \u05d0\u05dd \u05d0\u05d9\u05df \u05d4\u05d7\u05dc\u05d8\u05d4 \u2014 \u05d0\u05e0\u05d9 \u05de\u05e2\u05d1\u05d9\u05e8\u05d4 \u05d0\u05ea \u05d4\u05ea\u05d9\u05e7 \u05e9\u05dc\u05da \u05dc\u05d3\u05d9\u05d5\u05df \u05de\u05d6\u05d5\u05e8\u05d6 \u05ea\u05d5\u05da \u05e9\u05d1\u05d5\u05e2."
     },
     {
-      "speaker_id": "BEN_M_40-55_003",
-      "text": "תוך שבוע? באמת?",
+      "emotional_state": "neutral",
       "intensity": 1,
       "pause_before_s": 0.3,
-      "emotional_state": "neutral",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05ea\u05d5\u05da \u05e9\u05d1\u05d5\u05e2? \u05d1\u05d0\u05de\u05ea?"
     },
     {
-      "speaker_id": "SW_F_30-45_001",
-      "text": "כן, תוך שבוע. אני רושמת לך את זה בכתב, עם תאריך ושם של איש קשר ישיר. אם עד יום ראשון הבא לא תקבל תשובה — תתקשר ישירות אליי. הנה הכרטיס שלי.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.2,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05db\u05df, \u05ea\u05d5\u05da \u05e9\u05d1\u05d5\u05e2. \u05d0\u05e0\u05d9 \u05e8\u05d5\u05e9\u05de\u05ea \u05dc\u05da \u05d0\u05ea \u05d6\u05d4 \u05d1\u05db\u05ea\u05d1, \u05e2\u05dd \u05ea\u05d0\u05e8\u05d9\u05da \u05d5\u05e9\u05dd \u05e9\u05dc \u05d0\u05d9\u05e9 \u05e7\u05e9\u05e8 \u05d9\u05e9\u05d9\u05e8. \u05d0\u05dd \u05e2\u05d3 \u05d9\u05d5\u05dd \u05e8\u05d0\u05e9\u05d5\u05df \u05d4\u05d1\u05d0 \u05dc\u05d0 \u05ea\u05e7\u05d1\u05dc \u05ea\u05e9\u05d5\u05d1\u05d4 \u2014 \u05ea\u05ea\u05e7\u05e9\u05e8 \u05d9\u05e9\u05d9\u05e8\u05d5\u05ea \u05d0\u05dc\u05d9\u05d9. \u05d4\u05e0\u05d4 \u05d4\u05db\u05e8\u05d8\u05d9\u05e1 \u05e9\u05dc\u05d9."
     },
     {
-      "speaker_id": "BEN_M_40-55_003",
-      "text": "טוב, אני סומך עליך. סליחה שהתרגזתי, אבל באמת אין לי כוח יותר.",
+      "emotional_state": "sad",
       "intensity": 1,
       "pause_before_s": 0.5,
-      "emotional_state": "sad",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05d8\u05d5\u05d1, \u05d0\u05e0\u05d9 \u05e1\u05d5\u05de\u05da \u05e2\u05dc\u05d9\u05da. \u05e1\u05dc\u05d9\u05d7\u05d4 \u05e9\u05d4\u05ea\u05e8\u05d2\u05d6\u05ea\u05d9, \u05d0\u05d1\u05dc \u05d1\u05d0\u05de\u05ea \u05d0\u05d9\u05df \u05dc\u05d9 \u05db\u05d5\u05d7 \u05d9\u05d5\u05ea\u05e8."
     },
     {
-      "speaker_id": "SW_F_30-45_001",
-      "text": "אין צורך להתנצל, המצב שלך קשה ואנחנו פה כדי לעזור. נהיה בקשר, בן. יום טוב.",
+      "emotional_state": "calm",
       "intensity": 1,
       "pause_before_s": 0.3,
-      "emotional_state": "calm",
-      "phrase_hints": []
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05d0\u05d9\u05df \u05e6\u05d5\u05e8\u05da \u05dc\u05d4\u05ea\u05e0\u05e6\u05dc, \u05d4\u05de\u05e6\u05d1 \u05e9\u05dc\u05da \u05e7\u05e9\u05d4 \u05d5\u05d0\u05e0\u05d7\u05e0\u05d5 \u05e4\u05d4 \u05db\u05d3\u05d9 \u05dc\u05e2\u05d6\u05d5\u05e8. \u05e0\u05d4\u05d9\u05d4 \u05d1\u05e7\u05e9\u05e8, \u05d1\u05df. \u05d9\u05d5\u05dd \u05d8\u05d5\u05d1."
     }
   ]
 }
