@@ -1,5 +1,5 @@
-site_name: avdp-synth-corpus
-site_description: Synthetic Hebrew audio corpus for the Audio Violence Detection Pipeline — consumer guide for She-Proves and Elephant in the Room teams
+site_name: AVDP Synthetic Corpus
+site_description: Synthetic Hebrew audio corpus for the Audio Violence Detection Pipeline — consumer guide for the She-Proves and Elephant in the Room teams
 site_url: https://datahackil.github.io/avdp-synth-corpus/
 repo_url: https://github.com/DataHackIL/avdp-synth-corpus
 repo_name: DataHackIL/avdp-synth-corpus
@@ -26,7 +26,6 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
-    - navigation.expand
     - navigation.indexes
     - navigation.top
     - toc.follow
@@ -37,6 +36,9 @@ theme:
     - content.code.annotate
     - content.tabs.link
     - announce.dismiss
+
+extra_css:
+  - assets/extra.css
 
 markdown_extensions:
   - admonition
@@ -63,6 +65,7 @@ markdown_extensions:
   - toc:
       permalink: true
   - def_list
+  - abbr
 
 plugins:
   - search:
@@ -70,7 +73,8 @@ plugins:
 
 nav:
   - Home: index.md
-  - Getting Started: getting-started.md
+  - Start here: getting-started.md
+  - Common mistakes: gotchas.md
   - Team Guides:
     - She-Proves: she-proves.md
     - Elephant in the Room: elephant.md
@@ -78,6 +82,7 @@ nav:
     - Label Taxonomy: taxonomy.md
     - Schema Reference: schema.md
     - Audio Format: audio-format.md
+    - Glossary: glossary.md
   - Deliveries: deliveries.md
 
 extra:

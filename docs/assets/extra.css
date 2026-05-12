@@ -1,0 +1,60 @@
+/* Status pill used in headers and front-page hero */
+.status-pill {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  border-radius: 0.4rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  margin: 0 0.25rem;
+}
+.status-pill.provisional { background: #FFB300; color: #3E2723; }
+.status-pill.approved    { background: #43A047; color: white; }
+.status-pill.superseded  { background: #BDBDBD; color: #424242; }
+
+/* Cards used on the home page to replace tabbed "What is this?" widget */
+.team-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1.25rem 0 1.5rem;
+}
+@media (max-width: 720px) {
+  .team-cards { grid-template-columns: 1fr; }
+}
+.team-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.45rem;
+  padding: 1rem 1.1rem;
+  background: var(--md-default-bg-color);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.team-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+.team-card h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+  color: var(--md-primary-fg-color);
+}
+.team-card .tagline {
+  font-size: 0.78rem;
+  color: var(--md-default-fg-color--light);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+.team-card p { margin: 0.4rem 0; font-size: 0.92rem; }
+.team-card a.card-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* Tighter table look for reference pages */
+.md-typeset table:not([class]) { font-size: 0.78rem; }
+.md-typeset table:not([class]) code { font-size: 0.78rem; }

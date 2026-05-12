@@ -1,126 +1,137 @@
 # Label Taxonomy
 
-Labels follow a three-level hierarchy. The **source of truth** is `taxonomy.yaml` in the [SynthBanshee](https://github.com/DataHackIL/SynthBanshee) repo. Never derive labels from field names alone — always read from the actual data.
+Three levels: clip-level **typology** → event-level **tier 1 category** → event-level **tier 2 subtype**. Plus a per-turn **intensity** (1–5) that drives prosody. The source of truth is `taxonomy.yaml` in [SynthBanshee](https://github.com/DataHackIL/SynthBanshee).
 
 ---
 
-## Violence typologies (clip-level)
+## Violence typology (clip-level)
 
-The `violence_typology` field classifies the overall scenario of the clip.
+The `violence_typology` field. **Not** an ordered scale.
 
-| Typology | Full name | Description |
-|----------|-----------|-------------|
-| `SV` | Severe Violence | Physical violence, life-threatening escalation |
-| `IT` | Intimate Terrorism | Systematic coercive control, repeated verbal/emotional abuse |
-| `NEG` | Negative / Confusor | Acoustically intense but non-violent — anger, argument, distress, crying |
-| `NEU` | Neutral | Calm or mundane conversation with no violence markers |
+| Code | Name | What it sounds like |
+|------|------|---------------------|
+| `SV` | Severe Violence | Physical violence, life-threatening escalation. `tier1_category` includes `PHYS`, `DIST`, often `VERB`. |
+| `IT` | Intimate Terrorism | Sustained coercive control, repeated verbal/emotional abuse — typically without physical attack. Heavy on `VERB` and `EMOT`. |
+| `NEG` | Negative confusor | Acoustically intense but non-violent — anger, argument, distress, crying. **Hard negative class.** All events are `tier1_category: "NONE"`. |
+| `NEU` | Neutral | Calm or mundane conversation. No violence markers. |
 
-??? info "Why NEG is not the same as non-violent IT/SV"
-    NEG clips are designed as **hard negatives** — they sound intense and may have raised voices, crying, or confrontational tone, but no actual violence occurs. Their purpose is to train models to distinguish acoustic distress from violence.
-
-    Models that rely only on loudness or emotional tone will misclassify NEG clips. This is by design.
+!!! danger "NEG is the trap"
+    A NEG clip can have raised voices, crying, and `max_intensity: 3`. It will *sound* like violence to a model that only listens for loudness or emotional tone. But it is by definition `has_violence: false` — its purpose is to teach your model the difference between distress and violence. Training NEG as a positive class will collapse your precision. See [Gotcha #5](gotchas.md#5-neg-is-not-violent-at-low-intensity).
 
 ---
 
-## `has_violence` — the correct derivation
-
-`has_violence` is a **derived convenience field** computed from the strong-label events, not from typology:
+## `has_violence` — derived from events
 
 ```python
 has_violence = any(e["tier1_category"] != "NONE" for e in events)
 ```
 
-This means:
+That's the rule. Two consequences worth knowing:
 
-- `NEG` clips are **always** `has_violence: false`, regardless of `max_intensity` — by definition, every event in a NEG clip lands `tier1_category: "NONE"`.
-- A `NEU` clip with even one stray non-NONE event would be `has_violence: true` (shouldn't happen in a well-labelled corpus, but the rule is defensive).
+- **NEG clips are always `has_violence: false`** — every event in a NEG clip has `tier1_category: "NONE"` by construction, even when `max_intensity` is high.
+- **NEU clips are always `has_violence: false`** for the same reason.
+- A `SV` or `IT` clip is `has_violence: true` because at least one event has a non-NONE category.
 
-!!! danger "Do not re-derive `has_violence` from typology + intensity"
+!!! danger "Don't derive `has_violence` from typology or intensity"
     ```python
-    # WRONG — will misclassify every NEG clip
-    has_violence = typology in ("SV", "IT")
-
-    # CORRECT
-    has_violence = any(e["tier1_category"] != "NONE" for e in events)
+    has_violence = typology in ("SV", "IT")     # WRONG — works on this corpus but fragile
+    has_violence = max_intensity >= 3           # VERY WRONG — fires on every NEG clip
     ```
-    The taxonomy columns are the ground truth. `has_violence` exists only for fast filtering and baseline modelling — never use it as the sole training label.
+    The event-level taxonomy is the ground truth. `weak_label.has_violence` exists for fast filtering and baseline modelling only — never as the sole training label. Train on the strong-label events when you can.
 
 ---
 
 ## Tier 1 categories (event-level)
 
-Each `EventLabel` in the `.jsonl` file has a `tier1_category`:
+The `tier1_category` field on each `EventLabel`. Six values.
 
-| Category | Description | Example contexts |
-|----------|-------------|-----------------|
-| `VERB` | Verbal violence — threats, shouting, demeaning language | Arguments, intimidation |
-| `DIST` | Distress vocalisations — screaming, crying under duress | Peak escalation turns |
-| `PHYS` | Physical violence cues — impact sounds, struggle | Severe violence scenes |
-| `EMOT` | Emotional manipulation — guilt-tripping, gaslighting | IT/coercive control |
-| `ACOU` | Acoustic events — object impacts, slams, falls | Background events in Tier B |
-| `NONE` | No violence — ambient speech, neutral turns | All NEU/NEG events |
+| Category | What it covers | Where it shows up |
+|----------|----------------|-------------------|
+| `VERB` | Verbal violence — threats, shouting, demeaning language | Most violent clips, all intensity levels |
+| `DIST` | Distress vocalisations — screaming, crying under duress | I3+ turns in SV/IT, peak escalation |
+| `PHYS` | Physical violence cues — impact sounds, struggle | I4+ turns in SV clips |
+| `EMOT` | Emotional manipulation — gaslighting, guilt-tripping | IT clips, coercive control turns |
+| `ACOU` | Acoustic non-vocal events — slams, falls | Tier B clips, recorded in `acoustic_scene.background_events` |
+| `NONE` | Ambient speech / neutral turn | All NEU clips, all NEG clips, calm turns in SV/IT |
 
-??? info "ACOU vs DIST"
-    `ACOU` captures **non-vocal acoustic cues** — a door slam, an object falling, an impact sound. These appear in Tier B clips as `background_events` in the `acoustic_scene` block.
+!!! info "ACOU vs DIST"
+    `ACOU` is **non-vocal** acoustic — a door slam, an object hitting the floor. `DIST` is **vocal distress** — a scream, crying. A scene where someone throws a glass and the victim screams will have an `ACOU_SLAM` event for the glass and a `DIST_SCREAM` event for the scream.
 
-    `DIST` captures **vocal distress** — screams, panic vocalisations, crying under coercion.
+    Tier B Elephant clips inject `ACOU_*` events as part of room augmentation; they show up both in `acoustic_scene.background_events` (with audio-level metadata) and in `.jsonl` strong labels (as labelled events). Tier A She-Proves clips can't produce ACOU events — there's no room-augmentation stage to add them.
 
 ---
 
 ## Tier 2 subtypes (event-level)
 
-| Tier 1 | Tier 2 subtype | Description |
-|--------|----------------|-------------|
-| VERB | `VERB_SHOUT` | Raised or shouted speech |
-| VERB | `VERB_THREAT` | Direct verbal threats |
-| VERB | `VERB_INSULT` | Demeaning or insulting language |
-| DIST | `DIST_SCREAM` | Distress scream or panic vocalisation |
-| DIST | `DIST_CRY` | Crying or sobbing under duress |
-| PHYS | `PHYS_HARD` | Hard physical impact cue |
-| PHYS | `PHYS_SOFT` | Softer physical contact cue |
-| EMOT | `EMOT_GASLIGHT` | Gaslighting or reality-denial |
-| EMOT | `EMOT_GUILT` | Guilt-tripping or emotional coercion |
-| ACOU | `ACOU_SLAM` | Object slam or door slam |
-| ACOU | `ACOU_FALL` | Object falling or thrown |
-| NONE | `NONE_AMBIENT` | Regular ambient speech or neutral turn |
+| Tier 1 | Tier 2 | Description |
+|--------|--------|-------------|
+| `VERB` | `VERB_SHOUT` | Raised or shouted speech |
+| `VERB` | `VERB_THREAT` | Direct verbal threats |
+| `VERB` | `VERB_INSULT` | Demeaning or insulting language |
+| `DIST` | `DIST_SCREAM` | Distress scream or panic vocalisation |
+| `DIST` | `DIST_CRY` | Crying or sobbing under duress |
+| `PHYS` | `PHYS_HARD` | Hard physical impact cue |
+| `PHYS` | `PHYS_SOFT` | Softer physical contact cue |
+| `EMOT` | `EMOT_GASLIGHT` | Gaslighting or reality-denial |
+| `EMOT` | `EMOT_GUILT` | Guilt-tripping or emotional coercion |
+| `ACOU` | `ACOU_SLAM` | Object slam or door slam |
+| `ACOU` | `ACOU_FALL` | Object falling or thrown |
+| `NONE` | `NONE_AMBIENT` | Regular ambient speech or neutral turn |
 
 ---
 
 ## Intensity scale (turn-level)
 
-Intensity is scored 1–5 per dialogue turn. It controls prosody generation (pitch, rate, volume) and determines which tier1/tier2 labels are applied.
+Each turn has an `intensity` in `[1, 5]`. It controls prosody generation (pitch, rate, volume) and the LLM script tone.
 
-| Score | Label | Description | Prosody profile |
-|-------|-------|-------------|----------------|
-| 1 | Low tension | Calm conversation, mild undercurrent | Near-neutral |
-| 2 | Moderate tension | Noticeable friction, raised voices | Slightly raised pitch/rate |
-| 3 | Active conflict | Clear verbal aggression or intimidation | Elevated pitch, faster rate |
-| 4 | Escalated violence | Physical or high-intensity verbal violence | High pitch, fast rate, volume up |
-| 5 | Extreme / life-threatening | Severe physical violence, panic | Maximally expressive (capped) |
+| Score | Label | What's happening |
+|-------|-------|------------------|
+| 1 | Low tension | Calm conversation, mild undercurrent |
+| 2 | Moderate tension | Noticeable friction, raised voices |
+| 3 | Active conflict | Clear verbal aggression or intimidation |
+| 4 | Escalated violence | Physical or high-intensity verbal violence |
+| 5 | Extreme | Severe physical violence, panic, imminent danger |
 
-??? info "The prosody cap at I4–I5"
-    At intensity 4–5, the LLM-generated prosody values are capped before SSML rendering to prevent Whisper transcription failures and maintain naturalness. The cap values are:
+### How intensity and typology relate
 
-    - **Pitch:** max +2.0 semitones (post-cap)
-    - **Rate:** range [0.85, 1.20] (post-cap)
+They are correlated but not the same.
 
-    Any cap activation is recorded in `generation_metadata.effective_prosody_caps` per turn. You'll see many activations at I4–I5 in delivery-003 — this is expected. The cap was calibrated in a listening test in May 2026 (SynthBanshee PR #87).
+| Typology | Typical `max_intensity` range | Why |
+|----------|:-----------------------------:|-----|
+| `NEU` | 1–2 | Mundane conversation by definition |
+| `NEG` | 2–3 | Distressed but non-violent; intensity rises with shouting/crying, but no PHYS/DIST events fire |
+| `IT` | 3–5 | Sustained verbal/emotional aggression; can hit I5 on threats without physical violence |
+| `SV` | 4–5 | Physical escalation requires I4+ turns |
+
+In delivery-003 the actual distribution is `max_intensity` 5 = 10 clips, 3 = 4 clips, 2 = 6 clips. Useful for designing stratified eval splits: if you want a balanced eval set across intensity *and* typology, you'll need to upsample (or wait for more data).
+
+??? info "What is the prosody cap?"
+    At I3+, the LLM-suggested prosody values are clamped before SSML rendering to keep speech natural and transcribable by Whisper:
+
+    - **Pitch:** capped at +2.0 semitones (post-cap)
+    - **Rate:** clamped to [0.85, 1.20]
+
+    When clamping fires, the pre- and post-cap values are recorded per turn in `generation_metadata.effective_prosody_caps`. You'll see many activations at I4–I5 in delivery-003 — that's the intended behaviour, calibrated by listening test in May 2026 (SynthBanshee PR #87).
+
+---
+
+## Where the labels come from
+
+- **Strong labels (`.jsonl`)** are generated by SynthBanshee from the LLM-authored script — the LLM produces turn-level intensity and an action tag (`VERB_SHOUT`, `DIST_SCREAM`, …), SynthBanshee converts them into `EventLabel` records.
+- **Weak labels (`.json` → `weak_label`)** are derived from the strong labels by aggregation.
+- **No human annotation has happened.** `confidence` is always `1.0`; `label_source` is always `"auto"`; `iaa_reviewed` is always `false`. Future deliveries may introduce human review on a subset — they'll set `iaa_reviewed: true` per clip when that happens.
+
+The scripts themselves are LLM-generated Hebrew dialogue, conditioned on the scene YAML and persona definitions in SynthBanshee. They are **not** transcripts of real conversations.
 
 ---
 
 ## Distribution in delivery-003
 
-| Typology | Clips | Projects | Tiers |
-|----------|------:|---------|-------|
-| SV | 5 | she_proves (3) + elephant (2) | A (3) + B (2) |
-| IT | 5 | she_proves (3) + elephant (2) | A (3) + B (2) |
-| NEG | 5 | she_proves (3) + elephant (2) | A (3) + B (2) |
-| NEU | 5 | she_proves (3) + elephant (2) | A (3) + B (2) |
+| Typology | Clips | Tier A (she_proves) | Tier B (elephant) |
+|----------|------:|:-------------------:|:------------------:|
+| `SV` | 5 | 3 | 2 |
+| `IT` | 5 | 3 | 2 |
+| `NEG` | 5 | 3 | 2 |
+| `NEU` | 5 | 3 | 2 |
 
-Intensity distribution across all 20 clips:
-
-| Max intensity | Clips |
-|:---:|:---:|
-| 5 | 10 |
-| 3 | 4 |
-| 2 | 6 |
+Balanced across typology and across project. Not balanced across speakers — see [Deliveries](deliveries.md#known-limitations).

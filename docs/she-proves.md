@@ -1,133 +1,117 @@
-# She-Proves Team Guide
+# She-Proves Guide
 
-She-Proves is a smartphone app that **passively monitors audio for domestic violence incidents** and preserves evidence for legal use.
+She-Proves is a smartphone app that passively monitors audio for domestic-violence incidents and preserves evidence for legal use. **Optimisation target: high recall** — better to flag for review than to miss.
 
-**Optimization target: high recall.** It is better to flag an incident for review than to miss one.
+This page is the *differential* between She-Proves clips and the rest of the corpus. For shared concepts (schema, labels, audio format) follow the cross-links.
 
 ---
 
-## Scene structure
+## Scene profile
 
-| Property | Value |
-|----------|-------|
-| Duration | 3–6 minutes |
-| Tier | A (clean — no room processing) |
-| Pre-incident window | ≥ 60% of clip duration before the first violence event |
-| Device profile | `phone_in_pocket`, `phone_on_table`, `phone_in_hand` |
-| Room types | apartment rooms (living room, bedroom, kitchen) |
-| Language | Hebrew (`he`) |
+| | |
+|---|---|
+| Project code | `she_proves` (clip-id prefix `sp_*`) |
+| Tier | A — clean audio, no room/device augmentation |
+| Duration | 3–6 min |
+| Pre-incident window | ≥ 60% of clip is normal speech before the first violence event |
+| Device | `phone_in_pocket`, `phone_on_table`, `phone_in_hand` (planned; not active in delivery-003) |
+| Room | Apartment (living room, bedroom, kitchen) — planned; not active in delivery-003 |
 
-The long pre-incident window reflects real-world deployment: the app is always listening, and incidents are rare. Models trained on this data should handle extended periods of mundane speech before a rapid escalation.
+The long pre-incident window is intentional. In deployment the app is always listening; incidents are rare. A model trained only on escalation segments will miss the gradual-buildup signal that precedes most domestic-violence events.
 
-??? info "Tier A — what does 'clean' mean?"
-    Tier A clips have **no acoustic augmentation** — no room impulse response convolution, no device frequency response, no background noise injection. The audio is the direct TTS-mixer output after preprocessing: peak-normalized, silence-padded, 16 kHz mono 16-bit PCM.
+!!! note "What 'Tier A' means here"
+    Tier A audio is the direct TTS-mixer output after preprocessing — peak-normalised, silence-padded, 16 kHz mono PCM. No room IR, no microphone profile, no background noise. `acoustic_scene.room_type`, `device`, `ir_source`, and `snr_db_actual` are all `null` for every Tier A clip.
 
-    For Tier A, `acoustic_scene.room_type`, `device`, `ir_source`, and `snr_db_actual` are all `null`.
-
-    Tier B (used by Elephant) adds all of the above. See [Elephant in the Room](elephant.md) for details.
+    Delivery-003 has no Tier-A device augmentation yet (the `phone_in_pocket` etc. profiles exist in the pipeline but aren't applied at this stage). When that's added in a future delivery, the `acoustic_scene` block will start carrying `device` while keeping `room_type` null.
 
 ---
 
 ## Speaker pairs
 
-Delivery-003 has two She-Proves speaker pairs — one per TTS backend.
+Two pairs in delivery-003, one per TTS backend. Both pairs play the **AGG (aggressor, male) + VIC (victim, female)** roles.
 
-| Pair | Speaker dir | Male speaker | Female speaker | Backend |
-|------|-------------|--------------|----------------|---------|
-| Azure | `agg_m_30-45_001/` | `AGG_M_30-45_001` → `he-IL-AvriNeural` | `VIC_F_25-40_002` → `he-IL-HilaNeural` | Azure |
-| Google Chirp HD | `agg_m_30-45_002/` | `AGG_M_30-45_002` → `he-IL-Chirp3-HD-Achird` | `VIC_F_25-40_003` → `he-IL-Chirp3-HD-Achernar` | Google |
+=== "Azure pair (10 clips)"
+    Speaker directory: `data/he/agg_m_30-45_001/`
 
-Both pairs play **AGG (aggressor, male) + VIC (victim, female)** roles. The Google pair was added in delivery-003 specifically to introduce backend diversity.
+    | Role | speaker_id | TTS voice |
+    |------|-----------|-----------|
+    | AGG  | `AGG_M_30-45_001` | `he-IL-AvriNeural` |
+    | VIC  | `VIC_F_25-40_002` | `he-IL-HilaNeural` |
 
-!!! note "Two speaker directories"
-    Clips from the Azure pair live under `data/he/agg_m_30-45_001/`.
-    Clips from the Google pair live under `data/he/agg_m_30-45_002/`.
-    Downstream code that hardcodes `agg_m_30-45_001/` will miss the Google clips.
-    Use `manifest.csv` or filter `meta["generation_metadata"]["tts_backend"]` to find both.
+=== "Google Chirp HD pair (2 clips)"
+    Speaker directory: `data/he/agg_m_30-45_002/`
+
+    | Role | speaker_id | TTS voice |
+    |------|-----------|-----------|
+    | AGG  | `AGG_M_30-45_002` | `he-IL-Chirp3-HD-Achird`   |
+    | VIC  | `VIC_F_25-40_003` | `he-IL-Chirp3-HD-Achernar` |
+
+    The Google pair was added in delivery-003 specifically to introduce backend diversity. Both clips carry a `vic_f0_high` flag — see [Audio Format](audio-format.md#vic_f0_high-on-the-2-google-clips).
+
+[Gotcha #2: don't hardcode `agg_m_30-45_001/`](gotchas.md#2-dont-hardcode-speaker-directory-paths) — three speaker directories exist now, including one for Elephant. Filter on `manifest.csv["project"] == "she_proves"` or on `meta["project"]`.
 
 ---
 
 ## Clips in delivery-003
 
-### Azure pair — 10 clips
+**12 clips · ~20 min · 6 violent (`SV` + `IT`), 6 non-violent (`NEG` + `NEU`)**
 
-`data/he/agg_m_30-45_001/`
+??? abstract "Full clip listing"
+    Azure pair, `data/he/agg_m_30-45_001/` — 10 clips:
 
-| Clip ID | Typology | `has_violence` | Duration |
-|---------|----------|:---:|------:|
-| `sp_sv_a_0001_00` | SV | ✓ | 1m 50.5s |
-| `sp_sv_a_0002_00` | SV | ✓ | 1m 32.1s |
-| `sp_it_a_0001_00` | IT | ✓ | 2m 23.8s |
-| `sp_it_a_0002_00` | IT | ✓ | 2m 19.7s |
-| `sp_neg_a_0001_00` | NEG | — | 1m 58.8s |
-| `sp_neg_a_0002_00` | NEG | — | 1m 47.8s |
-| `sp_neg_a_0003_00` | NEG | — | 2m 26.3s |
-| `sp_neu_a_0001_00` | NEU | — | 1m 59.2s |
-| `sp_neu_a_0002_00` | NEU | — | 2m 09.0s |
-| `sp_neu_a_0003_00` | NEU | — | 1m 45.1s |
+    | Clip ID | Typology | violent | Duration |
+    |---------|----------|:---:|---------:|
+    | `sp_sv_a_0001_00`  | SV  | ✓ | 1m 50.5s |
+    | `sp_sv_a_0002_00`  | SV  | ✓ | 1m 32.1s |
+    | `sp_it_a_0001_00`  | IT  | ✓ | 2m 23.8s |
+    | `sp_it_a_0002_00`  | IT  | ✓ | 2m 19.7s |
+    | `sp_neg_a_0001_00` | NEG | — | 1m 58.8s |
+    | `sp_neg_a_0002_00` | NEG | — | 1m 47.8s |
+    | `sp_neg_a_0003_00` | NEG | — | 2m 26.3s |
+    | `sp_neu_a_0001_00` | NEU | — | 1m 59.2s |
+    | `sp_neu_a_0002_00` | NEU | — | 2m 09.0s |
+    | `sp_neu_a_0003_00` | NEU | — | 1m 45.1s |
 
-### Google Chirp HD pair — 2 clips
+    Google Chirp HD pair, `data/he/agg_m_30-45_002/` — 2 clips:
 
-`data/he/agg_m_30-45_002/`
+    | Clip ID | Typology | violent | Duration | Flags |
+    |---------|----------|:---:|---------:|-------|
+    | `sp_sv_a_0003_00` | SV | ✓ | 1m 42.8s | `vic_f0_high` |
+    | `sp_it_a_0003_00` | IT | ✓ | 1m 53.9s | `vic_f0_high` |
 
-| Clip ID | Typology | `has_violence` | Duration | Note |
-|---------|----------|:---:|------:|------|
-| `sp_sv_a_0003_00` | SV | ✓ | 1m 42.8s | `vic_f0_high` flag |
-| `sp_it_a_0003_00` | IT | ✓ | 1m 53.9s | `vic_f0_high` flag |
-
-The `vic_f0_high` flag on the Google clips indicates the female voice (`he-IL-Chirp3-HD-Achernar`) has a higher F0 baseline than the Azure Hila reference. See [Audio Format → vic_f0_high](audio-format.md#vic_f0_high-google-chirp-hd-female-f0-baseline).
+The waveform on the [home page](index.md#see-it-first) is `sp_sv_a_0001_00` — a worked example of an SV escalation arc in this project's data.
 
 ---
 
-## Loading She-Proves clips
+## Loading just the She-Proves clips
 
 ```python
-import json
-import soundfile as sf
-import pandas as pd
+import pandas as pd, soundfile as sf, json
 from pathlib import Path
 
 root = Path(".")
-
-# Via manifest — easiest
 df = pd.read_csv("data/he/manifest.csv")
-sp_clips = df[df["project"] == "she_proves"]
+sp = df[df["project"] == "she_proves"]                   # 12 rows
 
-# Load all She-Proves audio
-wavs = {}
-for _, row in sp_clips.iterrows():
-    wav, sr = sf.read(root / row["wav_path"])
-    wavs[row["clip_id"]] = wav
+# Tag backend per row (Google clips have "Chirp" in voice_families)
+sp = sp.assign(backend=sp["voice_families"].str.contains("Chirp").map({True: "google", False: "azure"}))
+print(sp.groupby("backend")["clip_id"].count())
+# azure     10
+# google     2
 
-# Filter to violent She-Proves clips only
-sp_violent = sp_clips[sp_clips["has_violence"] == True]
-
-# Get per-backend split
-sp_clips["backend"] = sp_clips["voice_families"].apply(
-    lambda v: "google" if "Chirp" in v else "azure"
-)
-print(sp_clips.groupby("backend")["clip_id"].count())
-# azure    10
-# google    2
+# Load audio for each row
+audio = {row.clip_id: sf.read(root / row.wav_path) for row in sp.itertuples()}
 ```
 
 ---
 
-## Guidance for model training
+## Training-time notes (specific to this project)
 
-!!! warning "This is a toy corpus — not for production training"
-    12 She-Proves clips (10 Azure + 2 Google) are not enough for training a production model. Use this delivery to validate your data pipeline and schema parsing. Full-scale data follows.
+- **NEG clips are your hardest negatives.** `sp_neg_a_*` clips have raised voices, distress, arguments — and `has_violence: false`. Recall metrics that fire on these will tank precision. See [Gotcha #1](gotchas.md#1-dont-derive-has_violence-from-typology) and [Gotcha #5](gotchas.md#5-neg-is-not-violent-at-low-intensity).
+- **Use the pre-incident window.** The first 60% of each violent clip looks like NEU-grade speech. Train across the full clip, not only on escalation segments — early-warning signal lives in the buildup.
+- **Per-turn intensity is a useful auxiliary objective.** `EventLabel.intensity` gives turn-level supervision beyond binary `has_violence`. An intensity regressor trained alongside the classifier often boosts the latter.
+- **Only 2 voice families per gender in this delivery** (`low_voice_diversity_*` is flagged at the corpus level). Expect your acoustic features to over-fit to AvriNeural and HilaNeural — track per-voice eval separately when the corpus grows.
+- **No device/room augmentation yet on She-Proves clips.** When the `phone_in_pocket` profile activates in a future delivery, your model will see substantially more high-frequency roll-off and handling noise than what's in delivery-003.
 
-**High-recall orientation:**
-
-- **NEG clips are your hardest negatives.** They contain intense speech (raised voices, arguments, crying) with `has_violence: false`. Your recall model must not fire on them.
-- **The pre-incident window** (first 60% of the clip) will look like NEU/low-intensity speech. Include it in your training windows — models that only see escalated segments will miss early warning signals.
-- **Per-turn intensity** in the `.jsonl` events gives you fine-grained supervision beyond binary `has_violence`. Consider training an intensity regressor as an auxiliary objective.
-
-**Backend diversity:**
-
-The 2 Google Chirp HD clips expose your feature extractor to a different F0 baseline and spectral profile. At small scale, they're useful for checking that your features don't overfit to Azure voice characteristics.
-
-**Speaker splits:**
-
-All 12 clips share 2 unique speaker personas (4 if you count Azure+Google pairs separately). There are not enough speakers for a speaker-disjoint split in this delivery. Re-evaluate when the corpus scales to 100+ speakers.
+!!! warning "Still a small test batch"
+    12 clips and 4 voices is enough to wire up your data loaders, label parsers, and evaluation harness. It is not enough to train a production model. Build the plumbing; wait for the real batch.
