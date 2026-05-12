@@ -1,219 +1,226 @@
 # Schema Reference
 
-Every clip's `.json` file contains a `ClipMetadata` object. The authoritative Pydantic model is in [SynthBanshee `synthbanshee/labels/schema.py`](https://github.com/DataHackIL/SynthBanshee/blob/main/synthbanshee/labels/schema.py).
+A real `ClipMetadata` JSON, fully annotated. Click the `+` markers to jump to a field's explanation. Fields are ordered by how often you'll actually use them: top-level → labels → speakers → augmentation (Tier B only) → provenance (diagnostic, usually skip).
+
+The authoritative Pydantic model lives in [SynthBanshee `synthbanshee/labels/schema.py`](https://github.com/DataHackIL/SynthBanshee/blob/main/synthbanshee/labels/schema.py). For day-to-day consumer work, `json.loads()` is fine.
 
 ---
 
-## Loading with Pydantic
+## Annotated example
 
-```python
-from synthbanshee.labels.schema import ClipMetadata  # requires SynthBanshee installed
-from pathlib import Path
+```json
+{
+  "clip_id": "sp_sv_a_0001_00",                       // (1)!
+  "project": "she_proves",                            // (2)!
+  "language": "he",                                   // (3)!
+  "violence_typology": "SV",                          // (4)!
+  "tier": "A",                                        // (5)!
+  "duration_seconds": 110.46,                         // (6)!
+  "sample_rate": 16000,                               // (7)!
+  "channels": 1,
+  "is_synthetic": true,                               // (8)!
 
-meta = ClipMetadata.model_validate_json(
-    Path("data/he/agg_m_30-45_001/sp_sv_a_0001_00.json").read_text()
-)
-print(meta.clip_id, meta.violence_typology, meta.weak_label.has_violence)
-# sp_sv_a_0001_00 SV True
+  "weak_label": {                                     // (9)!
+    "has_violence": true,
+    "violence_typology": "SV",
+    "max_intensity": 5,
+    "violence_categories": ["DIST", "PHYS", "VERB"]
+  },
+
+  "speakers": [                                       // (10)!
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "role": "AGG",
+      "gender": "male",
+      "age_range": "30-45",
+      "tts_voice_id": "he-IL-AvriNeural",
+      "voice_family": "he-IL-AvriNeural"
+    },
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "role": "VIC",
+      "gender": "female",
+      "age_range": "25-40",
+      "tts_voice_id": "he-IL-HilaNeural",
+      "voice_family": "he-IL-HilaNeural"
+    }
+  ],
+
+  "transcript_path":  "data/he/agg_m_30-45_001/sp_sv_a_0001_00.txt",        // (11)!
+  "dirty_file_path":  "assets/speech/dirty/sp_sv_a_0001_00_dirty.wav",      // (12)!
+
+  "quality_flags": ["emotion_downgrade"],             // (13)!
+
+  "acoustic_scene": {                                 // (14)!
+    "room_type": null,
+    "device": null,
+    "ir_source": null,
+    "snr_db_actual": null,
+    "speaker_distance_meters": null,
+    "background_events": []
+  },
+
+  "preprocessing_applied": {                          // (15)!
+    "resampled_to_16k":    true,
+    "downmixed_to_mono":   true,
+    "normalized_dbfs":    -2.0000002,
+    "silence_padded":      true,
+    "denoised":            true,
+    "spectral_filtered":   true
+  },
+
+  "generation_metadata": { /* ...see below... */ },   // (16)!
+
+  "generator_version": "0.1.0",                       // (17)!
+  "generation_date":   "2026-05-12",
+  "random_seed":       1201,
+  "scene_config":      "configs/scenes/she_proves/sp_sv_a_0001.yaml",
+  "snr_db_estimated":  null,                          // (18)!
+  "annotator_confidence": 1.0,                        // (19)!
+  "iaa_reviewed":         false,
+  "she_proves_meta":      null,                       // (20)!
+  "elephant_meta":        null
+}
 ```
 
-Plain JSON (no SynthBanshee required):
+1.  Lowercase ASCII clip identifier. Pattern: `{project_prefix}_{typology}_{tier}_{scene_num}_{take}`.
+2.  `she_proves` or `elephant_in_the_room`. Determines clip-id prefix (`sp_*` / `el_*`) and which `*_meta` field is non-null.
+3.  ISO 639-1 — always `"he"` in this corpus.
+4.  `SV` · `IT` · `NEG` · `NEU`. **Not** an ordered scale — see [Label Taxonomy](taxonomy.md). `NEG` is the hard-negative class (sounds intense, not violent).
+5.  `"A"` (clean, TTS only) or `"B"` (room IR + device profile + background noise applied). Determines whether `acoustic_scene` is populated.
+6.  Duration of the final processed WAV, **including** the 0.5 s silence pad on each end.
+7.  Always 16000. Channels always 1. Format always 16-bit PCM WAV.
+8.  Always `true` in this corpus. The field exists because future real-recording deliveries will set it `false`.
+9.  Clip-level summary labels. `has_violence` is derived from events: `any(e.tier1_category != "NONE")`. Don't derive it from typology — see [Gotcha #1](gotchas.md#1-dont-derive-has_violence-from-typology).
+10. One entry per speaker. The on-disk directory is **`speakers[0].speaker_id.lower()`** — UPPERCASE in JSON, lowercase on disk ([Gotcha #4](gotchas.md#4-uppercase-in-json-lowercase-on-disk)).
+11. Repo-relative POSIX path to the `.txt` transcript.
+12. Repo-relative POSIX path to the pre-preprocessing ("dirty") WAV, retained per spec. Useful for diagnosing normalization issues. **Don't modify** — `assets/` is managed by SynthBanshee ([Gotcha #7](gotchas.md#7-quality_flags-doesnt-mean-broken)).
+13. Soft warnings. Don't filter on these reflexively — they don't fail validation. Most common: `emotion_downgrade` (TTS produced slightly less intense prosody than requested), `vic_f0_high` (Google female F0 above Azure baseline; expected on the 2 Google clips).
+14. Populated for Tier B (Elephant) clips; all `null` / empty for Tier A. See [Elephant guide](elephant.md#the-acoustic_scene-field).
+15. Records *what* preprocessing ran. `normalized_dbfs` is the **measured** post-preprocess peak — pair with `generation_metadata.loudness_target_peak_dbfs` (the configured target) to diagnose loudness drift.
+16. Pipeline provenance. Always present on delivery-003 clips; may be `null` on older clips. Expanded below.
+17. SynthBanshee version that produced this clip. Combined with `random_seed` + `scene_config`, scenes are reproducible.
+18. Estimated SNR — not populated for any current delivery. Use `acoustic_scene.snr_db_actual` for Tier B.
+19. Auto-label confidence; always `1.0` because labels are generated by the pipeline (not human-annotated). `iaa_reviewed` is always `false` for the same reason.
+20. Reserved for per-project metadata. Always `null` in current deliveries.
 
-```python
-import json
-from pathlib import Path
+---
 
-meta = json.loads(Path("data/he/agg_m_30-45_001/sp_sv_a_0001_00.json").read_text())
+## `generation_metadata` — pipeline provenance
+
+Expanded view of field (16). Use this block for diagnostics, not for filtering training data.
+
+```json
+{
+  "pipeline_version":      "0.1.0",
+  "tts_backend":           {"AGG_M_30-45_001": "azure",  "VIC_F_25-40_002": "azure"},
+  "voice_family":          {"AGG_M_30-45_001": "he-IL-AvriNeural", "VIC_F_25-40_002": "he-IL-HilaNeural"},
+  "mix_mode_used":         "sequential",
+  "normalization_strategy":  "per_turn_rms_v2_target_peak",   // internal version string; informational
+  "loudness_target_peak_dbfs": -2.0,
+  "breathiness_applied":   false,
+  "effective_prosody_caps": [                                  // per-turn cap activations at I3+
+    {"turn_index": 1, "intensity": 2, "dim": "rate",  "pre_cap": 0.912, "post_cap": 0.95},
+    {"turn_index": 4, "intensity": 4, "dim": "pitch", "pre_cap": 2.348, "post_cap": 2.0}
+  ],
+  "speaker_state_serialized": {
+    "AGG_M_30-45_001": {"pitch_offset_st": 1.40, "rate_offset": 1.14, "volume_offset_db":  3.80, "breathiness_level": 0.0},
+    "VIC_F_25-40_002": {"pitch_offset_st": 0.56, "rate_offset": 0.89, "volume_offset_db": -2.58, "breathiness_level": 0.0}
+  }
+}
 ```
 
----
+| Field | What it tells you |
+|-------|-------------------|
+| `tts_backend` | Per-speaker dict mapping speaker_id → `"azure"` or `"google"`. The corpus-level backend distribution is derived from this — don't look for a top-level `tts_engine` field, it was removed. |
+| `voice_family` | Per-speaker dict mapping speaker_id → voice ID. Currently identical to `speakers[].tts_voice_id`. |
+| `mix_mode_used` | `"sequential"` (turns in order) or `"overlapping"` (turns can overlap at I4+). All delivery-003 violent clips use `"overlapping"` at high intensity; calm clips use `"sequential"`. |
+| `loudness_target_peak_dbfs` | The **configured** peak target (–2.0 dBFS by default). Pair with `preprocessing_applied.normalized_dbfs` (the measured peak) to detect drift. |
+| `effective_prosody_caps` | Per-turn list of cap activations — when the LLM-suggested pitch or rate exceeded the safety cap. Common at I3+ in this delivery. Recording them lets you compute the "uncapped" prosody the LLM intended. |
+| `speaker_state_serialized` | Final per-speaker prosody offset. Used for reproducing a scene with the same speaker drift. |
 
-## Top-level `ClipMetadata` fields
-
-| Field | Type | Description |
-|-------|------|-------------|
-| `clip_id` | `str` | Lowercase ASCII clip identifier, e.g. `sp_sv_a_0001_00` |
-| `project` | `str` | `she_proves` or `elephant_in_the_room` |
-| `language` | `str` | ISO 639-1, always `"he"` |
-| `violence_typology` | `str` | `SV` / `IT` / `NEG` / `NEU` — see [taxonomy](taxonomy.md) |
-| `tier` | `str` | `"A"` (clean) or `"B"` (room-augmented) |
-| `duration_seconds` | `float` | Duration of the processed WAV |
-| `sample_rate` | `int` | Always `16000` |
-| `channels` | `int` | Always `1` |
-| `is_synthetic` | `bool` | Always `true` in this corpus |
-| `generator_version` | `str` | SynthBanshee semver, e.g. `"0.1.0"` |
-| `generation_date` | `str` | ISO 8601 date of generation |
-| `random_seed` | `int` | Scene-level RNG seed for reproducibility |
-| `scene_config` | `str` | Relative path to the scene YAML in SynthBanshee |
-| `transcript_path` | `str` | Repo-relative POSIX path to the `.txt` transcript |
-| `dirty_file_path` | `str` | Repo-relative POSIX path to the pre-preprocessing WAV |
-| `speakers` | `list[SpeakerInfo]` | Speaker metadata — see below |
-| `weak_label` | `WeakLabel` | Clip-level summary labels |
-| `generation_metadata` | `GenerationMetadata \| null` | Pipeline provenance — see below |
-| `preprocessing_applied` | `PreprocessingApplied` | What preprocessing steps ran |
-| `acoustic_scene` | `AcousticScene` | Room/device augmentation (Tier B) |
-| `quality_flags` | `list[str]` | QA flags, e.g. `["emotion_downgrade"]` |
-| `snr_db_estimated` | `float \| null` | Estimated SNR (not always populated) |
-| `annotator_confidence` | `float` | Auto-label confidence, 0–1 (auto-generated: always `1.0`) |
-| `iaa_reviewed` | `bool` | Whether inter-annotator agreement review was done |
-| `she_proves_meta` | `null` | Reserved for She-Proves–specific metadata (future) |
-| `elephant_meta` | `null` | Reserved for Elephant–specific metadata (future) |
+??? info "Internal version-string fields"
+    `normalization_strategy`, `prosody_controller_version`, `text_normalization_version`, `timing_controller_version` are internal version strings. They're recorded for provenance but you won't filter on them as a consumer.
 
 ---
 
-## `SpeakerInfo`
+## `EventLabel` — `.jsonl` rows
 
-One entry per speaker in `speakers[]`.
+One JSON object per line. One line per labelled event. Read line-by-line — `json.loads()` on the whole file errors.
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `speaker_id` | `str` | UPPERCASE persona ID, e.g. `AGG_M_30-45_001` |
-| `role` | `str` | `AGG` (aggressor), `VIC` (victim), `SW` (social worker), `BEN` (beneficiary/client) |
-| `gender` | `str` | `"male"` or `"female"` |
-| `age_range` | `str` | e.g. `"30-45"` |
-| `tts_voice_id` | `str` | TTS voice identifier, e.g. `"he-IL-AvriNeural"` |
-| `voice_family` | `str` | Same as `tts_voice_id` (may diverge in future) |
+```json
+{
+  "event_id":       "sp_sv_a_0001_00_EVT_004",
+  "clip_id":        "sp_sv_a_0001_00",
+  "onset":          36.736,
+  "offset":         46.552,
+  "tier1_category": "DIST",
+  "tier2_subtype":  "DIST_SCREAM",
+  "intensity":      4,
+  "speaker_id":     "AGG_M_30-45_001",
+  "speaker_role":   "AGG",
+  "emotional_state": "anger",
+  "confidence":      1.0,
+  "label_source":    "auto",
+  "iaa_reviewed":    false,
+  "truncated":       false,
+  "notes":           null
+}
+```
 
-??? info "Speaker ID casing convention"
-    The `speaker_id` field in JSON is always **UPPERCASE**: `AGG_M_30-45_001`.
-    The on-disk directory is **lowercase**: `agg_m_30-45_001/`.
-    This is a deliberate per-surface casing rule — see [SynthBanshee spec §2.5](https://github.com/DataHackIL/SynthBanshee/blob/main/docs/spec.md#25-filename-constraints).
-
----
-
-## `WeakLabel`
-
-| Field | Type | Description |
-|-------|------|-------------|
-| `has_violence` | `bool` | `any(e.tier1_category != "NONE" for e in events)` — see [taxonomy](taxonomy.md#has_violence-the-correct-derivation) |
-| `violence_typology` | `str` | Mirrors top-level `violence_typology` |
-| `max_intensity` | `int` | Highest per-turn intensity across the clip (1–5) |
-| `violence_categories` | `list[str]` | Distinct `tier1_category` values observed in events |
-
----
-
-## `GenerationMetadata`
-
-Present on all delivery-003 clips; may be `null` on older clips.
-
-| Field | Type | Description |
-|-------|------|-------------|
-| `pipeline_version` | `str` | SynthBanshee semver |
-| `tts_backend` | `dict[str, str]` | Speaker ID → `"azure"` or `"google"` |
-| `voice_family` | `dict[str, str]` | Speaker ID → voice family string |
-| `mix_mode_used` | `str` | `"sequential"` (turns in order) or `"overlapping"` |
-| `normalization_strategy` | `str` | `"per_turn_rms_v2_target_peak"` |
-| `loudness_target_peak_dbfs` | `float` | Configured peak target, e.g. `-2.0` |
-| `breathiness_applied` | `bool` | Whether breathiness augmentation was applied |
-| `effective_prosody_caps` | `list[ProsodyCap]` | Per-turn cap activations at I3–I5 |
-| `speaker_state_serialized` | `dict[str, SpeakerState]` | Final prosody state per speaker |
-| `prosody_controller_version` | `str \| null` | Version of the prosody controller |
-| `text_normalization_version` | `str \| null` | Version of text normalization |
-| `timing_controller_version` | `str \| null` | Version of timing controller |
-
-### `ProsodyCap` (entry in `effective_prosody_caps`)
-
-| Field | Description |
-|-------|-------------|
-| `turn_index` | Zero-based turn index |
-| `intensity` | Intensity score for that turn |
-| `dim` | `"pitch"` or `"rate"` |
-| `pre_cap` | Prosody value before capping (semitones for pitch, ratio for rate) |
-| `post_cap` | Prosody value after capping |
-
-### `SpeakerState` (entry in `speaker_state_serialized`)
-
-| Field | Description |
-|-------|-------------|
-| `pitch_offset_st` | Final pitch offset in semitones |
-| `rate_offset` | Final speaking rate multiplier |
-| `volume_offset_db` | Final volume offset in dB |
-| `breathiness_level` | Breathiness level 0–1 |
-
----
-
-## `PreprocessingApplied`
-
-| Field | Type | Description |
-|-------|------|-------------|
-| `resampled_to_16k` | `bool` | Whether sample rate conversion ran |
-| `downmixed_to_mono` | `bool` | Whether channel downmix ran |
-| `normalized_dbfs` | `float` | **Measured** peak dBFS of the output WAV (not the target) |
-| `silence_padded` | `bool` | Whether silence padding was applied |
-| `denoised` | `bool` | Whether denoising ran |
-| `spectral_filtered` | `bool` | Whether spectral filtering ran |
-
-!!! note "`normalized_dbfs` is the measured peak, not the target"
-    Use `generation_metadata.loudness_target_peak_dbfs` for the configured target.
-    Use `preprocessing_applied.normalized_dbfs` to verify the actual output peak.
-    On delivery-003, both should be very close to `–2.0` (within floating-point precision).
-
----
-
-## `AcousticScene`
-
-Populated for Tier B clips. Null fields indicate Tier A (no augmentation).
-
-| Field | Type | Description |
-|-------|------|-------------|
-| `room_type` | `str \| null` | e.g. `"clinic_office"`, `"welfare_office"`, `"open_office"` |
-| `device` | `str \| null` | e.g. `"pi_budget_mic"` |
-| `ir_source` | `str \| null` | Room impulse response source, e.g. `"pyroomacoustics_ism"` |
-| `snr_db_actual` | `float \| null` | Actual SNR after augmentation (dB) |
-| `speaker_distance_meters` | `float \| null` | Simulated speaker distance from microphone |
-| `background_events` | `list[BackgroundEvent]` | Non-speech acoustic events added |
-
-### `BackgroundEvent`
-
-| Field | Description |
-|-------|-------------|
-| `type` | `"hvac_hum"`, `"ACOU_SLAM"`, `"ACOU_FALL"`, etc. |
-| `onset` | Start time in seconds |
-| `offset` | End time in seconds |
-| `level_db` | Relative level of the event (dB) |
-
----
-
-## `EventLabel` (`.jsonl` rows)
-
-One JSON object per line. Each represents a single labelled event within the clip.
-
-| Field | Type | Description |
-|-------|------|-------------|
-| `event_id` | `str` | `{clip_id}_EVT_{index:03d}` |
-| `clip_id` | `str` | Parent clip ID |
-| `onset` | `float` | Event start time in seconds (in the processed WAV) |
-| `offset` | `float` | Event end time in seconds |
-| `tier1_category` | `str` | `VERB` / `DIST` / `PHYS` / `EMOT` / `ACOU` / `NONE` |
-| `tier2_subtype` | `str` | e.g. `VERB_SHOUT`, `PHYS_HARD` |
-| `intensity` | `int` | Turn intensity 1–5 |
-| `speaker_id` | `str` | UPPERCASE speaker persona ID |
-| `speaker_role` | `str` | `AGG`, `VIC`, `SW`, `BEN` |
-| `emotional_state` | `str` | e.g. `"anger"`, `"fear"`, `"desperation"`, `"neutral"` |
-| `confidence` | `float` | Auto-label confidence (always `1.0` for auto-generated) |
-| `label_source` | `str` | `"auto"` for all current clips |
-| `iaa_reviewed` | `bool` | Always `false` in current deliveries |
-| `truncated` | `bool` | Whether the event was cut short by a turn boundary |
-| `notes` | `str \| null` | Annotator notes |
+| Field | Notes |
+|-------|-------|
+| `onset` / `offset` | Seconds in the **final processed WAV**. Already shifted to account for the 0.5 s leading silence pad. |
+| `tier1_category` | `VERB` · `DIST` · `PHYS` · `EMOT` · `ACOU` · `NONE`. See [Label Taxonomy](taxonomy.md). |
+| `tier2_subtype`  | e.g. `VERB_SHOUT`, `DIST_SCREAM`, `PHYS_HARD`, `ACOU_SLAM`. |
+| `intensity`      | The intensity of the turn the event belongs to (1–5). |
+| `speaker_id`     | UPPERCASE. Matches one of `ClipMetadata.speakers[].speaker_id`. |
+| `speaker_role`   | `AGG` · `VIC` · `SW` · `BEN`. See [Glossary](glossary.md#speaker-roles). |
+| `emotional_state` | Free-text label of speaker emotion at this turn (e.g. `"anger"`, `"fear"`, `"desperation"`, `"neutral"`). |
+| `confidence`     | Always `1.0` (labels are auto-generated). |
+| `label_source`   | Always `"auto"`. |
+| `iaa_reviewed`   | Always `false` in current deliveries — no human inter-annotator agreement review yet. |
+| `truncated`      | `true` if the event was cut short by a turn boundary. |
 
 ---
 
 ## Manifest CSV columns
 
-`data/he/manifest.csv` — one row per clip.
+`data/he/manifest.csv` — one row per clip, the fastest entry point for filtering.
 
 | Column | Type | Notes |
 |--------|------|-------|
-| `clip_id` | str | Matches JSON `clip_id` |
+| `clip_id` | str | Matches `ClipMetadata.clip_id` |
 | `project` | str | `she_proves` / `elephant_in_the_room` |
 | `violence_typology` | str | `SV` / `IT` / `NEG` / `NEU` |
 | `tier` | str | `A` / `B` |
-| `duration_seconds` | float | |
-| `speaker_ids` | str | Pipe-delimited, e.g. `AGG_M_30-45_001\|VIC_F_25-40_002` |
-| `voice_families` | str | Pipe-delimited, matches `speaker_ids` order |
-| `has_violence` | bool | See [taxonomy](taxonomy.md#has_violence-the-correct-derivation) |
+| `duration_seconds` | float | Final WAV duration including pads |
+| `speaker_ids` | str | **Pipe-delimited.** `AGG_M_30-45_001\|VIC_F_25-40_002` |
+| `voice_families` | str | **Pipe-delimited**, same order as `speaker_ids` |
+| `has_violence` | bool | Derived from events — see [Gotcha #1](gotchas.md#1-dont-derive-has_violence-from-typology) |
 | `max_intensity` | int | 1–5 |
-| `quality_flags` | str | Comma-delimited flag list |
-| `split` | str | `train` / `val` / `test` — all `train` in delivery-003 |
-| `wav_path` | str | Repo-relative POSIX path |
-| `strong_labels_path` | str | Repo-relative POSIX path to `.jsonl` |
+| `quality_flags` | str | Comma-delimited soft warnings |
+| `split` | str | `train` / `val` / `test` — **all `train`** in delivery-003 ([Gotcha #6](gotchas.md#6-all-clips-are-split-train-in-delivery-003)) |
+| `wav_path` | str | Repo-relative POSIX path to the `.wav` |
+| `strong_labels_path` | str | Repo-relative POSIX path to the `.jsonl` |
+
+---
+
+## Transcript file format (`.txt`)
+
+Plain UTF-8. One turn = one header line + one or more text lines + one action line. Hebrew text only; no Latin script in the body.
+
+```
+[CLIP_ID: sp_sv_a_0001_00]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 0.76 | OFFSET: 10.07]
+מה זה הארוחה הזאת? שאלתי אותך דבר אחד פשוט, לעשות ארוחת ערב נורמלית.
+[ACTION: VERB_SHOUT | INTENSITY: 2]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 10.49 | OFFSET: 18.74]
+עבדתי עד שש היום. עשיתי מה שהספקתי...
+[ACTION: VERB_SHOUT | INTENSITY: 2]
+```
+
+- The first line is a single `[CLIP_ID: ...]` header.
+- Each subsequent turn is a `[SPEAKER: ... | ROLE: ... | ONSET: ... | OFFSET: ...]` line, the Hebrew text, then `[ACTION: <tier2_subtype> | INTENSITY: 1–5]`.
+- `ONSET` / `OFFSET` are in seconds, relative to the final processed WAV (already include the leading pad).
+- The `.jsonl` strong labels are the canonical source for events; the transcript is for human reading and as an ASR reference.
