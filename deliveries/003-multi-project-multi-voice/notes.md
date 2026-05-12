@@ -8,7 +8,7 @@ training pipelines around — not for model training itself.
 
 ## Contents
 
-**20 clips. 41.7 min total. 4 unique voice families across Azure + Google backends.**
+**20 clips. 41.6 min total. 4 unique voice families across Azure + Google backends.**
 
 ### She-Proves Tier A — Azure (10 clips)
 
@@ -53,12 +53,20 @@ training pipelines around — not for model training itself.
 
 ## Pipeline version
 
-SynthBanshee `0.1.0` / commit [`d92d61e`](https://github.com/DataHackIL/SynthBanshee/commit/d92d61e) (tip of `main` at delivery time). Carries four corrections vs delivery 002:
+SynthBanshee `0.1.0` / commit [`1ea48f3`](https://github.com/DataHackIL/SynthBanshee/commit/1ea48f3) (tip of `main` after the 2026-05-12 schema-shift regen). Carries seven corrections vs delivery 002 — four were already in the initial 2026-05-12 delivery, three landed in the schema-shift regen later that day:
+
+**Initial delivery (commit `d92d61e`):**
 
 - **[PR #102](https://github.com/DataHackIL/SynthBanshee/pull/102)** — `preprocessing_applied.normalized_dbfs` now records the *measured* post-preprocess peak (was hardcoded `-1.0`). Pair with `generation_metadata.loudness_target_peak_dbfs` to diagnose loudness drift; the schema docstring at `labels/schema.py:175` pins the measured-vs-target split.
 - **[PR #103](https://github.com/DataHackIL/SynthBanshee/pull/103)** — `docs/spec.md` pinned the `has_violence` derivation rule (`any(e.tier1_category != "NONE")`), added the §2.5 identifier-casing table, rewrote §5.1 field notes.
 - **[PR #105](https://github.com/DataHackIL/SynthBanshee/pull/105)** — added `sp_sv_a_0003` + `sp_it_a_0003` Google-pair shadow scenes (this delivery's voice-diversity vehicle).
 - **[PR #106](https://github.com/DataHackIL/SynthBanshee/pull/106)** — root cause for [#72](https://github.com/DataHackIL/SynthBanshee/issues/72) found and fixed: `_HINT_DEFAULTS["stress"]` was emitting nested `<prosody volume="+NdB">` inside outer `<prosody volume="+N%">`, which Azure rejects with `SSML parse error 0x80045003`. **Required to unblock this delivery** — without the fix, 6 of 8 elephant Tier B scenes (every one whose LLM script carries a `stress` phrase hint at I3+) failed reliably.
+
+**Schema-shift regen (commit `1ea48f3`, same-day):**
+
+- **[PR #110](https://github.com/DataHackIL/SynthBanshee/pull/110)** — Closes [#107](https://github.com/DataHackIL/SynthBanshee/issues/107): pytest tests no longer leak generated clips into the corpus when `SYNTHBANSHEE_DATA_DIR` is set in the parent shell. The regen overwrote the one leaked tmp_path that had been baked into `sp_neu_a_0001_00.dirty_file_path` during the initial delivery.
+- **[PR #111](https://github.com/DataHackIL/SynthBanshee/pull/111)** — Closes [#108](https://github.com/DataHackIL/SynthBanshee/issues/108): clip JSON `dirty_file_path` / `transcript_path` and manifest CSV `wav_path` / `strong_labels_path` are now written as repo-relative POSIX strings, anchored at `--data-root` (envvar `SYNTHBANSHEE_DATA_ROOT`). Misconfigured `data_root` now logs a loud warning rather than silently falling back to absolute.
+- **[PR #112](https://github.com/DataHackIL/SynthBanshee/pull/112)** — Closes [#109](https://github.com/DataHackIL/SynthBanshee/issues/109): `ClipMetadata.tts_engine` (always hardcoded to `"azure_he_IL"`, even for Google clips) removed entirely. `qa-report` now derives backend diversity from `generation_metadata.tts_backend` per speaker — the `single_backend` warning on this delivery is correctly absent post-regen. `RunSummary.clips_by_tts_engine` renamed to `clips_by_tts_backend` with `{azure, google, unknown}` value space.
 
 ## Speaker / voice / backend matrix
 
@@ -87,10 +95,15 @@ This is the first delivery with multi-project and multi-backend coverage in one 
 
 **Voice diversity — partial progress:** 1 → 2 unique voice families per gender. The `low_voice_diversity_*` thresholds expect ≥3, so the run-level warnings still fire; consumer teams should read this as "ladder climbed, not yet at the top."
 
+**Closed after the 2026-05-12 regen** (PRs [#110](https://github.com/DataHackIL/SynthBanshee/pull/110) / [#111](https://github.com/DataHackIL/SynthBanshee/pull/111) / [#112](https://github.com/DataHackIL/SynthBanshee/pull/112)):
+
+- `single_backend` (run-level) — **resolved**: `qa.py` now derives backend diversity from `generation_metadata.tts_backend.values()` rather than the removed `clip.tts_engine` field. Current `qa-report.json` shows `"backend_count": 2` and `"clips_by_tts_backend": {"azure": 18, "google": 2}`. The field was also renamed `clips_by_tts_engine` → `clips_by_tts_backend` to reflect the new value-space (`"azure"` / `"google"` instead of the old `"azure_he_IL"` literal).
+- Absolute paths in clip JSON — **resolved**: `dirty_file_path` and `transcript_path` are now repo-relative (POSIX) by contract.
+- Leaked pytest tmp_path on `sp_neu_a_0001_00.dirty_file_path` — **resolved**: the regen overwrote it with the canonical `assets/speech/dirty/sp_neu_a_0001_00_dirty.wav`. The autouse env-var strip fixture (PR #110) prevents future leaks of this shape.
+
 **Still open** (not this delivery's scope):
 
 - `low_voice_diversity_male` / `low_voice_diversity_female` — at 2 voices/gender; threshold is ≥3.
-- `single_backend` (run-level) — **misleading**: the corpus actually uses Azure + Google. The qa-report counts `clip.tts_engine` which is currently hardcoded to `"azure_he_IL"` in `cli.py:_run_generate_pipeline`; this is a synthbanshee labeling bug, not a real diversity finding. (Tracked in a follow-up issue — see `qa-report.json` for the raw counts and `speakers[].voice_family` per clip for the actual backend distribution.)
 - `vic_f0_high` (per-clip): 2 clips — `sp_it_a_0003_00` and `sp_sv_a_0003_00` — flagged. Both are the Google Chirp HD female voice (`he-IL-Chirp3-HD-Achernar`), whose F0 baseline runs higher than the Azure Hila reference the M10a thresholds were calibrated against.
 - `quality_flagged_clips: 15` (mostly from `prosody_cap_activations`) — the #87 effective-prosody cap fires often at I3+; expected behaviour, recorded in `generation_metadata.effective_prosody_caps` per turn.
 - General Hebrew TTS naturalness backlog ([#92](https://github.com/DataHackIL/SynthBanshee/issues/92)).

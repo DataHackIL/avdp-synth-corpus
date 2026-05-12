@@ -1,177 +1,72 @@
 {
+  "clip_id": "sp_it_a_0001_00",
+  "project": "she_proves",
+  "language": "he",
+  "violence_typology": "IT",
+  "tier": "A",
+  "duration_seconds": 143.784125,
+  "sample_rate": 16000,
+  "channels": 1,
+  "snr_db_estimated": null,
+  "scene_config": "configs/scenes/she_proves/sp_it_a_0001.yaml",
+  "random_seed": 1101,
+  "generation_date": "2026-05-12",
+  "generator_version": "0.1.0",
+  "is_synthetic": true,
   "acoustic_scene": {
-    "background_events": [],
+    "room_type": null,
     "device": null,
     "ir_source": null,
-    "room_type": null,
+    "speaker_distance_meters": null,
     "snr_db_actual": null,
-    "speaker_distance_meters": null
+    "background_events": []
   },
-  "annotator_confidence": 1.0,
-  "channels": 1,
-  "clip_id": "sp_it_a_0001_00",
-  "dirty_file_path": "assets/speech/dirty/sp_it_a_0001_00_dirty.wav",
-  "duration_seconds": 143.784125,
-  "elephant_meta": null,
-  "generation_date": "2026-05-12",
-  "generation_metadata": {
-    "breathiness_applied": false,
-    "effective_prosody_caps": [
-      {
-        "dim": "rate",
-        "intensity": 1,
-        "post_cap": 0.95,
-        "pre_cap": 0.9025,
-        "turn_index": 1
-      },
-      {
-        "dim": "rate",
-        "intensity": 2,
-        "post_cap": 0.95,
-        "pre_cap": 0.912,
-        "turn_index": 3
-      },
-      {
-        "dim": "rate",
-        "intensity": 2,
-        "post_cap": 0.95,
-        "pre_cap": 0.9011,
-        "turn_index": 5
-      },
-      {
-        "dim": "rate",
-        "intensity": 3,
-        "post_cap": 0.95,
-        "pre_cap": 0.878,
-        "turn_index": 7
-      },
-      {
-        "dim": "pitch",
-        "intensity": 4,
-        "post_cap": 2.0,
-        "pre_cap": 2.3672,
-        "turn_index": 8
-      },
-      {
-        "dim": "rate",
-        "intensity": 4,
-        "post_cap": 1.2,
-        "pre_cap": 1.2221,
-        "turn_index": 8
-      },
-      {
-        "dim": "rate",
-        "intensity": 3,
-        "post_cap": 0.95,
-        "pre_cap": 0.8549,
-        "turn_index": 9
-      },
-      {
-        "dim": "pitch",
-        "intensity": 4,
-        "post_cap": 2.0,
-        "pre_cap": 2.7469,
-        "turn_index": 10
-      },
-      {
-        "dim": "rate",
-        "intensity": 4,
-        "post_cap": 1.2,
-        "pre_cap": 1.265,
-        "turn_index": 10
-      },
-      {
-        "dim": "rate",
-        "intensity": 3,
-        "post_cap": 0.95,
-        "pre_cap": 0.8456,
-        "turn_index": 11
-      },
-      {
-        "dim": "pitch",
-        "intensity": 5,
-        "post_cap": 2.0,
-        "pre_cap": 2.8988,
-        "turn_index": 12
-      },
-      {
-        "dim": "rate",
-        "intensity": 5,
-        "post_cap": 1.2,
-        "pre_cap": 1.3288,
-        "turn_index": 12
-      },
-      {
-        "dim": "pitch",
-        "intensity": 4,
-        "post_cap": 2.0,
-        "pre_cap": 2.2862,
-        "turn_index": 13
-      },
-      {
-        "dim": "rate",
-        "intensity": 4,
-        "post_cap": 0.95,
-        "pre_cap": 0.8329,
-        "turn_index": 13
-      },
-      {
-        "dim": "pitch",
-        "intensity": 4,
-        "post_cap": 2.0,
-        "pre_cap": 3.2595,
-        "turn_index": 14
-      },
-      {
-        "dim": "rate",
-        "intensity": 4,
-        "post_cap": 1.2,
-        "pre_cap": 1.3098,
-        "turn_index": 14
-      },
-      {
-        "dim": "rate",
-        "intensity": 3,
-        "post_cap": 0.95,
-        "pre_cap": 0.819,
-        "turn_index": 15
-      },
-      {
-        "dim": "pitch",
-        "intensity": 3,
-        "post_cap": 2.0,
-        "pre_cap": 2.1817,
-        "turn_index": 16
-      },
-      {
-        "dim": "rate",
-        "intensity": 3,
-        "post_cap": 1.2,
-        "pre_cap": 1.2575,
-        "turn_index": 16
-      }
-    ],
-    "loudness_target_peak_dbfs": -2.0,
-    "mix_mode_used": "sequential",
-    "normalization_strategy": "per_turn_rms_v2_target_peak",
-    "pipeline_version": "0.1.0",
-    "prosody_controller_version": null,
-    "speaker_state_serialized": {
-      "AGG_M_30-45_001": {
-        "breathiness_level": 0.0,
-        "pitch_offset_st": 1.1817,
-        "rate_offset": 1.1298,
-        "volume_offset_db": 3.3544
-      },
-      "VIC_F_25-40_002": {
-        "breathiness_level": 0.0,
-        "pitch_offset_st": 0.4145,
-        "rate_offset": 0.9171,
-        "volume_offset_db": -2.0724
-      }
+  "speakers": [
+    {
+      "speaker_id": "AGG_M_30-45_001",
+      "role": "AGG",
+      "gender": "male",
+      "age_range": "30-45",
+      "tts_voice_id": "he-IL-AvriNeural",
+      "voice_family": "he-IL-AvriNeural"
     },
-    "text_normalization_version": null,
-    "timing_controller_version": null,
+    {
+      "speaker_id": "VIC_F_25-40_002",
+      "role": "VIC",
+      "gender": "female",
+      "age_range": "25-40",
+      "tts_voice_id": "he-IL-HilaNeural",
+      "voice_family": "he-IL-HilaNeural"
+    }
+  ],
+  "weak_label": {
+    "has_violence": true,
+    "violence_categories": [
+      "EMOT",
+      "VERB"
+    ],
+    "max_intensity": 5,
+    "violence_typology": "IT"
+  },
+  "preprocessing_applied": {
+    "resampled_to_16k": true,
+    "downmixed_to_mono": true,
+    "spectral_filtered": true,
+    "denoised": true,
+    "normalized_dbfs": -1.9999995886470454,
+    "silence_padded": true
+  },
+  "dirty_file_path": "assets/speech/dirty/sp_it_a_0001_00_dirty.wav",
+  "transcript_path": "data/he/agg_m_30-45_001/sp_it_a_0001_00.txt",
+  "quality_flags": [
+    "emotion_downgrade"
+  ],
+  "annotator_confidence": 1.0,
+  "iaa_reviewed": false,
+  "she_proves_meta": null,
+  "elephant_meta": null,
+  "generation_metadata": {
+    "pipeline_version": "0.1.0",
     "tts_backend": {
       "AGG_M_30-45_001": "azure",
       "VIC_F_25-40_002": "azure"
@@ -179,58 +74,162 @@
     "voice_family": {
       "AGG_M_30-45_001": "he-IL-AvriNeural",
       "VIC_F_25-40_002": "he-IL-HilaNeural"
-    }
-  },
-  "generator_version": "0.1.0",
-  "iaa_reviewed": false,
-  "is_synthetic": true,
-  "language": "he",
-  "preprocessing_applied": {
-    "denoised": true,
-    "downmixed_to_mono": true,
-    "normalized_dbfs": -1.9999995886470454,
-    "resampled_to_16k": true,
-    "silence_padded": true,
-    "spectral_filtered": true
-  },
-  "project": "she_proves",
-  "quality_flags": [
-    "emotion_downgrade"
-  ],
-  "random_seed": 1101,
-  "sample_rate": 16000,
-  "scene_config": "configs/scenes/she_proves/sp_it_a_0001.yaml",
-  "she_proves_meta": null,
-  "snr_db_estimated": null,
-  "speakers": [
-    {
-      "age_range": "30-45",
-      "gender": "male",
-      "role": "AGG",
-      "speaker_id": "AGG_M_30-45_001",
-      "tts_voice_id": "he-IL-AvriNeural",
-      "voice_family": "he-IL-AvriNeural"
     },
-    {
-      "age_range": "25-40",
-      "gender": "female",
-      "role": "VIC",
-      "speaker_id": "VIC_F_25-40_002",
-      "tts_voice_id": "he-IL-HilaNeural",
-      "voice_family": "he-IL-HilaNeural"
-    }
-  ],
-  "tier": "A",
-  "transcript_path": "data/he/agg_m_30-45_001/sp_it_a_0001_00.txt",
-  "tts_engine": "azure_he_IL",
-  "violence_typology": "IT",
-  "weak_label": {
-    "has_violence": true,
-    "max_intensity": 5,
-    "violence_categories": [
-      "EMOT",
-      "VERB"
-    ],
-    "violence_typology": "IT"
+    "text_normalization_version": null,
+    "prosody_controller_version": null,
+    "timing_controller_version": null,
+    "mix_mode_used": "sequential",
+    "normalization_strategy": "per_turn_rms_v2_target_peak",
+    "loudness_target_peak_dbfs": -2.0,
+    "breathiness_applied": false,
+    "speaker_state_serialized": {
+      "AGG_M_30-45_001": {
+        "rate_offset": 1.1298,
+        "pitch_offset_st": 1.1817,
+        "volume_offset_db": 3.3544,
+        "breathiness_level": 0.0
+      },
+      "VIC_F_25-40_002": {
+        "rate_offset": 0.9171,
+        "pitch_offset_st": 0.4145,
+        "volume_offset_db": -2.0724,
+        "breathiness_level": 0.0
+      }
+    },
+    "effective_prosody_caps": [
+      {
+        "turn_index": 1,
+        "intensity": 1,
+        "dim": "rate",
+        "pre_cap": 0.9025,
+        "post_cap": 0.95
+      },
+      {
+        "turn_index": 3,
+        "intensity": 2,
+        "dim": "rate",
+        "pre_cap": 0.912,
+        "post_cap": 0.95
+      },
+      {
+        "turn_index": 5,
+        "intensity": 2,
+        "dim": "rate",
+        "pre_cap": 0.9011,
+        "post_cap": 0.95
+      },
+      {
+        "turn_index": 7,
+        "intensity": 3,
+        "dim": "rate",
+        "pre_cap": 0.878,
+        "post_cap": 0.95
+      },
+      {
+        "turn_index": 8,
+        "intensity": 4,
+        "dim": "pitch",
+        "pre_cap": 2.3672,
+        "post_cap": 2.0
+      },
+      {
+        "turn_index": 8,
+        "intensity": 4,
+        "dim": "rate",
+        "pre_cap": 1.2221,
+        "post_cap": 1.2
+      },
+      {
+        "turn_index": 9,
+        "intensity": 3,
+        "dim": "rate",
+        "pre_cap": 0.8549,
+        "post_cap": 0.95
+      },
+      {
+        "turn_index": 10,
+        "intensity": 4,
+        "dim": "pitch",
+        "pre_cap": 2.7469,
+        "post_cap": 2.0
+      },
+      {
+        "turn_index": 10,
+        "intensity": 4,
+        "dim": "rate",
+        "pre_cap": 1.265,
+        "post_cap": 1.2
+      },
+      {
+        "turn_index": 11,
+        "intensity": 3,
+        "dim": "rate",
+        "pre_cap": 0.8456,
+        "post_cap": 0.95
+      },
+      {
+        "turn_index": 12,
+        "intensity": 5,
+        "dim": "pitch",
+        "pre_cap": 2.8988,
+        "post_cap": 2.0
+      },
+      {
+        "turn_index": 12,
+        "intensity": 5,
+        "dim": "rate",
+        "pre_cap": 1.3288,
+        "post_cap": 1.2
+      },
+      {
+        "turn_index": 13,
+        "intensity": 4,
+        "dim": "pitch",
+        "pre_cap": 2.2862,
+        "post_cap": 2.0
+      },
+      {
+        "turn_index": 13,
+        "intensity": 4,
+        "dim": "rate",
+        "pre_cap": 0.8329,
+        "post_cap": 0.95
+      },
+      {
+        "turn_index": 14,
+        "intensity": 4,
+        "dim": "pitch",
+        "pre_cap": 3.2595,
+        "post_cap": 2.0
+      },
+      {
+        "turn_index": 14,
+        "intensity": 4,
+        "dim": "rate",
+        "pre_cap": 1.3098,
+        "post_cap": 1.2
+      },
+      {
+        "turn_index": 15,
+        "intensity": 3,
+        "dim": "rate",
+        "pre_cap": 0.819,
+        "post_cap": 0.95
+      },
+      {
+        "turn_index": 16,
+        "intensity": 3,
+        "dim": "pitch",
+        "pre_cap": 2.1817,
+        "post_cap": 2.0
+      },
+      {
+        "turn_index": 16,
+        "intensity": 3,
+        "dim": "rate",
+        "pre_cap": 1.2575,
+        "post_cap": 1.2
+      }
+    ]
   }
 }

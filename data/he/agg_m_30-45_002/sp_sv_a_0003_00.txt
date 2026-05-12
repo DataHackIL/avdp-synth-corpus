@@ -5,39 +5,39 @@
 [SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 9.34 | OFFSET: 15.34]
 אני גם עבדתי היום. לא הספקתי, יש שאריות במקרר, אפשר לחמם.
 [ACTION: VERB_SHOUT | INTENSITY: 2]
-[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 15.46 | OFFSET: 27.15]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 15.46 | OFFSET: 27.19]
 שאריות. תמיד שאריות. אני לא מבין מה את עושה כל היום, באמת. הבית בבלגן, אין אוכל, כלום לא מסודר.
 [ACTION: VERB_THREAT | INTENSITY: 3]
-[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 27.44 | OFFSET: 35.24]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 27.48 | OFFSET: 33.96]
 זה לא הוגן. אני מטפלת בילדים, מנקה, עובדת. אתה לא רואה כלום מזה?
 [ACTION: VERB_THREAT | INTENSITY: 3]
-[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 35.36 | OFFSET: 47.45]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 34.08 | OFFSET: 46.17]
 אל תעלי לי את הטון. אני מזהיר אותך. כל פעם את מתחילה עם הסיפורים האלה, כאילו את הקורבן הגדול.
 [ACTION: DIST_SCREAM | INTENSITY: 4]
-[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 47.56 | OFFSET: 55.36]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 46.28 | OFFSET: 54.16]
 אני לא מתחילה כלום, אני רק אומרת שאני עייפה. למה אתה צריך לצעוק על כל דבר?
 [ACTION: DIST_SCREAM | INTENSITY: 4]
-[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 54.85 | OFFSET: 68.72]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 53.77 | OFFSET: 67.64]
 עייפה? עייפה?! אני עייף מלשמוע את התירוצים שלך. את חושבת שאני פרייאר? שאני אבוא הביתה ואסתדר לבד?
 [ACTION: DIST_SCREAM | INTENSITY: 4]
-[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 68.82 | OFFSET: 74.43]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 67.74 | OFFSET: 73.35]
 תפסיק, אתה מפחיד אותי. בבקשה, בוא נדבר בשקט.
 [ACTION: PHYS_HARD | INTENSITY: 5]
-[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 74.62 | OFFSET: 77.83]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 73.54 | OFFSET: 77.19]
 תשתקי! סתמי את הפה כבר!
 [ACTION: PHYS_HARD | INTENSITY: 5]
-[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 78.07 | OFFSET: 83.98]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 77.43 | OFFSET: 81.82]
 אאאה! לא! עזוב אותי!
 [ACTION: PHYS_HARD | INTENSITY: 5]
-[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 83.77 | OFFSET: 88.03]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 81.61 | OFFSET: 85.87]
 תלמדי לסגור את הפה. שמעת אותי?
 [ACTION: DIST_SCREAM | INTENSITY: 4]
-[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 88.17 | OFFSET: 92.50]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 86.01 | OFFSET: 90.34]
 כואב לי... למה אתה עושה את זה... למה...
 [ACTION: DIST_SCREAM | INTENSITY: 4]
-[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 92.85 | OFFSET: 98.53]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 90.69 | OFFSET: 96.37]
 אל תעשי מזה עניין. את הבאת את זה על עצמך. אם היית מכינה ארוחה כמו בן אדם, שום דבר לא היה קורה.
 [ACTION: VERB_SHOUT | INTENSITY: 2]
-[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 98.98 | OFFSET: 102.30]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 96.82 | OFFSET: 100.14]
 אני לא יכולה ככה... אני לא יכולה...
 [ACTION: VERB_SHOUT | INTENSITY: 2]

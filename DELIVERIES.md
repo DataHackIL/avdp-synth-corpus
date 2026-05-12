@@ -7,7 +7,7 @@ clip counts, prosody QA results, known limitations, and the SynthBanshee commit 
 |---|------|------|---------|------|------:|------:|------------|-------------------|--------|-----|
 | 001 | 2026-04-15 | [debug-run-1](deliveries/001-debug-run-1/notes.md) | she_proves | A | 1 | 2m 36s | IT | v1 baseline (pre-V3) | superseded | [#1](https://github.com/DataHackIL/avdp-synth-corpus/pull/1) |
 | 002 | 2026-04-15 | [m2a-wettest](deliveries/002-m2a-wettest/notes.md) | she_proves | A | 8 | ~17m | SV, IT, NEG, NEU | M2a SSML prosody | superseded | [#2](https://github.com/DataHackIL/avdp-synth-corpus/pull/2) |
-| 003 | 2026-05-12 | [multi-project-multi-voice](deliveries/003-multi-project-multi-voice/notes.md) | she_proves + elephant | A + B | 20 | ~42m | SV, IT, NEG, NEU | M2a + post-#78 / #102 / #103 / #105 / #106 | provisional | [#TBD](https://github.com/DataHackIL/avdp-synth-corpus/pulls) |
+| 003 | 2026-05-12 | [multi-project-multi-voice](deliveries/003-multi-project-multi-voice/notes.md) | she_proves + elephant | A + B | 20 | ~42m | SV, IT, NEG, NEU | M2a + post-#78 / #102 / #103 / #105 / #106 / #110 / #111 / #112 | provisional | [#TBD](https://github.com/DataHackIL/avdp-synth-corpus/pulls) |
 
 ## Status definitions
 
