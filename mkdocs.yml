@@ -1,0 +1,91 @@
+site_name: avdp-synth-corpus
+site_description: Synthetic Hebrew audio corpus for the Audio Violence Detection Pipeline — consumer guide for She-Proves and Elephant in the Room teams
+site_url: https://datahackil.github.io/avdp-synth-corpus/
+repo_url: https://github.com/DataHackIL/avdp-synth-corpus
+repo_name: DataHackIL/avdp-synth-corpus
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  palette:
+    - scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - announce.dismiss
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - def_list
+
+plugins:
+  - search:
+      lang: en
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Team Guides:
+    - She-Proves: she-proves.md
+    - Elephant in the Room: elephant.md
+  - Reference:
+    - Label Taxonomy: taxonomy.md
+    - Schema Reference: schema.md
+    - Audio Format: audio-format.md
+  - Deliveries: deliveries.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/DataHackIL/avdp-synth-corpus
+      name: avdp-synth-corpus on GitHub
+    - icon: fontawesome/brands/github
+      link: https://github.com/DataHackIL/SynthBanshee
+      name: SynthBanshee pipeline on GitHub
+  generator: false
