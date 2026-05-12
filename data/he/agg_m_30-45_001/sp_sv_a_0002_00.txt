@@ -1,37 +1,37 @@
 [CLIP_ID: sp_sv_a_0002_00]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 0.50 | OFFSET: 6.57]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 0.79 | OFFSET: 7.03]
 אמרתי לך אלף פעם לא לדבר עם ההוא בטלפון. מה לא ברור לך?
 [ACTION: VERB_SHOUT | INTENSITY: 1]
-[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 6.87 | OFFSET: 13.23]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 7.60 | OFFSET: 13.96]
 זה עמית מהעבודה, דיברנו על פרויקט. אתה מגזים כמו תמיד.
 [ACTION: VERB_SHOUT | INTENSITY: 1]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 13.43 | OFFSET: 22.91]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 14.43 | OFFSET: 24.08]
 מגזים? את חושבת שאני אידיוט? ראיתי איך את מחייכת לתוך המסך. פרויקט, בטח.
 [ACTION: VERB_SHOUT | INTENSITY: 2]
-[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 23.41 | OFFSET: 30.13]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 23.04 | OFFSET: 29.40]
 אני לא צריכה להצטדק על כל שיחה. תפסיק עם הקנאה החולנית הזאת.
 [ACTION: VERB_SHOUT | INTENSITY: 2]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 30.23 | OFFSET: 36.78]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 29.71 | OFFSET: 36.26]
 את לא תגידי לי מה חולני ומה לא. את שומעת אותי? את לא תגידי לי.
 [ACTION: VERB_SHOUT | INTENSITY: 2]
-[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 37.98 | OFFSET: 45.26]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 36.61 | OFFSET: 43.04]
 למה אתה הולך למטבח? מה אתה... מה אתה לוקח משם?
 [ACTION: DIST_SCREAM | INTENSITY: 4]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 45.66 | OFFSET: 51.82]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 41.76 | OFFSET: 48.48]
 את רואה את הסכין הזאת? את רואה? תשבי. אל תזוזי מהספה.
 [ACTION: PHYS_HARD | INTENSITY: 5]
-[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 51.92 | OFFSET: 58.48]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 48.75 | OFFSET: 54.97]
 אלוהים, תוריד את הסכין! בבקשה, תוריד אותה, אתה מפחיד אותי!
 [ACTION: PHYS_HARD | INTENSITY: 5]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 58.78 | OFFSET: 67.10]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 54.68 | OFFSET: 63.77]
 מפחיד אותך? טוב. ככה תבינו מה קורה כשמשקרים לי. הסכין נשארת ביד שלי עד שתגידי לי את האמת.
 [ACTION: PHYS_HARD | INTENSITY: 5]
-[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 67.90 | OFFSET: 79.02]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 62.69 | OFFSET: 72.63]
 אני רוצה לצאת מהדירה. תן לי לעבור לדלת, בבקשה. אני לא אגיד לאף אחד, רק תן לי ללכת.
 [ACTION: VERB_THREAT | INTENSITY: 3]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 79.22 | OFFSET: 86.94]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 72.71 | OFFSET: 81.16]
 את לא הולכת לשום מקום. תשבי. אם תזוזי צעד אחד לכיוון הדלת עם הסכין ביד שלי, את יודעת מה יקרה.
 [ACTION: PHYS_HARD | INTENSITY: 5]
-[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 87.44 | OFFSET: 98.94]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 81.27 | OFFSET: 91.57]
 אוקיי, אוקיי, אני יושבת. אני לא זזה. רק תרגע, תוריד את הסכין מהיד, בבקשה.
 [ACTION: VERB_THREAT | INTENSITY: 3]

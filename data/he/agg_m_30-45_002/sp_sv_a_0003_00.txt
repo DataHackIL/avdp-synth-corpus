@@ -1,0 +1,43 @@
+[CLIP_ID: sp_sv_a_0003_00]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 0.94 | OFFSET: 8.99]
+אז מה, אין ארוחת ערב? ישבתי כל היום בעבודה ואת לא יכולה להכין משהו נורמלי?
+[ACTION: VERB_SHOUT | INTENSITY: 2]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 9.34 | OFFSET: 15.34]
+אני גם עבדתי היום. לא הספקתי, יש שאריות במקרר, אפשר לחמם.
+[ACTION: VERB_SHOUT | INTENSITY: 2]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 15.46 | OFFSET: 27.15]
+שאריות. תמיד שאריות. אני לא מבין מה את עושה כל היום, באמת. הבית בבלגן, אין אוכל, כלום לא מסודר.
+[ACTION: VERB_THREAT | INTENSITY: 3]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 27.44 | OFFSET: 35.24]
+זה לא הוגן. אני מטפלת בילדים, מנקה, עובדת. אתה לא רואה כלום מזה?
+[ACTION: VERB_THREAT | INTENSITY: 3]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 35.36 | OFFSET: 47.45]
+אל תעלי לי את הטון. אני מזהיר אותך. כל פעם את מתחילה עם הסיפורים האלה, כאילו את הקורבן הגדול.
+[ACTION: DIST_SCREAM | INTENSITY: 4]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 47.56 | OFFSET: 55.36]
+אני לא מתחילה כלום, אני רק אומרת שאני עייפה. למה אתה צריך לצעוק על כל דבר?
+[ACTION: DIST_SCREAM | INTENSITY: 4]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 54.85 | OFFSET: 68.72]
+עייפה? עייפה?! אני עייף מלשמוע את התירוצים שלך. את חושבת שאני פרייאר? שאני אבוא הביתה ואסתדר לבד?
+[ACTION: DIST_SCREAM | INTENSITY: 4]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 68.82 | OFFSET: 74.43]
+תפסיק, אתה מפחיד אותי. בבקשה, בוא נדבר בשקט.
+[ACTION: PHYS_HARD | INTENSITY: 5]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 74.62 | OFFSET: 77.83]
+תשתקי! סתמי את הפה כבר!
+[ACTION: PHYS_HARD | INTENSITY: 5]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 78.07 | OFFSET: 83.98]
+אאאה! לא! עזוב אותי!
+[ACTION: PHYS_HARD | INTENSITY: 5]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 83.77 | OFFSET: 88.03]
+תלמדי לסגור את הפה. שמעת אותי?
+[ACTION: DIST_SCREAM | INTENSITY: 4]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 88.17 | OFFSET: 92.50]
+כואב לי... למה אתה עושה את זה... למה...
+[ACTION: DIST_SCREAM | INTENSITY: 4]
+[SPEAKER: AGG_M_30-45_002 | ROLE: AGG | ONSET: 92.85 | OFFSET: 98.53]
+אל תעשי מזה עניין. את הבאת את זה על עצמך. אם היית מכינה ארוחה כמו בן אדם, שום דבר לא היה קורה.
+[ACTION: VERB_SHOUT | INTENSITY: 2]
+[SPEAKER: VIC_F_25-40_003 | ROLE: VIC | ONSET: 98.98 | OFFSET: 102.30]
+אני לא יכולה ככה... אני לא יכולה...
+[ACTION: VERB_SHOUT | INTENSITY: 2]

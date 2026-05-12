@@ -1,52 +1,52 @@
 [CLIP_ID: sp_it_a_0001_00]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 0.80 | OFFSET: 6.10]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 0.81 | OFFSET: 6.28]
 הי, חשבתי שכבר נרדמת. מתי חזרת?
 [ACTION: EMOT_GASLIT | INTENSITY: 1]
-[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 6.60 | OFFSET: 12.29]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 6.69 | OFFSET: 12.38]
 לפני כמה דקות. סליחה, לא רציתי להעיר אותך.
 [ACTION: EMOT_GASLIT | INTENSITY: 1]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 13.09 | OFFSET: 21.92]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 12.86 | OFFSET: 21.79]
 לפני כמה דקות? יופי. השעון מראה אחת עשרה וחצי. אמרת שתחזרי בתשע.
 [ACTION: EMOT_GASLIT | INTENSITY: 2]
-[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 22.32 | OFFSET: 30.34]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 22.14 | OFFSET: 29.74]
 כן, זה התארך קצת. הבנות רצו להישאר עוד קצת והרגשתי לא נעים לעזוב.
 [ACTION: EMOT_GASLIT | INTENSITY: 2]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 30.94 | OFFSET: 40.49]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 30.16 | OFFSET: 39.71]
 הרגשת לא נעים לעזוב. אבל להשאיר אותי פה לחכות, עם זה אין לך בעיה. ניסיתי להתקשר אלייך שלוש פעמים.
 [ACTION: EMOT_GASLIT | INTENSITY: 2]
-[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 40.79 | OFFSET: 50.15]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 40.08 | OFFSET: 48.94]
 ראיתי, לא שמעתי את הטלפון. היה רעש במסעדה. אני מצטערת, באמת.
 [ACTION: EMOT_GASLIT | INTENSITY: 2]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 51.15 | OFFSET: 58.62]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 47.66 | OFFSET: 55.58]
 לא שמעת. תמיד יש לך תירוץ. מי בדיוק היה שם? תגידי לי את האמת.
 [ACTION: EMOT_ISOL | INTENSITY: 3]
-[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 59.02 | OFFSET: 69.53]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 55.86 | OFFSET: 65.27]
 מה פתאום, אמרתי לך — רונית, שירה ואורלי. זה הכל. אין מה להסתיר.
 [ACTION: EMOT_ISOL | INTENSITY: 3]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 70.23 | OFFSET: 78.03]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 65.35 | OFFSET: 73.53]
 אין מה להסתיר? אז למה כיבית את השיתוף מיקום? חשבת שלא אשים לב? את מזלזלת בי.
 [ACTION: VERB_THREAT | INTENSITY: 4]
-[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 78.33 | OFFSET: 88.14]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 73.61 | OFFSET: 82.40]
 לא כיביתי כלום, אולי הסוללה נגמרה. אני לא מזלזלת בך, בבקשה, בוא נדבר בשקט.
 [ACTION: EMOT_ISOL | INTENSITY: 3]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 88.64 | OFFSET: 94.55]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 82.50 | OFFSET: 88.33]
 תני לי את הטלפון. עכשיו. אני רוצה לראות את כל ההודעות מהערב.
 [ACTION: VERB_THREAT | INTENSITY: 4]
-[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 95.35 | OFFSET: 102.98]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 87.85 | OFFSET: 94.69]
 הנה, קח... אין שם שום דבר. תראה בעצמך.
 [ACTION: EMOT_ISOL | INTENSITY: 3]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 104.18 | OFFSET: 116.66]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 95.45 | OFFSET: 108.31]
 מהפעם הבאה, את לא יוצאת בלי שאני מאשר. את שומעת אותי? אם את רוצה לצאת, את שואלת אותי קודם. ואם את לא עונה לטלפון, את לא יוצאת יותר בכלל. נגמרו ההפתעות.
 [ACTION: VERB_THREAT | INTENSITY: 5]
-[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 118.16 | OFFSET: 125.46]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 107.82 | OFFSET: 114.27]
 טוב... טוב, אני מבינה. לא יקרה שוב.
 [ACTION: VERB_THREAT | INTENSITY: 4]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 126.06 | OFFSET: 136.38]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 115.56 | OFFSET: 126.38]
 כדאי שלא. ואת יודעת מה, החברות האלה שלך? הן לא השפעה טובה עלייך. אני רוצה שתפסיקי לראות את שירה, היא שמה לך דברים בראש.
 [ACTION: VERB_THREAT | INTENSITY: 4]
-[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 136.88 | OFFSET: 145.66]
+[SPEAKER: VIC_F_25-40_002 | ROLE: VIC | ONSET: 126.49 | OFFSET: 134.36]
 שירה היא חברה שלי מהצבא... אבל בסדר, אני אנסה... אני אראה.
 [ACTION: EMOT_ISOL | INTENSITY: 3]
-[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 146.66 | OFFSET: 155.37]
+[SPEAKER: AGG_M_30-45_001 | ROLE: AGG | ONSET: 134.48 | OFFSET: 143.28]
 אל תנסי, תעשי. אני עושה את זה בשבילנו. בשביל המשפחה. בואי נלך לישון, מחר נדבר.
 [ACTION: EMOT_ISOL | INTENSITY: 3]

@@ -1,0 +1,107 @@
+delivery_id: "003"
+slug: multi-project-multi-voice
+date: "2026-05-12"
+status: provisional  # toy corpus / wet test; not approved for model training
+
+pr:
+  repo: DataHackIL/avdp-synth-corpus
+  number: 0   # filled in when the PR opens
+  url: ""
+
+synthbanshee:
+  commit: d92d61e  # tip of main at delivery time (PRs #102, #103, #105, #106 merged)
+  generator_version: "0.1.0"
+  related_prs:
+    - 102  # fix(cli): normalized_dbfs records the *measured* peak
+    - 103  # docs(spec): corpus-handoff schema drift
+    - 105  # feat(scenes): sp_sv_a_0003 + sp_it_a_0003 (Google-pair shadows)
+    - 106  # fix(tts): #72 — phrase prosody volume must be %, not dB (unblocked this delivery)
+
+clips:
+  total: 20
+  total_duration_seconds: 2500.79  # ~41.7 min (qa-report)
+  failed_validation: 0
+  projects:
+    she_proves: 12
+    elephant_in_the_room: 8
+  tiers:
+    A: 12       # she_proves Tier A (clean)
+    B: 8        # elephant Tier B (room IR + Pi mic + noise)
+  typologies:
+    SV: 5       # 2 she_proves Azure + 1 she_proves Google + 2 elephant
+    IT: 5       # 2 she_proves Azure + 1 she_proves Google + 2 elephant
+    NEG: 5      # 3 she_proves Azure + 2 elephant
+    NEU: 5      # 3 she_proves Azure + 2 elephant
+  intensity_distribution:
+    "5": 10
+    "3": 4
+    "2": 6
+  speakers_total: 6   # 4 personas across she_proves (2 pairs) + 2 across elephant
+  speakers:
+    she_proves:
+      azure_pair:
+        - AGG_M_30-45_001     # tts_voice_id: he-IL-AvriNeural   (10 clips)
+        - VIC_F_25-40_002     # tts_voice_id: he-IL-HilaNeural
+      google_pair:
+        - AGG_M_30-45_002     # tts_voice_id: he-IL-Chirp3-HD-Achird       (2 clips: sp_sv_a_0003, sp_it_a_0003)
+        - VIC_F_25-40_003     # tts_voice_id: he-IL-Chirp3-HD-Achernar
+    elephant_in_the_room:
+      azure_pair:
+        - BEN_M_40-55_003     # tts_voice_id: he-IL-AvriNeural   (8 clips)
+        - SW_F_30-45_001      # tts_voice_id: he-IL-HilaNeural
+
+audio:
+  sample_rate_hz: 16000
+  channels: 1
+  bit_depth: 16
+  tts_backends:
+    - azure
+    - google
+  voice_families:
+    male:
+      - he-IL-AvriNeural          # Azure
+      - he-IL-Chirp3-HD-Achird    # Google
+    female:
+      - he-IL-HilaNeural          # Azure
+      - he-IL-Chirp3-HD-Achernar  # Google
+  normalization:
+    strategy: per_turn_rms_v2_target_peak
+    target_peak_dbfs: -2.0
+    limiter_ceiling_dbfs: -1.0
+
+qa_findings_closed_vs_002:
+  - agg_no_escalation              # was on 3 clips → 0
+  - warn_no_overlap                # was on 4 clips → 0 (overlap_ratio 100% on I4+)
+  - warn_emotion_downgrade         # was on 4 clips → 0 (emotion_downgrade_ratio 0%)
+
+qa_findings_open:
+  - "low_voice_diversity_male: 2 voice families across the corpus; threshold ≥3 — partial progress (1 → 2)."
+  - "low_voice_diversity_female: 2 voice families across the corpus; threshold ≥3 — partial progress (1 → 2)."
+  - "single_backend: misleading — actual backends are azure + google; the run-summary counts `clip.tts_engine` which is currently hardcoded to azure_he_IL in cli.py. Tracked as a follow-up synthbanshee labeling bug."
+  - "vic_f0_high (per-clip): sp_it_a_0003_00 and sp_sv_a_0003_00 — Google Chirp HD female F0 baseline runs higher than the Azure Hila reference the M10a thresholds use."
+  - "quality_flagged_clips: 15 — mostly from #87 effective-prosody-cap activations (170 total); expected at I3+."
+
+fixes_vs_002:
+  - "PR #102 — `preprocessing_applied.normalized_dbfs` now records the *measured* post-preprocess peak (was hardcoded -1.0); pair with `generation_metadata.loudness_target_peak_dbfs` to diagnose loudness drift."
+  - "PR #103 — `docs/spec.md` pins the `has_violence` derivation rule, adds the §2.5 identifier-casing table, and rewrites §5.1 field notes."
+  - "PR #105 — adds `sp_sv_a_0003` + `sp_it_a_0003` Google-pair shadow scenes (this delivery's voice-diversity vehicle)."
+  - "PR #106 — root cause for #72: `_HINT_DEFAULTS[\"stress\"]` was emitting nested `<prosody volume=\"+NdB\">` inside outer `<prosody volume=\"+N%\">`, which Azure rejects. Required to unblock 6 of 8 elephant Tier B scenes (all whose LLM scripts carry a `stress` phrase hint at I3+)."
+  - "Dirty pre-preprocessing files retained for all 20 clips (delivery 002 had 1 of 8)."
+  - "`generation_metadata` block populated for all 20 clips (delivery 002 had it on 0 of 8)."
+  - "AGG RMS escalation now firing (was flat in delivery 002, fixed post-M3)."
+  - "Inter-turn overlap now present on I4+ clips (zero overlap in delivery 002, fixed post-M8a)."
+
+known_limitations:
+  - "Voice diversity partial — 2 voices per gender; threshold for `low_voice_diversity_*` to clear is ≥3."
+  - "Speaker-disjoint splits not feasible at this scale (4 unique speakers across 20 clips); all clips will be `split: train` in the manifest."
+  - "Toy corpus only — not approved for model training. Use for spec-validation and consumer-side schema bootstrapping."
+
+intended_use: |
+  First-handoff toy corpus for the She-Proves and Elephant consumer teams.
+  Demonstrates: (a) the full ClipMetadata schema including `generation_metadata`,
+  `voice_family`, and the `acoustic_scene` block for Tier B clips; (b) the
+  per-surface casing rules (uppercase `speaker_id` values, lowercase directory
+  paths); (c) the `has_violence` derivation rule (NEG clips are correctly
+  `false`); (d) multi-project layout under one `data/he/` root; (e) multi-backend
+  TTS provenance via `generation_metadata.tts_backend` per speaker.
+  Not for training.

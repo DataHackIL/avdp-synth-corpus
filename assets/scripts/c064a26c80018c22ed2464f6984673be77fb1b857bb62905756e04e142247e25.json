@@ -1,0 +1,178 @@
+{
+  "turns": [
+    {
+      "emotional_state": "neutral",
+      "intensity": 1,
+      "pause_before_s": 0.0,
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05e9\u05dc\u05d5\u05dd \u05d1\u05df, \u05d1\u05d5\u05d0 \u05ea\u05e9\u05d1 \u05d1\u05d1\u05e7\u05e9\u05d4. \u05e8\u05d0\u05d9\u05ea\u05d9 \u05e9\u05d4\u05d2\u05e9\u05ea \u05e2\u05e8\u05e2\u05d5\u05e8 \u05e2\u05dc \u05d4\u05d4\u05d7\u05dc\u05d8\u05d4 \u05d1\u05e2\u05e0\u05d9\u05d9\u05df \u05e7\u05e6\u05d1\u05ea \u05d4\u05d3\u05d9\u05d5\u05e8 \u05e9\u05dc\u05da, \u05d0\u05e0\u05d9 \u05e8\u05d5\u05e6\u05d4 \u05e9\u05e0\u05e2\u05d1\u05d5\u05e8 \u05e2\u05dc \u05d6\u05d4 \u05d1\u05d9\u05d7\u05d3."
+    },
+    {
+      "emotional_state": "angry",
+      "intensity": 2,
+      "pause_before_s": 0.5,
+      "phrase_hints": [],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05db\u05df, \u05d4\u05d2\u05e9\u05ea\u05d9 \u05e2\u05e8\u05e2\u05d5\u05e8 \u05db\u05d1\u05e8 \u05dc\u05e4\u05e0\u05d9 \u05d7\u05d5\u05d3\u05e9\u05d9\u05d9\u05dd. \u05d0\u05e3 \u05d0\u05d7\u05d3 \u05dc\u05d0 \u05d7\u05d5\u05d6\u05e8 \u05d0\u05dc\u05d9\u05d9, \u05d0\u05e3 \u05d0\u05d7\u05d3 \u05dc\u05d0 \u05de\u05d8\u05e4\u05dc \u05d1\u05d6\u05d4. \u05d0\u05e0\u05d9 \u05de\u05e8\u05d2\u05d9\u05e9 \u05e9\u05d0\u05e0\u05d9 \u05de\u05d3\u05d1\u05e8 \u05dc\u05e7\u05d9\u05e8\u05d5\u05ea."
+    },
+    {
+      "emotional_state": "calm",
+      "intensity": 1,
+      "pause_before_s": 0.3,
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05d0\u05e0\u05d9 \u05de\u05d1\u05d9\u05e0\u05d4 \u05e9\u05d6\u05d4 \u05de\u05ea\u05e1\u05db\u05dc, \u05d5\u05d0\u05e0\u05d9 \u05e8\u05d5\u05e6\u05d4 \u05dc\u05e2\u05d6\u05d5\u05e8. \u05d1\u05d5\u05d0 \u05e0\u05e1\u05ea\u05db\u05dc \u05e2\u05dc \u05d4\u05ea\u05d9\u05e7 \u05e9\u05dc\u05da, \u05d4\u05e0\u05d4 \u05d4\u05ea\u05d9\u05e7\u05d9\u05d9\u05d4 \u05e2\u05dd \u05db\u05dc \u05d4\u05de\u05e1\u05de\u05db\u05d9\u05dd. \u05d9\u05e9 \u05db\u05d0\u05df \u05db\u05de\u05d4 \u05d3\u05d1\u05e8\u05d9\u05dd \u05e9\u05e6\u05e8\u05d9\u05da \u05dc\u05d4\u05e9\u05dc\u05d9\u05dd \u05db\u05d3\u05d9 \u05e9\u05d4\u05e2\u05e8\u05e2\u05d5\u05e8 \u05d9\u05ea\u05e7\u05d3\u05dd."
+    },
+    {
+      "emotional_state": "angry",
+      "intensity": 2,
+      "pause_before_s": 0.2,
+      "phrase_hints": [],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05de\u05d4 \u05dc\u05d4\u05e9\u05dc\u05d9\u05dd? \u05d4\u05d2\u05e9\u05ea\u05d9 \u05d4\u05db\u05dc. \u05db\u05dc \u05de\u05e1\u05de\u05da, \u05db\u05dc \u05d0\u05d9\u05e9\u05d5\u05e8, \u05d4\u05db\u05dc. \u05de\u05d4 \u05e2\u05d5\u05d3 \u05d0\u05ea\u05dd \u05e8\u05d5\u05e6\u05d9\u05dd \u05de\u05de\u05e0\u05d9?"
+    },
+    {
+      "emotional_state": "neutral",
+      "intensity": 2,
+      "pause_before_s": 0.5,
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05d1\u05df, \u05dc\u05e4\u05d9 \u05de\u05d4 \u05e9\u05e8\u05e9\u05d5\u05dd \u05db\u05d0\u05df, \u05d4\u05d5\u05d5\u05e2\u05d3\u05d4 \u05d4\u05d7\u05dc\u05d9\u05d8\u05d4 \u05e9\u05d0\u05ea\u05d4 \u05dc\u05d0 \u05e2\u05d5\u05de\u05d3 \u05d1\u05e7\u05e8\u05d9\u05d8\u05e8\u05d9\u05d5\u05e0\u05d9\u05dd \u05dc\u05e7\u05e6\u05d1\u05ea \u05d3\u05d9\u05d5\u05e8 \u05de\u05d5\u05d2\u05d3\u05dc\u05ea. \u05d4\u05d4\u05d7\u05dc\u05d8\u05d4 \u05d4\u05d6\u05d5 \u05e1\u05d5\u05e4\u05d9\u05ea \u05d1\u05e9\u05dc\u05d1 \u05d4\u05d6\u05d4, \u05d0\u05d1\u05dc \u05d0\u05e0\u05d9 \u05d9\u05db\u05d5\u05dc\u05d4 \u05dc\u05e2\u05d6\u05d5\u05e8 \u05dc\u05da \u05dc\u05d4\u05d2\u05d9\u05e9 \u05e4\u05e0\u05d9\u05d9\u05d4 \u05d7\u05d3\u05e9\u05d4."
+    },
+    {
+      "emotional_state": "angry",
+      "intensity": 4,
+      "pause_before_s": 0.2,
+      "phrase_hints": [
+        {
+          "char_end_original": 7,
+          "char_start_original": 0,
+          "hint": "stress",
+          "phrase_id": "t5_p0"
+        },
+        {
+          "char_end_original": 101,
+          "char_start_original": 75,
+          "hint": "stress",
+          "phrase_id": "t5_p1"
+        }
+      ],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05e1\u05d5\u05e4\u05d9\u05ea?! \u05d0\u05ea \u05d0\u05d5\u05de\u05e8\u05ea \u05dc\u05d9 \u05e9\u05d4\u05d4\u05d7\u05dc\u05d8\u05d4 \u05e1\u05d5\u05e4\u05d9\u05ea?! \u05d0\u05e0\u05d9 \u05d7\u05d9 \u05d1\u05e8\u05d7\u05d5\u05d1 \u05db\u05de\u05e2\u05d8, \u05d5\u05d0\u05ea \u05d0\u05d5\u05de\u05e8\u05ea \u05dc\u05d9 \u05e1\u05d5\u05e4\u05d9\u05ea?! \u05d0\u05ea\u05dd \u05d4\u05d5\u05e8\u05e1\u05d9\u05dd \u05dc\u05d9 \u05d0\u05ea \u05d4\u05d7\u05d9\u05d9\u05dd!"
+    },
+    {
+      "emotional_state": "calm",
+      "intensity": 2,
+      "pause_before_s": 0.8,
+      "phrase_hints": [],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05d1\u05df, \u05d0\u05e0\u05d9 \u05e9\u05d5\u05de\u05e2\u05ea \u05d0\u05d5\u05ea\u05da, \u05d5\u05d0\u05e0\u05d9 \u05de\u05d1\u05d9\u05e0\u05d4 \u05db\u05de\u05d4 \u05d6\u05d4 \u05e7\u05e9\u05d4. \u05d1\u05d5\u05d0 \u05e0\u05e0\u05e1\u05d4 \u05dc\u05de\u05e6\u05d5\u05d0 \u05e4\u05ea\u05e8\u05d5\u05df \u05d1\u05d9\u05d7\u05d3, \u05d0\u05e0\u05d9 \u05db\u05d0\u05df \u05d1\u05e9\u05d1\u05d9\u05dc\u05da."
+    },
+    {
+      "emotional_state": "angry",
+      "intensity": 4,
+      "pause_before_s": 0.3,
+      "phrase_hints": [
+        {
+          "char_end_original": 73,
+          "char_start_original": 43,
+          "hint": "slow",
+          "phrase_id": "t7_p0"
+        },
+        {
+          "char_end_original": 134,
+          "char_start_original": 107,
+          "hint": "stress",
+          "phrase_id": "t7_p1"
+        }
+      ],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05e4\u05ea\u05e8\u05d5\u05df?! \u05d0\u05d9\u05df \u05dc\u05db\u05dd \u05e4\u05ea\u05e8\u05d5\u05e0\u05d5\u05ea! \u05e8\u05e7 \u05e0\u05d9\u05d9\u05e8\u05ea \u05d5\u05e9\u05d8\u05d5\u05d9\u05d5\u05ea! \u05d0\u05ea \u05e8\u05d5\u05d0\u05d4 \u05d0\u05ea \u05d4\u05ea\u05d9\u05e7\u05d9\u05d9\u05d4 \u05d4\u05db\u05d1\u05d3\u05d4 \u05d4\u05d6\u05d0\u05ea? \u05d0\u05ea \u05e8\u05d5\u05d0\u05d4 \u05db\u05de\u05d4 \u05d3\u05e4\u05d9\u05dd \u05d9\u05e9 \u05e4\u05d4? \u05db\u05dc \u05d4\u05d3\u05e4\u05d9\u05dd \u05d4\u05d0\u05dc\u05d4 \u05d5\u05e9\u05d5\u05dd \u05d3\u05d1\u05e8 \u05dc\u05d0 \u05d6\u05d6!"
+    },
+    {
+      "emotional_state": "threatening",
+      "intensity": 5,
+      "pause_before_s": 0.5,
+      "phrase_hints": [
+        {
+          "char_end_original": 55,
+          "char_start_original": 0,
+          "hint": "menace",
+          "phrase_id": "t8_p0"
+        },
+        {
+          "char_end_original": 99,
+          "char_start_original": 56,
+          "hint": "break_after",
+          "phrase_id": "t8_p1"
+        }
+      ],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05d0\u05e0\u05d9 \u05dc\u05d5\u05e7\u05d7 \u05d0\u05ea \u05d4\u05ea\u05d9\u05e7\u05d9\u05d9\u05d4 \u05d4\u05d6\u05d0\u05ea, \u05d5\u05d0\u05e0\u05d9 \u05d0\u05d6\u05e8\u05d5\u05e7 \u05d0\u05d5\u05ea\u05d4 \u05e2\u05dc\u05d9\u05da \u05d0\u05dd \u05d0\u05ea \u05dc\u05d0 \u05de\u05e1\u05d3\u05e8\u05ea \u05dc\u05d9 \u05d0\u05ea \u05d4\u05e7\u05e6\u05d1\u05d4 \u05e2\u05db\u05e9\u05d9\u05d5! \u05d0\u05ea \u05e9\u05d5\u05de\u05e2\u05ea \u05d0\u05d5\u05ea\u05d9?!"
+    },
+    {
+      "emotional_state": "fearful",
+      "intensity": 3,
+      "pause_before_s": 1.0,
+      "phrase_hints": [
+        {
+          "char_end_original": 46,
+          "char_start_original": 0,
+          "hint": "break_before",
+          "phrase_id": "t9_p0"
+        },
+        {
+          "char_end_original": 104,
+          "char_start_original": 73,
+          "hint": "slow",
+          "phrase_id": "t9_p1"
+        }
+      ],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05d1\u05df, \u05d0\u05e0\u05d9 \u05de\u05d1\u05e7\u05e9\u05ea \u05de\u05de\u05da \u05dc\u05d4\u05d5\u05e8\u05d9\u05d3 \u05d0\u05ea \u05d4\u05ea\u05d9\u05e7\u05d9\u05d9\u05d4 \u05de\u05d4\u05d9\u05d3\u05d9\u05d9\u05dd. \u05d0\u05e0\u05d9 \u05e8\u05d5\u05e6\u05d4 \u05dc\u05e2\u05d6\u05d5\u05e8 \u05dc\u05da, \u05d0\u05d1\u05dc \u05dc\u05d0 \u05db\u05db\u05d4. \u05ea\u05d5\u05e8\u05d9\u05d3 \u05d0\u05ea \u05d4\u05ea\u05d9\u05e7\u05d9\u05d9\u05d4 \u05d1\u05d1\u05e7\u05e9\u05d4."
+    },
+    {
+      "emotional_state": "fearful",
+      "intensity": 3,
+      "pause_before_s": 0.3,
+      "phrase_hints": [
+        {
+          "char_end_original": 49,
+          "char_start_original": 0,
+          "hint": "stress",
+          "phrase_id": "t10_p0"
+        },
+        {
+          "char_end_original": 118,
+          "char_start_original": 81,
+          "hint": "slow",
+          "phrase_id": "t10_p1"
+        }
+      ],
+      "speaker_id": "SW_F_30-45_001",
+      "text": "\u05d9\u05d5\u05e1\u05d9, \u05d0\u05e0\u05d9 \u05e6\u05e8\u05d9\u05db\u05d4 \u05e2\u05d6\u05e8\u05d4 \u05d1\u05d7\u05d3\u05e8 \u05e9\u05dc\u05d5\u05e9, \u05e2\u05db\u05e9\u05d9\u05d5 \u05d1\u05d1\u05e7\u05e9\u05d4! \u05d1\u05df, \u05d0\u05e0\u05d9 \u05d6\u05d6\u05d4 \u05dc\u05e6\u05d3, \u05d0\u05d1\u05dc \u05d0\u05e0\u05d9 \u05dc\u05d0 \u05e0\u05d2\u05d3\u05da. \u05e9\u05d9\u05dd \u05d0\u05ea \u05d4\u05ea\u05d9\u05e7\u05d9\u05d9\u05d4 \u05e2\u05dc \u05d4\u05e9\u05d5\u05dc\u05d7\u05df \u05d5\u05e0\u05d3\u05d1\u05e8."
+    },
+    {
+      "emotional_state": "sad",
+      "intensity": 3,
+      "pause_before_s": 1.5,
+      "phrase_hints": [
+        {
+          "char_end_original": 59,
+          "char_start_original": 38,
+          "hint": "break_before",
+          "phrase_id": "t11_p0"
+        },
+        {
+          "char_end_original": 81,
+          "char_start_original": 60,
+          "hint": "slow",
+          "phrase_id": "t11_p1"
+        }
+      ],
+      "speaker_id": "BEN_M_40-55_003",
+      "text": "\u05d0\u05e0\u05d9... \u05d0\u05e0\u05d9 \u05dc\u05d0 \u05e8\u05d5\u05e6\u05d4 \u05dc\u05e4\u05d2\u05d5\u05e2 \u05d1\u05d0\u05e3 \u05d0\u05d7\u05d3. \u05d0\u05e0\u05d9 \u05e4\u05e9\u05d5\u05d8 \u05dc\u05d0 \u05d9\u05db\u05d5\u05dc \u05d9\u05d5\u05ea\u05e8. \u05d0\u05e0\u05d9 \u05e9\u05dd \u05d0\u05ea \u05d4\u05ea\u05d9\u05e7\u05d9\u05d9\u05d4. \u05d0\u05d1\u05dc \u05ea\u05e2\u05e9\u05d5 \u05de\u05e9\u05d4\u05d5, \u05d0\u05e0\u05d9 \u05de\u05ea\u05d7\u05e0\u05df."
+    }
+  ]
+}

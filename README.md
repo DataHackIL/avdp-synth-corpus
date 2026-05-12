@@ -51,9 +51,10 @@ Every `.wav` must have a matching `.txt`, `.json`, and `.jsonl`. A clip without 
 
 ## Clip ID and filename conventions
 
-- All filenames are **ASCII only**, lowercase, no spaces.
-- Format: `{scene_id}_{take_number:02d}` — e.g. `sp_it_a_0001_00`.
-- Speaker directory names match the `speaker_id` field in the clip's `.json` metadata.
+- All filenames (and filesystem path components) are **ASCII only**, lowercase, no spaces.
+- Format: `{scene_id_lower}_{take_number:02d}` — e.g. `sp_it_a_0001_00`. The same id appears uppercase in YAML `scene_id`.
+- The on-disk speaker directory is `speaker_id.lower()` of the scene's first listed speaker. The `speakers[].speaker_id` *value* in the `.json` stays uppercase (`AGG_M_30-45_001`); only the directory name is lowercase (`agg_m_30-45_001/`).
+- **Single source of truth for per-surface casing rules:** [SynthBanshee `docs/spec.md` §2.5 — Identifier casing (per surface)](https://github.com/DataHackIL/SynthBanshee/blob/main/docs/spec.md#25-filename-constraints).
 - **No Hebrew text in filenames or JSON keys/values** — Hebrew belongs in `.txt` transcript files only.
 
 ---
@@ -68,7 +69,13 @@ Labels follow a three-level hierarchy defined in `configs/taxonomy.yaml` in the 
 | Tier 1 category (event-level) | `tier1_category` | `PHYS`, `VERB`, `DIST`, `ACOU`, `EMOT`, `NONE` |
 | Tier 2 subtype (event-level) | `tier2_subtype` | `VERB_THREAT`, `DIST_SCREAM`, `PHYS_HARD` |
 
-`has_violence` is a **derived convenience field** computed from the hierarchical taxonomy (`violence_typology`, `violence_categories`, `max_intensity`). It is provided for fast filtering and baseline modelling. The taxonomy columns are the ground truth — `has_violence` must never be the only label used for training.
+`has_violence` is a **derived convenience field** computed from the strong-label events, not from typology or intensity. The rule is pinned in [SynthBanshee `docs/spec.md` §5.1](https://github.com/DataHackIL/SynthBanshee/blob/main/docs/spec.md#51-per-clip-metadata-json) and lives in `synthbanshee/labels/generator.py`:
+
+```python
+has_violence = any(e.tier1_category != "NONE" for e in events)
+```
+
+This means `NEG` (Negative / Confusor) clips are correctly `has_violence: false` even at `max_intensity ≥ 3` — by definition NEG is "acoustically intense but non-violent" so every event lands `tier1_category: "NONE"`. Do **not** re-derive `has_violence` from typology + intensity alone; you will disagree with the data on every NEG row. The taxonomy columns are the ground truth — `has_violence` is for fast filtering and baseline modelling only, never the sole training label.
 
 Intensity is scored 1–5 per turn:
 
@@ -89,23 +96,16 @@ All clips must conform to:
 - **Sample rate:** 16 kHz
 - **Channels:** Mono
 - **Bit depth:** 16-bit PCM
-- **Peak level:** ≤ −1.0 dBFS (peak-limited; per-turn RMS targeting preserves within-scene loudness trajectory)
+- **Peak normalization:** target `−2.0 dBFS` (configurable, range `[−12.0, −1.5]`) via single global gain, then safety limiter at `≤ −1.0 dBFS`. The measured peak lands in `preprocessing_applied.normalized_dbfs`; the configured target lands in `generation_metadata.loudness_target_peak_dbfs`. See [spec §3](https://github.com/DataHackIL/SynthBanshee/blob/main/docs/spec.md#3-audio-format-requirements) and §5.1 field notes.
 - **Silence padding:** ≥ 0.5 s ambient baseline before and after target speech
 
 ---
 
 ## Pipeline versions and data quality
 
-Clips carry a `generation_metadata` block in their `.json` file (from pipeline v3 onward) recording which pipeline version, TTS backend, voice, and prosody controller produced them. Older clips (v1) lack this block.
+Clips carry a `generation_metadata` block in their `.json` file when the generator recorded pipeline provenance (`pipeline_version`, `tts_backend` per speaker, `voice_family` per speaker, `mix_mode_used`, `normalization_strategy`, `loudness_target_peak_dbfs`, `breathiness_applied`, `effective_prosody_caps`). Older clips may have it as `null` — treat absence as "unknown", not as failure. See [spec §5.1](https://github.com/DataHackIL/SynthBanshee/blob/main/docs/spec.md#51-per-clip-metadata-json) field notes.
 
-**Known limitations of v1 clips (pre-V3 pipeline):**
-- Near-zero amplitude variation across intensity levels
-- VIC voice baseline F0 too high (~215 Hz; rises to child-voice range at intensity 5)
-- Hebrew gender-agreement errors in aggressor→victim address forms
-- No inter-turn overlap or interruption
-- Missing creaky/breathy phonation in victim voice at high intensity
-
-v1 clips are suitable for **pipeline smoke-tests and label schema development only**. They should not be used as primary model training data for intensity 3–5 turns. The V3 audio pipeline redesign addressing these issues is documented in `docs/audio_generation_v3_design.md` in the SynthBanshee repo.
+**Per-delivery quality posture lives in `deliveries/{slug}/notes.md`.** Each delivery records the SynthBanshee commit, milestone state, prosody / acoustic QA findings, and any known limitations specific to that batch. Consumer teams reading the corpus should always start from the delivery notes for the clips they're working with rather than assuming a single global quality bar.
 
 ---
 

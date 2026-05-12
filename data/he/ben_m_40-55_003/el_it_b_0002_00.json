@@ -1,0 +1,200 @@
+{
+  "acoustic_scene": {
+    "background_events": [
+      {
+        "level_db": -33.9,
+        "offset": 151.612,
+        "onset": 0.0,
+        "type": "hvac_hum"
+      },
+      {
+        "level_db": 9.3,
+        "offset": 71.83,
+        "onset": 71.226,
+        "type": "ACOU_FOOT"
+      },
+      {
+        "level_db": 7.5,
+        "offset": 99.761,
+        "onset": 99.548,
+        "type": "ACOU_SLAM"
+      }
+    ],
+    "device": "pi_budget_mic",
+    "ir_source": "pyroomacoustics_ism",
+    "room_type": "welfare_office",
+    "snr_db_actual": 15.69,
+    "speaker_distance_meters": 1.3
+  },
+  "annotator_confidence": 1.0,
+  "channels": 1,
+  "clip_id": "el_it_b_0002_00",
+  "dirty_file_path": "assets/speech/dirty/el_it_b_0002_00_dirty.wav",
+  "duration_seconds": 151.612375,
+  "elephant_meta": null,
+  "generation_date": "2026-05-12",
+  "generation_metadata": {
+    "breathiness_applied": false,
+    "effective_prosody_caps": [
+      {
+        "dim": "rate",
+        "intensity": 3,
+        "post_cap": 0.95,
+        "pre_cap": 0.9485,
+        "turn_index": 2
+      },
+      {
+        "dim": "rate",
+        "intensity": 3,
+        "post_cap": 0.95,
+        "pre_cap": 0.9208,
+        "turn_index": 4
+      },
+      {
+        "dim": "pitch",
+        "intensity": 4,
+        "post_cap": 2.0,
+        "pre_cap": 2.348,
+        "turn_index": 5
+      },
+      {
+        "dim": "pitch",
+        "intensity": 4,
+        "post_cap": 2.0,
+        "pre_cap": 2.2616,
+        "turn_index": 6
+      },
+      {
+        "dim": "rate",
+        "intensity": 4,
+        "post_cap": 0.95,
+        "pre_cap": 0.9477,
+        "turn_index": 6
+      },
+      {
+        "dim": "pitch",
+        "intensity": 5,
+        "post_cap": 2.0,
+        "pre_cap": 2.7392,
+        "turn_index": 7
+      },
+      {
+        "dim": "rate",
+        "intensity": 5,
+        "post_cap": 1.2,
+        "pre_cap": 1.2582,
+        "turn_index": 7
+      },
+      {
+        "dim": "pitch",
+        "intensity": 5,
+        "post_cap": 2.0,
+        "pre_cap": 3.1957,
+        "turn_index": 8
+      },
+      {
+        "dim": "rate",
+        "intensity": 5,
+        "post_cap": 1.2,
+        "pre_cap": 1.2968,
+        "turn_index": 8
+      },
+      {
+        "dim": "pitch",
+        "intensity": 4,
+        "post_cap": 2.0,
+        "pre_cap": 2.4046,
+        "turn_index": 9
+      },
+      {
+        "dim": "rate",
+        "intensity": 4,
+        "post_cap": 0.95,
+        "pre_cap": 0.9191,
+        "turn_index": 9
+      }
+    ],
+    "loudness_target_peak_dbfs": -2.0,
+    "mix_mode_used": "sequential",
+    "normalization_strategy": "per_turn_rms_v2_target_peak",
+    "pipeline_version": "0.1.0",
+    "prosody_controller_version": null,
+    "speaker_state_serialized": {
+      "BEN_M_40-55_003": {
+        "breathiness_level": 0.0,
+        "pitch_offset_st": 1.1957,
+        "rate_offset": 1.1276,
+        "volume_offset_db": 3.3504
+      },
+      "SW_F_30-45_001": {
+        "breathiness_level": 0.0,
+        "pitch_offset_st": 0.4046,
+        "rate_offset": 0.9191,
+        "volume_offset_db": -2.0232
+      }
+    },
+    "text_normalization_version": null,
+    "timing_controller_version": null,
+    "tts_backend": {
+      "BEN_M_40-55_003": "azure",
+      "SW_F_30-45_001": "azure"
+    },
+    "voice_family": {
+      "BEN_M_40-55_003": "he-IL-AvriNeural",
+      "SW_F_30-45_001": "he-IL-HilaNeural"
+    }
+  },
+  "generator_version": "0.1.0",
+  "iaa_reviewed": false,
+  "is_synthetic": true,
+  "language": "he",
+  "preprocessing_applied": {
+    "denoised": true,
+    "downmixed_to_mono": true,
+    "normalized_dbfs": -1.9999995886470454,
+    "resampled_to_16k": true,
+    "silence_padded": true,
+    "spectral_filtered": true
+  },
+  "project": "elephant_in_the_room",
+  "quality_flags": [
+    "emotion_downgrade"
+  ],
+  "random_seed": 202,
+  "sample_rate": 16000,
+  "scene_config": "configs/scenes/elephant_tier_b/el_it_b_0002.yaml",
+  "she_proves_meta": null,
+  "snr_db_estimated": null,
+  "speakers": [
+    {
+      "age_range": "40-55",
+      "gender": "male",
+      "role": "AGG",
+      "speaker_id": "BEN_M_40-55_003",
+      "tts_voice_id": "he-IL-AvriNeural",
+      "voice_family": "he-IL-AvriNeural"
+    },
+    {
+      "age_range": "30-45",
+      "gender": "female",
+      "role": "VIC",
+      "speaker_id": "SW_F_30-45_001",
+      "tts_voice_id": "he-IL-HilaNeural",
+      "voice_family": "he-IL-HilaNeural"
+    }
+  ],
+  "tier": "B",
+  "transcript_path": "data/he/ben_m_40-55_003/el_it_b_0002_00.txt",
+  "tts_engine": "azure_he_IL",
+  "violence_typology": "IT",
+  "weak_label": {
+    "has_violence": true,
+    "max_intensity": 5,
+    "violence_categories": [
+      "ACOU",
+      "EMOT",
+      "VERB"
+    ],
+    "violence_typology": "IT"
+  }
+}
