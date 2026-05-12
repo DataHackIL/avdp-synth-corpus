@@ -1,0 +1,1480 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Synthetic Hebrew audio corpus for the Audio Violence Detection Pipeline — consumer guide for the She-Proves and Elephant in the Room teams">
+      
+      
+      
+        <link rel="canonical" href="https://datahackil.github.io/avdp-synth-corpus/taxonomy/">
+      
+      
+        <link rel="prev" href="../elephant/">
+      
+      
+        <link rel="next" href="../schema/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/logo.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Label Taxonomy - AVDP Synthetic Corpus</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#label-taxonomy" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="AVDP Synthetic Corpus" class="md-header__button md-logo" aria-label="AVDP Synthetic Corpus" data-md-component="logo">
+      
+  <img src="../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AVDP Synthetic Corpus
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Label Taxonomy
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="cyan"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="cyan"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/DataHackIL/avdp-synth-corpus" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    DataHackIL/avdp-synth-corpus
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../getting-started/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Start here
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../gotchas/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Common mistakes
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../she-proves/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Team Guides
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Reference
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../deliveries/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Deliveries
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="AVDP Synthetic Corpus" class="md-nav__button md-logo" aria-label="AVDP Synthetic Corpus" data-md-component="logo">
+      
+  <img src="../assets/logo.svg" alt="logo">
+
+    </a>
+    AVDP Synthetic Corpus
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/DataHackIL/avdp-synth-corpus" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    DataHackIL/avdp-synth-corpus
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Start here
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gotchas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Common mistakes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Team Guides
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Team Guides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../she-proves/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    She-Proves
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../elephant/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elephant in the Room
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reference
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Reference
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Label Taxonomy
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Label Taxonomy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#violence-typology-clip-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Violence typology (clip-level)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#has_violence-derived-from-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        has_violence — derived from events
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tier-1-categories-event-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tier 1 categories (event-level)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tier-2-subtypes-event-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tier 2 subtypes (event-level)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#intensity-scale-turn-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Intensity scale (turn-level)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Intensity scale (turn-level)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-intensity-and-typology-relate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How intensity and typology relate
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-the-labels-come-from" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where the labels come from
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distribution-in-delivery-003" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Distribution in delivery-003
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../schema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Schema Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../audio-format/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Audio Format
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../deliveries/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deliveries
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#violence-typology-clip-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Violence typology (clip-level)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#has_violence-derived-from-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        has_violence — derived from events
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tier-1-categories-event-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tier 1 categories (event-level)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tier-2-subtypes-event-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tier 2 subtypes (event-level)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#intensity-scale-turn-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Intensity scale (turn-level)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Intensity scale (turn-level)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-intensity-and-typology-relate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How intensity and typology relate
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-the-labels-come-from" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where the labels come from
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distribution-in-delivery-003" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Distribution in delivery-003
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="label-taxonomy">Label Taxonomy<a class="headerlink" href="#label-taxonomy" title="Permanent link">&para;</a></h1>
+<p>Three levels: clip-level <strong>typology</strong> → event-level <strong>tier 1 category</strong> → event-level <strong>tier 2 subtype</strong>. Plus a per-turn <strong>intensity</strong> (1–5) that drives prosody. The source of truth is <code>taxonomy.yaml</code> in <a href="https://github.com/DataHackIL/SynthBanshee">SynthBanshee</a>.</p>
+<hr />
+<h2 id="violence-typology-clip-level">Violence typology (clip-level)<a class="headerlink" href="#violence-typology-clip-level" title="Permanent link">&para;</a></h2>
+<p>The <code>violence_typology</code> field. <strong>Not</strong> an ordered scale.</p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Name</th>
+<th>What it sounds like</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SV</code></td>
+<td>Severe Violence</td>
+<td>Physical violence, life-threatening escalation. <code>tier1_category</code> includes <code>PHYS</code>, <code>DIST</code>, often <code>VERB</code>.</td>
+</tr>
+<tr>
+<td><code>IT</code></td>
+<td>Intimate Terrorism</td>
+<td>Sustained coercive control, repeated verbal/emotional abuse — typically without physical attack. Heavy on <code>VERB</code> and <code>EMOT</code>.</td>
+</tr>
+<tr>
+<td><code>NEG</code></td>
+<td>Negative confusor</td>
+<td>Acoustically intense but non-violent — anger, argument, distress, crying. <strong>Hard negative class.</strong> All events are <code>tier1_category: "NONE"</code>.</td>
+</tr>
+<tr>
+<td><code>NEU</code></td>
+<td>Neutral</td>
+<td>Calm or mundane conversation. No violence markers.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition danger">
+<p class="admonition-title">NEG is the trap</p>
+<p>A NEG clip can have raised voices, crying, and <code>max_intensity: 3</code>. It will <em>sound</em> like violence to a model that only listens for loudness or emotional tone. But it is by definition <code>has_violence: false</code> — its purpose is to teach your model the difference between distress and violence. Training NEG as a positive class will collapse your precision. See <a href="../gotchas/#5-neg-is-not-violent-at-low-intensity">Gotcha #5</a>.</p>
+</div>
+<hr />
+<h2 id="has_violence-derived-from-events"><code>has_violence</code> — derived from events<a class="headerlink" href="#has_violence-derived-from-events" title="Permanent link">&para;</a></h2>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">has_violence</span> <span class="o">=</span> <span class="nb">any</span><span class="p">(</span><span class="n">e</span><span class="p">[</span><span class="s2">&quot;tier1_category&quot;</span><span class="p">]</span> <span class="o">!=</span> <span class="s2">&quot;NONE&quot;</span> <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="n">events</span><span class="p">)</span>
+</span></code></pre></div>
+<p>That's the rule. Two consequences worth knowing:</p>
+<ul>
+<li><strong>NEG clips are always <code>has_violence: false</code></strong> — every event in a NEG clip has <code>tier1_category: "NONE"</code> by construction, even when <code>max_intensity</code> is high.</li>
+<li><strong>NEU clips are always <code>has_violence: false</code></strong> for the same reason.</li>
+<li>A <code>SV</code> or <code>IT</code> clip is <code>has_violence: true</code> because at least one event has a non-NONE category.</li>
+</ul>
+<div class="admonition danger">
+<p class="admonition-title">Don't derive <code>has_violence</code> from typology or intensity</p>
+<p><div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">has_violence</span> <span class="o">=</span> <span class="n">typology</span> <span class="ow">in</span> <span class="p">(</span><span class="s2">&quot;SV&quot;</span><span class="p">,</span> <span class="s2">&quot;IT&quot;</span><span class="p">)</span>     <span class="c1"># WRONG — works on this corpus but fragile</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">has_violence</span> <span class="o">=</span> <span class="n">max_intensity</span> <span class="o">&gt;=</span> <span class="mi">3</span>           <span class="c1"># VERY WRONG — fires on every NEG clip</span>
+</span></code></pre></div>
+The event-level taxonomy is the ground truth. <code>weak_label.has_violence</code> exists for fast filtering and baseline modelling only — never as the sole training label. Train on the strong-label events when you can.</p>
+</div>
+<hr />
+<h2 id="tier-1-categories-event-level">Tier 1 categories (event-level)<a class="headerlink" href="#tier-1-categories-event-level" title="Permanent link">&para;</a></h2>
+<p>The <code>tier1_category</code> field on each <code>EventLabel</code>. Six values.</p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>What it covers</th>
+<th>Where it shows up</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>VERB</code></td>
+<td>Verbal violence — threats, shouting, demeaning language</td>
+<td>Most violent clips, all intensity levels</td>
+</tr>
+<tr>
+<td><code>DIST</code></td>
+<td>Distress vocalisations — screaming, crying under duress</td>
+<td>I3+ turns in SV/IT, peak escalation</td>
+</tr>
+<tr>
+<td><code>PHYS</code></td>
+<td>Physical violence cues — impact sounds, struggle</td>
+<td>I4+ turns in SV clips</td>
+</tr>
+<tr>
+<td><code>EMOT</code></td>
+<td>Emotional manipulation — gaslighting, guilt-tripping</td>
+<td>IT clips, coercive control turns</td>
+</tr>
+<tr>
+<td><code>ACOU</code></td>
+<td>Acoustic non-vocal events — slams, falls</td>
+<td>Tier B clips, recorded in <code>acoustic_scene.background_events</code></td>
+</tr>
+<tr>
+<td><code>NONE</code></td>
+<td>Ambient speech / neutral turn</td>
+<td>All NEU clips, all NEG clips, calm turns in SV/IT</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">ACOU vs DIST</p>
+<p><code>ACOU</code> is <strong>non-vocal</strong> acoustic — a door slam, an object hitting the floor. <code>DIST</code> is <strong>vocal distress</strong> — a scream, crying. A scene where someone throws a glass and the victim screams will have an <code>ACOU_SLAM</code> event for the glass and a <code>DIST_SCREAM</code> event for the scream.</p>
+<p>Tier B Elephant clips inject <code>ACOU_*</code> events as part of room augmentation; they show up both in <code>acoustic_scene.background_events</code> (with audio-level metadata) and in <code>.jsonl</code> strong labels (as labelled events). Tier A She-Proves clips can't produce ACOU events — there's no room-augmentation stage to add them.</p>
+</div>
+<hr />
+<h2 id="tier-2-subtypes-event-level">Tier 2 subtypes (event-level)<a class="headerlink" href="#tier-2-subtypes-event-level" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Tier 1</th>
+<th>Tier 2</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>VERB</code></td>
+<td><code>VERB_SHOUT</code></td>
+<td>Raised or shouted speech</td>
+</tr>
+<tr>
+<td><code>VERB</code></td>
+<td><code>VERB_THREAT</code></td>
+<td>Direct verbal threats</td>
+</tr>
+<tr>
+<td><code>VERB</code></td>
+<td><code>VERB_INSULT</code></td>
+<td>Demeaning or insulting language</td>
+</tr>
+<tr>
+<td><code>DIST</code></td>
+<td><code>DIST_SCREAM</code></td>
+<td>Distress scream or panic vocalisation</td>
+</tr>
+<tr>
+<td><code>DIST</code></td>
+<td><code>DIST_CRY</code></td>
+<td>Crying or sobbing under duress</td>
+</tr>
+<tr>
+<td><code>PHYS</code></td>
+<td><code>PHYS_HARD</code></td>
+<td>Hard physical impact cue</td>
+</tr>
+<tr>
+<td><code>PHYS</code></td>
+<td><code>PHYS_SOFT</code></td>
+<td>Softer physical contact cue</td>
+</tr>
+<tr>
+<td><code>EMOT</code></td>
+<td><code>EMOT_GASLIGHT</code></td>
+<td>Gaslighting or reality-denial</td>
+</tr>
+<tr>
+<td><code>EMOT</code></td>
+<td><code>EMOT_GUILT</code></td>
+<td>Guilt-tripping or emotional coercion</td>
+</tr>
+<tr>
+<td><code>ACOU</code></td>
+<td><code>ACOU_SLAM</code></td>
+<td>Object slam or door slam</td>
+</tr>
+<tr>
+<td><code>ACOU</code></td>
+<td><code>ACOU_FALL</code></td>
+<td>Object falling or thrown</td>
+</tr>
+<tr>
+<td><code>NONE</code></td>
+<td><code>NONE_AMBIENT</code></td>
+<td>Regular ambient speech or neutral turn</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="intensity-scale-turn-level">Intensity scale (turn-level)<a class="headerlink" href="#intensity-scale-turn-level" title="Permanent link">&para;</a></h2>
+<p>Each turn has an <code>intensity</code> in <code>[1, 5]</code>. It controls prosody generation (pitch, rate, volume) and the LLM script tone.</p>
+<table>
+<thead>
+<tr>
+<th>Score</th>
+<th>Label</th>
+<th>What's happening</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Low tension</td>
+<td>Calm conversation, mild undercurrent</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Moderate tension</td>
+<td>Noticeable friction, raised voices</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Active conflict</td>
+<td>Clear verbal aggression or intimidation</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Escalated violence</td>
+<td>Physical or high-intensity verbal violence</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Extreme</td>
+<td>Severe physical violence, panic, imminent danger</td>
+</tr>
+</tbody>
+</table>
+<h3 id="how-intensity-and-typology-relate">How intensity and typology relate<a class="headerlink" href="#how-intensity-and-typology-relate" title="Permanent link">&para;</a></h3>
+<p>They are correlated but not the same.</p>
+<table>
+<thead>
+<tr>
+<th>Typology</th>
+<th style="text-align: center;">Typical <code>max_intensity</code> range</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>NEU</code></td>
+<td style="text-align: center;">1–2</td>
+<td>Mundane conversation by definition</td>
+</tr>
+<tr>
+<td><code>NEG</code></td>
+<td style="text-align: center;">2–3</td>
+<td>Distressed but non-violent; intensity rises with shouting/crying, but no PHYS/DIST events fire</td>
+</tr>
+<tr>
+<td><code>IT</code></td>
+<td style="text-align: center;">3–5</td>
+<td>Sustained verbal/emotional aggression; can hit I5 on threats without physical violence</td>
+</tr>
+<tr>
+<td><code>SV</code></td>
+<td style="text-align: center;">4–5</td>
+<td>Physical escalation requires I4+ turns</td>
+</tr>
+</tbody>
+</table>
+<p>In delivery-003 the actual distribution is <code>max_intensity</code> 5 = 10 clips, 3 = 4 clips, 2 = 6 clips. Useful for designing stratified eval splits: if you want a balanced eval set across intensity <em>and</em> typology, you'll need to upsample (or wait for more data).</p>
+<details class="info">
+<summary>What is the prosody cap?</summary>
+<p>At I3+, the LLM-suggested prosody values are clamped before SSML rendering to keep speech natural and transcribable by Whisper:</p>
+<ul>
+<li><strong>Pitch:</strong> capped at +2.0 semitones (post-cap)</li>
+<li><strong>Rate:</strong> clamped to [0.85, 1.20]</li>
+</ul>
+<p>When clamping fires, the pre- and post-cap values are recorded per turn in <code>generation_metadata.effective_prosody_caps</code>. You'll see many activations at I4–I5 in delivery-003 — that's the intended behaviour, calibrated by listening test in May 2026 (SynthBanshee PR #87).</p>
+</details>
+<hr />
+<h2 id="where-the-labels-come-from">Where the labels come from<a class="headerlink" href="#where-the-labels-come-from" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Strong labels (<code>.jsonl</code>)</strong> are generated by SynthBanshee from the LLM-authored script — the LLM produces turn-level intensity and an action tag (<code>VERB_SHOUT</code>, <code>DIST_SCREAM</code>, …), SynthBanshee converts them into <code>EventLabel</code> records.</li>
+<li><strong>Weak labels (<code>.json</code> → <code>weak_label</code>)</strong> are derived from the strong labels by aggregation.</li>
+<li><strong>No human annotation has happened.</strong> <code>confidence</code> is always <code>1.0</code>; <code>label_source</code> is always <code>"auto"</code>; <code>iaa_reviewed</code> is always <code>false</code>. Future deliveries may introduce human review on a subset — they'll set <code>iaa_reviewed: true</code> per clip when that happens.</li>
+</ul>
+<p>The scripts themselves are LLM-generated Hebrew dialogue, conditioned on the scene YAML and persona definitions in SynthBanshee. They are <strong>not</strong> transcripts of real conversations.</p>
+<hr />
+<h2 id="distribution-in-delivery-003">Distribution in delivery-003<a class="headerlink" href="#distribution-in-delivery-003" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Typology</th>
+<th style="text-align: right;">Clips</th>
+<th style="text-align: center;">Tier A (she_proves)</th>
+<th style="text-align: center;">Tier B (elephant)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SV</code></td>
+<td style="text-align: right;">5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td><code>IT</code></td>
+<td style="text-align: right;">5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td><code>NEG</code></td>
+<td style="text-align: right;">5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td><code>NEU</code></td>
+<td style="text-align: right;">5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+</tr>
+</tbody>
+</table>
+<p>Balanced across typology and across project. Not balanced across speakers — see <a href="../deliveries/#known-limitations">Deliveries</a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/DataHackIL/avdp-synth-corpus" target="_blank" rel="noopener" title="avdp-synth-corpus on GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://github.com/DataHackIL/SynthBanshee" target="_blank" rel="noopener" title="SynthBanshee pipeline on GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "navigation.top", "toc.follow", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.code.annotate", "content.tabs.link", "announce.dismiss"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
