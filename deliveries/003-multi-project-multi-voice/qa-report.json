@@ -79,9 +79,10 @@
     ]
   },
   "run_summary": {
-    "backend_count": 1,
-    "clips_by_tts_engine": {
-      "azure_he_IL": 20
+    "backend_count": 2,
+    "clips_by_tts_backend": {
+      "azure": 18,
+      "google": 2
     },
     "clips_with_i4_plus": 10,
     "emotion_downgrade_ratio": 0.0,
@@ -111,38 +112,38 @@
       },
       {
         "f0_median_hz": 108.1102658399776,
-        "f0_std_hz_mean": 22.851487932674182,
+        "f0_std_hz_mean": 22.87457837400195,
         "intensity": 2,
-        "lufs_db_mean": -27.690152509897995,
+        "lufs_db_mean": -27.858718608795442,
         "n_turns": 31,
-        "rms_db_mean": -28.62001685439644,
+        "rms_db_mean": -28.788583135307867,
         "role": "AGG"
       },
       {
         "f0_median_hz": 113.55498244923697,
-        "f0_std_hz_mean": 25.441891968713627,
+        "f0_std_hz_mean": 25.11460795909526,
         "intensity": 3,
-        "lufs_db_mean": -25.801129710828317,
+        "lufs_db_mean": -25.931500633349966,
         "n_turns": 22,
-        "rms_db_mean": -26.75737709404332,
+        "rms_db_mean": -26.877416667444773,
         "role": "AGG"
       },
       {
         "f0_median_hz": 121.35169484693589,
-        "f0_std_hz_mean": 35.61756253167847,
+        "f0_std_hz_mean": 34.322822303383205,
         "intensity": 4,
-        "lufs_db_mean": -26.443119582974802,
+        "lufs_db_mean": -26.898978317965003,
         "n_turns": 17,
-        "rms_db_mean": -27.750911063452683,
+        "rms_db_mean": -28.213887073074247,
         "role": "AGG"
       },
       {
-        "f0_median_hz": 117.21605517913326,
-        "f0_std_hz_mean": 28.456606185647296,
+        "f0_median_hz": 116.5428845670826,
+        "f0_std_hz_mean": 30.25917677178986,
         "intensity": 5,
-        "lufs_db_mean": -23.10049106389533,
+        "lufs_db_mean": -23.238750890246557,
         "n_turns": 14,
-        "rms_db_mean": -24.40714167053957,
+        "rms_db_mean": -24.601174662522972,
         "role": "AGG"
       },
       {
@@ -156,45 +157,44 @@
       },
       {
         "f0_median_hz": 208.25380769954342,
-        "f0_std_hz_mean": 43.64342839303118,
+        "f0_std_hz_mean": 43.13462092052036,
         "intensity": 2,
-        "lufs_db_mean": -28.325761478113975,
+        "lufs_db_mean": -28.484112755519416,
         "n_turns": 33,
-        "rms_db_mean": -29.22597481860275,
+        "rms_db_mean": -29.384326109032514,
         "role": "VIC"
       },
       {
         "f0_median_hz": 223.20090456450697,
-        "f0_std_hz_mean": 49.68458303287865,
+        "f0_std_hz_mean": 49.677754860679514,
         "intensity": 3,
-        "lufs_db_mean": -32.210243183604646,
+        "lufs_db_mean": -32.316328495323894,
         "n_turns": 26,
-        "rms_db_mean": -33.30509871970152,
+        "rms_db_mean": -33.40566421774339,
         "role": "VIC"
       },
       {
         "f0_median_hz": 229.74119028909763,
-        "f0_std_hz_mean": 64.27051044991096,
+        "f0_std_hz_mean": 62.82210186299769,
         "intensity": 4,
-        "lufs_db_mean": -34.47744642450853,
+        "lufs_db_mean": -34.87101520257984,
         "n_turns": 14,
-        "rms_db_mean": -35.56674703043024,
+        "rms_db_mean": -35.94259629163534,
         "role": "VIC"
       },
       {
-        "f0_median_hz": 218.73289323986043,
-        "f0_std_hz_mean": 79.75888422107323,
+        "f0_median_hz": 238.52991146631203,
+        "f0_std_hz_mean": 74.43498941733397,
         "intensity": 5,
-        "lufs_db_mean": -35.63919225446456,
+        "lufs_db_mean": -36.88653341783261,
         "n_turns": 5,
-        "rms_db_mean": -36.89408535853518,
+        "rms_db_mean": -37.94338251236866,
         "role": "VIC"
       }
     ],
     "run_warnings": [
       "low_voice_diversity_male",
-      "low_voice_diversity_female",
-      "single_backend"
+      "low_voice_diversity_female"
     ],
     "voices_by_gender": {
       "female": 2,
@@ -227,7 +227,7 @@
     "quality_flagged_clips": 15,
     "speaker_count": 6,
     "total_clips": 20,
-    "total_duration_seconds": 2500.7868750000002
+    "total_duration_seconds": 2498.6268749999995
   },
   "structural_warnings": {}
 }

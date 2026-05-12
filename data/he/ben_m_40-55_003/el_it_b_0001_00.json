@@ -137,7 +137,6 @@
   ],
   "tier": "B",
   "transcript_path": "data/he/ben_m_40-55_003/el_it_b_0001_00.txt",
-  "tts_engine": "azure_he_IL",
   "violence_typology": "IT",
   "weak_label": {
     "has_violence": true,

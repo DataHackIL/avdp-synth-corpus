@@ -9,17 +9,20 @@ pr:
   url: ""
 
 synthbanshee:
-  commit: d92d61e  # tip of main at delivery time (PRs #102, #103, #105, #106 merged)
+  commit: 1ea48f3  # tip of main after PRs #110/#111/#112 (delivery-003 schema-shift regen)
   generator_version: "0.1.0"
   related_prs:
     - 102  # fix(cli): normalized_dbfs records the *measured* peak
     - 103  # docs(spec): corpus-handoff schema drift
     - 105  # feat(scenes): sp_sv_a_0003 + sp_it_a_0003 (Google-pair shadows)
     - 106  # fix(tts): #72 — phrase prosody volume must be %, not dB (unblocked this delivery)
+    - 110  # fix(tests): #107 — isolate SYNTHBANSHEE_* env vars in CliRunner tests
+    - 111  # fix(cli,manifest): #108 — write repo-relative paths in clip JSON and manifest
+    - 112  # fix(labels,qa): #109 — drop hardcoded tts_engine, derive single_backend from generation_metadata.tts_backend
 
 clips:
   total: 20
-  total_duration_seconds: 2500.79  # ~41.7 min (qa-report)
+  total_duration_seconds: 2498.63  # ~41.6 min (qa-report; regen 2026-05-12 — 2.2s shorter than initial 2500.79 because sp_sv_a_0003 Google audio bits differ slightly between renders; bit-identical Azure clips unchanged)
   failed_validation: 0
   projects:
     she_proves: 12
@@ -74,10 +77,14 @@ qa_findings_closed_vs_002:
   - warn_no_overlap                # was on 4 clips → 0 (overlap_ratio 100% on I4+)
   - warn_emotion_downgrade         # was on 4 clips → 0 (emotion_downgrade_ratio 0%)
 
+qa_findings_closed_post_regen_2026_05_12:
+  - single_backend                 # PR #112 — qa.py now derives backend from generation_metadata.tts_backend; reports clips_by_tts_backend = {azure: 18, google: 2}
+  - absolute_paths_in_clip_json    # PR #111 — dirty_file_path / transcript_path now repo-relative
+  - leaked_pytest_tmp_path         # PR #110 — env-var isolation prevents future test leaks into the corpus; the existing leaked tmp_path on sp_neu_a_0001_00 was overwritten by the regen
+
 qa_findings_open:
   - "low_voice_diversity_male: 2 voice families across the corpus; threshold ≥3 — partial progress (1 → 2)."
   - "low_voice_diversity_female: 2 voice families across the corpus; threshold ≥3 — partial progress (1 → 2)."
-  - "single_backend: misleading — actual backends are azure + google; the run-summary counts `clip.tts_engine` which is currently hardcoded to azure_he_IL in cli.py. Tracked as a follow-up synthbanshee labeling bug."
   - "vic_f0_high (per-clip): sp_it_a_0003_00 and sp_sv_a_0003_00 — Google Chirp HD female F0 baseline runs higher than the Azure Hila reference the M10a thresholds use."
   - "quality_flagged_clips: 15 — mostly from #87 effective-prosody-cap activations (170 total); expected at I3+."
 
@@ -90,6 +97,19 @@ fixes_vs_002:
   - "`generation_metadata` block populated for all 20 clips (delivery 002 had it on 0 of 8)."
   - "AGG RMS escalation now firing (was flat in delivery 002, fixed post-M3)."
   - "Inter-turn overlap now present on I4+ clips (zero overlap in delivery 002, fixed post-M8a)."
+
+regen_2026_05_12:
+  reason: "Schema-shift regen after PRs #110 / #111 / #112 landed in SynthBanshee main."
+  cost: "$0 — all Azure clips hit the SHA-256 SSML cache; only sp_sv_a_0003 Google audio differed slightly (Google Chirp HD doesn't use the content-hash cache the same way Azure does)."
+  changes:
+    - "Removed `tts_engine: azure_he_IL` (#109) — was wrong for the 2 Google clips and dead weight on Azure clips."
+    - "Rewrote `dirty_file_path` and `transcript_path` to repo-relative form (#108)."
+    - "Rewrote `manifest.csv` `wav_path` / `strong_labels_path` columns to repo-relative form (#108)."
+    - "Regenerated `qa-report.json` — `single_backend` warning gone; `clips_by_tts_engine` renamed to `clips_by_tts_backend` with `{azure: 18, google: 2}` values."
+    - "Replaced the leaked pytest tmp_path in `sp_neu_a_0001_00.dirty_file_path` (#107 fingerprint) with the canonical `assets/speech/dirty/sp_neu_a_0001_00_dirty.wav`."
+  audio_diff:
+    - "19 of 20 clips: WAV bytes byte-identical with original delivery-003 (Azure SSML cache hit)."
+    - "sp_sv_a_0003_00.wav: minor bit-level difference (Google Chirp HD re-render); peak / RMS / duration within ±0.02s and ±0.1 dB of original. Validation still PASSED."
 
 known_limitations:
   - "Voice diversity partial — 2 voices per gender; threshold for `low_voice_diversity_*` to clear is ≥3."

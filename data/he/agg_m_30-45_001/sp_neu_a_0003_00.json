@@ -129,7 +129,6 @@
   ],
   "tier": "A",
   "transcript_path": "data/he/agg_m_30-45_001/sp_neu_a_0003_00.txt",
-  "tts_engine": "azure_he_IL",
   "violence_typology": "NEU",
   "weak_label": {
     "has_violence": false,

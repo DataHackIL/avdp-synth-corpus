@@ -11,7 +11,7 @@
   "channels": 1,
   "clip_id": "sp_sv_a_0003_00",
   "dirty_file_path": "assets/speech/dirty/sp_sv_a_0003_00_dirty.wav",
-  "duration_seconds": 102.8018125,
+  "duration_seconds": 100.6418125,
   "elephant_meta": null,
   "generation_date": "2026-05-12",
   "generation_metadata": {
@@ -201,7 +201,6 @@
   ],
   "tier": "A",
   "transcript_path": "data/he/agg_m_30-45_002/sp_sv_a_0003_00.txt",
-  "tts_engine": "azure_he_IL",
   "violence_typology": "SV",
   "weak_label": {
     "has_violence": true,
